@@ -192,15 +192,15 @@ RSS_FEEDS = [
     },
     {
         "name": "日経 国際",
-        "url": "https://news.google.com/rss/search?q=site:nikkei.com+%E7%B5%8C%E6%B8%88+OR+%E8%B2%BF%E6%98%93+OR+GDP&hl=ja&gl=JP&ceid=JP:ja",
+        "url": "https://news.google.com/rss/search?q=site:nikkei.com+%E7%B5%8C%E6%B8%88+OR+%E9%87%91%E5%88%A9+OR+%E7%89%A9%E4%BE%A1+OR+GDP+OR+%E8%B2%BF%E6%98%93+OR+%E7%82%BA%E6%9B%BF+OR+%E6%97%A5%E9%8A%80+OR+%E5%8E%9F%E6%B2%B9&hl=ja&gl=JP&ceid=JP:ja",
         "lang": "ja",
         "category": "Global",
     },
     {
-        "name": "東洋経済オンライン",
-        "url": "https://toyokeizai.net/list/feed/rss",
+        "name": "ロイター 経済",
+        "url": "https://news.google.com/rss/search?q=site:jp.reuters.com+%E7%B5%8C%E6%B8%88+OR+%E9%87%91%E5%88%A9+OR+GDP+OR+%E6%97%A5%E9%8A%80&hl=ja&gl=JP&ceid=JP:ja",
         "lang": "ja",
-        "category": "General",
+        "category": "Macro",
     },
     {
         "name": "現代ビジネス",
@@ -221,8 +221,8 @@ RSS_FEEDS = [
         "category": "Central Bank",
     },
     {
-        "name": "JETRO 通商弘報",
-        "url": "https://news.google.com/rss/search?q=site:jetro.go.jp+%E8%B2%BF%E6%98%93+OR+%E9%80%9A%E5%95%86&hl=ja&gl=JP&ceid=JP:ja",
+        "name": "Google News - 貿易 (JP)",
+        "url": "https://news.google.com/rss/search?q=%E8%B2%BF%E6%98%93+OR+%E9%96%A2%E7%A8%8E+OR+%E8%BC%B8%E5%87%BA+OR+%E8%BC%B8%E5%85%A5+OR+WTO+OR+%E9%80%9A%E5%95%86&hl=ja&gl=JP&ceid=JP:ja",
         "lang": "ja",
         "category": "Trade",
     },
@@ -243,7 +243,7 @@ RSS_FEEDS = [
     # ==============================
     {
         "name": "Google News - 経済 (JP)",
-        "url": "https://news.google.com/rss/search?q=%E7%B5%8C%E6%B8%88+OR+GDP+OR+%E3%82%A4%E3%83%B3%E3%83%95%E3%83%AC+OR+%E9%87%91%E5%88%A9+OR+%E8%B2%BF%E6%98%93+OR+%E6%97%A5%E9%8A%80&hl=ja&gl=JP&ceid=JP:ja",
+        "url": "https://news.google.com/rss/search?q=%22%E6%97%A5%E6%9C%AC%E7%B5%8C%E6%B8%88%22+OR+%22%E9%87%91%E8%9E%8D%E6%94%BF%E7%AD%96%22+OR+%22%E5%88%A9%E4%B8%8A%E3%81%92%22+OR+%22%E5%88%A9%E4%B8%8B%E3%81%92%22+OR+%22%E6%B6%88%E8%B2%BB%E8%80%85%E7%89%A9%E4%BE%A1%22+OR+%22%E5%AE%9F%E8%B3%AAGDP%22+OR+%22%E6%99%AF%E6%B0%97%E5%8B%95%E5%90%91%22&hl=ja&gl=JP&ceid=JP:ja",
         "lang": "ja",
         "category": "General",
     },
@@ -261,13 +261,27 @@ ECON_KEYWORDS = [
     r"\bOECD\b", r"\bWTO\b", r"\bsanction", r"\bgeopolit",
     r"\bglobal trade\b", r"\bsovereign debt\b", r"\bauster",
     r"\bstimulus\b", r"\bquantitative easing\b", r"\bQE\b",
+    r"\bdebt\b", r"\bdeficit\b", r"\bbond\b", r"\btreasur",
+    r"\benergy price\b", r"\boil price\b", r"\bcrude\b",
+    r"\bhousing market\b", r"\breal estate market\b",
+    r"\bgrowth\b", r"\bcontraction\b", r"\bdownturn\b",
     # Japanese
     r"経済", r"GDP", r"インフレ", r"デフレ", r"景気",
     r"金利", r"金融政策", r"財政", r"関税", r"貿易",
     r"雇用", r"失業", r"物価", r"日銀", r"中央銀行",
     r"為替", r"円安", r"円高", r"サプライチェーン",
     r"制裁", r"地政学", r"賃金", r"消費者物価",
+    r"原油", r"エネルギー", r"国債", r"利上げ", r"利下げ",
+    r"マクロ", r"成長率", r"不況", r"株価", r"金融市場", r"株式市場",
 ]
+
+# Sources that need keyword filtering (broad feeds with mixed content)
+FILTER_SOURCES = {
+    "東洋経済オンライン", "現代ビジネス", "ZUU Online", "ITmedia ビジネス",
+    "日経 国際", "WSJ Economy", "Marginal Revolution", "Naked Capitalism",
+    "Axios Macro", "Business Insider Econ", "JETRO 通商弘報",
+    "Google News - 経済 (JP)", "Google News - Economy",
+}
 
 ECON_PATTERN = re.compile("|".join(ECON_KEYWORDS), re.IGNORECASE)
 
@@ -304,8 +318,28 @@ def make_id(url):
     return hashlib.md5(url.encode()).hexdigest()[:10]
 
 
-def is_econ_related(title, description=""):
-    combined = f"{title} {description}"
+# Media names that appear in Google News titles/descriptions causing false keyword matches
+_MEDIA_NAMES = [
+    "日本経済新聞", "東洋経済オンライン", "現代ビジネス", "ダイヤモンド・オンライン",
+    "Reuters", "Bloomberg", "CNBC", "Financial Times", "The Economist",
+    "Yahoo!ニュース", "朝日新聞", "読売新聞", "毎日新聞", "産経新聞", "NHK",
+    "外為どっとコム", "ZUU online", "ニューズウィーク日本版",
+]
+# Remove "- SourceName" or standalone "SourceName" at end of text
+_TITLE_NOISE = re.compile(
+    r"\s*[-–—|]?\s*(" + "|".join(re.escape(n) for n in _MEDIA_NAMES) + r")\s*$",
+    re.IGNORECASE,
+)
+
+
+def is_econ_related(title, description="", source_name=""):
+    # Strip trailing "- SourceName" from both title and description (Google News adds these)
+    clean_title = _TITLE_NOISE.sub("", title)
+    clean_desc = _TITLE_NOISE.sub("", description)
+    if source_name:
+        clean_title = clean_title.replace(source_name, "")
+        clean_desc = clean_desc.replace(source_name, "")
+    combined = f"{clean_title} {clean_desc}"
     return bool(ECON_PATTERN.search(combined))
 
 
@@ -360,7 +394,7 @@ def fetch_rss_feed(feed_config):
 
         if not title or not link:
             continue
-        if feed_config["category"] == "General" and not is_econ_related(title, desc):
+        if feed_config["name"] in FILTER_SOURCES and not is_econ_related(title, desc, feed_config["name"]):
             continue
 
         articles.append({
