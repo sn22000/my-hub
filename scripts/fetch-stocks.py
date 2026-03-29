@@ -57,6 +57,18 @@ HUBS = {
             {"symbol": "UUP",    "name": "US Dollar"},
         ],
     },
+    "travel": {
+        "file": "stocks-travel.json",
+        "tickers": [
+            {"symbol": "BKNG",   "name": "Booking.com"},
+            {"symbol": "ABNB",   "name": "Airbnb"},
+            {"symbol": "EXPE",   "name": "Expedia"},
+            {"symbol": "DAL",    "name": "Delta Air"},
+            {"symbol": "UAL",    "name": "United Air"},
+            {"symbol": "MAR",    "name": "Marriott"},
+            {"symbol": "HLT",    "name": "Hilton"},
+        ],
+    },
 }
 
 
