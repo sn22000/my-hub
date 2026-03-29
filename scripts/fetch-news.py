@@ -11,7 +11,7 @@ import re
 import sys
 import hashlib
 from datetime import datetime, timezone, timedelta
-from urllib.request import urlopen, Request
+from urllib.request import urlopen, Request, HTTPRedirectHandler, build_opener
 from urllib.error import URLError
 from xml.etree import ElementTree as ET
 from html import unescape
@@ -19,7 +19,9 @@ from html import unescape
 # --- Configuration ---
 
 RSS_FEEDS = [
-    # English sources
+    # ==============================
+    # English — Major Tech Media
+    # ==============================
     {
         "name": "TechCrunch AI",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
@@ -33,8 +35,20 @@ RSS_FEEDS = [
         "category": "Industry",
     },
     {
-        "name": "Ars Technica AI",
+        "name": "Ars Technica",
         "url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+        "lang": "en",
+        "category": "General",
+    },
+    {
+        "name": "Wired AI",
+        "url": "https://www.wired.com/feed/tag/ai/latest/rss",
+        "lang": "en",
+        "category": "Industry",
+    },
+    {
+        "name": "InfoQ AI",
+        "url": "https://feed.infoq.com/ai-ml-data-eng/",
         "lang": "en",
         "category": "Industry",
     },
@@ -45,12 +59,140 @@ RSS_FEEDS = [
         "category": "Research",
     },
     {
+        "name": "The Register AI",
+        "url": "https://www.theregister.com/software/ai_ml/headlines.atom",
+        "lang": "en",
+        "category": "Industry",
+    },
+    {
+        "name": "ZDNet AI",
+        "url": "https://www.zdnet.com/topic/artificial-intelligence/rss.xml",
+        "lang": "en",
+        "category": "Industry",
+    },
+    # ==============================
+    # English — AI-Specialized Media
+    # ==============================
+    {
+        "name": "AI News",
+        "url": "https://www.artificialintelligence-news.com/feed/",
+        "lang": "en",
+        "category": "Industry",
+    },
+    {
+        "name": "AI Business",
+        "url": "https://aibusiness.com/rss.xml",
+        "lang": "en",
+        "category": "Industry",
+    },
+    {
+        "name": "MarkTechPost",
+        "url": "https://www.marktechpost.com/feed/",
+        "lang": "en",
+        "category": "Research",
+    },
+    {
+        "name": "Towards AI",
+        "url": "https://pub.towardsai.net/feed",
+        "lang": "en",
+        "category": "Research",
+    },
+    {
+        "name": "Synced Review",
+        "url": "https://syncedreview.com/feed/",
+        "lang": "en",
+        "category": "Research",
+    },
+    {
+        "name": "Last Week in AI",
+        "url": "https://lastweekin.ai/feed",
+        "lang": "en",
+        "category": "Industry",
+    },
+    # ==============================
+    # English — Company / Lab Blogs
+    # ==============================
+    {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/blog/rss.xml",
+        "lang": "en",
+        "category": "Lab",
+    },
+    {
+        "name": "Anthropic Engineering",
+        "url": "https://raw.githubusercontent.com/conoro/anthropic-engineering-rss-feed/main/anthropic_engineering_rss.xml",
+        "lang": "en",
+        "category": "Lab",
+    },
+    {
+        "name": "Google AI Blog",
+        "url": "https://blog.google/technology/ai/rss/",
+        "lang": "en",
+        "category": "Lab",
+    },
+    {
+        "name": "DeepMind Blog",
+        "url": "https://deepmind.google/blog/rss.xml",
+        "lang": "en",
+        "category": "Lab",
+    },
+    {
+        "name": "Meta Research",
+        "url": "https://research.facebook.com/feed/",
+        "lang": "en",
+        "category": "Lab",
+    },
+    {
+        "name": "Microsoft AI Blog",
+        "url": "https://blogs.microsoft.com/ai/feed/",
+        "lang": "en",
+        "category": "Lab",
+    },
+    {
+        "name": "NVIDIA AI Blog",
+        "url": "https://blogs.nvidia.com/feed/",
+        "lang": "en",
+        "category": "General",
+    },
+    {
+        "name": "Hugging Face Blog",
+        "url": "https://huggingface.co/blog/feed.xml",
+        "lang": "en",
+        "category": "Lab",
+    },
+    # ==============================
+    # English — Research / Papers
+    # ==============================
+    {
+        "name": "arXiv cs.AI",
+        "url": "https://rss.arxiv.org/rss/cs.AI",
+        "lang": "en",
+        "category": "Research",
+    },
+    {
+        "name": "arXiv cs.CL",
+        "url": "https://rss.arxiv.org/rss/cs.CL",
+        "lang": "en",
+        "category": "Research",
+    },
+    {
+        "name": "arXiv cs.LG",
+        "url": "https://rss.arxiv.org/rss/cs.LG",
+        "lang": "en",
+        "category": "Research",
+    },
+    # ==============================
+    # English — Aggregators
+    # ==============================
+    {
         "name": "Google News - AI",
         "url": "https://news.google.com/rss/search?q=artificial+intelligence+OR+LLM+OR+generative+AI&hl=en-US&gl=US&ceid=US:en",
         "lang": "en",
         "category": "General",
     },
-    # Japanese sources
+    # ==============================
+    # Japanese — Major Tech Media
+    # ==============================
     {
         "name": "ITmedia AI+",
         "url": "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml",
@@ -64,6 +206,45 @@ RSS_FEEDS = [
         "category": "General",
     },
     {
+        "name": "Impress Watch AI",
+        "url": "https://www.watch.impress.co.jp/data/rss/1.0/ipw/feed.rdf",
+        "lang": "ja",
+        "category": "General",
+    },
+    {
+        "name": "Publickey",
+        "url": "https://www.publickey1.jp/atom.xml",
+        "lang": "ja",
+        "category": "General",
+    },
+    {
+        "name": "ASCII.jp Tech",
+        "url": "https://ascii.jp/rss.xml",
+        "lang": "ja",
+        "category": "General",
+    },
+    {
+        "name": "Cnet Japan AI",
+        "url": "https://japan.cnet.com/rss/index.rdf",
+        "lang": "ja",
+        "category": "General",
+    },
+    {
+        "name": "Qiita AI Tag",
+        "url": "https://qiita.com/tags/ai/feed",
+        "lang": "ja",
+        "category": "Community",
+    },
+    {
+        "name": "Zenn AI Topic",
+        "url": "https://zenn.dev/topics/ai/feed",
+        "lang": "ja",
+        "category": "Community",
+    },
+    # ==============================
+    # Japanese — Aggregators
+    # ==============================
+    {
         "name": "Google News - AI (JP)",
         "url": "https://news.google.com/rss/search?q=AI+%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD+OR+LLM+OR+%E7%94%9F%E6%88%90AI&hl=ja&gl=JP&ceid=JP:ja",
         "lang": "ja",
@@ -72,18 +253,26 @@ RSS_FEEDS = [
 ]
 
 # Hacker News Algolia API (free, no key needed)
-HN_API_URL = "https://hn.algolia.com/api/v1/search_by_date?query=AI+OR+LLM+OR+GPT+OR+Claude+OR+%22artificial+intelligence%22&tags=story&hitsPerPage=30"
+HN_API_URL = "https://hn.algolia.com/api/v1/search_by_date?query=AI+OR+LLM+OR+GPT+OR+Claude+OR+%22artificial+intelligence%22&tags=story&hitsPerPage=50"
 
 # AI-related keywords for filtering general feeds
 AI_KEYWORDS = [
     r"\bAI\b", r"\bartificial intelligence\b", r"\bmachine learning\b",
     r"\bdeep learning\b", r"\bLLM\b", r"\bGPT\b", r"\bClaude\b",
-    r"\bOpenAI\b", r"\bAnthro", r"\bgemini\b", r"\bchatbot\b",
+    r"\bOpenAI\b", r"\bAnthro", r"\bGemini\b", r"\bchatbot\b",
     r"\bgenerative\b", r"\btransformer\b", r"\bneural net",
     r"\bcomputer vision\b", r"\bNLP\b", r"\brobotics?\b",
+    r"\bMistral\b", r"\bLlama\b", r"\bStable Diffusion\b",
+    r"\bMidjourney\b", r"\bSora\b", r"\bCopilot\b",
+    r"\bfoundation model\b", r"\bmultimodal\b", r"\bRAG\b",
+    r"\bfine.?tun", r"\bprompt engineer", r"\bAGI\b",
+    r"\breinforcement learning\b", r"\bdiffusion model\b",
+    r"\bvector database\b", r"\bembedding",
     # Japanese
     r"人工知能", r"機械学習", r"深層学習", r"生成AI", r"大規模言語",
-    r"チャットボット", r"ロボティクス",
+    r"チャットボット", r"ロボティクス", r"プロンプト",
+    r"ファインチューニング", r"基盤モデル", r"マルチモーダル",
+    r"AIエージェント", r"推論", r"学習モデル",
 ]
 
 AI_PATTERN = re.compile("|".join(AI_KEYWORDS), re.IGNORECASE)
@@ -92,11 +281,20 @@ USER_AGENT = "MyHub-NewsFetcher/1.0"
 FETCH_TIMEOUT = 15
 
 
+class SmartRedirectHandler(HTTPRedirectHandler):
+    """Handle 308 redirects that urllib doesn't follow by default."""
+    def http_error_308(self, req, fp, code, msg, headers):
+        return self.http_error_302(req, fp, code, msg, headers)
+
+
+_opener = build_opener(SmartRedirectHandler)
+
+
 def fetch_url(url):
-    """Fetch URL content with error handling."""
+    """Fetch URL content with redirect and error handling."""
     req = Request(url, headers={"User-Agent": USER_AGENT})
     try:
-        with urlopen(req, timeout=FETCH_TIMEOUT) as resp:
+        with _opener.open(req, timeout=FETCH_TIMEOUT) as resp:
             return resp.read()
     except (URLError, TimeoutError) as e:
         print(f"  [WARN] Failed to fetch {url}: {e}", file=sys.stderr)
@@ -294,8 +492,8 @@ def main():
     cutoff = (datetime.now(timezone.utc) - timedelta(days=7)).isoformat()
     all_articles = [a for a in all_articles if a.get("published", "") >= cutoff]
 
-    # Limit to 200 articles
-    all_articles = all_articles[:200]
+    # Limit to 500 articles
+    all_articles = all_articles[:500]
 
     output = {
         "updated_at": datetime.now(timezone.utc).isoformat(),
