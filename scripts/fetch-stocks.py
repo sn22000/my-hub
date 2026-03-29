@@ -63,6 +63,18 @@ HUBS = {
             {"symbol": "GOOGL", "name": "Alphabet"},
         ],
     },
+    "galaxy": {
+        "file": "stocks-galaxy.json",
+        "tickers": [
+            {"symbol": "RKLB",  "name": "Rocket Lab"},
+            {"symbol": "BA",    "name": "Boeing"},
+            {"symbol": "LMT",   "name": "Lockheed Martin"},
+            {"symbol": "NOC",   "name": "Northrop Grumman"},
+            {"symbol": "LHX",   "name": "L3Harris"},
+            {"symbol": "IRDM",  "name": "Iridium"},
+            {"symbol": "LUNR",  "name": "Intuitive Machines"},
+        ],
+    },
     "travel": {
         "file": "stocks-travel.json",
         "tickers": [
