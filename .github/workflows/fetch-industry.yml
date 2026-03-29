@@ -1,0 +1,33 @@
+name: Fetch Industry News
+
+on:
+  schedule:
+    - cron: '20 23 * * *'   # 08:20 JST
+    - cron: '20 5 * * *'    # 14:20 JST
+    - cron: '20 13 * * *'   # 22:20 JST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch Industry News
+        run: python scripts/fetch-industry.py
+      - name: Commit and Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/industry-news.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update industry news data $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi

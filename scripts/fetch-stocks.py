@@ -87,6 +87,18 @@ HUBS = {
             {"symbol": "HLT",    "name": "Hilton"},
         ],
     },
+    "industry": {
+        "file": "stocks-industry.json",
+        "tickers": [
+            {"symbol": "GE",    "name": "GE Aerospace"},
+            {"symbol": "HON",   "name": "Honeywell"},
+            {"symbol": "CAT",   "name": "Caterpillar"},
+            {"symbol": "DE",    "name": "Deere"},
+            {"symbol": "MMM",   "name": "3M"},
+            {"symbol": "ETN",   "name": "Eaton"},
+            {"symbol": "XLI",   "name": "Industrial ETF"},
+        ],
+    },
 }
 
 
