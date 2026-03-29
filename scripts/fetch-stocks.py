@@ -99,6 +99,18 @@ HUBS = {
             {"symbol": "XLI",   "name": "Industrial ETF"},
         ],
     },
+    "game": {
+        "file": "stocks-game.json",
+        "tickers": [
+            {"symbol": "MSFT",  "name": "Microsoft/Xbox"},
+            {"symbol": "SONY",  "name": "Sony/PlayStation"},
+            {"symbol": "NTDOY", "name": "Nintendo"},
+            {"symbol": "EA",    "name": "Electronic Arts"},
+            {"symbol": "TTWO",  "name": "Take-Two"},
+            {"symbol": "RBLX",  "name": "Roblox"},
+            {"symbol": "SE",    "name": "Sea / Garena"},
+        ],
+    },
 }
 
 

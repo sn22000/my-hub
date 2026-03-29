@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Hub — My Hub</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-left">
+        <div class="logo"><span>//</span> my hub</div>
+        <nav class="breadcrumb">
+          <a href="../">home</a>
+          <span class="sep">/</span>
+          <span>game hub</span>
+        </nav>
+      </div>
+      <div class="header-right">
+        <span class="status-dot"></span>
+        <span class="update-time" id="update-time">loading...</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="ticker-section">
+      <div class="ticker-scroll" id="stock-tickers"></div>
+    </div>
+    <div class="headlines-section" id="stock-headlines"></div>
+
+    <div class="stats-bar">
+      <div class="stat-card">
+        <div class="stat-label">Articles</div>
+        <div class="stat-value" id="stat-total">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">English</div>
+        <div class="stat-value" id="stat-en">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Japanese</div>
+        <div class="stat-value" id="stat-ja">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Sources</div>
+        <div class="stat-value" id="stat-sources">—</div>
+      </div>
+    </div>
+
+    <div class="controls">
+      <input type="text" class="search-box" id="search-box" placeholder="search articles...">
+      <div class="filter-divider"></div>
+      <button class="filter-btn active" data-category="all">all</button>
+      <button class="filter-btn" data-category="General">general</button>
+      <button class="filter-btn" data-category="Industry">industry</button>
+      <button class="filter-btn" data-category="Esports">esports</button>
+      <button class="filter-btn" data-category="Development">dev</button>
+      <button class="filter-btn" data-category="Nintendo">nintendo</button>
+      <button class="filter-btn" data-category="PlayStation">playstation</button>
+      <button class="filter-btn" data-category="Xbox">xbox</button>
+      <button class="filter-btn" data-category="PC">pc</button>
+      <button class="filter-btn" data-category="Mobile">mobile</button>
+      <div class="filter-divider"></div>
+      <button class="filter-btn active" data-lang="all">all lang</button>
+      <button class="filter-btn" data-lang="en">en</button>
+      <button class="filter-btn" data-lang="ja">ja</button>
+    </div>
+
+    <div class="news-grid" id="news-grid">
+      <div class="loading" style="grid-column: 1 / -1;">
+        <div class="loading-spinner"></div>
+        <p>loading game news...</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">game hub &mdash; auto-updated 3x daily</div>
+  </footer>
+
+  <script src="../js/dust.js"></script>
+  <script src="../js/stock-ticker.js"></script>
+  <script src="../js/game-hub.js"></script>
+  <script>initStockTicker('game');</script>
+</body>
+</html>
