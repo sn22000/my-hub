@@ -96,7 +96,7 @@ RSS_FEEDS = [
     },
     {
         "name": "Axios Gaming",
-        "url": "https://www.axios.com/feeds/feed.rss",
+        "url": "https://news.google.com/rss/search?q=%22video+game%22+OR+gaming+OR+Xbox+OR+PlayStation+OR+Nintendo+site:axios.com&hl=en-US&gl=US&ceid=US:en",
         "lang": "en",
         "category": "Industry",
     },
@@ -116,8 +116,14 @@ RSS_FEEDS = [
     # English — Esports
     # ==============================
     {
-        "name": "ESPN Esports",
-        "url": "https://news.google.com/rss/search?q=esports+OR+%22e-sports%22+OR+%22competitive+gaming%22&hl=en-US&gl=US&ceid=US:en",
+        "name": "HLTV (CS2/Esports)",
+        "url": "https://www.hltv.org/rss/news",
+        "lang": "en",
+        "category": "Esports",
+    },
+    {
+        "name": "Esports News",
+        "url": "https://news.google.com/rss/search?q=%22esports%22+%22game%22+OR+%22League+of+Legends%22+OR+%22Valorant%22+OR+%22Counter-Strike%22+OR+%22Dota%22+OR+%22Overwatch%22&hl=en-US&gl=US&ceid=US:en",
         "lang": "en",
         "category": "Esports",
     },
@@ -186,7 +192,7 @@ RSS_FEEDS = [
     # ==============================
     {
         "name": "Google News - Gaming",
-        "url": "https://news.google.com/rss/search?q=%22video+game%22+OR+PlayStation+OR+Xbox+OR+Nintendo+OR+Steam+OR+esports&hl=en-US&gl=US&ceid=US:en",
+        "url": "https://news.google.com/rss/search?q=%22video+game%22+OR+%22video+games%22+OR+%22gaming+industry%22+OR+PlayStation+OR+%22Xbox+Game%22+OR+%22Nintendo+Switch%22+OR+%22Steam+game%22&hl=en-US&gl=US&ceid=US:en",
         "lang": "en",
         "category": "General",
     },
@@ -246,34 +252,53 @@ RSS_FEEDS = [
     # ==============================
     {
         "name": "Google News - ゲーム (JP)",
-        "url": "https://news.google.com/rss/search?q=%E3%82%B2%E3%83%BC%E3%83%A0+OR+%E3%82%B2%E3%83%BC%E3%83%9F%E3%83%B3%E3%82%B0+OR+%E3%82%A8%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84+OR+Nintendo+OR+PlayStation&hl=ja&gl=JP&ceid=JP:ja",
+        "url": "https://news.google.com/rss/search?q=%E3%83%93%E3%83%87%E3%82%AA%E3%82%B2%E3%83%BC%E3%83%A0+OR+%E3%82%B2%E3%83%BC%E3%83%9F%E3%83%B3%E3%82%B0+OR+%E3%82%A8%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84+OR+%E3%83%8B%E3%83%B3%E3%83%86%E3%83%B3%E3%83%89%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81+OR+%E3%83%97%E3%83%AC%E3%82%A4%E3%82%B9%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3&hl=ja&gl=JP&ceid=JP:ja",
         "lang": "ja",
         "category": "General",
     },
 ]
 
 GAME_KEYWORDS = [
-    # General gaming
-    r"\bgame\b", r"\bgaming\b", r"\bvideogame", r"\bvideo game",
-    r"\bgamer\b", r"\bgames\b",
-    # Platforms
+    # Video game specific — tight compound forms first
+    r"\bvideo ?game", r"\bgaming\b", r"\bgamer\b", r"\bgameplay\b",
+    r"\bplaythrough\b", r"\bgame dev\b", r"\bindiegame\b", r"\bindie game\b",
+    # Platforms — specific enough to be safe
     r"\bPlayStation\b", r"\bPS5\b", r"\bPS4\b", r"\bXbox\b",
-    r"\bNintendo\b", r"\bSwitch\b", r"\bSteam\b", r"\bPC gaming\b",
-    r"\bGame Pass\b", r"\bPSN\b",
-    # Companies
-    r"\bSony\b", r"\bMicrosoft Gaming\b", r"\bActivision\b", r"\bBlizzard\b",
-    r"\bEA\b", r"\bElectronic Arts\b", r"\bUbisoft\b", r"\bNintendo\b",
-    r"\bRoblox\b", r"\bEpic Games\b", r"\bValve\b", r"\bTake-Two\b",
-    r"\bRockstar\b", r"\b2K Games\b",
-    # Genres & content
-    r"\besport", r"\bstreaming\b", r"\bTwitch\b", r"\bYouTube Gaming\b",
-    r"\bDLC\b", r"\bexpansion pack", r"\bgame dev", r"\bindiegame",
-    r"\bopen world\b", r"\bRPG\b", r"\bFPS\b", r"\bMMO\b",
-    r"\bmobile game", r"\bapp store gaming",
-    # Japanese
-    r"ゲーム", r"ゲーミング", r"任天堂", r"ソニー", r"プレイステーション",
+    r"\bNintendo Switch\b", r"\bNintendo Direct\b", r"\bGame Boy\b",
+    r"\bSteam\b", r"\bGame Pass\b", r"\bPSN\b", r"\bEpic Games Store\b",
+    r"\bPC game\b",
+    # Companies — gaming-specific names only
+    r"\bActivision\b", r"\bBlizzard\b", r"\bElectronic Arts\b", r"\bEA Sports\b",
+    r"\bUbisoft\b", r"\bRoblox\b", r"\bEpic Games\b", r"\bValve\b",
+    r"\bTake-Two\b", r"\bRockstar Games\b", r"\b2K Games\b",
+    r"\bSquare Enix\b", r"\bCapcom\b", r"\bBandai Namco\b", r"\bFromSoftware\b",
+    r"\bBethesda\b", r"\bCD Projekt\b", r"\bSega\b", r"\bKonami\b",
+    r"\bMicrosoft Gaming\b",
+    # Esports — specific titles and terms
+    r"\besport", r"\bLeague of Legends\b", r"\bDota 2\b",
+    r"\bCounter-Strike\b", r"\bCS2\b", r"\bCS:GO\b",
+    r"\bValorant\b", r"\bFortnite\b", r"\bOverwatch\b", r"\bApex Legends\b",
+    r"\bTwitch\b", r"\bYouTube Gaming\b",
+    # Game content types
+    r"\bDLC\b", r"\bexpansion pack\b", r"\bgame pass\b",
+    r"\bopen world game\b", r"\bRPG game\b", r"\bMMO\b", r"\bMOBA\b",
+    r"\bmobile game\b", r"\bgacha\b",
+    # Japanese — safe, ゲーム is specific enough in context
+    r"ゲーム", r"ゲーミング", r"任天堂", r"プレイステーション",
     r"エスポーツ", r"ゲーム開発", r"インディーゲーム",
-    r"ファミコン", r"ニンテンドー", r"スイッチ",
+    r"ニンテンドー", r"ファミコン",
+]
+
+# Hard-block real sports articles that slip through on broad terms
+SPORT_BLOCK_KEYWORDS = [
+    r"\bNFL\b", r"\bNBA\b", r"\bMLB\b", r"\bNHL\b", r"\bMLS\b",
+    r"\bPremier League\b", r"\bLa Liga\b", r"\bBundesliga\b", r"\bSerie A\b",
+    r"\bSuper Bowl\b", r"\bWorld Cup\b", r"\bOlympics\b", r"\bOlympic Games\b",
+    r"\btouchdown\b", r"\bhome run\b", r"\bslam dunk\b",
+    r"\bscored a goal\b", r"\bfinal score\b", r"\bgame winner\b",
+    r"\bplayoff game\b", r"\bchampionship game\b",
+    r"\btennis\b", r"\bgolf\b", r"\bboxing match\b", r"\bUFC\b",
+    r"\bF1\b", r"\bFormula 1\b", r"\bFormula One\b",
 ]
 
 _MEDIA_NAMES = [
@@ -281,6 +306,7 @@ _MEDIA_NAMES = [
     "Yahoo!ニュース", "NHK", "Reuters", "Bloomberg",
 ]
 GAME_PATTERN = re.compile("|".join(GAME_KEYWORDS), re.IGNORECASE)
+SPORT_BLOCK_PATTERN = re.compile("|".join(SPORT_BLOCK_KEYWORDS), re.IGNORECASE)
 _TITLE_NOISE = re.compile(
     r"\s*[-–—|]?\s*(" + "|".join(re.escape(n) for n in _MEDIA_NAMES) + r")\s*$",
     re.IGNORECASE,
@@ -295,8 +321,13 @@ FILTER_SOURCES = {
     "Bloomberg Gaming",
     "Ars Technica Gaming",
     "The Verge Gaming",
-    "ESPN Esports",
+    "Esports News",
     "Axios Gaming",
+    # Apply filter to broad feeds that mix gaming with other content
+    "IGN",
+    "TheGamer",
+    "VG247",
+    "Destructoid",
 }
 
 
@@ -334,7 +365,20 @@ def is_game_related(title, description="", source_name=""):
     if source_name:
         clean_title = clean_title.replace(source_name, "")
         clean_desc = clean_desc.replace(source_name, "")
-    return bool(GAME_PATTERN.search(f"{clean_title} {clean_desc}"))
+    combined = f"{clean_title} {clean_desc}"
+    # Must match a gaming keyword
+    if not GAME_PATTERN.search(combined):
+        return False
+    # If it matches a real-sports keyword but has NO strong gaming term, reject it
+    if SPORT_BLOCK_PATTERN.search(combined):
+        strong_game = re.search(
+            r"video ?game|gaming|gamer|gameplay|PlayStation|Xbox|Nintendo|Steam|Roblox|esport|Twitch|"
+            r"ゲーム|エスポーツ|任天堂|プレイステーション",
+            combined, re.IGNORECASE
+        )
+        if not strong_game:
+            return False
+    return True
 
 
 def parse_rss_date(date_str):
