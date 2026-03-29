@@ -3,23 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Hub - My Hub</title>
+  <title>AI Hub — My Hub</title>
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
   <header class="header">
     <div class="container">
       <div class="header-left">
-        <div class="logo"><span>//</span> My Hub</div>
+        <div class="logo"><span>//</span> my hub</div>
         <nav class="breadcrumb">
-          <a href="../">Home</a>
+          <a href="../">home</a>
           <span class="sep">/</span>
-          <span>AI Hub</span>
+          <span>ai hub</span>
         </nav>
       </div>
       <div class="header-right">
         <span class="status-dot"></span>
-        <span class="update-time" id="update-time">Loading...</span>
+        <span class="update-time" id="update-time">loading...</span>
       </div>
     </div>
   </header>
@@ -28,57 +28,56 @@
     <!-- Stats -->
     <div class="stats-bar">
       <div class="stat-card">
-        <div class="stat-label">Total Articles</div>
-        <div class="stat-value" id="stat-total">-</div>
+        <div class="stat-label">Articles</div>
+        <div class="stat-value" id="stat-total">—</div>
       </div>
       <div class="stat-card">
         <div class="stat-label">English</div>
-        <div class="stat-value" id="stat-en">-</div>
+        <div class="stat-value" id="stat-en">—</div>
       </div>
       <div class="stat-card">
         <div class="stat-label">Japanese</div>
-        <div class="stat-value" id="stat-ja">-</div>
+        <div class="stat-value" id="stat-ja">—</div>
       </div>
       <div class="stat-card">
         <div class="stat-label">Sources</div>
-        <div class="stat-value" id="stat-sources">-</div>
+        <div class="stat-value" id="stat-sources">—</div>
       </div>
     </div>
 
     <!-- Controls -->
     <div class="controls">
-      <input type="text" class="search-box" id="search-box" placeholder="Search articles...">
+      <input type="text" class="search-box" id="search-box" placeholder="search articles...">
 
-      <!-- Category filters -->
-      <button class="filter-btn active" data-category="all">All</button>
-      <button class="filter-btn" data-category="Industry">Industry</button>
-      <button class="filter-btn" data-category="Research">Research</button>
-      <button class="filter-btn" data-category="Community">Community</button>
-      <button class="filter-btn" data-category="General">General</button>
+      <div class="filter-divider"></div>
 
-      <span style="color: var(--text-muted); font-size: 0.75rem;">|</span>
+      <button class="filter-btn active" data-category="all">all</button>
+      <button class="filter-btn" data-category="Industry">industry</button>
+      <button class="filter-btn" data-category="Research">research</button>
+      <button class="filter-btn" data-category="Community">community</button>
+      <button class="filter-btn" data-category="General">general</button>
 
-      <!-- Language filters -->
-      <button class="filter-btn active" data-lang="all">All Lang</button>
-      <button class="filter-btn" data-lang="en">EN</button>
-      <button class="filter-btn" data-lang="ja">JA</button>
+      <div class="filter-divider"></div>
+
+      <button class="filter-btn active" data-lang="all">all lang</button>
+      <button class="filter-btn" data-lang="en">en</button>
+      <button class="filter-btn" data-lang="ja">ja</button>
     </div>
 
     <!-- News Grid -->
     <div class="news-grid" id="news-grid">
       <div class="loading" style="grid-column: 1 / -1;">
         <div class="loading-spinner"></div>
-        <p>Loading AI news...</p>
+        <p>loading ai news...</p>
       </div>
     </div>
   </main>
 
   <footer class="footer">
-    <div class="container">
-      AI Hub &mdash; Auto-updated 3x daily via GitHub Actions
-    </div>
+    <div class="container">ai hub &mdash; auto-updated 3x daily</div>
   </footer>
 
+  <script src="../js/dust.js"></script>
   <script src="../js/ai-hub.js"></script>
 </body>
 </html>
