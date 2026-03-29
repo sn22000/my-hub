@@ -2,8 +2,8 @@
 :root {
   --bg-primary: #111010;
   --bg-secondary: #1a1918;
-  --bg-card: rgba(255, 255, 255, 0.03);
-  --bg-card-hover: rgba(255, 255, 255, 0.06);
+  --bg-card: rgba(255, 255, 255, 0.02);
+  --bg-card-hover: rgba(255, 255, 255, 0.045);
   --text-primary: #e8e4df;
   --text-secondary: #9b9590;
   --text-muted: #5e5955;
@@ -30,35 +30,24 @@
 
 body {
   font-family: var(--font-sans);
-  background: var(--bg-primary);
+  background: #090808;
   color: var(--text-primary);
   line-height: 1.6;
   min-height: 100vh;
   overflow-x: hidden;
 }
 
-/* === Grunge Background === */
-body::before {
-  content: '';
-  position: fixed;
-  inset: 0;
-  z-index: 0;
-  pointer-events: none;
-  background:
-    radial-gradient(ellipse 80% 60% at 20% 10%, rgba(200, 168, 130, 0.04) 0%, transparent 60%),
-    radial-gradient(ellipse 60% 50% at 80% 90%, rgba(120, 100, 80, 0.03) 0%, transparent 60%);
-}
-
-/* Noise grain overlay */
+/* === Grain Overlay === */
 body::after {
   content: '';
   position: fixed;
   inset: 0;
-  z-index: 1;
+  z-index: 3;
   pointer-events: none;
-  opacity: 0.35;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.5'/%3E%3C/svg%3E");
-  background-size: 200px 200px;
+  opacity: 0.28;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.6'/%3E%3C/svg%3E");
+  background-size: 256px 256px;
 }
 
 /* Dust particle canvas */
@@ -96,6 +85,9 @@ a:hover {
 .header {
   padding: 24px 0;
   border-bottom: 1px solid var(--border);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  background: rgba(9, 8, 8, 0.6);
 }
 
 .header .container {
@@ -208,7 +200,9 @@ a:hover {
 }
 
 .hub-card {
-  background: var(--bg-primary);
+  background: rgba(9, 8, 8, 0.5);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   padding: 40px 32px;
   transition: all 0.4s ease;
   cursor: pointer;
@@ -218,7 +212,7 @@ a:hover {
 }
 
 .hub-card:hover {
-  background: var(--bg-card-hover);
+  background: rgba(30, 28, 25, 0.6);
   color: inherit;
 }
 
@@ -297,7 +291,9 @@ a:hover {
 }
 
 .stat-card {
-  background: var(--bg-primary);
+  background: rgba(9, 8, 8, 0.5);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   padding: 20px 24px;
 }
 
@@ -394,7 +390,9 @@ a:hover {
 }
 
 .news-card {
-  background: var(--bg-primary);
+  background: rgba(9, 8, 8, 0.5);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   padding: 24px;
   transition: all 0.4s ease;
   display: flex;
@@ -403,7 +401,7 @@ a:hover {
 }
 
 .news-card:hover {
-  background: var(--bg-card-hover);
+  background: rgba(30, 28, 25, 0.6);
 }
 
 .news-card-header {
@@ -501,7 +499,9 @@ a:hover {
 }
 
 .ticker-card {
-  background: var(--bg-primary);
+  background: rgba(9, 8, 8, 0.5);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   padding: 16px;
   display: flex;
   flex-direction: column;
@@ -510,7 +510,7 @@ a:hover {
 }
 
 .ticker-card:hover {
-  background: var(--bg-card-hover);
+  background: rgba(30, 28, 25, 0.6);
 }
 
 .ticker-top {
@@ -603,14 +603,16 @@ a:hover {
   align-items: center;
   gap: 12px;
   padding: 10px 16px;
-  background: var(--bg-primary);
+  background: rgba(9, 8, 8, 0.5);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   color: var(--text-primary);
   transition: background 0.3s ease;
   text-decoration: none;
 }
 
 .headline-item:hover {
-  background: var(--bg-card-hover);
+  background: rgba(30, 28, 25, 0.6);
   color: var(--text-primary);
 }
 
@@ -673,6 +675,8 @@ a:hover {
   border-top: 1px solid var(--border);
   padding: 24px 0;
   text-align: center;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   font-family: var(--font-mono);
   font-size: 0.6rem;
   color: var(--text-muted);
