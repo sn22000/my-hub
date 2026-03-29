@@ -1,0 +1,61 @@
+/**
+ * SEO Hub - News Dashboard
+ */
+const DATA_URL = '../data/seo-news.json';
+const state = { articles: [], filtered: [], activeFilter: 'all', activeLang: 'all', searchQuery: '' };
+const $ = (sel) => document.querySelector(sel);
+const $$ = (sel) => document.querySelectorAll(sel);
+
+function timeAgo(d) { const now=new Date(),date=new Date(d),ms=now-date,m=Math.floor(ms/6e4),h=Math.floor(ms/36e5),dy=Math.floor(ms/864e5); if(m<1)return'just now';if(m<60)return m+'m ago';if(h<24)return h+'h ago';if(dy<7)return dy+'d ago';return date.toLocaleDateString('ja-JP',{month:'short',day:'numeric'}); }
+function escapeHtml(s) { const d=document.createElement('div');d.textContent=s;return d.innerHTML; }
+
+function renderStats() {
+  $('#stat-total').textContent = state.articles.length;
+  $('#stat-en').textContent = state.articles.filter(a=>a.lang==='en').length;
+  $('#stat-ja').textContent = state.articles.filter(a=>a.lang==='ja').length;
+  $('#stat-sources').textContent = new Set(state.articles.map(a=>a.source)).size;
+}
+
+function renderArticles() {
+  const grid=$('#news-grid'), arts=state.filtered;
+  if(!arts.length){grid.innerHTML='<div class="empty-state" style="grid-column:1/-1"><p>No articles found.</p></div>';return;}
+  grid.innerHTML=arts.map(a=>`
+    <article class="news-card">
+      <div class="news-card-header">
+        <span class="news-source">${escapeHtml(a.source)}</span>
+        <span class="news-lang lang-${a.lang}">${a.lang}</span>
+        <span>${timeAgo(a.published)}</span>
+      </div>
+      <h3 class="news-title"><a href="${escapeHtml(a.url)}" target="_blank" rel="noopener">${escapeHtml(a.title)}</a></h3>
+      ${a.description?`<p class="news-desc">${escapeHtml(a.description)}</p>`:''}
+      <div class="news-meta"><span class="news-category">${escapeHtml(a.category)}</span></div>
+    </article>
+  `).join('');
+}
+
+function applyFilters() {
+  let r=[...state.articles];
+  if(state.activeFilter!=='all') r=r.filter(a=>a.category===state.activeFilter);
+  if(state.activeLang!=='all') r=r.filter(a=>a.lang===state.activeLang);
+  if(state.searchQuery){const q=state.searchQuery.toLowerCase();r=r.filter(a=>a.title.toLowerCase().includes(q)||(a.description||'').toLowerCase().includes(q)||a.source.toLowerCase().includes(q));}
+  state.filtered=r; renderArticles();
+}
+
+function setupFilters() {
+  $$('.filter-btn[data-category]').forEach(b=>b.addEventListener('click',()=>{$$('.filter-btn[data-category]').forEach(x=>x.classList.remove('active'));b.classList.add('active');state.activeFilter=b.dataset.category;applyFilters();}));
+  $$('.filter-btn[data-lang]').forEach(b=>b.addEventListener('click',()=>{$$('.filter-btn[data-lang]').forEach(x=>x.classList.remove('active'));b.classList.add('active');state.activeLang=b.dataset.lang;applyFilters();}));
+  const s=$('#search-box');if(s){let d;s.addEventListener('input',e=>{clearTimeout(d);d=setTimeout(()=>{state.searchQuery=e.target.value;applyFilters();},200);});}
+}
+
+async function init() {
+  const grid=$('#news-grid');
+  grid.innerHTML='<div class="loading" style="grid-column:1/-1"><div class="loading-spinner"></div><p>loading seo news...</p></div>';
+  try{
+    const resp=await fetch(DATA_URL);if(!resp.ok)throw new Error(`HTTP ${resp.status}`);
+    const data=await resp.json();
+    state.articles=data.articles||[];state.filtered=[...state.articles];
+    if(data.updated_at)$('#update-time').textContent=`Updated: ${new Date(data.updated_at).toLocaleString('ja-JP')}`;
+    renderStats();renderArticles();setupFilters();
+  }catch(err){console.error(err);grid.innerHTML='<div class="empty-state" style="grid-column:1/-1"><p>Failed to load SEO data.</p></div>';}
+}
+document.addEventListener('DOMContentLoaded',init);

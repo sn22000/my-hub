@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEO Hub — My Hub</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-left">
+        <div class="logo"><span>//</span> my hub</div>
+        <nav class="breadcrumb">
+          <a href="../">home</a>
+          <span class="sep">/</span>
+          <span>seo hub</span>
+        </nav>
+      </div>
+      <div class="header-right">
+        <span class="status-dot"></span>
+        <span class="update-time" id="update-time">loading...</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Stock Tickers -->
+    <div class="ticker-section">
+      <div class="ticker-scroll" id="stock-tickers"></div>
+    </div>
+    <div class="headlines-section" id="stock-headlines"></div>
+
+    <div class="stats-bar">
+      <div class="stat-card">
+        <div class="stat-label">Articles</div>
+        <div class="stat-value" id="stat-total">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">English</div>
+        <div class="stat-value" id="stat-en">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Japanese</div>
+        <div class="stat-value" id="stat-ja">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Sources</div>
+        <div class="stat-value" id="stat-sources">—</div>
+      </div>
+    </div>
+
+    <div class="controls">
+      <input type="text" class="search-box" id="search-box" placeholder="search articles...">
+      <div class="filter-divider"></div>
+      <button class="filter-btn active" data-category="all">all</button>
+      <button class="filter-btn" data-category="SEO">seo</button>
+      <button class="filter-btn" data-category="Google">google</button>
+      <button class="filter-btn" data-category="Technical SEO">technical</button>
+      <button class="filter-btn" data-category="Content">content</button>
+      <button class="filter-btn" data-category="Marketing">marketing</button>
+      <button class="filter-btn" data-category="PPC">ppc</button>
+      <button class="filter-btn" data-category="AI x SEO">ai x seo</button>
+      <button class="filter-btn" data-category="Web Dev">web dev</button>
+      <div class="filter-divider"></div>
+      <button class="filter-btn active" data-lang="all">all lang</button>
+      <button class="filter-btn" data-lang="en">en</button>
+      <button class="filter-btn" data-lang="ja">ja</button>
+    </div>
+
+    <div class="news-grid" id="news-grid">
+      <div class="loading" style="grid-column: 1 / -1;">
+        <div class="loading-spinner"></div>
+        <p>loading seo news...</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">seo hub &mdash; auto-updated 3x daily</div>
+  </footer>
+
+  <script src="../js/dust.js"></script>
+  <script src="../js/stock-ticker.js"></script>
+  <script src="../js/seo-hub.js"></script>
+  <script>initStockTicker('seo');</script>
+</body>
+</html>

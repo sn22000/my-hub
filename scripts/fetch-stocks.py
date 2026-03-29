@@ -57,6 +57,12 @@ HUBS = {
             {"symbol": "UUP",    "name": "US Dollar"},
         ],
     },
+    "seo": {
+        "file": "stocks-seo.json",
+        "tickers": [
+            {"symbol": "GOOGL", "name": "Alphabet"},
+        ],
+    },
     "travel": {
         "file": "stocks-travel.json",
         "tickers": [
