@@ -21,7 +21,7 @@ RSS_FEEDS = [
     # ==============================
     {
         "name": "IndustryWeek",
-        "url": "https://www.industryweek.com/rss",
+        "url": "https://news.google.com/rss/search?q=site:industryweek.com&hl=en-US&gl=US&ceid=US:en",
         "lang": "en",
         "category": "Manufacturing",
     },
@@ -33,7 +33,7 @@ RSS_FEEDS = [
     },
     {
         "name": "Industry Dive",
-        "url": "https://www.industrydive.com/news/rss/",
+        "url": "https://news.google.com/rss/search?q=site:industrydive.com&hl=en-US&gl=US&ceid=US:en",
         "lang": "en",
         "category": "Industry",
     },
@@ -45,13 +45,13 @@ RSS_FEEDS = [
     },
     {
         "name": "Automation World",
-        "url": "https://www.automationworld.com/rss.xml",
+        "url": "https://news.google.com/rss/search?q=site:automationworld.com&hl=en-US&gl=US&ceid=US:en",
         "lang": "en",
-        "category": "Manufacturing",
+        "category": "Automation",
     },
     {
-        "name": "Engineering.com",
-        "url": "https://www.engineering.com/rss.axd",
+        "name": "Engineering News-Record",
+        "url": "https://www.enr.com/rss/all",
         "lang": "en",
         "category": "Engineering",
     },
@@ -123,13 +123,13 @@ RSS_FEEDS = [
     },
     {
         "name": "Mining.com",
-        "url": "https://www.mining.com/feed/",
+        "url": "https://news.google.com/rss/search?q=mining+OR+%22rare+earth%22+OR+copper+OR+lithium+OR+steel+site:mining.com&hl=en-US&gl=US&ceid=US:en",
         "lang": "en",
         "category": "Materials",
     },
     {
-        "name": "Chemical & Engineering News",
-        "url": "https://cen.acs.org/rss/latest.xml",
+        "name": "Metal Bulletin",
+        "url": "https://news.google.com/rss/search?q=steel+OR+metals+OR+aluminum+OR+copper+OR+mining+industry&hl=en-US&gl=US&ceid=US:en",
         "lang": "en",
         "category": "Materials",
     },
@@ -150,7 +150,7 @@ RSS_FEEDS = [
     },
     {
         "name": "Logistics Management",
-        "url": "https://www.logisticsmgmt.com/rss/news",
+        "url": "https://news.google.com/rss/search?q=site:logisticsmgmt.com&hl=en-US&gl=US&ceid=US:en",
         "lang": "en",
         "category": "Logistics",
     },
@@ -159,7 +159,7 @@ RSS_FEEDS = [
     # ==============================
     {
         "name": "Defense News",
-        "url": "https://www.defensenews.com/rss/",
+        "url": "https://news.google.com/rss/search?q=site:defensenews.com&hl=en-US&gl=US&ceid=US:en",
         "lang": "en",
         "category": "Defense",
     },
@@ -180,7 +180,7 @@ RSS_FEEDS = [
     # ==============================
     {
         "name": "Control Engineering",
-        "url": "https://www.controleng.com/rss/",
+        "url": "https://news.google.com/rss/search?q=site:controleng.com&hl=en-US&gl=US&ceid=US:en",
         "lang": "en",
         "category": "Automation",
     },
