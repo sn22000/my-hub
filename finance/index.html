@@ -35,6 +35,12 @@
   </header>
 
   <main class="container">
+    <!-- Stock Tickers -->
+    <div class="ticker-section">
+      <div class="ticker-scroll" id="stock-tickers"></div>
+    </div>
+    <div class="headlines-section" id="stock-headlines"></div>
+
     <!-- Stats -->
     <div class="stats-bar">
       <div class="stat-card">
@@ -91,6 +97,8 @@
   </footer>
 
   <script src="../js/dust.js"></script>
+  <script src="../js/stock-ticker.js"></script>
   <script src="../js/finance-hub.js"></script>
+  <script>initStockTicker('finance');</script>
 </body>
 </html>
