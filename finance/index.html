@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finance Hub — My Hub</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .cat-markets  { border-color: rgba(96, 165, 250, 0.3);  color: var(--blue); }
+    .cat-stocks   { border-color: rgba(52, 211, 153, 0.3);  color: var(--green); }
+    .cat-macro    { border-color: rgba(167, 139, 250, 0.3); color: #a78bfa; }
+    .cat-crypto   { border-color: rgba(251, 146, 60, 0.3);  color: var(--orange); }
+    .cat-fintech  { border-color: rgba(200, 168, 130, 0.3); color: var(--accent); }
+    .cat-investing{ border-color: rgba(52, 211, 153, 0.3);  color: var(--green); }
+    .cat-analysis { border-color: rgba(248, 113, 113, 0.3); color: #f87171; }
+    .cat-general  { border-color: var(--accent-dim);         color: var(--accent); }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-left">
+        <div class="logo"><span>//</span> my hub</div>
+        <nav class="breadcrumb">
+          <a href="../">home</a>
+          <span class="sep">/</span>
+          <span>finance hub</span>
+        </nav>
+      </div>
+      <div class="header-right">
+        <span class="status-dot"></span>
+        <span class="update-time" id="update-time">loading...</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Stats -->
+    <div class="stats-bar">
+      <div class="stat-card">
+        <div class="stat-label">Articles</div>
+        <div class="stat-value" id="stat-total">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">English</div>
+        <div class="stat-value" id="stat-en">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Japanese</div>
+        <div class="stat-value" id="stat-ja">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Sources</div>
+        <div class="stat-value" id="stat-sources">—</div>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <div class="controls">
+      <input type="text" class="search-box" id="search-box" placeholder="search articles...">
+
+      <div class="filter-divider"></div>
+
+      <button class="filter-btn active" data-category="all">all</button>
+      <button class="filter-btn" data-category="Markets">markets</button>
+      <button class="filter-btn" data-category="Stocks">stocks</button>
+      <button class="filter-btn" data-category="Macro">macro</button>
+      <button class="filter-btn" data-category="Crypto">crypto</button>
+      <button class="filter-btn" data-category="Fintech">fintech</button>
+      <button class="filter-btn" data-category="Investing">investing</button>
+      <button class="filter-btn" data-category="Analysis">analysis</button>
+
+      <div class="filter-divider"></div>
+
+      <button class="filter-btn active" data-lang="all">all lang</button>
+      <button class="filter-btn" data-lang="en">en</button>
+      <button class="filter-btn" data-lang="ja">ja</button>
+    </div>
+
+    <!-- News Grid -->
+    <div class="news-grid" id="news-grid">
+      <div class="loading" style="grid-column: 1 / -1;">
+        <div class="loading-spinner"></div>
+        <p>loading finance news...</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">finance hub &mdash; auto-updated 3x daily</div>
+  </footer>
+
+  <script src="../js/dust.js"></script>
+  <script src="../js/finance-hub.js"></script>
+</body>
+</html>
