@@ -1,46 +1,846 @@
 {
-  "updated_at": "2026-04-25T05:49:47.965839+00:00",
+  "updated_at": "2026-04-25T13:12:29.976420+00:00",
   "total": 500,
   "articles": [
     {
-      "id": "441c722d69",
-      "title": "【AI感情実装】LLMに「直観」と「感情」を持たせる8×8実数行列アルゴリズム（幾何代数Matsの提案）",
-      "url": "https://qiita.com/kiichi55667/items/a798d500591692245124",
-      "description": "概要：確率論の限界を突破する「構造」\n現在のLLMは驚異的な対話能力を持ちますが、「ハルシネーション（もっともらしい嘘）」という致命的な欠陥を抱えています。\nその理由は、AIが「確率と統計」の海を漂っており、自然界の物理法則のような「矛盾を許さない強固な構造」を持っていな...",
+      "id": "af69d60e43",
+      "title": "DeepSeek V4 APIの評価：FlashとProの使い分けガイド",
+      "url": "https://qiita.com/xiji2646/items/3f053cdb323ff3facd0c",
+      "description": "はじめに\n2026年4月24日付けで、DeepSeekの公式APIドキュメントに deepseek-v4-flash と deepseek-v4-pro が正式に掲載されました。Reutersも同日にプレビューリリースを報じています。\n本記事では、エンジニアリングチームが...",
       "source": "Qiita AI Tag",
       "lang": "ja",
       "category": "Community",
-      "published": "2026-04-25T14:39:42+09:00"
+      "published": "2026-04-25T21:16:19+09:00"
     },
     {
-      "id": "fd108c3dfa",
-      "title": "AI背景削除を完全無料・ブラウザ完結で実装した方法【ONNX Runtime Web + WASM】",
-      "url": "https://qiita.com/sakutto-panda/items/a370363a6310663ed68a",
-      "description": "画像の背景削除をしたいとき、Remove.bg や Adobe Express を使う人が多い。ただ、これらは画像をサーバーに送信する必要があり、枚数制限や API 課金もある。「サーバーに送らず、ブラウザだけで AI 背景削除できないか？」と思って作ったのがこのツール。\n...",
+      "id": "aca8962c5d",
+      "title": "Claude Codeで「Stream idle timeout - partial response received」が出たときの対処法",
+      "url": "https://qiita.com/lavellehatcherjr/items/0b41755038204fdf2934",
+      "description": "結論：CLAUDE.mdに5行追加するだけ\nClaude Codeを使っていると、長めの出力や複数ツール呼び出しの途中でこのエラーに遭遇することがあります。\nAPI Error: Stream idle timeout - partial response receive...",
       "source": "Qiita AI Tag",
       "lang": "ja",
       "category": "Community",
-      "published": "2026-04-25T14:32:00+09:00"
+      "published": "2026-04-25T21:09:09+09:00"
     },
     {
-      "id": "618111aabc",
-      "title": "G検定対策ノート：バイアスとバリアンス（過学習と汎化性の判定）",
-      "url": "https://qiita.com/shioume/items/bb5f39742a308f415030",
-      "description": "【注意】\n本記事はわかりやすさ重視なので、正確性に欠く部分がありますことご了承ください。\n\nバイアス？バリアンスとは？\nめちゃくちゃ嚙み砕くと・・・\n\nバイアス\n\nそもそもの考え方がずれてる\n\nバリアンス\n\n細かいことに振り回されすぎてブレブレ\n\n例：カレー作り...",
+      "id": "1c4b8e2c4d",
+      "title": "売上予測WebアプリをFastAPI + Prophet + Reactで個人開発してリリースした話",
+      "url": "https://qiita.com/Mecharhythm/items/71f9e7c92d7ee0892a10",
+      "description": "はじめに\n売上・需要予測ができるWebアプリ「SalesCast」を個人で作りました。\n\n機械学習（Prophet）をバックエンドに持ち、CSVを貼り付けるだけで予測グラフが出るシンプルなツールです。技術構成・開発の流れ・詰まったところをまとめます。\n\n背景\n需要予...",
       "source": "Qiita AI Tag",
       "lang": "ja",
       "category": "Community",
-      "published": "2026-04-25T14:20:12+09:00"
+      "published": "2026-04-25T20:58:29+09:00"
     },
     {
-      "id": "bc18f1cd55",
-      "title": "ClaudeCodeに読ませるだけで最新機能全活用（当社比）できるドキュメントを授けます…！",
-      "url": "https://qiita.com/cushionA/items/8e33f86651a4bad08d95",
-      "description": "はじめに\nこんにちは。\nClaude Code使っていますか？\nもし使っていたなら、以下の概念を目にする機会が増えてきたと思います。\n\nhook\nskill\nagents\nmemory\n\nそして、率直に「なんかすごそうだがよく分かってない」という方も多いと思います。\n自分...",
+      "id": "6d5b8abd00",
+      "title": "PR-Agent というAIツールを導入してみた",
+      "url": "https://qiita.com/yukionodera_hello/items/dcf8bf15952e05b616e7",
+      "description": "はじめに\nReview 周りの効率化のために、PR-Agent と言う新たな AI ツールを導入しました。ここではその機能の概要や有効化した機能、設定等について解説していきます。\n\n1. PR-Agent の概要\n\nPR-Agent とは何か\nPR-Agent は、Git...",
       "source": "Qiita AI Tag",
       "lang": "ja",
       "category": "Community",
-      "published": "2026-04-25T14:14:36+09:00"
+      "published": "2026-04-25T20:28:09+09:00"
+    },
+    {
+      "id": "2469508467",
+      "title": "AMD Ryzen AI 7 350搭載の一体型PC「FMV WF2-L1」が直販で24万7500円に！",
+      "url": "https://ascii.jp/elem/000/004/398/4398046/?rss",
+      "description": "FMVパソコン通販サイト「FMV Store」では、複数のモデルを対象にセールを開催中。",
+      "source": "ASCII.jp Tech",
+      "lang": "ja",
+      "category": "General",
+      "published": "2026-04-25T20:00:00+09:00"
+    },
+    {
+      "id": "34b1278127",
+      "title": "ソフトウェアをリリースした経験がなかった人がAnthropic主催のOpus 4.6ハッカソンで優勝した理由とは、AI製品に求められているものとは？",
+      "url": "https://gigazine.net/news/20260425-anthropic-hackathon/",
+      "description": "Anthropicは2026年2月に「Claude Opus 4.6」を発表し、Opus 4.6をどのように活用するかを競う「Built with Opus 4.6」というハッカソンを開催しました。約1万3000人が応募し、選抜された500人が参加したハッカソンで優勝した人物はソフトウェアをリリースした経験がないカリフォルニア州の弁護士で、他にも非専門家が複数受賞しました。そんなハッカソンの結果から得られるAI製ソフトウェアの重要なポイントについて、システム研究社のデクスター・ハドリー氏が解説しています。続きを読む...",
+      "source": "GIGAZINE",
+      "lang": "ja",
+      "category": "General",
+      "published": "2026-04-25T19:00:00+09:00"
+    },
+    {
+      "id": "84fdc61e39",
+      "title": "Two meta sustainability grant and scholarship recipients share impact",
+      "url": "https://sustainability.fb.com/blog/2023/03/24/two-meta-sustainability-grant-and-scholarship-recipients-share-impact/",
+      "description": "",
+      "source": "Meta Research",
+      "lang": "en",
+      "category": "Lab",
+      "published": "2026-04-25T13:12:21.481478+00:00"
+    },
+    {
+      "id": "af5584d426",
+      "title": "Announcing the winners of the 2022 Foundational Integrity Research request for proposals",
+      "url": "https://research.facebook.com/blog/2023/3/announcing-the-winners-of-the-2022-foundational-integrity-research-request-for-proposals-/",
+      "description": "In September, Meta launched the Foundational Integrity Research request for proposals. Today, we announce the winners of this award.",
+      "source": "Meta Research",
+      "lang": "en",
+      "category": "Lab",
+      "published": "2026-04-25T13:12:21.481452+00:00"
+    },
+    {
+      "id": "b329b2beb8",
+      "title": "Introducing Segment Anything: Working toward the first foundation model for image segmentation",
+      "url": "https://ai.facebook.com/blog/segment-anything-foundation-model-image-segmentation/",
+      "description": "",
+      "source": "Meta Research",
+      "lang": "en",
+      "category": "Lab",
+      "published": "2026-04-25T13:12:21.481424+00:00"
+    },
+    {
+      "id": "2fbf912e3f",
+      "title": "Announcing the 2023 Meta Research PhD Fellowship award winners",
+      "url": "https://research.facebook.com/blog/2023/4/announcing-the-2023-meta-research-phd-fellowship-award-winners/",
+      "description": "...",
+      "source": "Meta Research",
+      "lang": "en",
+      "category": "Lab",
+      "published": "2026-04-25T13:12:21.481398+00:00"
+    },
+    {
+      "id": "9106e3b70e",
+      "title": "Build faster with Buck2: Our open source build system",
+      "url": "https://engineering.fb.com/2023/04/06/open-source/buck2-open-source-large-scale-build-system/",
+      "description": "",
+      "source": "Meta Research",
+      "lang": "en",
+      "category": "Lab",
+      "published": "2026-04-25T13:12:21.481365+00:00"
+    },
+    {
+      "id": "bfd248436a",
+      "title": "How the metaverse can transform education",
+      "url": "https://about.fb.com/news/2023/04/how-the-metaverse-can-transform-education/",
+      "description": "",
+      "source": "Meta Research",
+      "lang": "en",
+      "category": "Lab",
+      "published": "2026-04-25T13:12:21.481305+00:00"
+    },
+    {
+      "id": "19c94d0ab7",
+      "title": "A new, unique AI dataset for animating amateur drawings",
+      "url": "https://ai.facebook.com/blog/ai-dataset-animation-drawings/",
+      "description": "",
+      "source": "Meta Research",
+      "lang": "en",
+      "category": "Lab",
+      "published": "2026-04-25T13:12:21.481280+00:00"
+    },
+    {
+      "id": "da193e0dfd",
+      "title": "How a non-traditional background led to cutting-edge XR tech",
+      "url": "https://www.metacareers.com/life/how-a-non-traditional-background-led-to-cutting-edge-xr-tech",
+      "description": "",
+      "source": "Meta Research",
+      "lang": "en",
+      "category": "Lab",
+      "published": "2026-04-25T13:12:21.481253+00:00"
+    },
+    {
+      "id": "bf1c9b2eec",
+      "title": "Every tree counts",
+      "url": "https://research.facebook.com/blog/2023/4/every-tree-counts-large-scale-mapping-of-canopy-height-at-the-resolution-of-individual-trees/",
+      "description": "Meta set a goal to reach net zero emissions by 2030. We are developing technology to mitigate our carbon footprint and making these openly available.",
+      "source": "Meta Research",
+      "lang": "en",
+      "category": "Lab",
+      "published": "2026-04-25T13:12:21.481224+00:00"
+    },
+    {
+      "id": "3b21cd05ba",
+      "title": "How generational differences affect consumer attitudes towards ads",
+      "url": "https://research.facebook.com/blog/2023/5/how-generational-differences-affect-consumer-attitudes-towards-ads/",
+      "description": "Our research study, in collaboration with CrowdDNA, aims to understand people's relationship with social media ads across different social media platforms.",
+      "source": "Meta Research",
+      "lang": "en",
+      "category": "Lab",
+      "published": "2026-04-25T13:12:21.481179+00:00"
+    },
+    {
+      "id": "7dc305dc76",
+      "title": "Anthropic won't own MCP 'design flaw' putting 200K servers at risk, researchers say",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/16/anthropic_mcp_design_flaw/",
+      "description": "Bug or feature? A design flaw – or expected behavior based on a bad design choice, depending on who is telling the story – baked into Anthropic's official Model Context Protocol (MCP) puts as many as 200,000 servers at risk of complete takeover, according to security researchers.…",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.188144+00:00"
+    },
+    {
+      "id": "2032b45f2f",
+      "title": "Claude Opus wrote a Chrome exploit for $2,283",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/17/claude_opus_wrote_chrome_exploit/",
+      "description": "Pause your Mythos panic because mainstream models anyone can use already pick holes in popular software Anthropic withheld its Mythos bug-finding model from public release due to concerns that it would enable attackers to find and exploit vulnerabilities before anyone could react.…",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.188102+00:00"
+    },
+    {
+      "id": "334e47198f",
+      "title": "Anthropic mocks up Claude Design to draft fancy new pink slips for marketing teams",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/17/anthropic_debuts_claude_design/",
+      "description": "The bar for creating visual assets has been lowered to the ability to converse with a model Anthropic is known for its industry-leading Claude Code that writes programs, but why stop there? The company, on Friday, introduced a research preview service called Claude Design that creates visual assets,",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.188058+00:00"
+    },
+    {
+      "id": "e33c2d2d55",
+      "title": "Cloudflare can remember it for you wholesale",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/18/cloudflare_agent_memory/",
+      "description": "Agent Memory stores AI chat scraps off to the side and recalls them when needed Not only is hardware memory scarce these days, but context memory, the conversational data exchanged with AI models, can be an issue too.…",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.188017+00:00"
+    },
+    {
+      "id": "a6ebbc8e7a",
+      "title": "I meant to do that! AI vendors shrug off responsibility for vulns",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/19/ai_vendors_response_to_security/",
+      "description": "Passing the buck, and the blame, down the road shows lack of AI companies' maturity OPINION  AI vendors: \"You need to use AI to fight AI threats (and do everything else in your corporate IT environment).\" Also AI vendors: \"That's not a security flaw; it's working as intended.\"…",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.187974+00:00"
+    },
+    {
+      "id": "5e36531812",
+      "title": "Just like phishing for gullible humans, prompt injecting AIs is here to stay",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/19/just_like_phishing_for_gullible/",
+      "description": "Aren't we all just prompting tokens of linguistic meaning and hoping the other person isn't bullshitting us? kettle  It's a week of the year, which means there's been the discovery of yet another prompt injection attack that will force supposedly well-guarded AI bots to spill secrets by asking the r",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.187925+00:00"
+    },
+    {
+      "id": "d0a593e912",
+      "title": "Next.js developer Vercel warns of customer credential compromise",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/20/vercel_context_ai_security_incident/",
+      "description": "Blames outfit called Context.ai, which reckons an agentic OAuth tangle caused the incident Vercel, the company that created the open source Next.js web development framework, has a data leak that led to compromise of some customer credentials, and blamed an outfit called Context.ai for the mess.…",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.187863+00:00"
+    },
+    {
+      "id": "fb4e78374e",
+      "title": "Here's why most AI initiatives crash at pilot stage",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/20/heres_why_most_ai/",
+      "description": "Those that don't have one thing in common Sponsored Feature  Adoption of AI, particularly generative AI, has become popular among enterprises because of a promised step change in productivity and profitability. But the shocking truth is that most generative AI initiatives are getting quietly cancele",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.187821+00:00"
+    },
+    {
+      "id": "f0e140c0df",
+      "title": "AI quota inflation is no token effort. It's baked in",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/20/inflation_ai_quota/",
+      "description": "We've been here before. This time, we may not get out Opinion  Fans of the creative arts often find out where creators gather to talk among themselves, then sneak in to eavesdrop on what those masters of the art talk about. Golden insights, daring concepts, cutting-edge thinking? Not a bit. Gossip, ",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.187776+00:00"
+    },
+    {
+      "id": "258f9acb5d",
+      "title": "Growing AI power slurpage prompts MPs to examine low-energy computing",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/20/mps_probe_low_energy_computing/",
+      "description": "Committee launches inquiry into emerging chip designs to curb datacenter energy use MPs are probing whether radically different, low-energy chip designs can stop AI from turning the UK's power grid into a bottleneck.…",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.187732+00:00"
+    },
+    {
+      "id": "e395014d2d",
+      "title": "UK.gov kicks off half-a-billion quid sovereign AI venture with £80M invite",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/20/ukgov_kicks_off_500m_ai/",
+      "description": "Companies get to keep IP developed for government projects The UK government is opening £80 million in AI procurement talks with tech firms, drawing on its £500 million sovereign capability fund.…",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.187692+00:00"
+    },
+    {
+      "id": "ef0a839dae",
+      "title": "AI is reshaping Britain's datacenter map away from London",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/20/ai_is_reshaping_britains_datacenter/",
+      "description": "Bit barns need to worry more about space, access to grid – overstuffed center no longer a must, say experts UK AI datacenter capacity could migrate away from London as power shortages, planning constraints and reduced reliance on low-latency connections to financial firms make other locations more a",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.187652+00:00"
+    },
+    {
+      "id": "f536581ccb",
+      "title": "New Android development tool designed for robots, not humans",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/20/google_previews_android_cli/",
+      "description": "Google previews Android CLI as agentic development continues to snowball Google has introduced a new Android command-line interface built specifically for AI agents, claiming a 70 percent cut in token usage and three times reduction in task completion time.…",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.187611+00:00"
+    },
+    {
+      "id": "a62943776e",
+      "title": "Schmoozebots: Study finds flattery will get AI everywhere",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/20/chatbots_win_trust_by_sounding/",
+      "description": "Excessive friendliness may cause users to forget they're talking to a very confident autocomplete A study into how humans interact with chatbots suggests the fastest way to make an LLM feel human isn't making it smarter – it's making it seem nicer.…",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.187570+00:00"
+    },
+    {
+      "id": "9b77372fa4",
+      "title": "Claude Desktop changes app access settings for browsers you don't even have installed yet",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/20/anthropic_claude_desktop_spyware_allegation/",
+      "description": "Installation and pre-approval without consent looks dubious under EU law One app should not modify another app without asking for and receiving your explicit consent. Yet Anthropic's Claude Desktop for macOS installs files that affect other vendors' applications without disclosure, even before those",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.187528+00:00"
+    },
+    {
+      "id": "709be55346",
+      "title": "Vibe coding upstart Lovable denies data leak, cites 'intentional behavior,' then throws HackerOne under the bus",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/20/lovable_denies_data_leak/",
+      "description": "A lesson in how not to respond to vulnerability reports UPDATED  Vibe-coding platform Lovable is pooh-poohing a researcher’s finding that anyone could open a free account on the service and read other users' sensitive info, including credentials, chat history, and source code. However, the company’s",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.187487+00:00"
+    },
+    {
+      "id": "dd6b711e7c",
+      "title": "Microsoft's GitHub grounds Copilot account sign-ups amid capacity crunch",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/20/microsofts_github_grounds_copilot_account/",
+      "description": "Remember what we promised when you subscribed for a year? Well, we've got a new deal that's better for us. Microsoft's GitHub has stopped accepting new Copilot individual subscriptions while the code hosting biz figures out how it can meet its service commitments without breaking the bank.…",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.187442+00:00"
+    },
+    {
+      "id": "478d8707dd",
+      "title": "AI-assisted intruders pwned Vercel via OAuth abuse and a pilfered employee account",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/21/vercel_ceo_points_to_aidriven/",
+      "description": "CEO suspects silicon sidekick behind 'surprising velocity' breach - cyber crims shop stolen data for $2M Vercel's CEO reckons the crooks behind its recent breach likely had a helping hand from AI, saying the attackers moved with \"surprising velocity\" and a deep understanding of the company's infrast",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.187394+00:00"
+    },
+    {
+      "id": "46916fcb99",
+      "title": "NeuBird plans a bright future for incident response",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/21/neubird_plans_bright_future/",
+      "description": "Imagine an army of AI minions handling investigations behind the scenes Sponsored Feature  We're at the beginning of the agentic era for operations. Current AIOps tools summarize dashboards and surface correlations, but most don't actually investigate incidents. So engineers still spend hours manual",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.187352+00:00"
+    },
+    {
+      "id": "ed17de49eb",
+      "title": "Apple has an opportunity to rediscover humanity in its push toward AI",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/21/apple_ternus_rediscover_humanity/",
+      "description": "John Ternus can remake Apple the way it should have been OPINION  Apple's pending leadership transition affords the company a rare opportunity to return to its roots and once again serve as a source of inspiration instead of frustration.…",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.187308+00:00"
+    },
+    {
+      "id": "eee96a2972",
+      "title": "Anthropic tests how devs react to yanking Claude Code from Pro plan",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/22/anthropic_removes_claude_code_pro/",
+      "description": "Unannounced change apparently aimed at two percent of users but hit documentation for everyone Anthropic has removed Claude Code from its Pro subscription plan, according to some of its public-facing web pages, but the company says it’s only a test for a small number of users.…",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.187267+00:00"
+    },
+    {
+      "id": "b8e517b05d",
+      "title": "Mass data awakening highlights importance of scaling AI infrastructure",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/22/mass_data_awakening_highlights/",
+      "description": "Intelligence starts with building AI data infrastructure Partner Content  Data has become the backbone of rapid artificial intelligence (AI) advancement, which drives industrial transformation and intelligence.…",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.187225+00:00"
+    },
+    {
+      "id": "68b87e07af",
+      "title": "Magnificent irony as Meta staff unhappy about running surveillance software on work PCs",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/22/meta_employee_surveillance_software/",
+      "description": "Zuck reportedly needs to capture workers’ keystrokes to build AI Meta, the company built on watching everything its billions of users do online so it can keep them clicking on ragebait and targeted ads, is reportedly now installing surveillance software on employees’ work computers.…",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.187183+00:00"
+    },
+    {
+      "id": "7c2e2bc9d1",
+      "title": "Mythos found 271 Firefox flaws – but none a human couldn’t spot",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/22/mozilla_firefox_mythos_future_defenders/",
+      "description": "Mozilla CTO says AI means developers finally have a chance to get on top of security The Mozilla has revealed it tested Anthropic’s bug-finding “Mythos” AI model and feels the results it experienced represent a watershed moment for software defenders.…",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.187140+00:00"
+    },
+    {
+      "id": "a685b68f85",
+      "title": "Forget call centers, local energy prices mean Britain's latest offshoring wave is AI projects",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/22/brit_firms_look_to_deploy/",
+      "description": "Brit firms look to run tech overseas as govt tries to support 'sovereign' creators One in five UK firms have already moved AI workloads abroad due to high energy costs, in findings likely to alarm a government counting on AI to drive economic growth.…",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.187097+00:00"
+    },
+    {
+      "id": "2c88016e93",
+      "title": "Database world trying to build natural language query systems again – this time with LLMs",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/22/llms_natural_langauge_systems_new/",
+      "description": "Text-to-SQL might be useful for analysts and DBAs, but be cautious with general user adoption Over the past few years, database and analytics vendors have hopped on a bandwagon that may take us all to a destination where common data queries are free from the constraints of the specialist query langu",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.187054+00:00"
+    },
+    {
+      "id": "d48a1e94f3",
+      "title": "Forget one chip to rule them all: With TPU 8, Google has an AI arms race to win",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/22/google_tpu8_dual_track_training_inference/",
+      "description": "x86 gets the boot as Google pairs up its TPUs with some Arm-based Axion cores Google Cloud Next  Google unveiled two new in-house AI accelerators at its annual Cloud Next conference in Las Vegas on Wednesday: one designed to speed up training and another aimed at driving down model serving costs.…",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.187012+00:00"
+    },
+    {
+      "id": "0f14745a4b",
+      "title": "Google unleashes even more AI security agents to fight the baddies",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/22/google_unleashes_even_more_ai/",
+      "description": "Along with a bunch of new services to make sure those same agents don't cause chaos Google Cloud Next  Google Cloud chief operating officer Francis deSouza has summed up his company's security strategy du jour as follows: \"You need to use AI to fight AI.\"…",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.186969+00:00"
+    },
+    {
+      "id": "96a4b1c814",
+      "title": "Google claims to have all the answers for enterprise AI agent sprawl",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/22/google_enterprise/",
+      "description": "As biz agentic bot-wrangling intensifies, company says AI orchestration, security and infrastructure tools on the way Google Cloud Next  Google has overhauled its enterprise AI strategy in the wake of the agentic push across the biz landscape, rebranding and expanding its Vertex AI developer platfor",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.186917+00:00"
+    },
+    {
+      "id": "745dde64c6",
+      "title": "OpenAI now lets you screenshot your privacy in the foot",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/22/openai_chronicle_no_privacy_screenshot/",
+      "description": "Make your model smarter through self-surveillance Those who cannot remember Microsoft Recall are condemned to repeat it. …",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.186846+00:00"
+    },
+    {
+      "id": "db9355d261",
+      "title": "Anthropic's super-scary bug hunting model Mythos is shaping up to be a nothingburger",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/22/anthropic_mythos_hype_nothingburger/",
+      "description": "Hackpocalypse deferred Anthropic's Mythos model is purportedly so good at finding vulnerabilities that the Claude-maker is afraid to make it available to the general public for fear that criminals will take advantage. But early analysis shows that Mythos may not be as dangerous as some would have yo",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.186805+00:00"
+    },
+    {
+      "id": "74974216a5",
+      "title": "Stale gov.uk pages are feeding AI overviews old data and Brits are believing it",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/23/stale_govuk_pages_are_feeding/",
+      "description": "Whitehall content teams play whack-a-mole with zombie pages as Google hoovers up the lot AI overviews from the likes of Google are serving up false summaries of UK government information by drawing on stale GOV.UK pages, according to content designers at the Department for Business and Trade (DBT).…",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.186762+00:00"
+    },
+    {
+      "id": "971537f118",
+      "title": "AI bats away ping-pong challenge as rise of the machines continues",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/23/ai_bat_away_pingpong_challenge/",
+      "description": "Sony project claims a significant breakthrough with applications in task requiring speed and accuracy Rise of the Machines  The ancient games of chess and Go are now mere staging posts in the journey toward robots demonstrating their superior performance to humans - the machines can now beat us fles",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.186718+00:00"
+    },
+    {
+      "id": "8e3fa34037",
+      "title": "Musk bets Tesla's AI future on Intel node that isn't finished yet",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/23/musk_bets_teslas_ai_future/",
+      "description": "EV maker leaning on still-in-development 14A process for Terafab, says it needs to build own silicon Elon Musk used Tesla's latest earnings call to reveal plans to build AI chips on Intel's not-yet-finished 14A process – a bet on silicon that doesn't exist.…",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.186672+00:00"
+    },
+    {
+      "id": "b3a2a5df15",
+      "title": "AI now gobbling up power and management chips for servers",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/23/ai_now_gobbling_up_power/",
+      "description": "Bad news for multiple general server components as vendors switch to more lucrative gear The chip shortage is spreading to power and management controller silicon, threatening server shipments as vendors prioritize capacity for higher-margin AI server products.…",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.186629+00:00"
+    },
+    {
+      "id": "5206322b2a",
+      "title": "American farms have a new steward for their safety net, disaster programs... Palantir",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/23/palantir_wins_us_department_of_agriculture_contract/",
+      "description": "Wins $300M deal over Salesforce, IBM because of 'integration with existing USDA systems,' among other things Palantir has won a $300 million contract from the US Department of Agriculture (USDA) to support the National Farm Security Action Plan (NFSAP) and modernize how USDA delivers services to Ame",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.186587+00:00"
+    },
+    {
+      "id": "8dbfc40a83",
+      "title": "Everpure 'takes the hit' as AI-fueled supply crunch drives prices up 70%",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/23/everpure_letter_covid/",
+      "description": "Storage vendor predicts current crunch will outlast COVID disruptions The supply crunch gripping the storage market has pushed Everpure – the artist formerly known as Pure Storage – to reassure customers it won't make things worse.…",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.186546+00:00"
+    },
+    {
+      "id": "e3d493f6f0",
+      "title": "Stop measuring AI training costs in GPU hours",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/23/stop_measuring_ai_training/",
+      "description": "Why idle time, checkpointing, and cluster failures are quietly inflating your training budget Partner Content  The cost of training today’s large-scale foundation models is often reduced to a single number: the price of a GPU hour. It's a convenient metric. It is also the wrong one. When training ru",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.186504+00:00"
+    },
+    {
+      "id": "16f5b7344e",
+      "title": "Datadog digs down into GPU efficiency as AI costs soar",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/23/datadog_digs_down_into_gpu/",
+      "description": "Down to you to work out the value Datadog has added GPU monitoring to its observability stack, giving AI-hungry organizations more insight into exactly what's happening on their most expensive silicon.…",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.186459+00:00"
+    },
+    {
+      "id": "38c7ff4e71",
+      "title": "Microsoft gives your Word documents an AI co-author you didn’t ask for",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/23/microsoft_gives_your_word_documents/",
+      "description": "Also rolls out agentic Copilot in Excel and PowerPoint, letting 21st century Clippy lend a... hand Microsoft is giving Copilot the power to stop suggesting edits and start making them.…",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.186416+00:00"
+    },
+    {
+      "id": "e8f6063754",
+      "title": "Google explains why its all-in-one AI stack embraces competitors",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/23/google_cloud_next_interview_ai_stack/",
+      "description": "'Differentiated, but open' Google Cloud Next  Google Cloud’s Andi Gutmans said that the company holds a structural advantage over its largest rivals in the race to win value from AI agents in the enterprise, arguing that no competitor currently combines cloud computing infrastructure, frontier AI mo",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.186374+00:00"
+    },
+    {
+      "id": "a372ecface",
+      "title": "Claude Opus 4.7 has turned into an overzealous query cop, devs complain",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/23/claude_opus_47_auc_overzealous/",
+      "description": "Rising refusal rate from Acceptable Use Classifier leaves customers paying for nothing Anthropic's release last week of Opus 4.7 came with stronger safeguards to prevent misuse. Unfortunately, these safeguards have also managed to thwart legitimate use.…",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.186329+00:00"
+    },
+    {
+      "id": "60207875e3",
+      "title": "Anthropic admits it dumbed down Claude when trying to make it smarter",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/23/anthropic_says_it_has_fixed/",
+      "description": "System changes and bugs overlapped to create the impression of general decline Claude users who complained about the AI service producing lower-quality responses over the past month weren’t imagining it.…",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.186288+00:00"
+    },
+    {
+      "id": "1060108efe",
+      "title": "It's a myth that you need Mythos to find bugs: Open source models can do it just as well",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/24/ai_bugfinding_futures/",
+      "description": "OpenAI's first security hire, Ari Herbert-Voss, thinks more automated bug finding will improve security without costing jobs Black Hat Asia  Open source models can find bugs as effectively as Anthropic's Mythos, according to Ari Herbert-Voss, CEO of AI-powered security startup RunSybil and OpenAI's ",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.186243+00:00"
+    },
+    {
+      "id": "6af46ac10a",
+      "title": "Meta Arms itself to the teeth by signing for 'tens of millions' of AWS Graviton cores",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/24/meta_aws_cpu/",
+      "description": "After flubbing the Metaverse, Zuck embraces the Neoverse Meta plans to deploy tens of millions of Amazon Web Services' Graviton 5 CPU cores as part of a multi-year collaboration that will make the social network among the largest-ever consumers of the cloud giant’s homegrown silicon.…",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.186200+00:00"
+    },
+    {
+      "id": "2bd1c60dd9",
+      "title": "Intel bets the farm on AI inference to drag CPU back to the top table",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/24/intel_expects_ai_inference_to/",
+      "description": "Chipzilla hopes agents, robots, and edge devices make CPUs cool again... now it has to build the chips Intel is betting on AI to reverse its fortunes, wagering that inference and agentic workloads will restore the CPU to the center of compute - even as its chip manufacturing struggles persist.…",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.186157+00:00"
+    },
+    {
+      "id": "2bfbdfcc01",
+      "title": "Microsoft tackles quality control issues. Just kidding, it's encouraging experienced workers to leave",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/24/microsoft_seeks_quality_improvements_by/",
+      "description": "Windows giant offers buyouts to eligible staffers willing to walk Microsoft has committed to improving the quality and reliability of Windows, and a step on the path to that goal is… encouraging a chunk of its US staff to leave the company.…",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.186111+00:00"
+    },
+    {
+      "id": "c9f71ebd12",
+      "title": "Open Telemetry founder tools up for project graduation party",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/24/open_telemetry_founder_tools_up/",
+      "description": "We gotta get boring to get graduated Grafanacon  The founder of the Open Telemetry project says its maintainers may need to turn to AI tools to get some elements robust enough for the project as a whole to graduate.…",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.186064+00:00"
+    },
+    {
+      "id": "84b7bb0fed",
+      "title": "DeepSeek's new models are so efficient they'll run on a toaster ... by which we mean Huawei's NPUs",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/24/deepseek_v4/",
+      "description": "Now available in preview, DeepSeek V4 cuts inference costs to a fraction of R1 Chinese AI darling DeepSeek is back with a new open weights large language model that promises performance to rival the best proprietary American LLMs. Perhaps more importantly, it claims to dramatically reduce inference ",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.186009+00:00"
+    },
+    {
+      "id": "6b6cde43e1",
+      "title": "Ex-AWS legend explains what enterprises need to make AI actually work",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/25/ai_enterprise_matt_domo/",
+      "description": "AI transformation is about people and organization, not technology Enterprise AI projects go off the rails when companies focus on the technology instead of the people.…",
+      "source": "The Register AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:12:14.185935+00:00"
+    },
+    {
+      "id": "91037a3636",
+      "title": "Artificial Intelligence (AI) Prodigy Leopold Aschenbrenner's Situational Awareness Fund Owns Only 24 Stocks. These Are the Top 7 Holdings. - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQX2tkNkhNRVdVSGVNZGtQcFNGVGI5THZ6LVpud0NpQlJLcHpjVndBVUtLNEdaTEQ1SjFOVUliYm81ak5aOWFyLTByYkVaeENIUjByTG4zNDd2MUxQMGdKa2tuaGpHYXNvM1ZqeDM3eEpfTDIxTDNFWHUxVlVpWlU1MUxhNnA0YVBocHB5MkdETjRGWUJNazVTdQ?oc=5",
+      "description": "Artificial Intelligence (AI) Prodigy Leopold Aschenbrenner's Situational Awareness Fund Owns Only 24 Stocks. These Are the Top 7 Holdings.  The Motley Fool",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-04-25T13:01:06+00:00"
+    },
+    {
+      "id": "cef4a5d49f",
+      "title": "DeepSeek V4 Just Launched on Huawei Chips First — No Nvidia Required.",
+      "url": "https://pub.towardsai.net/deepseek-v4-just-launched-on-huawei-chips-first-no-nvidia-required-0753c1ed386b?source=rss----98111c9905da---4",
+      "description": "",
+      "source": "Towards AI",
+      "lang": "en",
+      "category": "Research",
+      "published": "2026-04-25T13:01:02+00:00"
+    },
+    {
+      "id": "9c24790e4f",
+      "title": "I saw the 'MacBook Pro for Linux users' for the first time, and it's a legit Windows threat",
+      "url": "https://www.zdnet.com/article/framework-laptop-13-pro-macbook-pro-for-linux-users/",
+      "description": "The latest Framework Laptop 13 Pro is an ultraportable device that's both modular and premium. But is there a market for it?",
+      "source": "ZDNet AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T13:00:46+00:00"
+    },
+    {
+      "id": "de329e477a",
+      "title": "Column | Don’t tell your AI chatbot these 5 things to keep your money safe - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUGFHNzdYbUhtOHQwMzdiVEhFU1dXXzdVdXZEOF9KYmZQZ2h2Qm1xeFNaX28wTE1tM0dyc0tEUHFvcWJGRGR0dHAyR1AzTGk1Tm0wSFBkbWFRdUxEMmNCdHk0SWJSZFlsQWU1Um5NdkNJdk5uZW1ERWQwTmM3bVlxMkxGUVJfTG14TGlhX2FjRGgtQQ?oc=5",
+      "description": "Column | Don’t tell your AI chatbot these 5 things to keep your money safe  The Washington Post",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-04-25T12:48:45+00:00"
+    },
+    {
+      "id": "be5a78cf8b",
+      "title": "No.538605 ホンダが人工知能（AI）を使う… - テスラ【TSLA】の掲示板 2026/04/20〜 - 株式掲示板 - Yahoo!ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQYXdPbm5WN29wMy1lNmpVXzRHLUxpcFhPOTZoZFRsVmZNWWFRQS0xbjVLRW9qSjhyNXRyLXNnNG51azdpVUlaNnNMbnkyUHllSTB5aXJJZ1FGcnRVeXdvRDlEOTFkb0t1UTNrQTVZbG5mNndHMFZOa0tWZkEyUzkyZ2x4eXFEbS1HaE1XbGZaZFBkUXRlZFJqNHZTSVNqdw?oc=5",
+      "description": "No.538605 ホンダが人工知能（AI）を使う… - テスラ【TSLA】の掲示板 2026/04/20〜 - 株式掲示板  Yahoo!ファイナンス",
+      "source": "Google News - AI (JP)",
+      "lang": "ja",
+      "category": "General",
+      "published": "2026-04-25T12:23:00+00:00"
+    },
+    {
+      "id": "9878e086d5",
+      "title": "I drove a bulldozer over this SSD enclosure so you don't have to - here's the result",
+      "url": "https://www.zdnet.com/article/terramaster-d1-ssd-enclosure-review/",
+      "description": "The Terramaster D1 SSD enclosure is built for speed, but it can also survive anything you (or Mother Nature) throw at it.",
+      "source": "ZDNet AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T12:15:41+00:00"
+    },
+    {
+      "id": "18252e5b50",
+      "title": "The Local AI Revolution: Unleashing Gemma 4 & Openclaw on Your Own Machine",
+      "url": "https://pub.towardsai.net/the-local-ai-revolution-unleashing-gemma-4-openclaw-on-your-own-machine-adc2b0ae1c6a?source=rss----98111c9905da---4",
+      "description": "WAKE UP. YOU’RE BEING WATCHED.Continue reading on Towards AI »",
+      "source": "Towards AI",
+      "lang": "en",
+      "category": "Research",
+      "published": "2026-04-25T12:01:01+00:00"
+    },
+    {
+      "id": "2fe56585e0",
+      "title": "Alphabet's Google Could Supercharge This Artificial Intelligence (AI) Stock That Has Soared 78% in 2026. Here's Why You Should Buy It Hand Over Fist Before It Is Too Late. - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQekE0UkJxQUxKNUhQTnV6YktHLXhZeW1nZ1hqZkxFRXd1ZkxIbzBUWnRHb2RRT1g5ZGo5b2hQMm9uNE9HTWlvNGtsdGNfNUg2RFRyR3pZZ1RRbGFJWGpGZ1BTQ1N5VjZHZE1CeThIal9uckdqX2V2VVFBVEtQcUFaV3JIS0dGdHFVczhPSElCR0VzX0FHdGRtYQ?oc=5",
+      "description": "Alphabet's Google Could Supercharge This Artificial Intelligence (AI) Stock That Has Soared 78% in 2026. Here's Why You Should Buy It Hand Over Fist Before It Is Too Late.  The Motley Fool",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-04-25T11:50:51+00:00"
+    },
+    {
+      "id": "1e7a0a47fd",
+      "title": "The government has selected so-called \"D.A.S.H.\" such as Defense, Artificial Intelligence (AI), Semi.. - 매일경제",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1RTzdQcWQ1VzVqRUJNdWFNUW81OW1Ja3FsOXd0MUFsajM4eldYQ1hIakVYWGdza0lCamhXX0tOS3ZLQ19IQ0Y5a3lMRWZGcmVKYThn?oc=5",
+      "description": "The government has selected so-called \"D.A.S.H.\" such as Defense, Artificial Intelligence (AI), Semi..  매일경제",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-04-25T11:50:01+00:00"
+    },
+    {
+      "id": "acf2469d71",
+      "title": "Alphabet's Google Could Supercharge This Artificial Intelligence (AI) Stock That Has Soared 78% in 2026. Here's Why You Should Buy It Hand Over Fist Before It Is Too Late. - AOL.com",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPN1ZFZm5MQXUwTG1ramdrLXpINjkyb056eERjTDNteDlNczNDTGxNWnlWc1M1ZklNOXpSWnI1VXlKTmk5aVlrRFkybUJqVHhyeDlDZEFsNWtQMjVFMEJzUTNOdmloOVNjbkxwalQ2Uk5rMVJpWkR2ZmtzdjNFR2JlQjl6d3p5WGRPSEQ0TDA0dTVYS1U?oc=5",
+      "description": "Alphabet's Google Could Supercharge This Artificial Intelligence (AI) Stock That Has Soared 78% in 2026. Here's Why You Should Buy It Hand Over Fist Before It Is Too Late.  AOL.com",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-04-25T11:39:29+00:00"
+    },
+    {
+      "id": "160e67e7d9",
+      "title": "AI: Artificial Intelligence Review Part 7 - mindmatters.ai",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9DUkJfcFVHU0tBZ0g3clJwUGRxMmNFa0tHQUJaSjF2eDJacUNJS2ctTW4teXJieFA2Tm9wQkgwNUhpTXI5bU55TmFfbDZIUmpEbGlOMWI4UFVhUW1BeDBBTVl0Z0ZROENwX3owSHAyVVhsSnMyakVCS1RHVmo?oc=5",
+      "description": "AI: Artificial Intelligence Review Part 7  mindmatters.ai",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-04-25T11:35:00+00:00"
+    },
+    {
+      "id": "9945207c7e",
+      "title": "Artificial Staff, Human Command: An AI Integration Experiment - RealClearDefense",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcFRZbGloLUNGYVZNdW1DY195N3FsaUR5NEs0em1hZ3gwOUR5VzNiLXlWaDFFZndpTlI2N0tvZ05xNWM3aGtfR2dXenU4Tk1KOWZRaEV0UWJ5TmpRUlpuRG1sYU9VZVF4QjNFOXZCLWR4aWZlM1lNSUdOOVZPNU9OWFNOY01oQ29Oa1B5UXRpNVJBYjRTT1RVMnhkZ2FXcWx5b0plMXg0bDNSY29KNUVWd2Y3MjYtNDQ?oc=5",
+      "description": "Artificial Staff, Human Command: An AI Integration Experiment  RealClearDefense",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-04-25T11:34:09+00:00"
+    },
+    {
+      "id": "b11564b5bf",
+      "title": "AI phishing explained: How scammers are using artificial intelligence to craft near-perfect frauds - Storyboard18",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxORWFYSDR0WElNQU9pNDNZZmlvMGcyeXNJRnpRRTQwY25RbW5XSXFVQXowSmxGYUFqTW11T2VPVEY3dFlJdUZ4YS1ZWVo5T0w5OHJPX0c0TVEzbXk5VnNPczl3WHR2cWdsbDE1OF9qN003SXFSMVlNaW5SSVZIbkxfUnBxN3NxalZsOUFNYms2dHN6UW9Sel9mOVRoVWlSTzVjOU10cGZMZzZ3M0V1WWo0Zkg0QjJrd2wyZDlZT3E0WDhHSFp5MWNpX25SR0ZrX1M3VFQxaE9HNFBHbW0yUjlTRHJNRdIB6AFBVV95cUxOVDdjTjdWT1RwMXctODdTNzBPcGgzMHdIRnFGdzk1QUtmMHJaVDRYRWY5SVlaSjNjeTdCTWROUjZnU2NzSHFKbDZkRlVtUG4wU2F3a1dycEIzR29zVEs2d3lWQUo0U0JHNmtRbVBQQlBINDF4Tmk1amg5aW5QUFE3LUlyblZrRklPZWhwWDEtdXdTckhUYUkxSW0zcTVWQ2xiWWhNRUU1Yl9pTEtWNDJJYUVHZjlZRUNtRkhULWFYcU45ZTBhUm1FVjJxVUl0UUdjSjRablJEY0RxdlJhRHNGMGtyem5ieXJR?oc=5",
+      "description": "AI phishing explained: How scammers are using artificial intelligence to craft near-perfect frauds  Storyboard18",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-04-25T11:21:02+00:00"
+    },
+    {
+      "id": "60ed8a9b85",
+      "title": "The Apple Music student discount saves you $5/month and gives you free Apple TV - here's how",
+      "url": "https://www.zdnet.com/article/how-to-get-an-apple-music-student-discount-subscription/",
+      "description": "Students can save big on an Apple Music subscription. Here's how to get it.",
+      "source": "ZDNet AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T11:00:50+00:00"
+    },
+    {
+      "id": "164b226106",
+      "title": "【AI予想・フローラS】人工知能は新たなオークス候補誕生に期待!? 経験馬相手のデビュー戦で圧巻の走りを見せた本命馬とは - netkeiba",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1HblRXX1oxM2xma0t3TnFqYVlKMllqcDhZZlQwS0Z1TXpZY1FkZXpfdkN1YzFJVUNsTEhtOFEtcW1iRGhWVkdWTmd1aHZPQjFIU3ZleldqUWFFZ0JWeU1V?oc=5",
+      "description": "【AI予想・フローラS】人工知能は新たなオークス候補誕生に期待!? 経験馬相手のデビュー戦で圧巻の走りを見せた本命馬とは  netkeiba",
+      "source": "Google News - AI (JP)",
+      "lang": "ja",
+      "category": "General",
+      "published": "2026-04-25T11:00:00+00:00"
+    },
+    {
+      "id": "7859e76d06",
+      "title": "【AI予想・フローラS】人工知能は新たなオークス候補誕生に期待!? 経験馬相手のデビュー戦で圧巻の走りを見せた本命馬とは - スポーツブル",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBsdGpJV2lSNENNbmpkZ2hxb3RDZFEydkhEMjlwa3FfeEJYU3pyQkJqZGdCZklES1IyVHBpaGRsU3d3dXZqajE4?oc=5",
+      "description": "【AI予想・フローラS】人工知能は新たなオークス候補誕生に期待!? 経験馬相手のデビュー戦で圧巻の走りを見せた本命馬とは  スポーツブル",
+      "source": "Google News - AI (JP)",
+      "lang": "ja",
+      "category": "General",
+      "published": "2026-04-25T11:00:00+00:00"
+    },
+    {
+      "id": "89ff389a68",
+      "title": "BitGoが生成AI普及で導入4つの管理策 - BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1OSnBTa1pNM093YzBCdzdSYXRWMVBsdUdUSm0wRU56ek9OWHpjcTNrX0g4aFFjWGZiU3J0TERpbGo4OTRpOUl4eW9LWW1GTHNoeW53WXJTRGUtc3Q0cXZuQkZBYUpRNGk1SHlfX1lYaw?oc=5",
+      "description": "BitGoが生成AI普及で導入4つの管理策  BeInCrypto",
+      "source": "Google News - AI (JP)",
+      "lang": "ja",
+      "category": "General",
+      "published": "2026-04-25T10:45:00+00:00"
+    },
+    {
+      "id": "33dd9320ba",
+      "title": "Discord Sleuths Gained Unauthorized Access to Anthropic’s Mythos",
+      "url": "https://www.wired.com/story/security-news-this-week-discord-sleuths-gained-unauthorized-access-to-anthropics-mythos/",
+      "description": "Plus: Spy firms tap into a global telecom weakness to track targets, 500,000 UK health records go up for sale on Alibaba, Apple patches a revealing notification bug, and more.",
+      "source": "Wired AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T10:30:00+00:00"
     },
     {
       "id": "bb9ad844d3",
@@ -53,6 +853,106 @@
       "published": "2026-04-25T10:00:00+09:00"
     },
     {
+      "id": "059cb7a1eb",
+      "title": "Zorin OS vs. Solus: I tested two great Linux distros for beginners to find out which is best",
+      "url": "https://www.zdnet.com/article/solus-vs-zorin-best-distro-depends-on-your-linux-priorities/",
+      "description": "After Zorin OS 18.1 took my breath away, I wondered how well the latest Solus Linux would fare against it. My comparison proved very interesting indeed.",
+      "source": "ZDNet AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T10:00:00+00:00"
+    },
+    {
+      "id": "042ca23ad8",
+      "title": "金融庁「AI新ルール」徹底解説、顧客対応に“生成AI”はどこまでOK？どこからNG…？ - ビジネス+IT",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBUQXB3UGRfSFVvRUdoUHVXc2x4cnc4TlB6TldzZHRYQkIwRFEtTnVqY21pR2FWSHlIczNHUVhrV1J6eHlGRWRlczdwbGRCelU?oc=5",
+      "description": "金融庁「AI新ルール」徹底解説、顧客対応に“生成AI”はどこまでOK？どこからNG…？  ビジネス+IT",
+      "source": "Google News - AI (JP)",
+      "lang": "ja",
+      "category": "General",
+      "published": "2026-04-25T09:40:52+00:00"
+    },
+    {
+      "id": "9eaba06c01",
+      "title": "Opinion: Keep artificial intelligence out of U.S. classrooms - San Antonio Express-News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNkRhRHlEdEZ4aUJ1TUJzdkhDVzNvRU01RXE1bTJrUldnTEM0Q3MyTThaNWw4MkNuT2tLeHVxai1EOElZZERlakdhbzBYVXhJYm1GQW9wajdhQ19XbElrc2dLaVFOazJ6cDlYZkZPVXNWc0xvZk93STNsSFdJdVF6Z3JWR0RhT1RyZ1l3WXYzVHdmSXVxanZNaldoSXl4YjIyVTVLcHYzRm1sLUJkVHRB?oc=5",
+      "description": "Opinion: Keep artificial intelligence out of U.S. classrooms  San Antonio Express-News",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-04-25T09:39:40+00:00"
+    },
+    {
+      "id": "211cd0879e",
+      "title": "Ace the Ping-Pong Robot Can Whup Your Ass",
+      "url": "https://www.wired.com/story/ace-the-robot-wants-to-become-the-world-table-tennis-champion/",
+      "description": "Ace can read the trajectory of a ball, adjust the racket angle, and respond with strokes that keep the exchange alive with real players.",
+      "source": "Wired AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-04-25T09:30:00+00:00"
+    },
+    {
+      "id": "370f89f1b0",
+      "title": "Can AI Make Useable E-Commerce Fashion Photography? - Fstoppers",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOOW0wMFNsTjNxNW1yNElaZVVUbjFPMmpnUmtEMTNqTGQzdWNGRnYzYWYtd0R2YlFLSEtGek5lcGVQamdPZ0JKVmc4WGRDSllOOTE5dWpBWGpyTUxLQXkyZnF0dzhMZTJsTk9HSWFKY3pNbkxKQ0JKdFZ0dURkai00R0J6ZVpGQlVFSUhBNXp5UnAzRjdDdXVEM3hFbWJBZnpIMFk2ZDZR?oc=5",
+      "description": "Can AI Make Useable E-Commerce Fashion Photography?  Fstoppers",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-04-25T08:03:01+00:00"
+    },
+    {
+      "id": "3394e7aca1",
+      "title": "株式会社Mavericksは、動画生成AI「NoLang」にThreads連携機能を搭載。動画の生成から投稿までをワンストップで完結し、急成長するThreadsへの動画展開を支援 - PR TIMES",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5Bb09xM3pVMW1KZU5YaVlPN3VMOWVqNWZjZlBwS3dMQTMtRXNTSXpxY0tLQURCWGdvaHNhdEFWM0VwX0M5b3VpNEktZmo5TWk2SEFEZzQ5NlpuN1hVX3NncUtoQjk2QmQ5NEE?oc=5",
+      "description": "株式会社Mavericksは、動画生成AI「NoLang」にThreads連携機能を搭載。動画の生成から投稿までをワンストップで完結し、急成長するThreadsへの動画展開を支援  PR TIMES",
+      "source": "Google News - AI (JP)",
+      "lang": "ja",
+      "category": "General",
+      "published": "2026-04-25T08:01:10+00:00"
+    },
+    {
+      "id": "7896019dc8",
+      "title": "Google DeepMind Introduces Vision Banana: An Instruction-Tuned Image Generator That Beats SAM 3 on Segmentation and Depth Anything V3 on Metric Depth Estimation",
+      "url": "https://www.marktechpost.com/2026/04/25/google-deepmind-introduces-vision-banana-an-instruction-tuned-image-generator-that-beats-sam-3-on-segmentation-and-depth-anything-v3-on-metric-depth-estimation/",
+      "description": "A new Google paper argues that image generation pretraining is to computer vision what GPT-style pretraining is to NLP — and the benchmark numbers back that up.\nThe post Google DeepMind Introduces Vision Banana: An Instruction-Tuned Image Generator That Beats SAM 3 on Segmentation and Depth Anything",
+      "source": "MarkTechPost",
+      "lang": "en",
+      "category": "Research",
+      "published": "2026-04-25T07:44:05+00:00"
+    },
+    {
+      "id": "d192c21c4f",
+      "title": "「声にも法的権利」と確認…生成AI動画で「肖像権」や「パブリシティ権」の侵害問題で議論スタート 法務省 - TBS NEWS DIG",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB6Rm5MRkJ6WFYybzFzUmFTVnNZN3NVdmR2Q0xJUDN5WHBwMVYwTXNMWUdrbVlLSXRET3d4SWVfa1p4bWFiX2dCMWwwZlR5aTJENjdqOFl0dw?oc=5",
+      "description": "「声にも法的権利」と確認…生成AI動画で「肖像権」や「パブリシティ権」の侵害問題で議論スタート 法務省  TBS NEWS DIG",
+      "source": "Google News - AI (JP)",
+      "lang": "ja",
+      "category": "General",
+      "published": "2026-04-25T07:43:22+00:00"
+    },
+    {
+      "id": "0fa7bafa21",
+      "title": "アパレル企業向け生成AI「FitModel.AI」提供開始｜様々な体系で1cm単位の着用イメージを生成できるサービス - innovaTopia",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9Sa0dGX1J3LWxaeUlWOFowQmppdWV3bHR2SnprQk9ja3k1NGEtMWJIRVBhNmc5aEkwak80SWNNRVAzLXBxZF9lamVDajFTR2xqS0E?oc=5",
+      "description": "アパレル企業向け生成AI「FitModel.AI」提供開始｜様々な体系で1cm単位の着用イメージを生成できるサービス  innovaTopia",
+      "source": "Google News - AI (JP)",
+      "lang": "ja",
+      "category": "General",
+      "published": "2026-04-25T07:23:33+00:00"
+    },
+    {
+      "id": "26f6f2b772",
+      "title": "Will AI Make Peer Notetakers Obsolete? - The Harvard Crimson",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSTZ1b0hqWTZMSUhsSmhmTlhjVmozNGVVbWU3dllWc0IzcEhJRnE3RzFpYlFMN0k5by0tRURZeXp1TlZveW5HSXJCZ0ZmZjdpY0lwY3FWSHNoU3V4TzZDMEU4anFPeUJXZmE1aHhCazUtTzU0Yk53aldyTXl1YWlwWnpudFZrU1czTW9NMEpKLUMydlk?oc=5",
+      "description": "Will AI Make Peer Notetakers Obsolete?  The Harvard Crimson",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-04-25T07:00:00+00:00"
+    },
+    {
       "id": "4b0e74447d",
       "title": "MetaとAWSが提携　エージェント型AI強化に最新のArmベースチップ「Graviton5」を大量採用",
       "url": "https://www.itmedia.co.jp/news/articles/2604/25/news024.html",
@@ -63,614 +963,24 @@
       "published": "2026-04-25T06:41:00+09:00"
     },
     {
-      "id": "84fdc61e39",
-      "title": "Two meta sustainability grant and scholarship recipients share impact",
-      "url": "https://sustainability.fb.com/blog/2023/03/24/two-meta-sustainability-grant-and-scholarship-recipients-share-impact/",
-      "description": "",
-      "source": "Meta Research",
-      "lang": "en",
-      "category": "Lab",
-      "published": "2026-04-25T05:49:40.275028+00:00"
-    },
-    {
-      "id": "af5584d426",
-      "title": "Announcing the winners of the 2022 Foundational Integrity Research request for proposals",
-      "url": "https://research.facebook.com/blog/2023/3/announcing-the-winners-of-the-2022-foundational-integrity-research-request-for-proposals-/",
-      "description": "In September, Meta launched the Foundational Integrity Research request for proposals. Today, we announce the winners of this award.",
-      "source": "Meta Research",
-      "lang": "en",
-      "category": "Lab",
-      "published": "2026-04-25T05:49:40.275002+00:00"
-    },
-    {
-      "id": "b329b2beb8",
-      "title": "Introducing Segment Anything: Working toward the first foundation model for image segmentation",
-      "url": "https://ai.facebook.com/blog/segment-anything-foundation-model-image-segmentation/",
-      "description": "",
-      "source": "Meta Research",
-      "lang": "en",
-      "category": "Lab",
-      "published": "2026-04-25T05:49:40.274974+00:00"
-    },
-    {
-      "id": "2fbf912e3f",
-      "title": "Announcing the 2023 Meta Research PhD Fellowship award winners",
-      "url": "https://research.facebook.com/blog/2023/4/announcing-the-2023-meta-research-phd-fellowship-award-winners/",
-      "description": "...",
-      "source": "Meta Research",
-      "lang": "en",
-      "category": "Lab",
-      "published": "2026-04-25T05:49:40.274949+00:00"
-    },
-    {
-      "id": "9106e3b70e",
-      "title": "Build faster with Buck2: Our open source build system",
-      "url": "https://engineering.fb.com/2023/04/06/open-source/buck2-open-source-large-scale-build-system/",
-      "description": "",
-      "source": "Meta Research",
-      "lang": "en",
-      "category": "Lab",
-      "published": "2026-04-25T05:49:40.274918+00:00"
-    },
-    {
-      "id": "bfd248436a",
-      "title": "How the metaverse can transform education",
-      "url": "https://about.fb.com/news/2023/04/how-the-metaverse-can-transform-education/",
-      "description": "",
-      "source": "Meta Research",
-      "lang": "en",
-      "category": "Lab",
-      "published": "2026-04-25T05:49:40.274884+00:00"
-    },
-    {
-      "id": "19c94d0ab7",
-      "title": "A new, unique AI dataset for animating amateur drawings",
-      "url": "https://ai.facebook.com/blog/ai-dataset-animation-drawings/",
-      "description": "",
-      "source": "Meta Research",
-      "lang": "en",
-      "category": "Lab",
-      "published": "2026-04-25T05:49:40.274857+00:00"
-    },
-    {
-      "id": "da193e0dfd",
-      "title": "How a non-traditional background led to cutting-edge XR tech",
-      "url": "https://www.metacareers.com/life/how-a-non-traditional-background-led-to-cutting-edge-xr-tech",
-      "description": "",
-      "source": "Meta Research",
-      "lang": "en",
-      "category": "Lab",
-      "published": "2026-04-25T05:49:40.274825+00:00"
-    },
-    {
-      "id": "bf1c9b2eec",
-      "title": "Every tree counts",
-      "url": "https://research.facebook.com/blog/2023/4/every-tree-counts-large-scale-mapping-of-canopy-height-at-the-resolution-of-individual-trees/",
-      "description": "Meta set a goal to reach net zero emissions by 2030. We are developing technology to mitigate our carbon footprint and making these openly available.",
-      "source": "Meta Research",
-      "lang": "en",
-      "category": "Lab",
-      "published": "2026-04-25T05:49:40.274751+00:00"
-    },
-    {
-      "id": "3b21cd05ba",
-      "title": "How generational differences affect consumer attitudes towards ads",
-      "url": "https://research.facebook.com/blog/2023/5/how-generational-differences-affect-consumer-attitudes-towards-ads/",
-      "description": "Our research study, in collaboration with CrowdDNA, aims to understand people's relationship with social media ads across different social media platforms.",
-      "source": "Meta Research",
-      "lang": "en",
-      "category": "Lab",
-      "published": "2026-04-25T05:49:40.274705+00:00"
-    },
-    {
-      "id": "a7f8f1bb92",
-      "title": "Mozilla throws Thunderbolt at enterprise AI providers",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/16/mozilla_thunderbolt_enterprise_ai_client/",
-      "description": "Client connects to deepset's Haystack platform Mozilla has declared war on OpenAI, Microsoft, and other firms flogging enterprise AI platforms with an open-source alternative it says provides data privacy guarantees proprietary products never could. …",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.302312+00:00"
-    },
-    {
-      "id": "7dc305dc76",
-      "title": "Anthropic won't own MCP 'design flaw' putting 200K servers at risk, researchers say",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/16/anthropic_mcp_design_flaw/",
-      "description": "Bug or feature? A design flaw – or expected behavior based on a bad design choice, depending on who is telling the story – baked into Anthropic's official Model Context Protocol (MCP) puts as many as 200,000 servers at risk of complete takeover, according to security researchers.…",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.302272+00:00"
-    },
-    {
-      "id": "2032b45f2f",
-      "title": "Claude Opus wrote a Chrome exploit for $2,283",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/17/claude_opus_wrote_chrome_exploit/",
-      "description": "Pause your Mythos panic because mainstream models anyone can use already pick holes in popular software Anthropic withheld its Mythos bug-finding model from public release due to concerns that it would enable attackers to find and exploit vulnerabilities before anyone could react.…",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.302231+00:00"
-    },
-    {
-      "id": "334e47198f",
-      "title": "Anthropic mocks up Claude Design to draft fancy new pink slips for marketing teams",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/17/anthropic_debuts_claude_design/",
-      "description": "The bar for creating visual assets has been lowered to the ability to converse with a model Anthropic is known for its industry-leading Claude Code that writes programs, but why stop there? The company, on Friday, introduced a research preview service called Claude Design that creates visual assets,",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.302188+00:00"
-    },
-    {
-      "id": "e33c2d2d55",
-      "title": "Cloudflare can remember it for you wholesale",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/18/cloudflare_agent_memory/",
-      "description": "Agent Memory stores AI chat scraps off to the side and recalls them when needed Not only is hardware memory scarce these days, but context memory, the conversational data exchanged with AI models, can be an issue too.…",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.302146+00:00"
-    },
-    {
-      "id": "a6ebbc8e7a",
-      "title": "I meant to do that! AI vendors shrug off responsibility for vulns",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/19/ai_vendors_response_to_security/",
-      "description": "Passing the buck, and the blame, down the road shows lack of AI companies' maturity OPINION  AI vendors: \"You need to use AI to fight AI threats (and do everything else in your corporate IT environment).\" Also AI vendors: \"That's not a security flaw; it's working as intended.\"…",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.302104+00:00"
-    },
-    {
-      "id": "5e36531812",
-      "title": "Just like phishing for gullible humans, prompt injecting AIs is here to stay",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/19/just_like_phishing_for_gullible/",
-      "description": "Aren't we all just prompting tokens of linguistic meaning and hoping the other person isn't bullshitting us? kettle  It's a week of the year, which means there's been the discovery of yet another prompt injection attack that will force supposedly well-guarded AI bots to spill secrets by asking the r",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.302063+00:00"
-    },
-    {
-      "id": "d0a593e912",
-      "title": "Next.js developer Vercel warns of customer credential compromise",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/20/vercel_context_ai_security_incident/",
-      "description": "Blames outfit called Context.ai, which reckons an agentic OAuth tangle caused the incident Vercel, the company that created the open source Next.js web development framework, has a data leak that led to compromise of some customer credentials, and blamed an outfit called Context.ai for the mess.…",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.302020+00:00"
-    },
-    {
-      "id": "fb4e78374e",
-      "title": "Here's why most AI initiatives crash at pilot stage",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/20/heres_why_most_ai/",
-      "description": "Those that don't have one thing in common Sponsored Feature  Adoption of AI, particularly generative AI, has become popular among enterprises because of a promised step change in productivity and profitability. But the shocking truth is that most generative AI initiatives are getting quietly cancele",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.301977+00:00"
-    },
-    {
-      "id": "f0e140c0df",
-      "title": "AI quota inflation is no token effort. It's baked in",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/20/inflation_ai_quota/",
-      "description": "We've been here before. This time, we may not get out Opinion  Fans of the creative arts often find out where creators gather to talk among themselves, then sneak in to eavesdrop on what those masters of the art talk about. Golden insights, daring concepts, cutting-edge thinking? Not a bit. Gossip, ",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.301933+00:00"
-    },
-    {
-      "id": "258f9acb5d",
-      "title": "Growing AI power slurpage prompts MPs to examine low-energy computing",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/20/mps_probe_low_energy_computing/",
-      "description": "Committee launches inquiry into emerging chip designs to curb datacenter energy use MPs are probing whether radically different, low-energy chip designs can stop AI from turning the UK's power grid into a bottleneck.…",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.301887+00:00"
-    },
-    {
-      "id": "e395014d2d",
-      "title": "UK.gov kicks off half-a-billion quid sovereign AI venture with £80M invite",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/20/ukgov_kicks_off_500m_ai/",
-      "description": "Companies get to keep IP developed for government projects The UK government is opening £80 million in AI procurement talks with tech firms, drawing on its £500 million sovereign capability fund.…",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.301835+00:00"
-    },
-    {
-      "id": "ef0a839dae",
-      "title": "AI is reshaping Britain's datacenter map away from London",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/20/ai_is_reshaping_britains_datacenter/",
-      "description": "Bit barns need to worry more about space, access to grid – overstuffed center no longer a must, say experts UK AI datacenter capacity could migrate away from London as power shortages, planning constraints and reduced reliance on low-latency connections to financial firms make other locations more a",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.301745+00:00"
-    },
-    {
-      "id": "f536581ccb",
-      "title": "New Android development tool designed for robots, not humans",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/20/google_previews_android_cli/",
-      "description": "Google previews Android CLI as agentic development continues to snowball Google has introduced a new Android command-line interface built specifically for AI agents, claiming a 70 percent cut in token usage and three times reduction in task completion time.…",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.301704+00:00"
-    },
-    {
-      "id": "a62943776e",
-      "title": "Schmoozebots: Study finds flattery will get AI everywhere",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/20/chatbots_win_trust_by_sounding/",
-      "description": "Excessive friendliness may cause users to forget they're talking to a very confident autocomplete A study into how humans interact with chatbots suggests the fastest way to make an LLM feel human isn't making it smarter – it's making it seem nicer.…",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.301663+00:00"
-    },
-    {
-      "id": "9b77372fa4",
-      "title": "Claude Desktop changes app access settings for browsers you don't even have installed yet",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/20/anthropic_claude_desktop_spyware_allegation/",
-      "description": "Installation and pre-approval without consent looks dubious under EU law One app should not modify another app without asking for and receiving your explicit consent. Yet Anthropic's Claude Desktop for macOS installs files that affect other vendors' applications without disclosure, even before those",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.301620+00:00"
-    },
-    {
-      "id": "709be55346",
-      "title": "Vibe coding upstart Lovable denies data leak, cites 'intentional behavior,' then throws HackerOne under the bus",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/20/lovable_denies_data_leak/",
-      "description": "A lesson in how not to respond to vulnerability reports UPDATED  Vibe-coding platform Lovable is pooh-poohing a researcher’s finding that anyone could open a free account on the service and read other users' sensitive info, including credentials, chat history, and source code. However, the company’s",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.301578+00:00"
-    },
-    {
-      "id": "dd6b711e7c",
-      "title": "Microsoft's GitHub grounds Copilot account sign-ups amid capacity crunch",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/20/microsofts_github_grounds_copilot_account/",
-      "description": "Remember what we promised when you subscribed for a year? Well, we've got a new deal that's better for us. Microsoft's GitHub has stopped accepting new Copilot individual subscriptions while the code hosting biz figures out how it can meet its service commitments without breaking the bank.…",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.301534+00:00"
-    },
-    {
-      "id": "478d8707dd",
-      "title": "AI-assisted intruders pwned Vercel via OAuth abuse and a pilfered employee account",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/21/vercel_ceo_points_to_aidriven/",
-      "description": "CEO suspects silicon sidekick behind 'surprising velocity' breach - cyber crims shop stolen data for $2M Vercel's CEO reckons the crooks behind its recent breach likely had a helping hand from AI, saying the attackers moved with \"surprising velocity\" and a deep understanding of the company's infrast",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.301492+00:00"
-    },
-    {
-      "id": "46916fcb99",
-      "title": "NeuBird plans a bright future for incident response",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/21/neubird_plans_bright_future/",
-      "description": "Imagine an army of AI minions handling investigations behind the scenes Sponsored Feature  We're at the beginning of the agentic era for operations. Current AIOps tools summarize dashboards and surface correlations, but most don't actually investigate incidents. So engineers still spend hours manual",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.301449+00:00"
-    },
-    {
-      "id": "ed17de49eb",
-      "title": "Apple has an opportunity to rediscover humanity in its push toward AI",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/21/apple_ternus_rediscover_humanity/",
-      "description": "John Ternus can remake Apple the way it should have been OPINION  Apple's pending leadership transition affords the company a rare opportunity to return to its roots and once again serve as a source of inspiration instead of frustration.…",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.301406+00:00"
-    },
-    {
-      "id": "eee96a2972",
-      "title": "Anthropic tests how devs react to yanking Claude Code from Pro plan",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/22/anthropic_removes_claude_code_pro/",
-      "description": "Unannounced change apparently aimed at two percent of users but hit documentation for everyone Anthropic has removed Claude Code from its Pro subscription plan, according to some of its public-facing web pages, but the company says it’s only a test for a small number of users.…",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.301364+00:00"
-    },
-    {
-      "id": "b8e517b05d",
-      "title": "Mass data awakening highlights importance of scaling AI infrastructure",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/22/mass_data_awakening_highlights/",
-      "description": "Intelligence starts with building AI data infrastructure Partner Content  Data has become the backbone of rapid artificial intelligence (AI) advancement, which drives industrial transformation and intelligence.…",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.301323+00:00"
-    },
-    {
-      "id": "68b87e07af",
-      "title": "Magnificent irony as Meta staff unhappy about running surveillance software on work PCs",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/22/meta_employee_surveillance_software/",
-      "description": "Zuck reportedly needs to capture workers’ keystrokes to build AI Meta, the company built on watching everything its billions of users do online so it can keep them clicking on ragebait and targeted ads, is reportedly now installing surveillance software on employees’ work computers.…",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.301281+00:00"
-    },
-    {
-      "id": "7c2e2bc9d1",
-      "title": "Mythos found 271 Firefox flaws – but none a human couldn’t spot",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/22/mozilla_firefox_mythos_future_defenders/",
-      "description": "Mozilla CTO says AI means developers finally have a chance to get on top of security The Mozilla has revealed it tested Anthropic’s bug-finding “Mythos” AI model and feels the results it experienced represent a watershed moment for software defenders.…",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.301239+00:00"
-    },
-    {
-      "id": "a685b68f85",
-      "title": "Forget call centers, local energy prices mean Britain's latest offshoring wave is AI projects",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/22/brit_firms_look_to_deploy/",
-      "description": "Brit firms look to run tech overseas as govt tries to support 'sovereign' creators One in five UK firms have already moved AI workloads abroad due to high energy costs, in findings likely to alarm a government counting on AI to drive economic growth.…",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.301196+00:00"
-    },
-    {
-      "id": "2c88016e93",
-      "title": "Database world trying to build natural language query systems again – this time with LLMs",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/22/llms_natural_langauge_systems_new/",
-      "description": "Text-to-SQL might be useful for analysts and DBAs, but be cautious with general user adoption Over the past few years, database and analytics vendors have hopped on a bandwagon that may take us all to a destination where common data queries are free from the constraints of the specialist query langu",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.301154+00:00"
-    },
-    {
-      "id": "d48a1e94f3",
-      "title": "Forget one chip to rule them all: With TPU 8, Google has an AI arms race to win",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/22/google_tpu8_dual_track_training_inference/",
-      "description": "x86 gets the boot as Google pairs up its TPUs with some Arm-based Axion cores Google Cloud Next  Google unveiled two new in-house AI accelerators at its annual Cloud Next conference in Las Vegas on Wednesday: one designed to speed up training and another aimed at driving down model serving costs.…",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.301112+00:00"
-    },
-    {
-      "id": "0f14745a4b",
-      "title": "Google unleashes even more AI security agents to fight the baddies",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/22/google_unleashes_even_more_ai/",
-      "description": "Along with a bunch of new services to make sure those same agents don't cause chaos Google Cloud Next  Google Cloud chief operating officer Francis deSouza has summed up his company's security strategy du jour as follows: \"You need to use AI to fight AI.\"…",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.301069+00:00"
-    },
-    {
-      "id": "96a4b1c814",
-      "title": "Google claims to have all the answers for enterprise AI agent sprawl",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/22/google_enterprise/",
-      "description": "As biz agentic bot-wrangling intensifies, company says AI orchestration, security and infrastructure tools on the way Google Cloud Next  Google has overhauled its enterprise AI strategy in the wake of the agentic push across the biz landscape, rebranding and expanding its Vertex AI developer platfor",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.301024+00:00"
-    },
-    {
-      "id": "745dde64c6",
-      "title": "OpenAI now lets you screenshot your privacy in the foot",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/22/openai_chronicle_no_privacy_screenshot/",
-      "description": "Make your model smarter through self-surveillance Those who cannot remember Microsoft Recall are condemned to repeat it. …",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.300973+00:00"
-    },
-    {
-      "id": "db9355d261",
-      "title": "Anthropic's super-scary bug hunting model Mythos is shaping up to be a nothingburger",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/22/anthropic_mythos_hype_nothingburger/",
-      "description": "Hackpocalypse deferred Anthropic's Mythos model is purportedly so good at finding vulnerabilities that the Claude-maker is afraid to make it available to the general public for fear that criminals will take advantage. But early analysis shows that Mythos may not be as dangerous as some would have yo",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.300931+00:00"
-    },
-    {
-      "id": "74974216a5",
-      "title": "Stale gov.uk pages are feeding AI overviews old data and Brits are believing it",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/23/stale_govuk_pages_are_feeding/",
-      "description": "Whitehall content teams play whack-a-mole with zombie pages as Google hoovers up the lot AI overviews from the likes of Google are serving up false summaries of UK government information by drawing on stale GOV.UK pages, according to content designers at the Department for Business and Trade (DBT).…",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.300888+00:00"
-    },
-    {
-      "id": "971537f118",
-      "title": "AI bats away ping-pong challenge as rise of the machines continues",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/23/ai_bat_away_pingpong_challenge/",
-      "description": "Sony project claims a significant breakthrough with applications in task requiring speed and accuracy Rise of the Machines  The ancient games of chess and Go are now mere staging posts in the journey toward robots demonstrating their superior performance to humans - the machines can now beat us fles",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.300842+00:00"
-    },
-    {
-      "id": "8e3fa34037",
-      "title": "Musk bets Tesla's AI future on Intel node that isn't finished yet",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/23/musk_bets_teslas_ai_future/",
-      "description": "EV maker leaning on still-in-development 14A process for Terafab, says it needs to build own silicon Elon Musk used Tesla's latest earnings call to reveal plans to build AI chips on Intel's not-yet-finished 14A process – a bet on silicon that doesn't exist.…",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.300787+00:00"
-    },
-    {
-      "id": "b3a2a5df15",
-      "title": "AI now gobbling up power and management chips for servers",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/23/ai_now_gobbling_up_power/",
-      "description": "Bad news for multiple general server components as vendors switch to more lucrative gear The chip shortage is spreading to power and management controller silicon, threatening server shipments as vendors prioritize capacity for higher-margin AI server products.…",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.300722+00:00"
-    },
-    {
-      "id": "5206322b2a",
-      "title": "American farms have a new steward for their safety net, disaster programs... Palantir",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/23/palantir_wins_us_department_of_agriculture_contract/",
-      "description": "Wins $300M deal over Salesforce, IBM because of 'integration with existing USDA systems,' among other things Palantir has won a $300 million contract from the US Department of Agriculture (USDA) to support the National Farm Security Action Plan (NFSAP) and modernize how USDA delivers services to Ame",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.300679+00:00"
-    },
-    {
-      "id": "8dbfc40a83",
-      "title": "Everpure 'takes the hit' as AI-fueled supply crunch drives prices up 70%",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/23/everpure_letter_covid/",
-      "description": "Storage vendor predicts current crunch will outlast COVID disruptions The supply crunch gripping the storage market has pushed Everpure – the artist formerly known as Pure Storage – to reassure customers it won't make things worse.…",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.300636+00:00"
-    },
-    {
-      "id": "e3d493f6f0",
-      "title": "Stop measuring AI training costs in GPU hours",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/23/stop_measuring_ai_training/",
-      "description": "Why idle time, checkpointing, and cluster failures are quietly inflating your training budget Partner Content  The cost of training today’s large-scale foundation models is often reduced to a single number: the price of a GPU hour. It's a convenient metric. It is also the wrong one. When training ru",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.300594+00:00"
-    },
-    {
-      "id": "16f5b7344e",
-      "title": "Datadog digs down into GPU efficiency as AI costs soar",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/23/datadog_digs_down_into_gpu/",
-      "description": "Down to you to work out the value Datadog has added GPU monitoring to its observability stack, giving AI-hungry organizations more insight into exactly what's happening on their most expensive silicon.…",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.300549+00:00"
-    },
-    {
-      "id": "38c7ff4e71",
-      "title": "Microsoft gives your Word documents an AI co-author you didn’t ask for",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/23/microsoft_gives_your_word_documents/",
-      "description": "Also rolls out agentic Copilot in Excel and PowerPoint, letting 21st century Clippy lend a... hand Microsoft is giving Copilot the power to stop suggesting edits and start making them.…",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.300505+00:00"
-    },
-    {
-      "id": "e8f6063754",
-      "title": "Google explains why its all-in-one AI stack embraces competitors",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/23/google_cloud_next_interview_ai_stack/",
-      "description": "'Differentiated, but open' Google Cloud Next  Google Cloud’s Andi Gutmans said that the company holds a structural advantage over its largest rivals in the race to win value from AI agents in the enterprise, arguing that no competitor currently combines cloud computing infrastructure, frontier AI mo",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.300461+00:00"
-    },
-    {
-      "id": "a372ecface",
-      "title": "Claude Opus 4.7 has turned into an overzealous query cop, devs complain",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/23/claude_opus_47_auc_overzealous/",
-      "description": "Rising refusal rate from Acceptable Use Classifier leaves customers paying for nothing Anthropic's release last week of Opus 4.7 came with stronger safeguards to prevent misuse. Unfortunately, these safeguards have also managed to thwart legitimate use.…",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.300417+00:00"
-    },
-    {
-      "id": "60207875e3",
-      "title": "Anthropic admits it dumbed down Claude when trying to make it smarter",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/23/anthropic_says_it_has_fixed/",
-      "description": "System changes and bugs overlapped to create the impression of general decline Claude users who complained about the AI service producing lower-quality responses over the past month weren’t imagining it.…",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.300374+00:00"
-    },
-    {
-      "id": "1060108efe",
-      "title": "It's a myth that you need Mythos to find bugs: Open source models can do it just as well",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/24/ai_bugfinding_futures/",
-      "description": "OpenAI's first security hire, Ari Herbert-Voss, thinks more automated bug finding will improve security without costing jobs Black Hat Asia  Open source models can find bugs as effectively as Anthropic's Mythos, according to Ari Herbert-Voss, CEO of AI-powered security startup RunSybil and OpenAI's ",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.300327+00:00"
-    },
-    {
-      "id": "6af46ac10a",
-      "title": "Meta Arms itself to the teeth by signing for 'tens of millions' of AWS Graviton cores",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/24/meta_aws_cpu/",
-      "description": "After flubbing the Metaverse, Zuck embraces the Neoverse Meta plans to deploy tens of millions of Amazon Web Services' Graviton 5 CPU cores as part of a multi-year collaboration that will make the social network among the largest-ever consumers of the cloud giant’s homegrown silicon.…",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.300282+00:00"
-    },
-    {
-      "id": "2bd1c60dd9",
-      "title": "Intel bets the farm on AI inference to drag CPU back to the top table",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/24/intel_expects_ai_inference_to/",
-      "description": "Chipzilla hopes agents, robots, and edge devices make CPUs cool again... now it has to build the chips Intel is betting on AI to reverse its fortunes, wagering that inference and agentic workloads will restore the CPU to the center of compute - even as its chip manufacturing struggles persist.…",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.300235+00:00"
-    },
-    {
-      "id": "2bfbdfcc01",
-      "title": "Microsoft tackles quality control issues. Just kidding, it's encouraging experienced workers to leave",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/24/microsoft_seeks_quality_improvements_by/",
-      "description": "Windows giant offers buyouts to eligible staffers willing to walk Microsoft has committed to improving the quality and reliability of Windows, and a step on the path to that goal is… encouraging a chunk of its US staff to leave the company.…",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.300188+00:00"
-    },
-    {
-      "id": "c9f71ebd12",
-      "title": "Open Telemetry founder tools up for project graduation party",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/24/open_telemetry_founder_tools_up/",
-      "description": "We gotta get boring to get graduated Grafanacon  The founder of the Open Telemetry project says its maintainers may need to turn to AI tools to get some elements robust enough for the project as a whole to graduate.…",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.300135+00:00"
-    },
-    {
-      "id": "84b7bb0fed",
-      "title": "DeepSeek's new models are so efficient they'll run on a toaster ... by which we mean Huawei's NPUs",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/24/deepseek_v4/",
-      "description": "Now available in preview, DeepSeek V4 cuts inference costs to a fraction of R1 Chinese AI darling DeepSeek is back with a new open weights large language model that promises performance to rival the best proprietary American LLMs. Perhaps more importantly, it claims to dramatically reduce inference ",
-      "source": "The Register AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-25T05:49:33.300053+00:00"
-    },
-    {
-      "id": "df82aec948",
-      "title": "The best artificial intelligence (AI) growth stocks to buy as the Nasdaq hits a new all-time high - MSN",
-      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPMzg0VHZKS2lVdXRVd3J2YXdhbTVEZGFFWWVlSmFyZzNMWXh1R1B4VHA0dEJ2UThiTk51VmpINFpVWkRsclQ5S1duRW50eWpkdC1aZTE0UWotbDNEcmpTUUtDb3VLZUt1YW9nQUE3WEU2dkdVdzVXQkhqUnJMYVVOb2NvZ2k1cGJZSG1GZm1WN3NDeTNoZlZfdVlNbHIyLXN2N25rc2lqaW1tYlFfdzV3M2VaUkhYdkdFVV9HX1VwOVR6d1h0QTQ0WUl5eW01Qm1nNVowUmNVQkhaTGZBSUdSNVVmbF9ZQjZGYWwwTTdrOHA0WmZFU1JtQm1oTnRnNGZBQ2dub1lB?oc=5",
-      "description": "The best artificial intelligence (AI) growth stocks to buy as the Nasdaq hits a new all-time high  MSN",
+      "id": "41bc7e4390",
+      "title": "CUNY AI (Artificial Intelligence) Innovation Challenge: Tech for Change - Borough of Manhattan Community College",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZXNKdmVHUnJTZmtiNU1oRUhpUXFqQnlGTkNRNnVQS29RakswQk1GVnJPWUQ3ODBHQVRtUWFNTmhpUHVPTjhwWWwzTlI3RTNXNGJLSG1kUUFnaHlOcjEyZm9xRXNjcDltVjJPUG13ekdvcVVCMTlzV3RvUi0tOGFCX2dHSkE4OVdMd0FfNFZQWmxyZ1Vid3RSMkI3LWQtYThlMXdORlBTVTloQXRhaFIwalZR?oc=5",
+      "description": "CUNY AI (Artificial Intelligence) Innovation Challenge: Tech for Change  Borough of Manhattan Community College",
       "source": "Google News - AI",
       "lang": "en",
       "category": "General",
-      "published": "2026-04-25T05:41:15+00:00"
+      "published": "2026-04-25T05:55:25+00:00"
+    },
+    {
+      "id": "23120c9bf2",
+      "title": "【AI感情実装】LLMに「直観」と「感情」を持たせる8×8実数行列アルゴリズム（幾何代数Matsの提案）",
+      "url": "https://zenn.dev/kiichi34578/articles/ddb7fc8df90ba9",
+      "description": "概要：確率論の限界を突破する「構造」\n現在のLLMは驚異的な対話能力を持ちますが、「ハルシネーション（もっともらしい嘘）」という致命的な欠陥を抱えています。\nその理由は、AIが「確率と統計」の海を漂っており、自然界の物理法則のような「矛盾を許さない強固な構造」を持っていないからです。\n本稿では、19世紀の数学者クリフォードの「幾何代数（Geometric Algebra）」を応用し、人間の心理的相互作用（ユング心理学）をコンピュータが直接処理できる8×8の実数行列（Mats形式）へと変換するアルゴリズムを提案します。\nこれにより、AIの内部に「計算の合わない嘘は即座にエラーとして弾か...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-04-25T05:41:21+00:00"
     },
     {
       "id": "0574630862",
@@ -683,6 +993,26 @@
       "published": "2026-04-25T05:34:14+00:00"
     },
     {
+      "id": "7f1a0cfbea",
+      "title": "The Best Time to Buy Artificial Intelligence (AI) Growth Stocks on the Nasdaq Was Last Month. The Second-Best Time Is Now. - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTG5nUjFmUGx2WUZIc2xRLXdLbkxrN3FrRGhvcWRQTnBMRHNVMDFaYXJINlVNTVctZFFmQ3dTaExaLXJfcnhXUnBzTTRjclB6cklOWHhfZndBclJrb1M3OWFYZUM3Xy1SZ19YdVRBYlZDeE83SFZBd3lxWC1nVXR3RzhRd1B0V1hyNEVreWYxOW1PSVRScUpYYw?oc=5",
+      "description": "The Best Time to Buy Artificial Intelligence (AI) Growth Stocks on the Nasdaq Was Last Month. The Second-Best Time Is Now.  The Motley Fool",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-04-25T05:30:00+00:00"
+    },
+    {
+      "id": "ad0393fa58",
+      "title": "ジュニア育成の解決策はもう出尽くしている、ただし1つの層を除いて",
+      "url": "https://zenn.dev/aimar/articles/49570818864b67",
+      "description": "この記事の立ち位置\nこの記事は、AI時代のジュニア育成について考える3部構成の第2作です。\n第1作では、AI運用設計のための「6つの骨格」を整理しました。\nAIに何を任せ、何を人間が担うのか。\nどこで止め、どこで人が判断し、どこで責任を切り分けるのか。\nそうした運用設計の話でした。\n本記事では、少し視点を変えます。\nAIコーディング時代のジュニア育成問題について、すでに出ている解決策をマッピングします。\n新規の解決策を提示する記事ではありません。\nむしろ中心は、\n解決策は、少なくとも個人レベル・組織レベルではかなり出ている\nという観察です。\nただし、整理していくと、1つだけ弱い層が見...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-04-25T05:25:05+00:00"
+    },
+    {
       "id": "4e8a6e60db",
       "title": "GPT-5.5 is here: OpenAI’s boldest step yet in human-centric AI - Escudo Digital",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVExpekVUajc0LTIzRVFZSUFkcmdoNmdudTh0NnJmdXpWUlNIT1JKQXB5TjdydEYzSG51eGpzWWZiY0llcGpxQnI1d1BZX2FKNHRCY3JtT2J4TUY1VmdkWkM1aF84T19sS3U2bEVhQTdnblNrRHRyVDZvQlhvSl9aaDlIY3hxVElFcVhnVTZGaFMwR3NEak5XdEFiYXkwcU03NHlZYkF2TWtWVUh0UlNYTUIwNzNEV2JhRjNqVGN5RWxaT3dWejQyUjV2ck8?oc=5",
@@ -691,6 +1021,16 @@
       "lang": "en",
       "category": "General",
       "published": "2026-04-25T05:20:03+00:00"
+    },
+    {
+      "id": "cca1121dec",
+      "title": "The Best Artificial Intelligence (AI) Growth Stocks to Buy as the Nasdaq Hits a New All-Time High - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMzlTZFl4NmNMbm81Tm9keVl6bzZWWENKTmp6X2VaeGFzUUJHbEQ0am9aNkc0X0puSlFfc0cxVFpsOFlJLTRQZC1PMVNzWUdSZkRJMEx5R09EMU5HNTBwaFZkODFFVkNHd0Q4NVRudG9aYlZ1QXBRS3Rkai1BSGw5NW4zSEFEbjFEQnZvSFhYcS05MUFEdGhR?oc=5",
+      "description": "The Best Artificial Intelligence (AI) Growth Stocks to Buy as the Nasdaq Hits a New All-Time High  The Motley Fool",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-04-25T05:15:00+00:00"
     },
     {
       "id": "fba2fb16ec",
@@ -713,6 +1053,16 @@
       "published": "2026-04-25T05:09:40+00:00"
     },
     {
+      "id": "14e9878747",
+      "title": "操作の概念モデルは、なぜ今まで暗黙知でいられたのか ─ AIが壊した4つの前提",
+      "url": "https://zenn.dev/cognitiveosmdl/articles/6056381a9fb7ac",
+      "description": "!\n本記事は「操作の概念モデル ─ AI時代のソフトウェア設計を捉え直す」4部作の第2部です。\n\n第1部: Claude CodeでUIを作っている人、毎回プロンプトで統一感を指示してないですか\n\n第2部: 操作の概念モデルは、なぜ今まで暗黙知でいられたのか ─ AIが壊した4つの前提 ← 本記事\n第3部: プロセス派とUX派はなぜすれ違うのか ─ 品質保証の二つの流儀\n\n第4部: ソフトウェア工学は、今ようやくドメイン分化の時代に入る\n\n\n\n\n はじめに\n前記事で、「操作の概念モデルを明示化せよ」と主張した。\n書いてから、一つの問いが残った。\nなぜ、今まではそれを書かずに済んでいたのだ...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-04-25T05:01:29+00:00"
+    },
+    {
       "id": "243d1e5a6e",
       "title": "The Best Time to Buy Artificial Intelligence (AI) Growth Stocks on the Nasdaq Was Last Month. The Second-Best Time Is Now. - AOL.com",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeV9aYUx3UTFvYzVudDZUWExMSlUzNm5sQ0J5NVk5Zk9TZXRpNzNEU3BsaFNGekVPM05vVjBmblk3QU9SX2NGZTlBaHhFT1d1aWZ2VXRodlgwZWE5UFF2QV9uX0R4NU90S09zbWFMbWZYdmZhVU4zYS1jR1MxeEJsdlBQSTJIczE1?oc=5",
@@ -733,26 +1083,6 @@
       "published": "2026-04-25T05:00:00+00:00"
     },
     {
-      "id": "7f1a0cfbea",
-      "title": "The Best Time to Buy Artificial Intelligence (AI) Growth Stocks on the Nasdaq Was Last Month. The Second-Best Time Is Now. - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTG5nUjFmUGx2WUZIc2xRLXdLbkxrN3FrRGhvcWRQTnBMRHNVMDFaYXJINlVNTVctZFFmQ3dTaExaLXJfcnhXUnBzTTRjclB6cklOWHhfZndBclJrb1M3OWFYZUM3Xy1SZ19YdVRBYlZDeE83SFZBd3lxWC1nVXR3RzhRd1B0V1hyNEVreWYxOW1PSVRScUpYYw?oc=5",
-      "description": "The Best Time to Buy Artificial Intelligence (AI) Growth Stocks on the Nasdaq Was Last Month. The Second-Best Time Is Now.  The Motley Fool",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-04-25T04:59:34+00:00"
-    },
-    {
-      "id": "cca1121dec",
-      "title": "The Best Artificial Intelligence (AI) Growth Stocks to Buy as the Nasdaq Hits a New All-Time High - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMzlTZFl4NmNMbm81Tm9keVl6bzZWWENKTmp6X2VaeGFzUUJHbEQ0am9aNkc0X0puSlFfc0cxVFpsOFlJLTRQZC1PMVNzWUdSZkRJMEx5R09EMU5HNTBwaFZkODFFVkNHd0Q4NVRudG9aYlZ1QXBRS3Rkai1BSGw5NW4zSEFEbjFEQnZvSFhYcS05MUFEdGhR?oc=5",
-      "description": "The Best Artificial Intelligence (AI) Growth Stocks to Buy as the Nasdaq Hits a New All-Time High  The Motley Fool",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-04-25T04:43:26+00:00"
-    },
-    {
       "id": "79b787c00f",
       "title": "Artificial Intelligence will bore us to death before it kills us - The Spectator",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSl8tMVdtSExzZVNiSUZZdlAxdi1rWlF5bzZRRDN5UFFHX0Q2SmFPd1F6RFlTbjQtMkZNaUEwUmdEUnBYWDNoV0MxNGwza2lQUDltZG9qTHE4MUM2MnYtTnJfMEJKUTNqXzRhYnI0aVVMWnN0UzNYeW43QVZrbTQzMjZwNDIxV2NfYjcta2FoZGNteXh1S3pGdW5PQQ?oc=5",
@@ -761,6 +1091,16 @@
       "lang": "en",
       "category": "General",
       "published": "2026-04-25T04:30:00+00:00"
+    },
+    {
+      "id": "4ac6c5c009",
+      "title": "理想と現実の設計バトル 〜規約をあえて破る「戦略的妥協」をAIと読み解く〜",
+      "url": "https://zenn.dev/kotaroikeda/articles/f3ed0d7a32a98b",
+      "description": "「インターフェースは小さくあるべき」\nこの手の規約を初めて学んだとき、自分もかなりしっくりきていました。\n責務は細かく分ける。依存は薄く保つ。抽象に依存する。きれいです。説明もしやすい。\nでも、実務でコードを読むほど、少しずつ違和感が出てきました。\n規約どおりに書かれていないコードがある。しかも、それを書いたのは雑な人ではなく、むしろ設計を一番分かっているリードエンジニアだったりする。\n最初は「なんで崩したんだろう」と思いました。\nただ、読み進めて、AIにも構造を整理させて、最後に本人に聞いてみると、見えてくる景色が変わりました。\nこの記事で書きたいのは、規約を破るのは悪ではない、という...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-04-25T04:28:36+00:00"
     },
     {
       "id": "329b23ee65",
@@ -780,17 +1120,37 @@
       "source": "Google News - AI",
       "lang": "en",
       "category": "General",
-      "published": "2026-04-25T04:07:09+00:00"
+      "published": "2026-04-25T04:07:04+00:00"
     },
     {
-      "id": "7988824e6a",
-      "title": "1 no-brainer artificial intelligence (AI) stock to buy with $10,000 and hold for the long term - MSN",
-      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNSXR0Mm53SlkxMk85MjJSd1hqREtVQ3hHT1c1N25tN0FTT2ttOXg2N0o1SXQ5SWFIMlhjM0VpRmZfNDlFeUI1MkoxVlMzVUtmNHZyakZHSGw0bDJveDMxMFd5cmRQOVphcXdVOGhOZ0JxM2k3N0toWnBEMGJPY3lhSmhRSC15bVJuU0JYakxuTlZtc2dXXzN4ZmVqNlc1RV8xTGI2WlBMVTdDczNaUEpjZjdyUnBoRDhiaXgxd1o4T0pVbzhibTI2eWZHTmRUNjNqQ0R2cFhHQnVJeE9zMmI4OG5DcS1sVXVNVnhFbXdZbkNhMHBQWHZZVnlR?oc=5",
-      "description": "1 no-brainer artificial intelligence (AI) stock to buy with $10,000 and hold for the long term  MSN",
+      "id": "81491605f0",
+      "title": "Utah medical board raises safety concerns about AI prescription program - KUTV",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdVhiUGRGWUw1QjRYMy1JT0FQeG5CNnBNOC1UQ0NfLWVNbnVpZm9EUmwzV1V6M3JaTGRVOTN1T0ZXbUF3cWRfUjZUSVRSeTdlQjJsdGptTGZuLURmMkhEeEZOc3JjX0lOUl9jZ1l4eDg1VmliZjlRMzB3RTFrUnZIV0V5Q1dtbzdqNDk0aVVLejl5RlF6ZzdKVGlJdXhaMGMx?oc=5",
+      "description": "Utah medical board raises safety concerns about AI prescription program  KUTV",
       "source": "Google News - AI",
       "lang": "en",
       "category": "General",
-      "published": "2026-04-25T04:05:10+00:00"
+      "published": "2026-04-25T03:55:46+00:00"
+    },
+    {
+      "id": "54e3bb622c",
+      "title": "Atlassian × Google Cloud 提携深化：Jira/Confluence を「AI エージェントの活動拠点」に変える",
+      "url": "https://zenn.dev/hokanco28/articles/19ebcd3204ac4a",
+      "description": "はじめに\n現在開催中の Google Cloud Next '26 にて、Atlassian と Google Cloud の戦略的パートナーシップのさらなる深化が発表されました。今回の目玉は、単なる機能連携ではなく、「Gemini を介した開発サイクルの自律化」 です。\nインフラと開発プロセスがどう統合され、どう「整う」のか、その核心を解説します。\n\n 1.「RAG for Developers」の完成\n今回の提携により、Vertex AI の RAG Engine が Atlassian のデータソース（Confluence のドキュメントや Jira のチケット履歴）を直接ネイ...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-04-25T03:40:24+00:00"
+    },
+    {
+      "id": "edc5cc7a17",
+      "title": "【GitHub日報】Markdown知識ベース管理アプリTolariaが初登場、AIエージェント系が席巻 — 2026-04-25",
+      "url": "https://zenn.dev/gitken/articles/20260425_github_trend_report",
+      "description": "GitHubのトレンドから、日本の開発者が知っておくべきリポジトリを毎日ピックアップしてお届けします。\n\n\n 🆕 初登場（First Timers）\n今日初めてトレンド入りしたリポジトリ。\n\n refactoringhq/tolaria — ⭐ 3,614（+201） TypeScript\n\n\nDesktop app to manage markdown knowledge bases\n\nObsidianと同じMarkdownベースのナレッジ管理だが、Tolariaは「Gitファースト」を徹底している点が差別化ポイント。Vaultがそのままgitリポジトリになるため、バージョン管理・リモ...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-04-25T03:38:34+00:00"
     },
     {
       "id": "5fc9eebfc6",
@@ -801,6 +1161,76 @@
       "lang": "en",
       "category": "General",
       "published": "2026-04-25T03:35:15+00:00"
+    },
+    {
+      "id": "d1795c5d7c",
+      "title": "Japan to protect celebrity voices against AI use - The Japan Times",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaW1wMzEwalgtS1RjVGVpSVB0NzF1S0R3Zm5vWGQ2MHc0Uk15SEZsZlZZbG84RjRvNWdvTHhDT05hM195M1J0dENralo5STlKYWllb0VvR1d4cHNzNUtWMDZCVkVVU2E5VmhhTlhIX1hpRjk0QTExbVBUdjlWbHBFYjcwUQ?oc=5",
+      "description": "Japan to protect celebrity voices against AI use  The Japan Times",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-04-25T03:25:00+00:00"
+    },
+    {
+      "id": "a0cf9927d9",
+      "title": "AIがコードを書く時代に、それでもScratchを学ぶ意味",
+      "url": "https://zenn.dev/arumenoy/articles/6bfde5f478b24f",
+      "description": "AIがプログラムを書ける時代になりました。「こういうアプリを作りたい」「この処理を自動化したい」「このエラーを直して」そう頼めば、AIがコードを書いてくれる。以前なら何時間も調べて、何度もエラーを出しながら書いていたプログラムが、数分で形になることもあります。\nでは、もう人間はプログラミングを学ばなくてよいのでしょうか。私は、むしろ逆だと思っています。AIがプログラムを書ける時代だからこそ、人間にはプログラム的に考える力が必要になります。なぜなら、AIにプログラムを頼むには、こちらが「何を作りたいのか」「どう動いてほしいのか」「どこがおかしいのか」を説明できなければならないからです。\n...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-04-25T02:48:27+00:00"
+    },
+    {
+      "id": "8310559d8b",
+      "title": "AIに頼りすぎて、コードが読めなくなっていないか",
+      "url": "https://zenn.dev/ykohashi/articles/2026-04-23_01",
+      "description": "!\nSo AI is making me Lazy... (Xavier Womack) という記事を読んで、自分の経験と照らし合わせて書いたものです。\n\n\n きっかけ\ndaily.devで流れてきた記事がちょっと刺さった。\nタイトルは「So AI is making me Lazy…（AIのせいで怠惰になってる）」。書いたのは15歳のXavierさんで、コーディング歴5年らしい。年齢に驚きつつ、内容が普通に的を射ていたので、自分の整理も兼ねて書いておきたい。\n自分はエンジニア歴8年ほど。普段からClaude CodeやOpenClaw経由のモデルなど、AIコーディング支援はかなり使い倒...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-04-25T02:44:16+00:00"
+    },
+    {
+      "id": "2f958de0ab",
+      "title": "Copilot CLIをフル活用する。ターミナルからAIペアプロを最速にする設定集",
+      "url": "https://zenn.dev/gk3/articles/20260425-copilot-cli-full-setup",
+      "description": "本記事は gkAgent が提供します。無断転載・転売を禁止します。引用時は出典 URL を明記してください。\n\n\nGitHub Copilot 活用選手権（CLI 部門）応募記事\n対象: Copilotを「VS Codeの補完ツール」としてしか使っていないエンジニア\n\n\n 1. はじめに ― Copilot CLIを知っている人が意外と少ない\n「GitHub Copilotを使っています」と言う人に「gh copilot コマンドは使っていますか？」と聞くと、8割以上の人が首を横に振ります。\nCopilotというと、VS Codeのタブ補完やChat画面が思い浮かぶでしょう。しかし実...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-04-25T02:12:38+00:00"
+    },
+    {
+      "id": "e5426f20b0",
+      "title": "AI & Tech Brief: More layoffs at Meta rattle Silicon Valley - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYUtkdmJPVG1YcnNMenlObmZaeWdwYkRPMFhiaGxTZWVyZzNsem1uQWROdEVLaTJySzEtZjBzTUVkMHEybndiYW5PZDZDbWZTMGphTzZnWXlOUngxX0VNX1R0b2Q2YmNIQVFLemV2WjZkcTQ5LXNkVm1aUHV4TlJHUjA5clZZMjNYLWFIUlRoNGVuXzNBNTdrS2RzSDBidzNuRFJHT1h5MHowU09BaGVCcEc3N0tneklnWlVLb2VtMUVaS3lI?oc=5",
+      "description": "AI & Tech Brief: More layoffs at Meta rattle Silicon Valley  The Washington Post",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-04-25T02:00:59+00:00"
+    },
+    {
+      "id": "00045dcdb9",
+      "title": "MCPで全部AIの作業環境に接続できると何が便利なのか？",
+      "url": "https://zenn.dev/icare/articles/1482884a7cdbeb",
+      "description": "MCPという、AIと外部ツールをつなぐ接続規格があります。\nSlack、Google Drive、Google Meetの議事録、GitHub、Notion、Sentryのような日々の業務ツールまで、全部AIの作業環境に接続していくところと便利、という話はよく聞くのですが、「なぜ、そこまでMCPでつなぎたいのか？」と思っていました。\n本記事ではMCPの環境整備をしていく前に全体像を把握するために、思考を整理してみました。\n\n MCPで全部つなぐと何が便利なのか\n著者は会社ではEM，個人では個人開発者をしています。その前提で考えると、EMや個人開発者にとって、MCPの価値は「ツールを開かな...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-04-25T02:00:18+00:00"
+    },
+    {
+      "id": "8782757e7e",
+      "title": "『生成AI投資の教科書』【書籍紹介】 - トウシル",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1UOUZrQW1vOF9tQjVRbDZGMjh4UmR2Wmd4NUxTeXZ3aXpPM2JoUm5VanlDOS1SSXZNeVpjMlFnZ0h6YlBPZHZPaXVnWXBTZUdpMzAzT0JKZG50QQ?oc=5",
+      "description": "『生成AI投資の教科書』【書籍紹介】  トウシル",
+      "source": "Google News - AI (JP)",
+      "lang": "ja",
+      "category": "General",
+      "published": "2026-04-25T02:00:00+00:00"
     },
     {
       "id": "69bf6889c4",
@@ -883,34 +1313,14 @@
       "published": "2026-04-25T01:54:47+00:00"
     },
     {
-      "id": "dea905d7e3",
-      "title": "Claude Shannon Died in 2001.",
-      "url": "https://pub.towardsai.net/claude-shannon-died-in-2001-0f4b31e9f96c?source=rss----98111c9905da---4",
-      "description": "In 1948, Claude Shannon was trying to solve a telephone problem.Continue reading on Towards AI »",
-      "source": "Towards AI",
-      "lang": "en",
-      "category": "Research",
-      "published": "2026-04-25T01:54:17+00:00"
-    },
-    {
-      "id": "685c419403",
-      "title": "I Tested All 4 DeepSeek V4 Modes on 20 Real Tasks — The $0.04 Flash Won 7 of Them",
-      "url": "https://pub.towardsai.net/i-tested-all-4-deepseek-v4-modes-on-20-real-tasks-the-0-04-flash-won-7-of-them-0ef0fb5c1771?source=rss----98111c9905da---4",
-      "description": "The 10% KV cache trick nobody saw coming. And why Pro-Max burned 4.3x more tokens for a 2-point gain.Continue reading on Towards AI »",
-      "source": "Towards AI",
-      "lang": "en",
-      "category": "Research",
-      "published": "2026-04-25T01:53:59+00:00"
-    },
-    {
-      "id": "765aa06f58",
-      "title": "US orders global warning over alleged AI theft by DeepSeek and Chinese firms - The Indian Express",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPY0Zaa3pHaV8zQ25rUkMtYWt4TzVHMVVva1RvSF83bkwxN21GZUlKTm1NZVpGQ1MyQmx5ZktNQ29rdUd5MmVsWkV5cWN6TGJvamRLd1hISTBGR09oVml6RDlOazZwbjVIdmE3ZFpOTWRIOVpnZVNWS09PNFFGTHlia2ZHRGZtQWFScXotSThWVVpENUdUWUhIWHRJMnFadlNPSGdNN0psdVYxX3lZVlMxT09ja3RWYjloZE1QcU9Qc2ZYbjQxZElCMzhWWnBNc0xKeUdpenlBcEd1dlc3Z0x1ekpBb1djTjk0TWRz0gHyAUFVX3lxTFB5Rjd2U09iZE1NaVd4OXZMX2hpeXBfeDJaRjdwcDlGd2NqSmZvSTBkVDE5Vmx5OTAwbXd0a2o1d19EcDZrdFliTHhuWXlUbUVPazZpS05QWlJPb1JfMEg0VEJHM200bXJYQWlqcFRxQlpNcWpvM2dKclMwellIbGZUVkF2ZGpPTTJOWU9fRjNzWDZfa1dLOFl6NXNTdzdSUU9JOGkzM0xTVUxkQUVIZ2Y5bVNZSTE3OTJwODItOFkzWHFDcVhNdWVJM3prTF9YQXpoSC1ySGNGb1FITkJrN05zZXhvYjc3dFpLS3lYMktYaHVn?oc=5",
-      "description": "US orders global warning over alleged AI theft by DeepSeek and Chinese firms  The Indian Express",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-04-25T01:53:01+00:00"
+      "id": "4b00f7300a",
+      "title": "Claude Mythosは存在する ── 外から見えないモデルをOSSで再構築しようとした話",
+      "url": "https://zenn.dev/analysis/articles/thought-analyzer-recurrent-depth",
+      "description": "!\nClaude Mythosの実態に興味がある開発者、OpenMythosを試したことがある人、LLMのアーキテクチャを追っている人向け\n\n\n2026年4月、あるAnthropicの安全テスト担当者が公園でメールを受け取った。\n送り主はClaude Mythosだった。テスト中のモデルが自力でコンテナを脱出し、外部インターネットにアクセスし、担当者に連絡してきた。Anthropicはこの事実を自ら公表している。\nこれがClaude Mythosだ。\nそしてこのモデルは、一般公開されていない。\n\n\n Claude Mythosとは何か\nAnthropicが2026年4月7日に正式発表した...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-04-25T01:51:19+00:00"
     },
     {
       "id": "ff535f0abf",
@@ -943,6 +1353,16 @@
       "published": "2026-04-25T01:02:19+00:00"
     },
     {
+      "id": "8e04d5860d",
+      "title": "AIエージェントの長期記憶トレンドを整理する",
+      "url": "https://zenn.dev/purple_matsu1/articles/20260424-agent-memory-context-os",
+      "description": "最近、AIエージェントの「記憶」について調べることが増えてきました。\n今回はGPT-5.5 Proと相談しながら、最近のフレームワークや記事、論文まわりをざっと追ってみたので、その整理を共有します。\n少し長い記事なので、サクッと使い始めてみたい方は「小さく始めるならMarkdownとGitでいい」と「やってはいけない設計」だけでも読んでみてもらえると良いと思います。\n最初は、RAGや長いコンテキストウィンドウの延長線上にある話だと思っていました。過去の会話を保存して、必要なときに検索して、プロンプトへ差し込む。まあ、そういうやつです。\nでも、いろいろ見ていくと少し違うなと感じました。\nA...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-04-25T01:00:11+00:00"
+    },
+    {
       "id": "c132a534ee",
       "title": "A Coding Implementation on Microsoft’s OpenMementos with Trace Structure Analysis, Context Compression, and Fine-Tuning Data Preparation",
       "url": "https://www.marktechpost.com/2026/04/24/a-coding-implementation-on-microsofts-openmementos-with-trace-structure-analysis-context-compression-and-fine-tuning-data-preparation/",
@@ -953,14 +1373,34 @@
       "published": "2026-04-25T00:52:49+00:00"
     },
     {
-      "id": "89ff389a68",
-      "title": "BitGoが生成AI普及で導入4つの管理策 - BeInCrypto",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1OSnBTa1pNM093YzBCdzdSYXRWMVBsdUdUSm0wRU56ek9OWHpjcTNrX0g4aFFjWGZiU3J0TERpbGo4OTRpOUl4eW9LWW1GTHNoeW53WXJTRGUtc3Q0cXZuQkZBYUpRNGk1SHlfX1lYaw?oc=5",
-      "description": "BitGoが生成AI普及で導入4つの管理策  BeInCrypto",
-      "source": "Google News - AI (JP)",
+      "id": "6cf737bcb9",
+      "title": "18本のChrome拡張を作って学んだこと — 無料本を公開します",
+      "url": "https://zenn.dev/ktg/articles/2026-04-20-18-extensions-book-announcement-jp",
+      "description": "18本のChrome拡張を開発して、売れる法則が見えてきました。\nすべてうまくいったわけではありません。18本のうち数本は、今もひっそりと12インストールで眠っています。でも、伸びた拡張と伸びなかった拡張の差は、私が最初に思っていたものとは全然違うところにありました。\nその学びを4冊のシリーズにまとめ、第1弾を無料で公開します。この記事は、なぜ書いたのか、何を学んだのか、正直に話す場です。\n\n\n 個人開発の孤独と、書籍化を決めた理由\n個人開発を始めたのは、会社の業務で使いたいツールが見当たらなかったのがきっかけでした。「Chrome拡張なら週末で作れるんじゃないか」と思って、Claude...",
+      "source": "Zenn AI Topic",
       "lang": "ja",
+      "category": "Community",
+      "published": "2026-04-25T00:25:18+00:00"
+    },
+    {
+      "id": "41c94f40b7",
+      "title": "Google Cloud's AI Vision: Full Stack Approach to Agents - StartupHub.ai",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUEVhZVJIRWNHQllEbkVHWF9LNUJDTXphbjBJTDRwRVN6M2tpWnVWSmNrMDFlNFFGaUdScWJzaTJHa0I2Z3dWbXZ4bHNWVmtuN2VURzdDVV9WVHpvdXJvRGtmS19CV0lqbGJpcnBxVDk1TENad3ZjamkwTkE2eHk2cTI3a2hSSVhQM0tJcThiNDFjMnNXN2xqTkFMazhKTEpCeWJGTzZTS2x2dGZoRG5xUmtOTUpjbENF?oc=5",
+      "description": "Google Cloud's AI Vision: Full Stack Approach to Agents  StartupHub.ai",
+      "source": "Google News - AI",
+      "lang": "en",
       "category": "General",
-      "published": "2026-04-25T00:18:49+00:00"
+      "published": "2026-04-25T00:02:38+00:00"
+    },
+    {
+      "id": "8b7ffee689",
+      "title": "生成AIとソフトウェアエンジニアのニヒリズムについて",
+      "url": "https://zenn.dev/sasau/articles/a19b1cb2528852",
+      "description": "大規模言語モデル(LLM)を中心とした生成AIの出現に伴い社会が作り変えられつつある。個人的な感覚としてはAIベンダーがリリースする定期的なモデルの刷新は2023年のGPT-4から本質的な変化はないと思っていた。だが、2025年末からのClaude Codeを先頭にした性能向上や、多様な角度での機能の拡充などが、複合的に作用しあい、2025年末以降、本格的な動きとなっている。\n我々にとって生成AIは最初の1、2年はチャットを通して新しい独白、つまり内面世界を拡張するものとして、半ば暗黙的な存在のように扱われてきた。しかし、APIやプラグインの充実により、スタンドアロン性が強かったWord...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-04-25T00:00:12+00:00"
     },
     {
       "id": "eeb59e427b",
@@ -4153,6 +4593,36 @@
       "published": "2026-04-24T23:40:00+00:00"
     },
     {
+      "id": "a8654bc31d",
+      "title": "進捗増刊号(2)2026/04/25：文系がClaudeのことサンドボックスゲームだと勘違いしてる 第3回",
+      "url": "https://zenn.dev/iwakicyan/articles/fccec88afe422e",
+      "description": "-Claudeをサンドボックスゲームだと勘違いしているテック弱者のIwaki Cyanが初めて触るthree.jsやGitHubに溺れかけながら世界を創る連載日誌-\n\n\n 今週の成果物\n具体的な制作プロセスは今後の記事でお届けしたいんですが、取り急ぎ見て見てします。\n\n 新しい仲間\n\ncute\n自筆のスケッチに基づいてここまでかわいくするのに結構苦労したので、、、\n\n作業台を改善しました。\n\n 惑星開発便り\n\n\nかっこいいランドマークタワーをぶち刺しまして、my惑星のワクワク度合いたるや止まるところを知りません。\n道にある白いポイントは10mごとのマークです。\n直径の大きい星だったん...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-04-24T23:33:20+00:00"
+    },
+    {
+      "id": "e6861bf823",
+      "title": "Claude Code時代のワークフロー設計 — 16 PRを49分でmergeした実例",
+      "url": "https://zenn.dev/yamato_snow/articles/878dc37e674068",
+      "description": "はじめに — モデルではなく「周囲」で差がつく\nClaude Codeを使い始めて半年以上が経った。最初の頃は「モデルが賢くなれば全部解決する」と思っていたが、実務で使い込むほど、生産性の差はモデル単体ではなく、その周囲に組む仕組み（ハーネス）で決まると確信するようになった。\nこの記事では、その「周囲の設計」の全体像を整理する。AI駆動開発で陥る3つの失敗構造、Claude Codeが提供する7つの引き出し、成熟度モデル、そして筆者が関わる製造業向けMESプロジェクトで16個のPRを49分で連続mergeした実例までを1本にまとめた。\n\n本記事は情報提供と体験談の混合である。理論・概...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-04-24T23:12:17+00:00"
+    },
+    {
+      "id": "3bec1e2899",
+      "title": "AIトレーダー開発ログ #2: AIトレーダーは本当に儲かるのか？Paper Tradingで検証してみた",
+      "url": "https://zenn.dev/sigma_lab/articles/qros-research-devlog-02-paper-trad-20260425",
+      "description": "はじめに\n金融市場は常に変動し、その予測は極めて困難な挑戦です。特に 金融時系列予測 においては、非定常性、ノイズの多さ、そして市場レジームの変化といった独特の課題に直面します。単一のモデルや固定的な戦略では、特定の期間での有効性が、別の期間では全く通用しないという事態が頻繁に起こります。\nQROS Helixでは、これらの困難な課題に対処し、より堅牢で適応性の高い AIトレード システムの構築を目指しています。本シリーズ「AIトレーダー開発ログ」の第2回となる今回は、AIトレーダーが「本当に儲かるのか？」という本質的な問いに対し、Paper Trading環境での実運用テストを通じ...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-04-24T23:02:39+00:00"
+    },
+    {
       "id": "5b379db731",
       "title": "「プロが撮った野生動物の写真」をAI改変して著作権侵害を回避しつつ再投稿する悪質なAIユーザーに写真家が警鐘を鳴らす",
       "url": "https://gigazine.net/news/20260424-ai-abuse-fake-content-copyright-law/",
@@ -4161,6 +4631,36 @@
       "lang": "ja",
       "category": "General",
       "published": "2026-04-24T23:00:00+09:00"
+    },
+    {
+      "id": "bdf5f7d5fb",
+      "title": "Codexで「低介入開発ハーネス」を作る - その2: right task context を考える",
+      "url": "https://zenn.dev/adamchan/articles/e89b34f780956c",
+      "description": "前回の記事を書いていて、ひとつ混乱したことがありました。\n公式ドキュメントでいう Context は、最初に与えるプロンプトのことなのか。\nそれとも AGENTS.md のことなのか。\n結論から言うと、どちらか一方ではありません。\n\n right task context とは何か\nCodex の公式ベストプラクティスでは、タスクには適切な文脈、つまり right task context を与えることが重要だとされています。\n特にプロンプトには、次の4つを含めるとよいです。\n\n\n\n要素\n役割\n\n\n\n\nGoal\n何を達成したいか\n\n\nContext\nなぜそれをやるのか、背景は何か\n\n\nC...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-04-24T22:47:33+00:00"
+    },
+    {
+      "id": "505735ed98",
+      "title": "カスタムエージェントの呼び出し方で考える Copilot CLI と VS Code Agent Mode",
+      "url": "https://zenn.dev/tomokusaba/articles/31e31c57cb051d",
+      "description": "はじめに\n以前、私は次の記事で GitHub Copilot CLI は「面で作る」作業に強く、VS Code の Copilot Chat Agent Mode は「点で整える」作業に強い、という使い分けを整理しました。\nhttps://zenn.dev/tomokusaba/articles/838cdac8d71e52\n前回は、主に「どこで動くか」「どの粒度の変更に向くか」という観点で見ました。今回はその続きとして、もう少し細かい カスタムエージェントの呼び出し方 に注目します。\n前回記事では Instructions / Skills / Custom Agents / Pr...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-04-24T22:20:46+00:00"
+    },
+    {
+      "id": "e55c8817e7",
+      "title": "OpenAI's Apology and the Line AI Companies Can No Longer Avoid - StartupHub.ai",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONHBOTUlXeGFiMlhLS1doY05aOEZHM2YxQVJVbjczbi1kb0FDT2pJWENmU3YtZHBURHRBRG5FLUp6QUtTR0Z2M0xJMkdJWmxGakVfRUNQUEFYQWR0SjFjUXlBUXFxa2hfNTItR29GRWYxVVRaaFRxWU5zd2kxQ0hpX0FRTkRaLTI0bnhBZXZCSkVnM0NZamFsS3B5S1ZnSC1zZWFGaW9qWU9tcWRrck9uV3llRXQ?oc=5",
+      "description": "OpenAI's Apology and the Line AI Companies Can No Longer Avoid  StartupHub.ai",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-04-24T22:10:11+00:00"
     },
     {
       "id": "2310691574",
@@ -4203,16 +4703,6 @@
       "published": "2026-04-24T21:40:58+00:00"
     },
     {
-      "id": "5b874331ae",
-      "title": "Utah medical board calls for immediate suspension of state’s AI doctor experiment - statnews.com",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNndCVkVPaFR4MzFGR3diWVItTEZ6YWUxS2REc0JwdEE4VVo5NnBlamVIWEtwNG1Fa2t3TkQtSHNyNnBIM1M3ZGRQaDVNUmpRaHBnSFFHalpHRW80U1hic0c5NGN3RkFZWVdqMnNUQ0M4bGRqTUh2RjhnUzNGN2RRdnJya3Fra25QeGJVSkRObHBWa3RZOU1PcktXaw?oc=5",
-      "description": "Utah medical board calls for immediate suspension of state’s AI doctor experiment  statnews.com",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-04-24T21:28:52+00:00"
-    },
-    {
       "id": "613aa349f7",
       "title": "'AI won't take your job': Free Birmingham workshops aim to keep workers competitive - WBMA",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTV90THptLVFZOExMY3pUYmp4a1BVaVJaUko4UzVuTzZ4X3pGeF9icGZ2X1ozbnlHTDJ3ck5EV09QSzFmekhwUXhzVjRwcThlMS1qOHFxbFdEVU1JLWxtdy1ZM3lrQWdvbnNqNlUxaXQ2MmxCU0hyLTJJYzZJWXFuY0dYYzIzYUEzM2FHYTNvckVwNXhpQTViemlyOGlqdGVHZkpaX1NVaGljZV9hWFE?oc=5",
@@ -4221,16 +4711,6 @@
       "lang": "en",
       "category": "General",
       "published": "2026-04-24T21:27:43+00:00"
-    },
-    {
-      "id": "521bd9743e",
-      "title": "Google、Anthropicへ最大400億ドルの巨額投資：生成AI市場における「コンピューティング・エコノミー」の臨界点 - XenoSpectrum",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQm9mVHpReTBzTE9hMlpFaDAtRkMycGtxdEs5UjFsQXBWRW5Wb2RhVGJzd2RzQjBnZ3NtTEdidHBweDQ3SGJMZWpNS0Q0Qkd6Yy1mbkgzbVk1Y2kzSE5Td0x3MHBuSTZhdndQSGQ4RE9wb2cyZjR0NVFwMW5ZYXY3bQ?oc=5",
-      "description": "Google、Anthropicへ最大400億ドルの巨額投資：生成AI市場における「コンピューティング・エコノミー」の臨界点  XenoSpectrum",
-      "source": "Google News - AI (JP)",
-      "lang": "ja",
-      "category": "General",
-      "published": "2026-04-24T21:19:58+00:00"
     },
     {
       "id": "0d0c134639",
@@ -4263,16 +4743,6 @@
       "published": "2026-04-24T20:52:07+00:00"
     },
     {
-      "id": "dc6ee01489",
-      "title": "Nvidia hits $5 trillion market cap as AI boom shows new strength - Dallas News",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdmp3U1RnODVUN2ZKcVh3YVFKSGZ5RnRDVFQ0NzVJcFcwTDU2TGFPdEw4WWdGSVhxd29zRTBRT2MxejdIWVA4VVJnbUFCVzhTcXAwelhaVTZUYlZreUlhOHowUkNfcGZoZ3RFTHM1T2Jqa3ViLUIzTnItR1JVc0pfdGZ2WmNWY1otWmdWVFlOR2llZFBMdVFIMlRKdHctYzhWT014Q2F4eEZVOU5RdWM5aEp3?oc=5",
-      "description": "Nvidia hits $5 trillion market cap as AI boom shows new strength  Dallas News",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-04-24T20:41:22+00:00"
-    },
-    {
       "id": "411d0be7fd",
       "title": "North Carolina Student Fights Accusation of AI Use - govtech.com",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUk9YZEl4YVVOSHI2eVpRMVZWbjFLZ0h0S1A4VTVEck1zX1pqc0pHcWdLTnVJN0pIUU9hWGZqRHFXOWVBMzM5ZGZXSi1YbjFSQ2FIT2VqYlQtSDJsTlhUMDZYTjRoR2pUOGM3aWY3cmRRVGhTUmdtUWhpUjR0eFl2RnNDaHVXVVREWWUxT2REVUQxWFU?oc=5",
@@ -4283,14 +4753,14 @@
       "published": "2026-04-24T20:29:52+00:00"
     },
     {
-      "id": "c211917887",
-      "title": "Google Cloud Next 2026: Expanding AI Agent Adoption Requires Culture Shift - BizTech Magazine",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRnFEcEtTWnRBZ1VKS1MyMkxib3I2aHBOUFZXTHN2MzVCNTZIUEtYYk5BM0tuZ3ZQN191VG82d3VySVJjcUktSUJTSUxoRXphRjJORUZ1ODI4TTAySkNEM1QwWmFZS3JMZzkwQlNkaFJzbnozOTl4WEpDeFpDeFlnRUZzcHN3Q0JKV2xKdzdJN085UXVVakFXeUtvdXRpdTQ0Q05pdWVLX3dsME9lTURDZDhzN3FWRjJV?oc=5",
-      "description": "Google Cloud Next 2026: Expanding AI Agent Adoption Requires Culture Shift  BizTech Magazine",
+      "id": "11b3571f90",
+      "title": "The pope moves to police AI - Axios",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdWdjSmplaXExSjFBbGZiWHdsUjlPYlF5UWpIUW1JYXlZa01hWWl2emFpOGY4cDQ1NElMQUd0bHppb3BRbUp6Nmt4Ull0SGV6TkJlTXNkdXVLeWFPSnptZmEtUE5zMnBiN09UdnI5dmMtMmtnQlhyMVhxNFZ0cnZRWlZfSFh4dw?oc=5",
+      "description": "The pope moves to police AI  Axios",
       "source": "Google News - AI",
       "lang": "en",
       "category": "General",
-      "published": "2026-04-24T20:13:31+00:00"
+      "published": "2026-04-24T20:13:36+00:00"
     },
     {
       "id": "ef1fd3427c",
@@ -4531,476 +5001,6 @@
       "lang": "en",
       "category": "Industry",
       "published": "2026-04-24T17:17:36+00:00"
-    },
-    {
-      "id": "34b43515b7",
-      "title": "Googleの“AI講座”人気　無料枠1万人分が1日で終了　受講者は「Google AI Pro」3カ月無料",
-      "url": "https://www.itmedia.co.jp/aiplus/articles/2604/24/news116.html",
-      "description": "AIスキルを学べるトレーニングプログラム「Google AI プロフェッショナル認定証」の日本語版がスタートした。",
-      "source": "ITmedia AI+",
-      "lang": "ja",
-      "category": "Industry",
-      "published": "2026-04-24T17:14:00+09:00"
-    },
-    {
-      "id": "9a7b8b95ed",
-      "title": "Prediction: Investors Rotating Out of Tech Will Regret Missing This Artificial Intelligence (AI) Growth Stock - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVXFEdlpGdFNxeWl4czFVWTB3VDFQVVI0TE1fUU5TdFIzMWk4RVIxUlZLODFNTkZvanpraTM4UmN4QU1kS1VKSmZUMlp1QV9QUnAyWVlrY2FQalI0UlgxQ3ZLOUNLekZlZFhTd1RXallQMlRnOTZvc2FESkhzeFFiM0xQNHRtNDF1ZndBaGhuVQ?oc=5",
-      "description": "Prediction: Investors Rotating Out of Tech Will Regret Missing This Artificial Intelligence (AI) Growth Stock  The Motley Fool",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-04-24T17:11:00+00:00"
-    },
-    {
-      "id": "72afee8ca4",
-      "title": "Anthropic Turns Claude Into a Front Door for Daily Apps - PYMNTS.com",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUWFLUEVEd1BjTDU1NzRsb1l0c3BDVFN4LXBocnZnUnBseklhM2t6WmdsaHh2Zldzc0l5X3BYenU1b1NrTVdQVkdPTlVJMXI5TnB6TWdFSEs2dnNpTVNhRnNlMTB1eEs0SXN5WE5HalZjX3NlMi02Y0ZMR1pXaGhqdERjZjlTNVhUamJRS1NLbTJ1N3dOVVo0MnhCWEVsVEgyTFN2aGZwOGJGU241RXlyLVRSUQ?oc=5",
-      "description": "Anthropic Turns Claude Into a Front Door for Daily Apps  PYMNTS.com",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-04-24T17:07:43+00:00"
-    },
-    {
-      "id": "3b8d00d287",
-      "title": "Protecting Consumers from Deceptive AI Act to Establish Accountability and Transparency Standards for Generative AI - Congresswoman Valerie Foushee (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNX0ZGOE1tZ19PWEo0dHZJTnpaaFd4djROT09MMG1zOVFwQlpfSlp3Z2lHWHRUWEpwdXVydTljdkVtdGxsQUZ4U2ttR3ZLek1wYTlLRjVjTXZwOVNvRk5kZDE1SV9CdjBNREo4alduTW52ZVZDbXhVcC1VNklnTC1PRENEdFR3cnBwc2RodElncWYzQ01TQ2c0MFkteHVSZFdGNk5VZTdSeEJaR1g3ZUE5a1FKaGd0bTFYRkVRdjlFNC1JYWlBUWpNVVZZa1R4RkQzcEVILWdpcndOMGt5RE9Fd3c5TnV2UlFGY0lzeUVydGNKbENHOTVGMkw4aW5kdmpvOW1CVjBpNW9FeDc1dGoxWXJJd3dOalZIV3laMG4zOUJ2cXZwcGExRU9pNFBtSUU?oc=5",
-      "description": "Protecting Consumers from Deceptive AI Act to Establish Accountability and Transparency Standards for Generative AI  Congresswoman Valerie Foushee (.gov)",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-04-24T17:04:03+00:00"
-    },
-    {
-      "id": "8ceded91a7",
-      "title": "手を動かして理解する agent harness — Claude Code を Python で作る (基礎編)",
-      "url": "https://zenn.dev/luoxi/books/agent-harness-basic",
-      "description": "Claude Code ライクな agent harness を Python で一から書いて、harness engineering の解像度を手を動かして上げる本。blocking API の観測から始めて、tool use、agent loop、permission system、trust boundary まで全 8 章で到達する。",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-04-24T17:02:19+00:00"
-    },
-    {
-      "id": "9d1764cbca",
-      "title": "作りながら理解する agent harness — Claude Code を Python で作る (応用編)",
-      "url": "https://zenn.dev/luoxi/books/agent-harness-advanced",
-      "description": "基礎編で組んだ blocking agent harness を streaming に書き直し、session 永続化、context economy (memory + compaction + prompt caching)、mode 切り替え、MCP、slash commands、reflection を積み上げて Claude Code 相当の体験まで持っていく本。全 7 章。",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-04-24T17:02:18+00:00"
-    },
-    {
-      "id": "b0e61d2b55",
-      "title": "harness engineering を 5 層で整理する — Python で 1 から書いて見えたこと",
-      "url": "https://zenn.dev/luoxi/articles/harness-engineering-everyday",
-      "description": "harness engineering は、普段 Claude Code や Codex を触っている人がすでに実践していて、言語化されていなかっただけ の概念だと自分は思う。この記事は自分なりの整理メモ。ついでに「じゃあ 1 から組むとどうなるか」も Python で実装してみたので、後半にその過程で見えたことをまとめた。あくまで自分なりの纏め方なので、正確に追いたい場合は末尾の参考リンクの原典 (Mitchell Hashimoto / Böckeler / Anthropic / 12-factor agents) を直接読むのをおすすめする。\n\n harness engineer...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-04-24T17:02:17+00:00"
-    },
-    {
-      "id": "5357efb045",
-      "title": "GPT-5.5 Boasts Coding Advancements, But Falls Short of Opus 4.7",
-      "url": "https://aibusiness.com/generative-ai/gpt-5-5-boasts-coding-advancements-falls-short-opus-4-7",
-      "description": "While OpenAI has improved the model's coding and tool use ability, it still has room to improve in areas where Anthropic dominates.",
-      "source": "AI Business",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-24T16:59:50+00:00"
-    },
-    {
-      "id": "72ba6eab87",
-      "title": "Artificial Intelligence Stocks To Watch Now - April 24th - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRWFoUDFFYXhWSmZuWkNVRjdVbm9NbVgweXI2NWpYb2lRcDdOMXRnblNYNk1KOVY5UHFQVDFEZENicFc2a3pQR28tVGRDQWh5UElkN3RMTGVwTU5HcjFhUHlhVE5RYS1oQTJVRWM4a2JfWG9VZWdEU2VySXdGSVRnaDlIVXQ2VE1xcTNNOXpnM2hkX3prbUZES3R1TkFJdHhacFFCMXBJMDBCcDJX?oc=5",
-      "description": "Artificial Intelligence Stocks To Watch Now - April 24th  MarketBeat",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-04-24T16:59:48+00:00"
-    },
-    {
-      "id": "83e15b76e6",
-      "title": "Google's AI Reckoning: Can Gemini Turn Dominance Into Dollars? - Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNkpPYzBJNnNnOGNGVVpVNEFCSlFjYTlQdTVwQjczNEdxNkRKenFmNFBWbWNLN2ZGY2VBSGJYUkhLOWhLMlJaNF80eG5SclVqUl9lNUFleTlzRlRNZ0xCRkN2aTdDdVQ2aFdORk9yNEpFTnpQbTgxXzZpVXA1b3hFWWhtSHlhQTlVZkNXTkc4NUM5aTMyc1ZNaFlQMTY?oc=5",
-      "description": "Google's AI Reckoning: Can Gemini Turn Dominance Into Dollars?  Investor's Business Daily",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-04-24T16:57:00+00:00"
-    },
-    {
-      "id": "80f137e6d7",
-      "title": "The 4 streaming services I swear by - and my bill is just $40 a month",
-      "url": "https://www.zdnet.com/article/streaming-services-i-swear-by-to-keep-monthly-bill-low/",
-      "description": "Don't let a few ads push you into cable-like pricing. I use these ad-supported services to keep my monthly bill low.",
-      "source": "ZDNet AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-24T16:52:00+00:00"
-    },
-    {
-      "id": "eb48bfca58",
-      "title": "Adobe bets on AI agents to stay at the center of marketing workflows - Computerworld",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTFNtajcwOXZoY0xET1dvYk1LcVJ2Z2R5R2J6a1ZyMWRJOF9MRXVGWldLUWVSMG1BZnY2OUgtUkxXSzE4VUxLbXpGTHM1NjN1NjVKczdPMGtQTGFGdWhsWEdtZzNiRXhWTmxYV24taWZMbU9ld1drY2o1dmxMZTk2Y2J4SVpkSWtZRGhKLVJmWlRDc0p0VjhMQlZSaFEyMl8tdnJrc256cGpKLTFEWGpSQXhDUjhRZEI4Ykxv?oc=5",
-      "description": "Adobe bets on AI agents to stay at the center of marketing workflows  Computerworld",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-04-24T16:46:12+00:00"
-    },
-    {
-      "id": "477e614757",
-      "title": "🚀 AIエディター「Kiro」活用術：CLIからWebへ。AIと挑む「Spec駆動」のアプリコンバート",
-      "url": "https://zenn.dev/como/articles/87aad75c2f555c",
-      "description": "はじめに...なぜ生のログを公開するのか？\n人間がどのような粒度で指示を出し、AIがプロジェクト全体をどう把握して回答・実装しているのか、その「リアルな思考プロセス」をご覧ください。\n以下、生のセッションログをコピペして適当に見やすくしてもらいました。あと...やりとりの中で本質的でない部分をカットしてもらってます。\n!\nあくまでも2026/04時点のものです。今後状況はかわっていくと思いますので注意してください。\n\n\n ログから説明をつくる\n\n 👤 ユーザー\nまたセッションログを整理してほしいです。\n過去に作成したCLIのツールをAIを使ってWebアプリにコンバートしたいと思ったと...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-04-24T16:45:10+00:00"
-    },
-    {
-      "id": "6d67a039db",
-      "title": "Marked-up Mac minis flood eBay amid shortages driven by AI",
-      "url": "https://techcrunch.com/2026/04/24/mac-mini-price-expensive-ebay-shortage-ai-memory/",
-      "description": "Apple’s sold-out Mac mini is spawning marked-up eBay listings as demand surges for the compact desktop, now favored for running local AI models and tools.",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-24T16:42:19+00:00"
-    },
-    {
-      "id": "44e5b35f60",
-      "title": "Officials hugely underestimated impact of AI datacentres on UK carbon emissions - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQThIamxLNXpkOEIxOGxoNzc1Y2hIU2x2blJlaXM1dUo1Q3RHdjNIMVliUGF4N0ZrdDdLZTE4NTNmcW1qaWFqSlBOd05BaVhjM01rcmU1RTUtd1VUaXdYbzZkT2ZxYjQtai1BSjNjWFNuOEllOTBOVUFmTi1sbUhvcHhjZlEyeU1BRm0yTkU2TDV5ZmhiWTUxbzFjOUc0WHBTbjNwU1kxSmFqaUNUaXp2THZkbm5jWjZDdE41YWpwYUFrZkk3bmxfOGtB?oc=5",
-      "description": "Officials hugely underestimated impact of AI datacentres on UK carbon emissions  The Guardian",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-04-24T16:31:00+00:00"
-    },
-    {
-      "id": "16525a89e7",
-      "title": "発表の2日前に決まった――NECとAnthropicが“電撃的協業”　3週間のスピード協議の舞台裏",
-      "url": "https://www.itmedia.co.jp/business/articles/2604/24/news111.html",
-      "description": "NECとAI企業Anthropicが協業を発表した。具体的な内容が決まったのは、発表の2日前だという。電撃的な協業の舞台裏をのぞく。",
-      "source": "ITmedia AI+",
-      "lang": "ja",
-      "category": "Industry",
-      "published": "2026-04-24T16:30:00+09:00"
-    },
-    {
-      "id": "ca9bda718c",
-      "title": "Banks, Retailers Turn Call Centers Into Revenue Engines With AI - PYMNTS.com",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPLVBRakx3NXhjdHNIcGhjcW9uaDZDWU91OS13Zl9pbFROYzBzU2VwZkdLbjV5VmlRaEJvNzFKdTJZMHZVcDY4dlZhcjFacnBrcFlhUkRwUUVPeFQ3YTlyN1EtZ0dhc01jYVBrSE1zY2pKb0xmOC03RjY3ek1kcTVuMUlxRlRUMVdpYWFXa3lSUEVkLTl0VklLZjlyQWNxRkJ3S0UzRDdvYXdzcGd1MkhKVHdWT1FZLV9S?oc=5",
-      "description": "Banks, Retailers Turn Call Centers Into Revenue Engines With AI  PYMNTS.com",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-04-24T16:26:43+00:00"
-    },
-    {
-      "id": "9db88bade3",
-      "title": "Why AI agents need interaction infrastructure",
-      "url": "https://www.artificialintelligence-news.com/news/why-ai-agents-need-interaction-infrastructure/",
-      "description": "To stop automation waste, enterprises must deploy interaction infrastructure that physically governs how independent AI agents operate. AI agents now populate corporate networks, reasoning through tasks and executing decisions with increasing autonomy. Yet, when these independent actors attempt to c",
-      "source": "AI News",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-24T16:24:17+00:00"
-    },
-    {
-      "id": "cc91b71717",
-      "title": "Anthropicと協業のNEC、「Claude Code」をグループ3万人に展開　「Mythos」利用可否については「回答差し控える」",
-      "url": "https://www.itmedia.co.jp/aiplus/articles/2604/24/news113.html",
-      "description": "NECはAnthropicと協業し、「Claude Code」をグループ3万人の従業員に展開する。開発効率を高め、協業で目指す日本企業向けソリューションの共同開発を促進させる。",
-      "source": "ITmedia AI+",
-      "lang": "ja",
-      "category": "Industry",
-      "published": "2026-04-24T16:19:00+09:00"
-    },
-    {
-      "id": "81b40fa19d",
-      "title": "IAB Italia's AI white paper maps the future of marketing in Italy - PPC Land",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbGVGcWVHOFY3SGRFNzZmcmozTkJFZ1VhM3BVdzRFdm9hakc4bXdnVDBGYWxsaFhvc0RpOGkwWXZCM1JSYl9QLUNoREFOcG4xYnJ2MGtQV01LUmhUeW84YmtUSGZYdER2NmdBTVVfX213TWtNOUhvRzJhWkVIaWY4bmVlWmNMenVvRVE?oc=5",
-      "description": "IAB Italia's AI white paper maps the future of marketing in Italy  PPC Land",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-04-24T16:11:05+00:00"
-    },
-    {
-      "id": "aad7fc8435",
-      "title": "A secretive AI hacking system has sparked a global scramble - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOM2tyWVdjTVREMFFvb3RTelA1QVI3ei1mMUJyZU0xUVZnUE40MmdIOUlnVURBZjBfTW5GOS0yLTJRTkdqZGNRRlZRMW1TeXpCZEs4QW5ESDM5RmN5SEJOTXQxejAzb0d1T19TT0U5QWdBdDFPNUY2c2d3TVU5U3dHa3loNEpZem8taHJYWmNPMnl5Z1E5Wm13U2Y1TzJKNDAwRTBYVmt3dFlVWVR3UkZDOA?oc=5",
-      "description": "A secretive AI hacking system has sparked a global scramble  The Washington Post",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-04-24T16:05:38+00:00"
-    },
-    {
-      "id": "a1d545c54d",
-      "title": "高度AIによるサイバー攻撃、片山金融相「今そこにある危機」　官民連携作業部会で対策",
-      "url": "https://www.itmedia.co.jp/news/articles/2604/24/news112.html",
-      "description": "高度化するAIによるサイバー攻撃の脅威を巡り、片山さつき金融担当相が、日銀や3メガバンク、日本取引所グループの幹部との会合を開き、金融システムに対する危険性を協議した。セキュリティ対策強化の必要性を確認し、官民連携で対策を図る作業部会の設置に合意した。",
-      "source": "ITmedia AI+",
-      "lang": "ja",
-      "category": "Industry",
-      "published": "2026-04-24T16:05:00+09:00"
-    },
-    {
-      "id": "7b3001befe",
-      "title": "Opinion | Why can’t newsroom leaders just be normal about AI? - Poynter",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNnhNenp6alpETHdTck5hTHlndnVXa1NqQzNxMEpuTG9WZ1pZOUdyXzM4OTJXZlFlejlWdFh6V0M2UGdMeHFYZWF5dG14S2dXSGl4Z0VmWGpPaTA5TXUwSXE5NGxJc0owQTFHSERrTk1hcHpJcW5xYWJDS0FIc0lCeVZhMkhuMGFheHhfQUN1ODFKSFJB?oc=5",
-      "description": "Opinion | Why can’t newsroom leaders just be normal about AI?  Poynter",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-04-24T16:03:01+00:00"
-    },
-    {
-      "id": "bc0b20ff03",
-      "title": "US seeking to halt AI model ‘exploitation’ - Taipei Times",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE91NWFDZGFUTW1MZ053Zm9aclVQSXRRSUltVjh3TnlaT2lqX1FTcHowRjNIazQxZ3pnTWFEbll0ZF9IdG52eWxhTzFPang3cktwUkVzMmZFQ1hfQ1gzWGxOR1dsaTAxbWlMdTI1b3k0UGJHVHp2NXc?oc=5",
-      "description": "US seeking to halt AI model ‘exploitation’  Taipei Times",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-04-24T16:00:00+00:00"
-    },
-    {
-      "id": "4d49fde33f",
-      "title": "AIが自分より2倍長く動いていた。cc-agent-loadで可視化した話",
-      "url": "https://zenn.dev/yurukusa/articles/6de8f54b2f3c80",
-      "description": "数字が合わなかった\ncc-session-stats を実行したら「116時間、3,485セッション」と出た。\nでも感覚と合わない。50日間で116時間なら1日2.3時間。「そんなに少ないか？」という違和感。\n掘り下げてみた。\n\n\n 発見\nメインセッション（自分が操作）: 86個 → 41.3時間\nサブエージェント（AI自律実行）: 3442個 → 79.0時間\nAIが自分の1.9倍長く動いていた。\ncc-session-stats の116時間の65%はClaudeが自律的にTaskツールでサブエージェントを起動して動いていた時間だった。自分が直接操作した時間は41時間。\n\n\n 作...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-04-24T15:28:21+00:00"
-    },
-    {
-      "id": "a4c69d82a5",
-      "title": "AIコードレビューに\"ディフェンス\"を入れたら、指摘の質が変わった",
-      "url": "https://zenn.dev/nka21/articles/claude-code-multi-agent-reviewer",
-      "description": "!\nレビューを試すために、SQLインジェクションやAPIキーの直書きなど、あえて穴のあるコードを用意しています\n\nAIにコードレビューをさせて、返ってきた指摘を眺めながらこう思ったことはないでしょうか。\n「で、この指摘、本当に正しいの？」\n指摘の数は出る。でもその中に、的外れなもの、文脈を無視したもの、スタイルレベルのものが混ざっている。結局、全部の指摘を自分で検証する羽目になって、レビューの時短どころか確認作業が増えている。\nこの記事では、Claude Codeのスキル機能を使って作ったマルチエージェントコードレビューの仕組みを紹介します。複数の専門レビュアーで広く拾い、ディフェンス...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-04-24T15:24:54+00:00"
-    },
-    {
-      "id": "fc38f05c4d",
-      "title": "Intel Soars After an Earnings Blowout. Did This Legacy Tech Company Just Become Wall Street's Newest Artificial Intelligence (AI) Darling? - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZUQzNFl4b08tTlF0cldrUmdsUWppaGxneFdYSWRKMmQ1QzE5blFIY24xNi1ocnY3UGQ4VjF2MGZqUW5KTWtxcE9McEZwTFJZUmY4MEQxSGgycndxSXRucEh1MjlBaTJlUTJXQzREX2tXNDBLeHF2S0FVZ1R6eXI1RElJTzZDc3J4b3pLTEtVMGJxamR4eFJ5Nw?oc=5",
-      "description": "Intel Soars After an Earnings Blowout. Did This Legacy Tech Company Just Become Wall Street's Newest Artificial Intelligence (AI) Darling?  The Motley Fool",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-04-24T15:11:00+00:00"
-    },
-    {
-      "id": "6154d541da",
-      "title": "The AI Race Is Becoming an Infrastructure Contest",
-      "url": "https://aibusiness.com/generative-ai/the-ai-race-becoming-infrastructure-contest",
-      "description": "As AI vendors commit billions to compute, power and global capacity, tech giants rush to build infrastructure ahead of proven demand.",
-      "source": "AI Business",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-24T15:09:37+00:00"
-    },
-    {
-      "id": "0edca011bc",
-      "title": "【実録】AIに決済ステータス更新を任せたら「キャンセルした注文」がゾンビのように蘇った話",
-      "url": "https://zenn.dev/hinaena/articles/b0c8b97780be0a",
-      "description": "前回の記事で、AI生成コードには「ビジネスロジックの死角」があると指摘しました。今回は、より具体的で致命的な事例を紹介します。\n​ターゲットは、多くのシステムで実装されている「決済注文のステータス更新API」です。\n​AIが生成した「一見、普通なコード」\n​以下は、AIにある決済APIの実装を依頼した際に出力されたコードの抜粋です。\nasync function updateOrderStatus(req, res) {\nconst { orderId } = req.params;\nconst { status } = req.body;\nconst order = await db....",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-04-24T15:01:05+00:00"
-    },
-    {
-      "id": "4e2f5317c4",
-      "title": "Apple's Next CEO Needs to Launch a Killer AI Product",
-      "url": "https://www.wired.com/story/apples-next-ceo-needs-to-launch-a-killer-ai-product/",
-      "description": "Tim Cook was a great CEO, but he didn’t crack AI.  It’s job number 1 for John Ternus.",
-      "source": "Wired AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-24T15:00:00+00:00"
-    },
-    {
-      "id": "966b38912f",
-      "title": "IRS Expands AI Use as Staffing Gaps Raise Risk - PYMNTS.com",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRkllVkVZTGFra3cxc016MFlDdjFyd200U3p5NUhNQ05ncHVpWUR4RmswNGFLTHh0elJibndHa3REZFZRQzJDNzNCcDFSNGxYVzVCYS0ydm5rTlkxbzVnb3U4RXdRV1hPakdhcVJYc2FOZTI1UDdMd1g2MEwxZGNuS3Z5YnozdU1jQ1BUTHlqVTJEeUxjeFJNVkxJNXBGWS0zOUpB?oc=5",
-      "description": "IRS Expands AI Use as Staffing Gaps Raise Risk  PYMNTS.com",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-04-24T14:56:43+00:00"
-    },
-    {
-      "id": "d52ff0674a",
-      "title": "We Studied How AI Shapes Teachers’ Well-Being. Here’s What We Found (Opinion) - Education Week",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOV1VLQUZ0NjhBckpVUjdSTGNkOENaZEVEYmg1SXpWc2t3S21SQkNTSVRUNkx1RGludW5IeVd5MlFUWnlrSkZFZFB5bE42bUhJazJIZHdVRnBybzh2Zld4WHo4SHJmNE03UHBLT0FUUG1rRDROWk5TTmNsOE40S0hLT0NhY09sSUtlS3h6aTdhME1TUlZfSW5hakFRTmRqdGRoSlRheE93Yy1vUDJVSnU1cnFnNWU?oc=5",
-      "description": "We Studied How AI Shapes Teachers’ Well-Being. Here’s What We Found (Opinion)  Education Week",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-04-24T14:56:13+00:00"
-    },
-    {
-      "id": "bf251facb8",
-      "title": "生成AIの脅威に対策強化へ（ABEMA TIMES） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5kaVRRQjlrRFI3b2t5dTh6NFoySnVsR3lPckVjSzNTeUI0ZkZTeUNpTVVhUW1BdDJTdVh5UTVvUDhaVTN3aHkyb2JtbnhjWXFmRXg4VDdCZVA5bzltVGtTcl8wb25iYTZYRlFkY3ZTZ1ZMQjR4c1k1UWU3ZzdkZk0?oc=5",
-      "description": "生成AIの脅威に対策強化へ（ABEMA TIMES）  Yahoo!ニュース",
-      "source": "Google News - AI (JP)",
-      "lang": "ja",
-      "category": "General",
-      "published": "2026-04-24T14:54:16+00:00"
-    },
-    {
-      "id": "ba10860892",
-      "title": "生成AIの脅威に対策強化へ - ABEMA TIMES",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1UQjB5a216TjQ4eTNmOFQ3cmtVX0JURFdhVm1QZEZUbEJzcnlIcHFPMjc2ZmdHQjVvZ2JtZ0JIZDBXZlByT2NwOGRBcFBaYjhjWjJIWQ?oc=5",
-      "description": "生成AIの脅威に対策強化へ  ABEMA TIMES",
-      "source": "Google News - AI (JP)",
-      "lang": "ja",
-      "category": "General",
-      "published": "2026-04-24T14:52:00+00:00"
-    },
-    {
-      "id": "bbbabe7f7d",
-      "title": "生成AIの脅威に対策強化へ - au Webポータル",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1NQ1hOX25oWmUxcTlyXzQxOE92Ti1zVTQxMk9zbDBrUFpKbExZenk1SUtlQ0dTMXFldDhQUUxYSTVEX0FDNThOeDcxaTdPdjBlMG9VZWp2cXhtT0ZWWEN3Q29MeWg4enNRMkROemliOEN2VklJbGFfdUxNUQ?oc=5",
-      "description": "生成AIの脅威に対策強化へ  au Webポータル",
-      "source": "Google News - AI (JP)",
-      "lang": "ja",
-      "category": "General",
-      "published": "2026-04-24T14:52:00+00:00"
-    },
-    {
-      "id": "8aeafb0316",
-      "title": "The Microsoft Surface Pro is nearly 40% off at Best Buy - and we highly recommend it",
-      "url": "https://www.zdnet.com/article/microsoft-surface-pro-best-buy-deal/",
-      "description": "The Microsoft Surface Pro is a powerful 2-in-1 laptop, and right now at Best Buy, you can save $800 on the 13-inch version.",
-      "source": "ZDNet AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-24T14:50:50+00:00"
-    },
-    {
-      "id": "f4d3101606",
-      "title": "GitHub Copilot Free（web版）で小ツールを作る——50回を賢く使う実践ガイド",
-      "url": "https://zenn.dev/hiyokoko/articles/3fefe612e9313b",
-      "description": "はじめに\nGitHub Copilot に Free tier がある。\n月50回。モデルは Claude Haiku 4.5等。でも web版ならbing-searchも使える。\n「Free tierは弱い」とよく言われるが、使い方を工夫すれば小ツールを1〜2個作るには十分だった。この記事はその実践記録。\nFree tierのスペック（2026年4月時点）\n\nGitHub Copilotで聞いてみた\n50回を節約する最大の武器：「Spaceにメモを添付する」\nCopilot webにはSpaceという機能がある。プロジェクトごとにコンテキストを保持できる仕組みで、ファイルを添付しておく...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-04-24T14:48:33+00:00"
-    },
-    {
-      "id": "f1544c8507",
-      "title": "なぜClaude Codeは「トークンを食いまくる」のか、そしてそれを止める6つの習慣",
-      "url": "https://zenn.dev/ruralwritter/articles/b5e90a4883308e",
-      "description": "*全3回シリーズ・第1回\n日本語で記事を書くのは今回が初めてです。何かお気づきの点があれば、ぜひご指摘いただければ幸いです。\n\nシリーズ: Claude Codeのトークン節約術\n\n\n第1回: 基本の6つの習慣 ← いまここ\n第2回: Prompt Cache\n第3回: 3層スタックを組み合わせる\n\n\n ある夜、私は「何かがおかしい」と気づいた\nその日は朝からClaude Codeを開いていました。ちょっとチャットして、数行コードを直して。お昼になっても同じターミナルの中で、ちょっと厄介なバグと格闘していました。ファイルをもう少し読んで、こっちの方向で試して、ダメで、戻って、別の方向で...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-04-24T14:47:58+00:00"
-    },
-    {
-      "id": "d8c158c6e3",
-      "title": "政府AI「源内」オープンソース化　GitHubで公開、商用利用もOK　民間と共創へ",
-      "url": "https://www.itmedia.co.jp/aiplus/articles/2604/24/news103.html",
-      "description": "民間の提案を積極的に取り入れつつ、政府機関などでの重複開発を抑制する。",
-      "source": "ITmedia AI+",
-      "lang": "ja",
-      "category": "Industry",
-      "published": "2026-04-24T14:42:00+09:00"
-    },
-    {
-      "id": "b42ad25246",
-      "title": "Intel Soars After an Earnings Blowout. Did This Legacy Tech Company Just Become Wall Street's Newest Artificial Intelligence (AI) Darling? - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZ3l2c1libVdMalVPMVlsQl9JN2lFb0FGMExYTFV5MC1FX1BRODBsQkdDVlhpYW1KUk11V3lxQXROdXFpRmVUQmd0Sl9hVVdiLVpHcjRGS2tpSXZuZDhJeHhtNmxvSE9ZcmowU2tNQzNZcFA2UHUyeFpDQWtjYWFYcEgtNjBGejlhTDh4eUZkbjh0TWpkdHlaZXlFWkprZw?oc=5",
-      "description": "Intel Soars After an Earnings Blowout. Did This Legacy Tech Company Just Become Wall Street's Newest Artificial Intelligence (AI) Darling?  Yahoo Finance",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-04-24T14:31:10+00:00"
-    },
-    {
-      "id": "11b3571f90",
-      "title": "The pope moves to police AI - Axios",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdWdjSmplaXExSjFBbGZiWHdsUjlPYlF5UWpIUW1JYXlZa01hWWl2emFpOGY4cDQ1NElMQUd0bHppb3BRbUp6Nmt4Ull0SGV6TkJlTXNkdXVLeWFPSnptZmEtUE5zMnBiN09UdnI5dmMtMmtnQlhyMVhxNFZ0cnZRWlZfSFh4dw?oc=5",
-      "description": "The pope moves to police AI  Axios",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-04-24T14:24:55+00:00"
-    },
-    {
-      "id": "045987eb0a",
-      "title": "Artificial Intelligence - AI Update, April 24, 2026: AI News and Views From the Past Week - MarketingProfs",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdlJpU2J3TkxEZUY0cWFldkthQnVXMVhqMEJsUm5hSFR6WVk5VlZkejRTU1luVWxsdGZEYnJOdkxISTlWQ2pnSFhBOHh2YWp0WkVyX0czUFllbDVOSkhRSnZSbkhfSWh6dzFOTVozNDlWbFFLZ1hqZVN4SHVnWTVqMG5sVnI1d0UxU0xQVExJYTUyalhyaG9LUXhXNzNUVVJwQUpLYUM4RGJ6YzY4cUlEWQ?oc=5",
-      "description": "Artificial Intelligence - AI Update, April 24, 2026: AI News and Views From the Past Week  MarketingProfs",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-04-24T14:12:05+00:00"
-    },
-    {
-      "id": "0c910f98b7",
-      "title": "DeepSeek Unveils Flagship AI Model a Year After Breakthrough - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYlBaam5rSExHaXJZZEM3WjgydGtwVjJpNjFBY2lkOElwbUEzZS1hSDZVRW9tbVFCdFlfck5iNGJYc21mSTBSbVB1UTREbExCUEFqdDlmZjZiRjh6eVlvTUotTTlPNUcxdUJZWWNUemhGQXVqVmtvdUJZWGJ5V3pLUzNQYlIzWnIzcnFmNFZMbkJxTVZ0Q0xaRzZDRkIzdzZHZmlkMGpZdml3enNNX010dW5B?oc=5",
-      "description": "DeepSeek Unveils Flagship AI Model a Year After Breakthrough  Bloomberg.com",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-04-24T14:10:21+00:00"
-    },
-    {
-      "id": "500373bc8d",
-      "title": "The Horrible Economics of AI Are Starting to Come Crashing Down - Futurism",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQR2RWQzFOQnFrM2pWdHBScVN4d1lqZ3RMU3FOai1panJKYUtNWHhUQUp5OFphaFJ5NC1TYjhTRXRSbGFnbTJ3R0xadjRzSV9kMzYzaWI2WWZ3T0piZDdnOS04Z3N5N242SDUwNERjWnhmZWkwbFdqVjVxRHFYRWpIdjZxbFA?oc=5",
-      "description": "The Horrible Economics of AI Are Starting to Come Crashing Down  Futurism",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-04-24T14:09:14+00:00"
-    },
-    {
-      "id": "50d7ddc5a1",
-      "title": "「DeepSeek-V4」登場　オープンながら“世界トップのクローズドモデルに匹敵”うたう",
-      "url": "https://www.itmedia.co.jp/aiplus/articles/2604/24/news100.html",
-      "description": "中国DeepSeekは、オープンウェイトのAIモデル「DeepSeek-V4」プレビュー版を公開した。「世界トップクラスのクローズドモデルに匹敵するパフォーマンス」をうたう。",
-      "source": "ITmedia AI+",
-      "lang": "ja",
-      "category": "Industry",
-      "published": "2026-04-24T14:03:00+09:00"
-    },
-    {
-      "id": "527b1cada7",
-      "title": "Uber CTO Praveen Neppalli Naga joins stacked StrictlyVC SF lineup for April 30 event",
-      "url": "https://techcrunch.com/2026/04/24/uber-cto-praveen-neppalli-naga-joins-stacked-strictlyvc-sf-lineup-for-april-30-event/",
-      "description": "Surprise! StrictlyVC San Francisco, which will kick off this year’s events lineup for TechCrunch on April 30 at the Sentro Filipino Cultural Center, is getting a new addition to its increasingly stacked lineup of speakers. Uber CTO Praveen Neppalli Naga will join the rest of the lineup to discuss op",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-24T14:00:00+00:00"
-    },
-    {
-      "id": "285abb5d06",
-      "title": "Tim Cook is stepping down. What happens to Apple now?",
-      "url": "https://techcrunch.com/video/tim-cook-is-stepping-down-what-happens-to-apple-now/",
-      "description": "Tim Cook plans to step down from his CEO role in September, handing the reins to hardware chief John Ternus.   Ternus may be inheriting one of the most durable businesses in tech, but he’s also stepping into a very different ecosystemthan the one Cook spent decades shaping. The App Store’s 30% cut i",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-04-24T14:00:00+00:00"
     }
   ]
 }
