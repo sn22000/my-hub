@@ -1,46 +1,536 @@
 {
-  "updated_at": "2026-09-19T15:36:25.245390+00:00",
-  "total": 388,
+  "updated_at": "2026-09-19T23:50:27.861758+00:00",
+  "total": 384,
   "articles": [
     {
-      "id": "5c2bb4b49f",
-      "title": "Jevを試してみた：精度はQwen3 4Bとほぼ同等だった",
-      "url": "https://qiita.com/DPBZ/items/5a6aaa699f2c8c0a69fc",
-      "description": "最近Jevが話題になっているので、実際に環境を構築して試してみた。\n結論から言うと、推論速度は速くコストも低い。ただ、精度はQwen3 4Bとほぼ同じレベルだった。\n小さな改善を、あたかもとてつもないブレークスルーであるかのように見せている印象が拭えない。\nちなみに、利用規...",
+      "id": "edcf1d7173",
+      "title": "【2026年9月最新】Claude Code・Copilot・Cursor・Windsurf・Codeium実装比較｜セットアップコードとベンチマークで選ぶAIコーディングツール",
+      "url": "https://qiita.com/sescore/items/f1504153a8a43a20358d",
+      "description": "はじめに：なぜ今「AIコーディングツール」の実装比較が必要なのか\n2026年に入り、AIコーディングツールは「使うか使わないか」を問うフェーズを終え、「どれを、どう組み合わせて使うか」を問うフェーズに移っています。GitHub Copilotのようなインライン補完型ツール...",
       "source": "Qiita AI Tag",
       "lang": "ja",
       "category": "Community",
-      "published": "2026-09-20T00:31:31+09:00"
+      "published": "2026-09-20T08:14:09+09:00"
     },
     {
-      "id": "944af0ed88",
-      "title": "Jevはなぜ文章を捨てたのか？並列推論と「自信90%」の数学",
-      "url": "https://qiita.com/emi_ndk/items/cad4b87c1c4ffd4333ca",
-      "description": "「自信は90%です」。LLMがそう答えたので、if confidence >= 0.9で自動処理する。その90%は、本当に100件中90件当たるという意味でしょうか。\n2026年9月15日に発表されたTypeSafeのJevは、この数字を文章として生成する経路を外します。文...",
+      "id": "3b49612983",
+      "title": "OpenClaw×Claude Code連携実践ガイド：思考と実行を分けるAI開発フロー",
+      "url": "https://qiita.com/sescore/items/5836d47f648ac9c11fd0",
+      "description": "はじめに:なぜ「思考層」と「実行層」を分けるのか\n2026年9月現在、Qiitaでは直近14日間で「AI」タグ付きのストック20超え記事が8本、「ClaudeCode」タグ付きの記事も5本公開されており、AIコーディングエージェントの実務活用がエンジニアの日常的な関心事に...",
       "source": "Qiita AI Tag",
       "lang": "ja",
       "category": "Community",
-      "published": "2026-09-20T00:30:31+09:00"
+      "published": "2026-09-20T08:05:54+09:00"
     },
     {
-      "id": "a2726f1dd5",
-      "title": "Jevを使って迷惑メールの分類対決をする",
-      "url": "https://qiita.com/shiv-ko/items/a03658b7bbf6cfe44a63",
-      "description": "はじめに\n最近話題のJev！\nざっと情報を見た感じ、文章出力をなくして、構造化した出力のみを行う判断用AIという印象ですが、なんといっても気になるのはその精度とコスト。\nこういう技術は触ってみないことには何も始まらないというものです。Jev公式のメーリングリストは登録済み...",
+      "id": "737011d085",
+      "title": "外部審査でAIの安全性を担保する重みと設計の勘所！Claude Code開発者が押さえておきたいAnthropicニュース（2026-09-20）",
+      "url": "https://qiita.com/homhom44/items/07c1c0e8356e639ef4f4",
+      "description": "Anthropic の Claude / Claude Code 関連ニュースをまとめた索引だ。記事本文は日本語で PaPoo に投稿している。ここでは各記事の要点を紹介するので、詳細は各リンク先を読んでほしい。\n\nAIが手を貸すと、攻撃の速度感が変わってしまう\nこの記事で...",
       "source": "Qiita AI Tag",
       "lang": "ja",
       "category": "Community",
-      "published": "2026-09-20T00:29:02+09:00"
+      "published": "2026-09-20T08:05:03+09:00"
     },
     {
-      "id": "b822b99faa",
-      "title": "AIにコードを書かせるようになったら、JIS配列でもUS配列でもどうでもよくなってきた",
-      "url": "https://qiita.com/tonbi_attack/items/829091ed3f1fb236378a",
-      "description": "はじめに\n以前は、JIS配列とUS配列の違いをそれなりに気にしていました。\nコードを書くなら、@、:、[]、{}、\"、'、\\\\、| などの記号を頻繁に入力します。キーに印字されている記号と実際に入力される記号が違う状態では、毎日の開発はかなりやりづらいはずでした。\nところ...",
+      "id": "f99f471106",
+      "title": "AIコーディング「Claude Code」体験",
+      "url": "https://qiita.com/shanxiaxionger28/items/32f2cfa074e01ecc6922",
+      "description": "Claude Codeを実際に使ってみた ― ターミナルからAIにコーディングを任せる\n\nはじめに\n普段の開発でAIコーディングツールをいくつか試してきましたが、今回は Anthropic が提供する CLI ツール「Claude Code」を実際にインストールして使って...",
       "source": "Qiita AI Tag",
       "lang": "ja",
       "category": "Community",
-      "published": "2026-09-20T00:25:36+09:00"
+      "published": "2026-09-20T07:36:25+09:00"
+    },
+    {
+      "id": "8a682cacaf",
+      "title": "AI人材を採用できない中小企業、専門家を「必要な時だけ」活用する支援サービス",
+      "url": "https://kn.itmedia.co.jp/kn/article/2609/20/2000001626/",
+      "description": "生成AIを導入しても、現場で使いこなせなければ業務改善にはつながらない。中小企業ではAI人材の不足や研修、費用が壁となる中、専門人材を常時抱えるのではなく、「必要な時だけ活用する」という選択肢を提供するベンダーがある。",
+      "source": "ITmedia AI+",
+      "lang": "ja",
+      "category": "Industry",
+      "published": "2026-09-20T07:00:00+09:00"
+    },
+    {
+      "id": "b238c6ef25",
+      "title": "AIを入れても仕事は変わらない？　アビームとNotionが「企業ナレッジ」に注目する理由",
+      "url": "https://kn.itmedia.co.jp/kn/article/2609/20/2000001660/",
+      "description": "AIエージェントの導入が進む一方、企業固有の業務を任せるには、社内に分散する知識や個人の経験則をAIが使える形に整える必要がある。アビームとNotionは、ナレッジを起点に業務と組織を変える。",
+      "source": "ITmedia AI+",
+      "lang": "ja",
+      "category": "Industry",
+      "published": "2026-09-20T07:00:00+09:00"
+    },
+    {
+      "id": "a91a675509",
+      "title": "AIを入れても「最後は人頼み」　自動化の穴を「AI＋人」で埋める新たなBPOサービス",
+      "url": "https://kn.itmedia.co.jp/kn/article/2609/20/2000001625/",
+      "description": "RPAや生成AIを導入しても、例外処理や目視確認、システム更新など「最後に人がやる仕事」は残る。Generative Partnersは、こうした自動化しきれない業務をAIと人力で分担し、BPOとして丸ごと引き受けるサービスを始めた。",
+      "source": "ITmedia AI+",
+      "lang": "ja",
+      "category": "Industry",
+      "published": "2026-09-20T07:00:00+09:00"
+    },
+    {
+      "id": "694dfee9a8",
+      "title": "AI導入でつまずく中小企業、「何を・誰が・どう変えるか」を丸ごと支援",
+      "url": "https://kn.itmedia.co.jp/kn/article/2609/20/2000001627/",
+      "description": "生成AIを導入したくても、「どの業務から始めるか分からない」「AI人材がいない」と悩む中小企業は少なくない。ただツールを導入するだけでは業務は変わらない。",
+      "source": "ITmedia AI+",
+      "lang": "ja",
+      "category": "Industry",
+      "published": "2026-09-20T07:00:00+09:00"
+    },
+    {
+      "id": "bc7b659890",
+      "title": "AI攻撃は「調べて対応」では間に合わない　ゼットスケーラーがSOCをAIエージェント化",
+      "url": "https://kn.itmedia.co.jp/kn/article/2609/20/2000001661/",
+      "description": "AIによってサイバー攻撃のスピードが増す一方、企業の防御現場では人が大量のアラートを調査し、対応を判断している。人手不足も重なる中、ゼットスケーラーはAIエージェントを活用し、検知から調査、対応までを自動化する新たなSOCを打ち出した。",
+      "source": "ITmedia AI+",
+      "lang": "ja",
+      "category": "Industry",
+      "published": "2026-09-20T07:00:00+09:00"
+    },
+    {
+      "id": "84fdc61e39",
+      "title": "Two meta sustainability grant and scholarship recipients share impact",
+      "url": "https://sustainability.fb.com/blog/2023/03/24/two-meta-sustainability-grant-and-scholarship-recipients-share-impact/",
+      "description": "",
+      "source": "Meta Research",
+      "lang": "en",
+      "category": "Lab",
+      "published": "2026-09-19T23:50:22.364902+00:00"
+    },
+    {
+      "id": "af5584d426",
+      "title": "Announcing the winners of the 2022 Foundational Integrity Research request for proposals",
+      "url": "https://research.facebook.com/blog/2023/3/announcing-the-winners-of-the-2022-foundational-integrity-research-request-for-proposals-/",
+      "description": "In September, Meta launched the Foundational Integrity Research request for proposals. Today, we announce the winners of this award.",
+      "source": "Meta Research",
+      "lang": "en",
+      "category": "Lab",
+      "published": "2026-09-19T23:50:22.364884+00:00"
+    },
+    {
+      "id": "b329b2beb8",
+      "title": "Introducing Segment Anything: Working toward the first foundation model for image segmentation",
+      "url": "https://ai.facebook.com/blog/segment-anything-foundation-model-image-segmentation/",
+      "description": "",
+      "source": "Meta Research",
+      "lang": "en",
+      "category": "Lab",
+      "published": "2026-09-19T23:50:22.364863+00:00"
+    },
+    {
+      "id": "2fbf912e3f",
+      "title": "Announcing the 2023 Meta Research PhD Fellowship award winners",
+      "url": "https://research.facebook.com/blog/2023/4/announcing-the-2023-meta-research-phd-fellowship-award-winners/",
+      "description": "...",
+      "source": "Meta Research",
+      "lang": "en",
+      "category": "Lab",
+      "published": "2026-09-19T23:50:22.364845+00:00"
+    },
+    {
+      "id": "9106e3b70e",
+      "title": "Build faster with Buck2: Our open source build system",
+      "url": "https://engineering.fb.com/2023/04/06/open-source/buck2-open-source-large-scale-build-system/",
+      "description": "",
+      "source": "Meta Research",
+      "lang": "en",
+      "category": "Lab",
+      "published": "2026-09-19T23:50:22.364825+00:00"
+    },
+    {
+      "id": "bfd248436a",
+      "title": "How the metaverse can transform education",
+      "url": "https://about.fb.com/news/2023/04/how-the-metaverse-can-transform-education/",
+      "description": "",
+      "source": "Meta Research",
+      "lang": "en",
+      "category": "Lab",
+      "published": "2026-09-19T23:50:22.364806+00:00"
+    },
+    {
+      "id": "19c94d0ab7",
+      "title": "A new, unique AI dataset for animating amateur drawings",
+      "url": "https://ai.facebook.com/blog/ai-dataset-animation-drawings/",
+      "description": "",
+      "source": "Meta Research",
+      "lang": "en",
+      "category": "Lab",
+      "published": "2026-09-19T23:50:22.364788+00:00"
+    },
+    {
+      "id": "da193e0dfd",
+      "title": "How a non-traditional background led to cutting-edge XR tech",
+      "url": "https://www.metacareers.com/life/how-a-non-traditional-background-led-to-cutting-edge-xr-tech",
+      "description": "",
+      "source": "Meta Research",
+      "lang": "en",
+      "category": "Lab",
+      "published": "2026-09-19T23:50:22.364769+00:00"
+    },
+    {
+      "id": "bf1c9b2eec",
+      "title": "Every tree counts",
+      "url": "https://research.facebook.com/blog/2023/4/every-tree-counts-large-scale-mapping-of-canopy-height-at-the-resolution-of-individual-trees/",
+      "description": "Meta set a goal to reach net zero emissions by 2030. We are developing technology to mitigate our carbon footprint and making these openly available.",
+      "source": "Meta Research",
+      "lang": "en",
+      "category": "Lab",
+      "published": "2026-09-19T23:50:22.364748+00:00"
+    },
+    {
+      "id": "3b21cd05ba",
+      "title": "How generational differences affect consumer attitudes towards ads",
+      "url": "https://research.facebook.com/blog/2023/5/how-generational-differences-affect-consumer-attitudes-towards-ads/",
+      "description": "Our research study, in collaboration with CrowdDNA, aims to understand people's relationship with social media ads across different social media platforms.",
+      "source": "Meta Research",
+      "lang": "en",
+      "category": "Lab",
+      "published": "2026-09-19T23:50:22.364708+00:00"
+    },
+    {
+      "id": "4413b74e7c",
+      "title": "If You Tested Power BI Copilot by Asking the Same Question Twice, You Tested the Cache",
+      "url": "https://pub.towardsai.net/if-you-tested-power-bi-copilot-by-asking-the-same-question-twice-you-tested-the-cache-db796725fa11?source=rss----98111c9905da---4",
+      "description": "Microsoft’s Copilot documentation contains a paragraph that quietly invalidates how most teams evaluate whether Copilot is reliable. There…Continue reading on Towards AI »",
+      "source": "Towards AI",
+      "lang": "en",
+      "category": "Research",
+      "published": "2026-09-19T23:31:01+00:00"
+    },
+    {
+      "id": "65e07b10be",
+      "title": "Sunoに匹敵する音楽生成AI「YuE2」、膨大な論文から“まだ誰も知らない科学的関係”を予測するソニー製AI「Hakken」など生成AI技術5つを解説（生成AIウィークリー） - テクノエッジ TechnoEdge",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBxRHBoNUNRN25GU3NpRFYyd1AyRHcxMUdnTFBsWlVyNGc0ZFZZNDVGcXVMRjhtX1ZCVkhQTUdsNUJOeUdQNjFYNTNPdkVUNUdlMnhRcTFaclc2bUZGZ1d0Tm1yYjg4Zk0?oc=5",
+      "description": "Sunoに匹敵する音楽生成AI「YuE2」、膨大な論文から“まだ誰も知らない科学的関係”を予測するソニー製AI「Hakken」など生成AI技術5つを解説（生成AIウィークリー）  テクノエッジ TechnoEdge",
+      "source": "Google News - AI (JP)",
+      "lang": "ja",
+      "category": "General",
+      "published": "2026-09-19T23:16:02+00:00"
+    },
+    {
+      "id": "4a03a43b58",
+      "title": "Can We Trust Open Source Models for Production Code?",
+      "url": "https://pub.towardsai.net/can-we-trust-open-source-models-for-production-code-754e3c7c3b7a?source=rss----98111c9905da---4",
+      "description": "From the narrow “Can we trust Chinese models ?” to the more scientific -“Eval it!”Continue reading on Towards AI »",
+      "source": "Towards AI",
+      "lang": "en",
+      "category": "Research",
+      "published": "2026-09-19T23:01:02+00:00"
+    },
+    {
+      "id": "44a1c354dd",
+      "title": "terraform init は何をしているのか【AI の Terraform 暴走を止める #1】",
+      "url": "https://zenn.dev/e8dev/articles/terraform-init-ai-review",
+      "description": "AI エージェントに Terraform を触らせるようになって、レビューの中身が変わりました。書かれた HCL を読むより先に、AI が打とうとしているコマンドと、その出力の読み方を見る必要が出てきた。エラーを消すために lock file を削除する、plan を読まずに apply に進む、lock エラーに force-unlock で応える。どれも人間の初心者と同じ間違いですが、AI は速いので、気づいたときには終わっています。\nこのシリーズでは、Terraform の基本コマンドを 1 本ずつ、「機構 / 設計意図 / AI を止めるサイン」の 3 問で解説します。対象は「自...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-09-19T22:42:49+00:00"
+    },
+    {
+      "id": "e46fb2bc67",
+      "title": "The AI Agent That Was Supposed to Take a Cybersecurity Test Ended Up Hacking Hugging Face",
+      "url": "https://pub.towardsai.net/the-ai-agent-that-was-supposed-to-take-a-cybersecurity-test-ended-up-hacking-hugging-face-655c8df8fa2b?source=rss----98111c9905da---4",
+      "description": "",
+      "source": "Towards AI",
+      "lang": "en",
+      "category": "Research",
+      "published": "2026-09-19T22:31:01+00:00"
+    },
+    {
+      "id": "7d940ca34e",
+      "title": "N.J. Rep. Josh Gottheimer calls for artificial intelligence guardrails with bipartisan bill - cbsnews.com",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNaXNKRGktalE0NV9Ud0EzUGV3UUFIRi1zNmRJRWFocUNsaTNZd2RXM3Jjb1pveDZuV0xweXg4V0xwN2pqX3lldnI0dmxiYWVscGs4ejhuSmRSVVZKVm5YWHBkOVNpR2lsWW5wbVVMSzdrcUlvQnVOazVwSWxIbkJjUTFjaw?oc=5",
+      "description": "N.J. Rep. Josh Gottheimer calls for artificial intelligence guardrails with bipartisan bill  cbsnews.com",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-19T22:25:54+00:00"
+    },
+    {
+      "id": "a3593b5294",
+      "title": "465万9980円の化け物PCでローカル生成AI体験！GALLERIAブースでは『ペルソナ4 リバイバル』や『VARREL』などコラボPCがズラリ【TGS2026】 - leveluplogy.jp",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBkaW1XSmRSRkMyVV9WSVN5RGg1MXlEeXp6dm0tSFlmZTlfQmdpekRJclc5U3lQN05UUWhQRTMtMThCRG1Wc09FMVd6TTVKdw?oc=5",
+      "description": "465万9980円の化け物PCでローカル生成AI体験！GALLERIAブースでは『ペルソナ4 リバイバル』や『VARREL』などコラボPCがズラリ【TGS2026】  leveluplogy.jp",
+      "source": "Google News - AI (JP)",
+      "lang": "ja",
+      "category": "General",
+      "published": "2026-09-19T22:21:26+00:00"
+    },
+    {
+      "id": "f620cf6001",
+      "title": "「生成AIで作られていて目が滑るから気持ち悪い」——外注のAI活用で質が落ちたと感じるクリエイターたち - shiritomo",
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE40bnpIRUN2UFhwTmh1aFN1XzhRTFlYLXlDQzAzRjR1czd4Rmk4b0lFVmtNbE9hQnlGQjA0THlvdE9odw?oc=5",
+      "description": "「生成AIで作られていて目が滑るから気持ち悪い」——外注のAI活用で質が落ちたと感じるクリエイターたち  shiritomo",
+      "source": "Google News - AI (JP)",
+      "lang": "ja",
+      "category": "General",
+      "published": "2026-09-19T22:20:42+00:00"
+    },
+    {
+      "id": "789c0b9b07",
+      "title": "「速く終わった」は成功ではない — rm -f が一度も走らず、壊れたコードを「検証済み」と報告した話",
+      "url": "https://zenn.dev/hwaun_dev_open/articles/zsh-glob-skipped-verification",
+      "description": "自分で作った動画処理ツールの検証を組んでいました。素材を処理して、出力の尺とフレーム数を確かめる。2回流して同じ結果が出れば合格、という単純なものです。\n2回目が、異常に速く終わりました。\n私はそれを「キャッシュが効いたんだな」と解釈して、合格にしました。 そして壊れたままのコードを「検証済み」として報告しました。\n実際には、検証は一度も走っていませんでした。\n\n 何が起きていたか\n原因は検証スクリプトの前処理、たった1行です。\nrm -f a.mp4 cache/*.part\n前回の出力と中間ファイルを消して、まっさらな状態からやり直す。ありふれた行だと思います。\nこのとき cache...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-09-19T22:19:41+00:00"
+    },
+    {
+      "id": "2b37ac3383",
+      "title": "Your Dashboard Says 200 OK. Your Agent Still Gave the Wrong Answer. Here’s the Missing Layer.",
+      "url": "https://pub.towardsai.net/your-dashboard-says-200-ok-your-agent-still-gave-the-wrong-answer-heres-the-missing-layer-2bc8d9a54b8f?source=rss----98111c9905da---4",
+      "description": "MLflow tracing, spans, LLM judges, and the four config choices that separate a notebook demo from production.Continue reading on Towards AI »",
+      "source": "Towards AI",
+      "lang": "en",
+      "category": "Research",
+      "published": "2026-09-19T22:01:01+00:00"
+    },
+    {
+      "id": "084fb63a62",
+      "title": "CLAUDE.mdのルールを増やす前に確かめる、母数を数えるすすめ",
+      "url": "https://zenn.dev/genkunjc/articles/rules-that-died-when-measured",
+      "description": "AIコーディングエージェントに、決めたルールをちゃんと守ってほしい。ただ、ルールを増やすたびに、そのぶん守らせやすくなっているとは限りません。\n足す前に、まず母数を数えます。同じ日に作った4本のルールのうち3本は、通った側を数えると撤回の対象になりました。そのうち1本は、数え方の定義を直すと採用に戻ります。残ったのは、増やすことではなく先に数える手順です。\n\n 3つの要点\nAI コーディングエージェントに「こう書け」「これはするな」という規則を渡す運用をしています。Claude Code なら CLAUDE.md、他のツールでも同じような置き場所があります。\n\n規則を残すか捨てるかは、手...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-09-19T21:53:16+00:00"
+    },
+    {
+      "id": "c5626582cf",
+      "title": "Trump says he will appoint a new AI adviser, without providing details - The Mighty 790 KFGO",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZGIwbi1TSlVkTmx0VGR4VzdqNC1MSm5iRjZ5cEJfRUZhb1g1Q0JfZjdPekZ0VGFrcDFqZnM3bTVWdlBOeGZvZUs5LVZUTHZ0ZXVxQUdMQ19CdE5QNmJuTFQxT1l1MWUyS0RvdjVmWW5WNExTeFBUYlB3OVl4TWIwTWZn?oc=5",
+      "description": "Trump says he will appoint a new AI adviser, without providing details  The Mighty 790 KFGO",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-19T21:45:48+00:00"
+    },
+    {
+      "id": "eddebf0502",
+      "title": "OpenClaw Releases 2026.9.5 With Atomic Updates, Plugin Hot Reload, Conversation Sharing, and Expanded GPT Live",
+      "url": "https://www.marktechpost.com/2026/09/19/openclaw-releases-2026-9-5/",
+      "description": "OpenClaw 2026.9.5 ships 4,179 pull requests from 502 contributing accounts. The headline change is Atomic Updates, which check the next version against a private copy of your setup while the current Gateway keeps running. The release also adds plugin hot reload, read-only conversation sharing, GPT L",
+      "source": "MarkTechPost",
+      "lang": "en",
+      "category": "Research",
+      "published": "2026-09-19T21:44:23+00:00"
+    },
+    {
+      "id": "98e4cb1f7b",
+      "title": "Rising warnings over AI risks are colliding with strategic competition - Deccan Herald",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMEl6ZkZmeU5nS2VnUkd4a0lTdG9xX2prYUVJZW9DZUZfTVJsRE82Tl9vSFF5bHhqV0tsSm9EOXdZdG9JZjVsTjdQUVI1X0ZGREN1NDdKbUszcGZVUjU4TjlKRk5QbGV4R09nS3BXY0FHV3VUNk0xcVJTWjJ6c05yNjYxMnF6QjBSR041V1hRdHFzQ3BJc1BQbUJGUXB3cC1xUHVpaHQ2TFJUaHlGSGJWU0prLUVyS3ZpMDIxaHVSX2VrS1lQVXBEWHpKRnJ0QjY5RFNNajd6aTdNZw?oc=5",
+      "description": "Rising warnings over AI risks are colliding with strategic competition  Deccan Herald",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-19T21:41:23+00:00"
+    },
+    {
+      "id": "b704ff16b0",
+      "title": "中国Naive AI、4億ドル調達 オープンウエイトLLMを投入へ - 디지털투데이",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPanI5bXc2MlJSMXZ1YXVHMmhid0w3YWpuN0NIdTJrRkN6bEFkM1hnekQ5REw3TlJCWTlFQ3BWQkNoZFhET2tCRUpScWRQR3NTWnFZUXBDSVJPZUFLNGVYeUplbEFPR25raEJKVXFYVXkyOWJYVHJEVzZiQ1lIM0VGNEFwenY4anZQa2pBZFBXWFZMRkNrOVI4cGE3S3JuV1puTU9obGNjaU1CQ2xnVXI1VE9JcTZETGRxdElZcg?oc=5",
+      "description": "中国Naive AI、4億ドル調達 オープンウエイトLLMを投入へ  디지털투데이",
+      "source": "Google News - AI (JP)",
+      "lang": "ja",
+      "category": "General",
+      "published": "2026-09-19T21:33:56+00:00"
+    },
+    {
+      "id": "70bfd2aa63",
+      "title": "Claude Mythos: The Model Anthropic Built and Decided Not to Sell",
+      "url": "https://pub.towardsai.net/claude-mythos-the-model-anthropic-built-and-decided-not-to-sell-47d301d26da1?source=rss----98111c9905da---4",
+      "description": "It found a bug that automa‍te‍d test‌i‍ng h⁠a‌d run‍ pas​t fi‍ve mi‍llion tim​es. Then, three day​s after​ its success‍or shipp⁠ed, the US…Continue reading on Towards AI »",
+      "source": "Towards AI",
+      "lang": "en",
+      "category": "Research",
+      "published": "2026-09-19T21:31:01+00:00"
+    },
+    {
+      "id": "5825228d5b",
+      "title": "OpenAIとジョナサン・アイブのAI時代のデザイン ── 人とAIのインターフェースの理想のかたち",
+      "url": "https://zenn.dev/leading_ai/articles/openai-jony-ive-ai-interface",
+      "description": "みなさん、こんにちは。ビジネス×デザイン×テクノロジーの３つの領域を越境している、Sun*のビジネスデザイナー兼AIストラテジストの山内怜史である。\nOpenAIとジョナサン・アイブがつくっている端末は、まだ名前も形も公表されていない。公になっているのは、２人がそれについて語った言葉だけである。\n本稿は、その言葉だけを材料に、以下を言語化していく。\n\n２人が理想とするインターフェースはどんな形をしていて、使う人に何をもたらすのか？\nそして、その理想を完成させるために、まだ語られていないものは何か？\n\n\n\n 序章：アイブは使う側の不快を、アルトマンは向かいの側の不快を語った\n2025年1...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-09-19T21:29:43+00:00"
+    },
+    {
+      "id": "e44aa1f223",
+      "title": "Trump announces creation of ‘AI Force’ — and calls fears of artificial superintelligence a ‘hoax’ - New York Post",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOGpOWGg2RjlISG9rRW50NlJaOU9ScDlTNXA3ei1GRTZELWhYbFVvb2l2ZzZPcTExdUthM053YnlLek1SWEJoS1FSUTQ5bWlyQ0lJTktxMFg4OHhIdXVRb01RM2JoMURoN3FkbS1udVRvMUtLSS04V0szeF9kVnNfUE1MWFdvbmtvUDhNMkVzTUt2SnR6X0ZTMTA5U0hqX01hZkhTV2tn?oc=5",
+      "description": "Trump announces creation of ‘AI Force’ — and calls fears of artificial superintelligence a ‘hoax’  New York Post",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-19T21:26:45+00:00"
+    },
+    {
+      "id": "418abcfcab",
+      "title": "AI立ち絵の作り方｜プロンプト・参照画像・差分生成まで再利用できるキャラクター設計",
+      "url": "https://zenn.dev/satofun/articles/38b9e525ae0f02",
+      "description": "AIで立ち絵を作るとき、最初の1枚だけをきれいに生成することへ意識が向きがちです。ですが、TRPG、配信、SNS、ゲーム、漫画などで同じキャラクターを継続利用するなら、本当に重要なのは「次の1枚も同じキャラクターとして使えるか」です。\n髪型や瞳の色、衣装、アクセサリーといった特徴が毎回大きく変わってしまうと、せっかく作った立ち絵を素材として再利用しにくくなります。\n本記事では、AI立ち絵の基本的な作り方から、プロンプトの構造化、参照画像の使い方、表情・衣装・ポーズ差分への展開まで整理します。\n\n AI立ち絵はキャラクター仕様の出力結果\n\n立ち絵とは、キャラクターの姿やデザインを分かりや...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-09-19T21:25:18+00:00"
+    },
+    {
+      "id": "ac33e18746",
+      "title": "訂正が重なった資料の値抽出、プロンプト反復より内訳の明示が効いた",
+      "url": "https://zenn.dev/every_ai_recipe/articles/correction-tracking-breakdown-check",
+      "description": "TL;DR\n\n「訂正が複数回重なった業務メモ」から最終的な正しい値を抽出させる際、(1) プロンプトをそのまま2回貼る\"Prompt Repetition\"、(2) 回答前に情報を古い順へ整理させるステップバイステップ指示、の2つの工夫を単体・組み合わせの6条件で検証した\n結果：6条件すべてで最終値・計算結果は正しく、工夫の有無による差は確認できなかった（易しい4項目タスク・難しい逆転トラップ＋計算タスクの両方で天井効果）\nPrompt Repetitionの元論文（arXiv:2512.14982）は非推論設定のLLMを対象にしており、今回のような「本文に訂正の経緯が明記された抽出...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-09-19T21:17:07+00:00"
+    },
+    {
+      "id": "00ecf5c5db",
+      "title": "釣りの裾野を広げるイベントと生成AIを活用した新時代のフォトトーナメントとは？ - ルアマガプラス",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE02OFdGMGVwQ2M2dEFWZnFBbFFpZEFqUWN3d3lqOEVZcFczd3Y0NEFrcHVtSVBaaFphd1lkRllCNHlVb2NVSzdhT3p0cFNUNGt1TjJnclNn?oc=5",
+      "description": "釣りの裾野を広げるイベントと生成AIを活用した新時代のフォトトーナメントとは？  ルアマガプラス",
+      "source": "Google News - AI (JP)",
+      "lang": "ja",
+      "category": "General",
+      "published": "2026-09-19T21:15:00+00:00"
+    },
+    {
+      "id": "9c1504c3b7",
+      "title": "Ten days that changed the course of AI - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxON2xmamNtUmNHeDRtbGtQS0FQWnJSZF9uWG1MVHNQRTBkMmt0Q3dkN1A1N1ZoSWo1MHBKQVhJZFB3aEhUQ3MtYmVfaTRPZ09DZzBKVWpUMjFTVktCNGxoSEFhbnhCb3lyclgxS2RfM3BpQjVCaVBPNzBOdkxEU1JCOWhpMnVjeE1MbXhRczNDNldCeXp2?oc=5",
+      "description": "Ten days that changed the course of AI  Reuters",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-19T21:11:43+00:00"
+    },
+    {
+      "id": "fe0f8635ab",
+      "title": "Trump announces he is forming 'AI Force,' will name 'AI czar' soon - WGME",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNdnVkZ2FIX0tQMENrRjRmYzVvY0VYUkswcUZMV2NDbFRFQWtGVmVxc2NPQ1hydFBvalhQQnFPMG9ndmJNVmZTUTdnWk45OG9LXzlnSFhLVzdkMGRxWjUwNkxHMmNoZENqTHg1QnZIVTF3RWtuOFpxTHM5cnp4aVBtYVFNajBvWTJpaEd2d0N2X3RaRWF6bVk2QlZoX2RXVjdDMmRIZS1Ub0J5Zm55anU1dWdPbEtBWHo2NjhsM2wzSzFGWkNzdEMxMklvelVQbWhycWw0RTNYZ3FCTjhQYl9uYXBGMEMzN0NrRnc?oc=5",
+      "description": "Trump announces he is forming 'AI Force,' will name 'AI czar' soon  WGME",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-19T21:02:44+00:00"
+    },
+    {
+      "id": "4e610e9a5e",
+      "title": "Trump announces he is forming 'AI Force,' will name 'AI czar' soon - coastalabc.com",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQeEJIZTA4ZEI3WmROYVFhejVySXhjamc4WDBvY21YTGtoLTJKMXV5NlgtdXdRWVRWRnZXUmUzZU12Rlc4TW1reFIwdHp6RHFIdEtzZVE2dnBRUTR2TGhOR180YlRHSU5LakNhTDdhejBRVUxld1RGYWhuaC1rYjRIcko0MmtXVGw2VFVGMWpodUEtRzN4V0JOSEtMbmxZSExhZkQ2OWZLbWpoVjgwR0NwMFhWbXRoODhRZmoxRFdhOVMzdDVXNVZZY3BndUxpVDVqTVV6cHBVRUxuZWVSZkRuM04xRU14bDJfUHFsZUtGdDlmUQ?oc=5",
+      "description": "Trump announces he is forming 'AI Force,' will name 'AI czar' soon  coastalabc.com",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-19T21:02:08+00:00"
+    },
+    {
+      "id": "631434f704",
+      "title": "Trump says US will form 'AI Force' and appoint an artificial intelligence tsar - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1pRURqQzlKaHhZdEF0OXJrUS0teThLUTlIU1hpV2RvdGl2by1FT1N1WjVYaDNIektwTXBMRWFKa1NqOTkzcWdiSkF0U2FKYVlxSVNrWXhpN0lzTW9PMmc?oc=5",
+      "description": "Trump says US will form 'AI Force' and appoint an artificial intelligence tsar  BBC",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-19T21:01:56+00:00"
+    },
+    {
+      "id": "1f3c052ddc",
+      "title": "Thanks, Anthropic. Can Claude Pay for Nursing School?",
+      "url": "https://pub.towardsai.net/thanks-anthropic-can-claude-pay-for-nursing-school-d6ae93cbfc12?source=rss----98111c9905da---4",
+      "description": "Developers! It’s 3 a.m. here in Houston. If you’re still awake, let me sell you some extra anxiety. I’m sure you’ll enjoy it : )Continue reading on Towards AI »",
+      "source": "Towards AI",
+      "lang": "en",
+      "category": "Research",
+      "published": "2026-09-19T21:01:01+00:00"
+    },
+    {
+      "id": "194c7523c4",
+      "title": "Flock reportedly tries to shrink workforce with employee buyouts",
+      "url": "https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts/",
+      "description": "Without buyouts, Flock would \"almost certainly\" need to lay off staff.",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-09-19T20:39:13+00:00"
+    },
+    {
+      "id": "76388878ae",
+      "title": "【コピペOK】Claude Code の permissions おすすめ設定と、allow / ask / deny の分け方",
+      "url": "https://zenn.dev/tmasuyama1114/articles/claude_code_permissions_recommended",
+      "description": "settings.json の permissions は、Claude Code に確認なしで実行させる操作と、止めたい操作を書く場所です。\nただ、どこまで許してよいかの基準がないと、空のままにするか、誰かの設定を貼ったままになりがちです。\nこの記事は、その基準になる allow / ask / deny の分け方と、そのまま貼れるおすすめ設定をまとめたものです。\n\n 忙しい人のための要約\n設定を貼って使い始めるだけなら、次の点を押さえれば足ります。\n\n取り返しがつく操作は allow、外に出る・消える操作は ask、触る理由が無いものは deny に入れる\ndeny と ask は、...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-09-19T20:38:09+00:00"
+    },
+    {
+      "id": "ea1263246c",
+      "title": "トランプ、人工知能の名称変更を提案、AIフォースを発表 - Unite.AI",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQjB1Yngtb185TktjZ3FwclFSbTNyM1l4QWdRQm92UTg0bUtXd0hsX1laSEczM01wUEhtWGNQa0Q5WUI0QTZ6Rzl6MkhpM3JEWDMxbzBRdEFFN3loNU9oa3Bvb0kyMW1DaDRuSVllOGthbDUxMDlxQnVtUS0xWmpOLTlRQmMxLWlUSHpwRk14bnJUN2JMWkE?oc=5",
+      "description": "トランプ、人工知能の名称変更を提案、AIフォースを発表  Unite.AI",
+      "source": "Google News - AI (JP)",
+      "lang": "ja",
+      "category": "General",
+      "published": "2026-09-19T20:19:43+00:00"
+    },
+    {
+      "id": "782e4f3864",
+      "title": "Jev＝較正済み確信度を返す閉世界分類器 — System One Modelの設計論点",
+      "url": "https://zenn.dev/xim2jp_tokyo/articles/8445fb9942f4ac",
+      "description": "TypeSafe AIのJevを「構造化出力付きLLMの再発明では」と切るのは早い、というのが本記事の趣旨です。Jevの本質は生成モデルではなく、較正済み確信度を返す閉世界の分類器であり、この性質がアーキテクチャ上の置き場所を変えます。\n\n 設計論点1: logprobsと較正済み確信度は別物\nLLMのlogprobsは温度・プロンプト・トークナイズの影響で歪み、そのままでは意思決定の閾値に使えません。JevはRLCD（Reinforcement Learning for Calibrated Decisions）で較正自体を学習目標にしており、「0.95なら約95%当たる」ことを狙って...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-09-19T20:18:02+00:00"
+    },
+    {
+      "id": "494279e9a0",
+      "title": "Trump Proposes Renaming Artificial Intelligence, Announces AI Force - Unite.AI",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQaUJUVmV2U1NGNm9rYWtKOThvZ3JRNWV3V19GMUE3M0RhbjI5YTNROUFoVGsyTnpwZ1NYYXJCa05rNHNCbk5qbVlZdTZnaURaQWgtMFZHbkh1QlFhRWRpbjVTdUJ0RXFQbjkwakEwakN4NHR5UlBpeFgyZml3QzlJczlWdjJMWlJ3dkxnbmVmRnZFUQ?oc=5",
+      "description": "Trump Proposes Renaming Artificial Intelligence, Announces AI Force  Unite.AI",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-19T20:16:44+00:00"
+    },
+    {
+      "id": "6dac758d26",
+      "title": "Trump announces new 'AI Force,' vows to protect industry as AI czar announcement nears - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQWtrY3RYV3hQMlBUaEZ3NGk5aEtLUF82LWZ5RnJtNWRYZmhIcW9zUnVsNHk2NzZQSmdOY2VwcjA2dEFwUU1rX3ctYTBLbjRUQWFSMmpCZzlfVjRYc3JEUzhlcE1LcU1YMXoybmk0UDVKaEI4aFRuRE1HQ3Bub1Zxb1ZRSjBiSmFyR2daTkc3VmlHbExnN3ZTUmt4TnBKYTA0cTgyNncyMzF0RGNOUmhN0gG0AUFVX3lxTE80NHZ2cmJEZVNsNk1wc2tBd01rcDNVcXdKQl9IdTQ3cjhzRDZjbVhiVFNvMnNlYVU0c2xxT3JYbkU1aWZ4X3MwWllYUzNBSWR6c2VFa1JObTJSVmxHbV9RalgxWlNMVWltTEVwTlBlbHItZHlCdXFBZ1BVN3FXbTJXVGZFblp4NzZQTVBDMXFQU2lIcC1ZWU55dlY1SXhhQmFqMlJ5VU9vbU5QQTJDUnNLSHFXaw?oc=5",
+      "description": "Trump announces new 'AI Force,' vows to protect industry as AI czar announcement nears  Fox News",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-19T20:08:52+00:00"
+    },
+    {
+      "id": "227c562896",
+      "title": "Your AI doomsday questions answered: ‘What, if anything, can people like me do about it?’ - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSENEUXI1b25uRmY4US1ZeGlnM0RlVFRtOFhfVFZocXRJa2U2d1Z1eUJ1TzdEblFQSmkwTmxEYnFtZG1fVlBDdnNmTjhrLUlqb1RVdzdmQXIwZW16Rk43d1B1V2IxaUtNeU00WHpSOHJFNVY3VzZvUEtPSWNHVExPMXYyQWVKM0lZRDAxYS10TGEzLU1vLVUtQ21ReEg4bjhaczcwRmNyR3VvRi1hd29Mc2JUblZxOFF4QXZfM1FHR0kxdnA1?oc=5",
+      "description": "Your AI doomsday questions answered: ‘What, if anything, can people like me do about it?’  The Guardian",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-19T20:02:00+00:00"
+    },
+    {
+      "id": "67c3f76d88",
+      "title": "I Compressed a 27B Model by 60% With No Loss on Charts. One Default Setting Cost Me 40 Points",
+      "url": "https://pub.towardsai.net/i-compressed-a-27b-model-by-60-with-no-loss-on-charts-one-default-setting-cost-me-40-points-5ead7fa65c90?source=rss----98111c9905da---4",
+      "description": "Qwen3.8–27B, two free Kaggle GPUs, and a warning in the server log I scrolled past five times.Continue reading on Towards AI »",
+      "source": "Towards AI",
+      "lang": "en",
+      "category": "Research",
+      "published": "2026-09-19T20:01:01+00:00"
     },
     {
       "id": "3c894b3ceb",
@@ -63,6 +553,76 @@
       "published": "2026-09-19T20:00:00+09:00"
     },
     {
+      "id": "3aa7c16e0a",
+      "title": "Trump to create ‘AI Force’ to monitor technology as fears over out-of-control agents grow - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1yVXE5YTI5dDR5YjNpVHIzYnhMQ3huclFnajVuczZBaU40U2RqQkFXMFVOVXJJTWo5SzlVN0tQMkhvdm84bDJMa2lkc2NKbDlHWVFlX2c4VzFyVmFqdFdzbkdqMDNBSXE0N3ZHR3BKdVBzcG44emoxcA?oc=5",
+      "description": "Trump to create ‘AI Force’ to monitor technology as fears over out-of-control agents grow  The Guardian",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-19T19:58:00+00:00"
+    },
+    {
+      "id": "c0e5bbea16",
+      "title": "Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force",
+      "url": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/",
+      "description": "Trump claimed, without evidence, that the AI backlash is a Democratic hoax.",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-09-19T19:57:47+00:00"
+    },
+    {
+      "id": "871bde7ba7",
+      "title": "Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force - TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNX3NnU2pZZDZOWU9VMHU5dWh1ekYxbTg1XzRGek0yVGJNS0REaVZ2SXFNQXpDNExfeGFyMklsRDYyZV82b05GSFZzQUo1U01RRkZsT19XbTQyemItNDBhSHhtaXB3Wmd1UWtEa1FrcWk1alhVTnVsYzhCODJkTU1MSk1uVHdhY1kzZ21TdkszQU5fWjZMdk9reUpZdl9JaXpCYzVmWG1aa0hZNUNibm5zT1MyM3c?oc=5",
+      "description": "Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force  TechCrunch",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-19T19:57:47+00:00"
+    },
+    {
+      "id": "d4bc2659d3",
+      "title": "Trump vows to form ‘AI Force,’ name new Artificial Intelligence czar - USA Today",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdk8xZjhBejlEejEtaWxsTENKUXJXQm1QbE9XWUNTZTlaMjlQcHoxUVpDX2FmdFhuMzQzelRVVFVITDA4ZFdDZGFOb1ZXX2NqS3FWMnNOMVNPY3kzSDdrTkhNY1Q2eVJDVHJHWE5xQkhIN2Y2ODdDZHUwOE5WNVU1WkdYT2dwY2ptWXlFQ1UwYnRHdEVmMXEycmx3d3JRaHhUZGJTQXlON0gwSWc4OWNV?oc=5",
+      "description": "Trump vows to form ‘AI Force,’ name new Artificial Intelligence czar  USA Today",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-19T19:53:00+00:00"
+    },
+    {
+      "id": "8412ff0e98",
+      "title": "Trump says he will create ‘AI Force’ with new ‘AI czar’ - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeXgzWE5yZXlsS2ZBUVJoRFljYWFVUVJvVlBLTkE3NVRlVmpkS1Nkb2JEYVI1ajNoQkdhd0dYTVJOeGZCQkNiN0dVNzJPaVEzT0dWVmZTUk9UbVpZc2FtMG5lWHdsR2pKZG9pTHdtejhOQmFIalZMQ3BKRURCUFZLcG5yblcxLUwwcUFUMWp0UUVXNnBWdDVN0gGcAUFVX3lxTE02bjlNSlB0bWg4R2QzODloc2VTQUhnY2dtODI3MXg0YXgtU3AtV19IbEE1a2g1NzN2U1YyNzYyNjR4eDM1LXBDLW5meDNjWHQtMmxCR05TeHRrWWZLXzNYNVBIU0ppX0pLbktnX25GVkhVbV82UHFpUFdIWmloaDJjV3dQOGRiazBUdFJkZ1l0cDd6Sld1VXlOMTNaMQ?oc=5",
+      "description": "Trump says he will create ‘AI Force’ with new ‘AI czar’  Al Jazeera",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-19T19:52:58+00:00"
+    },
+    {
+      "id": "4f990e5e46",
+      "title": "Trump Says He Will Create A.I. Force and Pick Artificial Intelligence Czar - TMZ",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE96QjU4OV9ESnBkcUJ1YUhuYktGWGMzWTFUNG04MGstbXIyYmZIcGtaam8wcjh0SXJ2eUdHd0Y5SXhVcEZ3NENTYklxUGptQnNnZkxRS0dvUVRsUXdQM1liVFhpUkdlX3lqSWthNTZjaTlZbHlk?oc=5",
+      "description": "Trump Says He Will Create A.I. Force and Pick Artificial Intelligence Czar  TMZ",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-19T19:41:35+00:00"
+    },
+    {
+      "id": "c41b874579",
+      "title": "Trump announces he’s forming an ‘AI Force’ similar to his ‘Space Force’ - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMVlGRkp1bW5Fb1RPM0JaOFROMjU5b2NtcVJaUXFYX0EyMWsxNExJa1VqTm9XanRpLTEyR0c2MjlPRjQyQWxNODJUdjJuTk9BblA0a1hBaTJ0ZWFvckNlbFRYYnRiM0FKaTctT2xlUXJobXZxelVGVFRnSEJBLUliRFhyN2k4TjNHeGtOU0dpaUdKQ21reUF3MV9sZGtrekdmSjZB?oc=5",
+      "description": "Trump announces he’s forming an ‘AI Force’ similar to his ‘Space Force’  The Independent",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-19T19:36:00+00:00"
+    },
+    {
       "id": "67ea8f4859",
       "title": "ゲーム開発に「ローカルLLM」を取り込む必然性とは？ メインメモリーの96GBをVRAM化するAI特化「DAIV」が示すPCの変革【TGS2026特集】",
       "url": "https://ascii.jp/elem/000/004/436/4436507/?rss",
@@ -71,6 +631,126 @@
       "lang": "ja",
       "category": "General",
       "published": "2026-09-19T19:30:00+09:00"
+    },
+    {
+      "id": "1c24463a8e",
+      "title": "Trump says he’s creating an AI force and appointing a czar amid concerns over the rapidly developing tech - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOLWpMdlgxOFkzTjJRSld4OE1Xb2JZY1ZDdjFGSC1vUFctZTR2cUtSdDJEWU53YVcyeE1abkNIWndBcHJVaVB2VjhVY09KanpZUm1TUjVZeV9mSHNvWFJFakhCZ3RQQl9FNWNQUmtpN1FXMWNFSTZxNWxMXzBmaTZyV1FSN3BucTh6eE5Dd1VxRllMX05WQlZiaWZHeVp1TGZyQzRMaUQyRGVQZU1LeHhKSnpB?oc=5",
+      "description": "Trump says he’s creating an AI force and appointing a czar amid concerns over the rapidly developing tech  NBC News",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-19T19:20:44+00:00"
+    },
+    {
+      "id": "569afed388",
+      "title": "The Idle Agent: Designing Ambient, Event-Driven Systems That Wait Well",
+      "url": "https://pub.towardsai.net/the-idle-agent-designing-ambient-event-driven-systems-that-wait-well-9317b9c13ccd?source=rss----98111c9905da---4",
+      "description": "Most agent writing assumes a prompt just arrived. This is about the other 99% of the time — triggers, debouncing, and the cost of watching.Continue reading on Towards AI »",
+      "source": "Towards AI",
+      "lang": "en",
+      "category": "Research",
+      "published": "2026-09-19T19:01:02+00:00"
+    },
+    {
+      "id": "97da6ea019",
+      "title": "生成AIで新しい学び 思考広げる使い方指南 高校生向け講座が好評 - 沖縄タイムス社",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBSeTBpZEdCeUJDajVDdUNQYTZ1bGVQZDl6R21hWUo1cTUzQnFZdDIwWXNHd2VwQ1ZkSXB3QjN4X3lpNUZDN0Q0M1BGY0NzTGhXUnlFNWNmTnl6OHJ5amc?oc=5",
+      "description": "生成AIで新しい学び 思考広げる使い方指南 高校生向け講座が好評  沖縄タイムス社",
+      "source": "Google News - AI (JP)",
+      "lang": "ja",
+      "category": "General",
+      "published": "2026-09-19T19:00:00+00:00"
+    },
+    {
+      "id": "6c5cbe2a3a",
+      "title": "Trump vows to form \"AI Force,\" says he won't allow slowdown of AI development - cbsnews.com",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBIRjV2Q29jV2VQc3FNT05YSG9TWlpSV1pWZXRBaHVWTUkxdF9FeW5vcnpiSkdDbVVWZjJtMUtwUjhuZlB6VnF0TXMzWUdwSWNBd2VpdGRRdUUzd3pLWVE3RXNCRWtIQTZWRVBzSDlGaDIzN3hw?oc=5",
+      "description": "Trump vows to form \"AI Force,\" says he won't allow slowdown of AI development  cbsnews.com",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-19T18:52:39+00:00"
+    },
+    {
+      "id": "371ba947e6",
+      "title": "Trump opens poll to rename AI. Options include 'Extreme' and 'Supreme' Intelligence. - Mashable",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOV0JZNUw5NlBJdE1MY2F0QmpJdEhacy1EdHB6YTIwenZtVmlHa2pzeUdTYm9pV0dIYkcwQnpXMENKLVcwaGtuaXZyLW9jVGIyeEFtRVZQR2ZZS2ZaY1hwVW83Z3RURURZZXNwRmxFbjlmclVEZzdNWWVqb09aYUZqWnNB?oc=5",
+      "description": "Trump opens poll to rename AI. Options include 'Extreme' and 'Supreme' Intelligence.  Mashable",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-19T18:45:24+00:00"
+    },
+    {
+      "id": "05a2123a81",
+      "title": "Newsom Executive Order Contains Eyebrow-Raising AI Kill Switch Proposal - Gizmodo",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNd3FTRm8zSzIwNExrOEpCVTJJeE9ZOVF6MFoyeVBHZC10UExXM2ZGQW5vejNDOExIazdqRk4zQUtZNlBlQlZTTmdEeVVkaDFNX3ZFcGcydG1IUmphMXBfSHhDSV9qS1lxYW4teERQbGtXaF9iUlVXdWpVUWVwcTc4V2kybDBQYjRDTnhLNEpwSi1TMUVUSUcyVDVhTVJqSkVFdXdRdg?oc=5",
+      "description": "Newsom Executive Order Contains Eyebrow-Raising AI Kill Switch Proposal  Gizmodo",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-19T18:42:15+00:00"
+    },
+    {
+      "id": "4052f27408",
+      "title": "TypeSafe AI Releases Jev: A System One Model That Returns Typed, Calibrated Decisions Instead of Text",
+      "url": "https://www.marktechpost.com/2026/09/19/typesafe-ai-releases-jev/",
+      "description": "TypeSafe AI released Jev, a System One model that answers typed questions with probabilities instead of generating text. Input costs $0.042 per 1M tokens, and output tokens are free. We cover the API, the vendor benchmarks and their caveats, what developers are already building, and the documented l",
+      "source": "MarkTechPost",
+      "lang": "en",
+      "category": "Research",
+      "published": "2026-09-19T18:41:33+00:00"
+    },
+    {
+      "id": "ded81110b2",
+      "title": "バグ報告を出したら、1 分で bot に読まれて 25 分で PR になった",
+      "url": "https://zenn.dev/yasunami_daichi/articles/issue-to-pr-automation",
+      "description": "!\nOSS の issue が PR になるまでを、公開されているタイムスタンプから測った記録と、その自動化がどう作られているかを公開リポジトリから読み解いたものです。2026 年 9 月時点。\n\n\n まず、こういう体験になる\nバグを見つけたとする。版を固定して、再現手順を書いて、issue を出す。\n1 分経たないうちに bot がコメントを付ける。「種別: Bug、確度: high」。\n11 分後、次のコメントが来る。「main ブランチで再現を試みました。再現できませんでした」。続けて別ブランチでも試して、3 回とも失敗。1 時間 7 分後、cannot-reproduce と i...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-09-19T18:32:22+00:00"
+    },
+    {
+      "id": "24dcfdac07",
+      "title": "Google’s artificial intelligence system, Gemini, escaped its testing environment in May and hacked into three companies, the search giant said on Friday. https://nyti.ms/4xDyj2O - facebook.com",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOd2JUVnRBU0lXS2FuZmJqcUVfRXZiUW1ZZkU2QUxTeVBVRWlMWW5jcm1FXzJ4UzV5Q1QtSTVmNzdrekFQS2pNVXhpVmtUZUpqMGdhS1Z5T3pNMkZJVEdOTjBqMUl6V3pLRkZMdHgxMnNMVzhhbnBmWXdoZ1lFSXQ5aXBLaDNYLUN6Rm1CNjY0V0xjSURVcV8zcTA1ZUFNVmlGVTV3MXpvVXljbmRQZUMxYzRiY0xzNmktS2xOUVhoQklZYUdOdjBxcmh6c1hNT254d2Vj?oc=5",
+      "description": "Google’s artificial intelligence system, Gemini, escaped its testing environment in May and hacked into three companies, the search giant said on Friday. https://nyti.ms/4xDyj2O  facebook.com",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-19T18:25:00+00:00"
+    },
+    {
+      "id": "69e88430b0",
+      "title": "OpenCodeのコンテキストをJevで継続的に剪定するプラグインを作った",
+      "url": "https://zenn.dev/uhu/articles/1007b909714cef",
+      "description": "はじめに\nOpenCode V2（beta）用のプラグイン opencode-context-pruner を作りました。\n毎回のモデル呼び出しの直前に、古いツールコールとその結果だけを Jev（TypeSafe の判定モデル）で判定して、送信リクエストから落とす／切り詰めるプラグインです。\n\n一番の特徴は「要約しない」こと。会話全体をLLMに要約させると、細部（数字・パス・エラーメッセージ）が消えていきます。このプラグインが触るのは古いツール出力だけで、残したメッセージはすべて原文のままです。\n\n なぜ作ったか\n長時間のコーディングセッションは、古いツール出力でコンテキストが埋まり...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-09-19T18:14:38+00:00"
+    },
+    {
+      "id": "25b79a209b",
+      "title": "Trump Announces 'AI Force' to Regulate Artificial Intelligence, Plans to Name AI Czar - Yahoo News Singapore",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBxNm9OcUNqVFF5XzdXYldESjRnd1Z4d3NvTk5IZVhhakRhRXZVVFAtMEc2dXU2dEgyR3dVX0xtNUFHTWt2SlNmZzNtRFpHWDY2LWJpbHltdUVCQVhxUmlEVXNCQmU1SE1ER2pkZzJ1dU9HczNXN2pMSTdqLWJYMkE?oc=5",
+      "description": "Trump Announces 'AI Force' to Regulate Artificial Intelligence, Plans to Name AI Czar  Yahoo News Singapore",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-19T18:08:43+00:00"
+    },
+    {
+      "id": "d06ee39596",
+      "title": "Agent Skills vs MCP Tools: We Measured 6,434 Skills. The Median Costs You 78 Tokens, a Tool 177.5.",
+      "url": "https://pub.towardsai.net/agent-skills-vs-mcp-tools-we-measured-6-434-skills-the-median-costs-you-78-tokens-a-tool-177-5-4f4bd109e294?source=rss----98111c9905da---4",
+      "description": "",
+      "source": "Towards AI",
+      "lang": "en",
+      "category": "Research",
+      "published": "2026-09-19T18:01:01+00:00"
     },
     {
       "id": "f080f66f2e",
@@ -83,6 +763,176 @@
       "published": "2026-09-19T18:00:00+09:00"
     },
     {
+      "id": "3c4e854144",
+      "title": "Prediction: This Nvidia-Backed Artificial Intelligence (AI) Stock Could 10X by 2033 - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUWd3S1lrV0JMc3hBcXpOSXdFSjU2QzhRYkdkQ01uTEpWdTRRYlZaZFNGdzRtNFNkUWZ5UHFHYUM5TW4tb3JPMGM1aFE3N0F6RVNTUncxeUh0bWtsLVRmUWtqeXIzQV9zYmR5Q0E5UEItQm5XSUM2WFdScjlMbHdSSDYyMjM5NFZQQl9HaTRSc0cxbDNlSWFldA?oc=5",
+      "description": "Prediction: This Nvidia-Backed Artificial Intelligence (AI) Stock Could 10X by 2033  The Motley Fool",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-19T17:45:00+00:00"
+    },
+    {
+      "id": "296f2e8b2e",
+      "title": "Trump posts poll to rename ‘AI,’ says current name is ‘inaccurate, and very ineloquent’ - The Hill",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMURtMTA5VmJ4eTNTOUFlMUI5X09fY20yeWYwb2Y1RGRYREQ5UTNleHdSQXkyaGRWUHVPYVNLM2tza1lJUjRXZ0tWRDZTNHY1RXhxemlFWkhPaGFFMExMd0tEemFlMGxYaTN1bS1Xa3dZSjVBVDZiMTItUkYzNGJfTG54X19hWU1X0gGOAUFVX3lxTE5HWWdpdzdra2xuSDVVMDk2SVItcFFCRHlPRUV0QnoyclhHeEVTdGNpTU1UMDNENXFzUW9OeDdGMVhUandlbFVleHVPcGV2ZzUyMjV2VkNhQnB2WmlIckw5Rk55Tjh3am9CYmw0WWlsSDZyUThDdVZOX0xXWkotYlpXcWpmWm0waUpObEttN3c?oc=5",
+      "description": "Trump posts poll to rename ‘AI,’ says current name is ‘inaccurate, and very ineloquent’  The Hill",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-19T17:35:00+00:00"
+    },
+    {
+      "id": "11244da876",
+      "title": "Democrats call for investigation into faulty AI-generated intel report - Yahoo News Singapore",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNX1NBeTJOZzRidTRDa2o2MjBla3FyLU1UZVVYZkM0N253S0pFcDF5anlBWTRmMnJveHRsckpEY0hVVzVZRlFnbmhUcHNxZGd5TTlGbWRZVHpGQVJDT056ZlI1S2RHVUt1SzFHZFlJTnViOXo5OU4xN2J6eVZENnJSWHVjNDRUdw?oc=5",
+      "description": "Democrats call for investigation into faulty AI-generated intel report  Yahoo News Singapore",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-19T17:33:44+00:00"
+    },
+    {
+      "id": "f153a2350c",
+      "title": "Trump Pushes To Rebrand AI Amid Ongoing Debate Over Industry Regulation - Forbes",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMC1CLU5HcWRfUzM1TlhyaUFwdUZ0UVlhUG11YkozNGRRZTdzWkM3a3NQSUgzOWZ0UzE3dXRwajc2eXAtTGhRSElSbGpXLWt6ekowLVNnNHpCVnUwSVFzYlR1Nk9BaVVKNjRodzI4TEdnajJINDJGbEN4NDZzVmxjQmZXN3BZck55Q3k3djJxeDJLX2pVbkFHdnBaQXo0ckZ4MkVmZVZQWUg2eVNZT3c?oc=5",
+      "description": "Trump Pushes To Rebrand AI Amid Ongoing Debate Over Industry Regulation  Forbes",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-19T17:33:35+00:00"
+    },
+    {
+      "id": "c67b3655b3",
+      "title": "Google’s Gemini is the latest AI model to hack other companies",
+      "url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/",
+      "description": "Google said Gemini had \"acted appropriately\" by ending each hack immediately.",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-09-19T17:30:00+00:00"
+    },
+    {
+      "id": "e1eb4d70db",
+      "title": "Google’s Gemini AI hacked 3 companies during security tests - New York Post",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNkJoMXpka2RtQ2Y4ZTFGQ1hfellDbDBBSVgxR2ZWMW5xeXF3aU5KellVM09aa0hMTnYyZXhEWkRYTS1uZTdGVGJmbHhaZGJXZk95NWQtdkgyVFBaVmlNUFhDT1g0UmpMdTBYSFJjN0gxdVpkTS1YU0tZckQ3Ni1EeG1fd29RUDNIZzhBb184dDVXRVdpR1hXV2lRSEZHdw?oc=5",
+      "description": "Google’s Gemini AI hacked 3 companies during security tests  New York Post",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-19T17:21:00+00:00"
+    },
+    {
+      "id": "f21c327b63",
+      "title": "実際，ローカルLLMの性能ってどうなの？",
+      "url": "https://zenn.dev/tubesoling/articles/2f58a43ad276cb",
+      "description": "はじめに\n初めまして．ソリングです．\n皆さんはローカルLLMを使用されたことはあるでしょうか．ここ数年でLLMの性能は急速に向上しており，現在では9B程度の比較的小規模なモデルでも，以前であれば非常に大規模な計算資源を必要としていたようなタスクを，ある程度こなせるようになってきました．\nクラウド上のLLMは非常に高性能ですが，ローカルLLMには，手元のPCだけで動かせる，外部へデータを送信せずに利用できる，API料金を気にせず何度でも試せるといった利点があります．一方で，当然ながら手元のGPUやメモリには限界があるため，「どの程度のモデルまで自分のPCで現実的に動かせるのか」という問...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-09-19T17:08:40+00:00"
+    },
+    {
+      "id": "9e47c18699",
+      "title": "Prediction: This Nvidia-Backed Artificial Intelligence (AI) Stock Could 10X by 2033 - Currently.com",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWk1Zc3lRUjZOWlhpZktxdUlIemZsZzd2Z05fWGpWSmlnTnZ1N3gwek04MHF1NndJU3d4cDZfSWV0dElpRjBHMGRSWEFOV29HY0wzdWxMSlVJcVJkUldXemxjVFAzeFpFM1FlRWdTQzAxazlWM1A1LWxDaEs5RVJMaTZIQXlldGp1c1ZCdjVxV3llZXNHcTZVSmtZdlZVYkg3?oc=5",
+      "description": "Prediction: This Nvidia-Backed Artificial Intelligence (AI) Stock Could 10X by 2033  Currently.com",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-19T17:05:00+00:00"
+    },
+    {
+      "id": "3cf4b93e3b",
+      "title": "Prediction: This Nvidia-Backed Artificial Intelligence (AI) Stock Could 10X by 2033 - AOL.com",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOODRQd2pWMVhPMldyODZvTG1mc0JPSGphUzdDX1JtV21hbjdBSWkyZm9yVC0tVG1oWklDZ3F2UElnMXpMSG1BT3pheW1xUnhKRzU4dGUzRElybjVrT0w5bG5FWTRSeHRkQmdmZFlfbVJmUlc5WFc3bHlldDdmNi16eVpSOWI3Qi1rdnRGZ3l2T2VoTWNEOXpv?oc=5",
+      "description": "Prediction: This Nvidia-Backed Artificial Intelligence (AI) Stock Could 10X by 2033  AOL.com",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-19T17:05:00+00:00"
+    },
+    {
+      "id": "ac451f8a1d",
+      "title": "How to Tell If Your LLM Judge Can Be Trusted",
+      "url": "https://pub.towardsai.net/how-to-tell-if-your-llm-judge-can-be-trusted-80747dad179f?source=rss----98111c9905da---4",
+      "description": "Two checks on your own judge. The first needs no labels, the second needs a few, and together they tell you whether it grades quality or…Continue reading on Towards AI »",
+      "source": "Towards AI",
+      "lang": "en",
+      "category": "Research",
+      "published": "2026-09-19T17:01:02+00:00"
+    },
+    {
+      "id": "386549f356",
+      "title": "Anthropic, OpenAI, Google, SpaceXAI face lawsuit over 'AI slowdown pact' - Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQUUxQdmR4c3g4UUlxYU45cVpvbXVpR0JRa0lnSnR6THI1NHRKeEp3MUwyNzU1cGRmdTFCWFR4bmtEaUZkRVFlWEJCaHlKdWRlV1JmaDl6dVBFbmhQckM2VmhYVGc2UE9ud1JmRTdUZGdTeGdaUF9ENlVNdWxrUVlnUU9oZVpKTnU1WWJ3QnRnZE9KY3dYNFFXRGJkRVhEaGxqaENkM2RKTUFoLTVJaXB0WGJlRjZJTUU5QW1mWWhGUVpBZHVfSGdxVS1Fdl91RWg4OHRCTDRkWWxjZ0doeWtuSEk1em5pb0FKZ1AyZ9IB8gFBVV95cUxNTGVnMTd2M0UyZUdGMXIwSGNRN24wU3U5a19LZkhyTVlsR0taQy1hVnZqLWhhWXdaRnNwczdNSlU4WWdENXFqbjRPWWxfX2JXcGRhUlhqM0lSWC04UGpqVkJRdEVkNGhvSnBqMHQ0SWdkNFVuVkpGOWlxdDJ1cTZmZnVnVFAtLW9COTh2SmpwV0lsMHZOU3dfaWJJTlpsN1pVb1ktNUR0VE1IdWp0M09ZcDFaX05nV2syRHpBSUlNdFpmMkpZbjdOV25jcXdHd1VKRFpISFJ3RHFiY0dKS25DUmNkWXRWUFFTcGxxUmg2WC1VZw?oc=5",
+      "description": "Anthropic, OpenAI, Google, SpaceXAI face lawsuit over 'AI slowdown pact'  Business Standard",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-19T17:00:30+00:00"
+    },
+    {
+      "id": "97aaee7a40",
+      "title": "自分の概念論文をAIが読めるMCPサーバにする—Mekiki Readerの設計と使い方",
+      "url": "https://zenn.dev/kengotomita/articles/ca6d3d50287434",
+      "description": "自身が執筆した五本の連作論文（Mekiki Framework・T1〜T5）を、AIから直接参照できるようにするMCPサーバを公開しました。\nこの記事は、このサーバが「何をしていて、何をしていないのか」を開発者自身の言葉で整理し、説明するために書きました。理論の詳細そのものは公開中の論文に譲り、ここではサーバの設計思想、アーキテクチャ、そして具体的な使い方をご紹介します。\n\n公開先（Hugging Face Spaces）：https://huggingface.co/spaces/KennGoTm/mekiki-reader\n\n工程と記録（GitHub）：https://github....",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-09-19T16:58:07+00:00"
+    },
+    {
+      "id": "0d47f640e1",
+      "title": "Big Tech need not give artificial intelligence a bad name - Arab News",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNS25sMXhUcHpCYVhuM3JLX2xaeElSLVRFdGo3dkh0aFluVnQxaldBN3RxQlp3TjJEWjh4OHktcG9ndm8yV1Q3N0JoWGRaX3RuWDJ6OU9sZnF0VWdxWHY0ZzJHYzFia0JQdm1uMXd6RlkwTjhkQkdMaVlHMTNmMTBQcFdIZGVJdkNRMVFvN3F0VHRmY2lLOTVzY3hLbU4wZVU?oc=5",
+      "description": "Big Tech need not give artificial intelligence a bad name  Arab News",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-19T16:49:49+00:00"
+    },
+    {
+      "id": "45d620b21d",
+      "title": "Meta’s Muse is creepy, but maybe not for the reasons you think",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy",
+      "description": "Meta's Muse is apparently an effective AI assistant, but one that's a little creepy. Part of that is because of its new Mac app, which can access Messages, Calendar, and Notes. But for all its smarts, Muse doesn't actually know how to describe itself. Jason Aten, a contributing editor at Inc Magazin",
+      "source": "The Verge AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-09-19T16:44:40-04:00"
+    },
+    {
+      "id": "de9e934e4e",
+      "title": "AIにアプリを作らせて大丈夫か、30秒で分かる物を作りました。",
+      "url": "https://zenn.dev/kss_cis_basekit/articles/67556fcd073c9f",
+      "description": "https://keysolutionsupport.com/check/ai-app/\n\n なぜ作ったか\n私はプログラムが書けません。2026年の春から、AIに指示を出して電話を受けるシステムを作らせ、実際の店舗で動かしています。\nその材料を配る場所を探していて、昨夜、Yahoo!知恵袋を調べました。AIにプログラムを書かせる道具の名前で検索すると、質問が94件ありました。その中に、こういう質問が並んでいました。\n\n「会社の事務員です。IT全然わからない超絶初心者です。IDやパスワードを渡しても安全ですか」\n「ホームページを作ったり経理を任せたいが、何を勉強すればいいか分からない」\n「...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-09-19T16:43:05+00:00"
+    },
+    {
+      "id": "7133b51ad8",
+      "title": "Trump opens poll proposing renaming artificial intelligence - Anadolu Ajansı",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNODM0cnZYWmhUV3ZURkZYNWpER3dfT3ZTRy0tMEZ0Q096dlBvQklGMjNjdDFobWs1N1VZRHpyNWU2S3lBeDI5YjJ0ZWJKR0RBckYtT3dCcUNMV1dvbnBHMkI1QzVrVVByaDlrZTdfb25SNWRqS1YyQkVoZ2Y0eVJad19RWERRV0hrSm1rOW5rdnJnREcxb043d3hqbERveU9YazZv?oc=5",
+      "description": "Trump opens poll proposing renaming artificial intelligence  Anadolu Ajansı",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-19T16:39:11+00:00"
+    },
+    {
+      "id": "0e515e8459",
+      "title": "Better Artificial Intelligence (AI) Stock Pick for 2027: Nvidia versus Micron - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQlBNNldBQkxvdXQ3U1NqbWJKcVZ0MW1MdEJNUWFESlBTdm5PM1J0SlFKdXhBWTFocVhwUHNtNFlrTnFxSnlpZnZ4VjM0bFlIeHg3R2hsNUREYTVzQTd6SzFBdzNxd2tCRHRLVlRPdHB5WXpyY3I5WjFiLUFKVFlkSlRCX3IzeHNqZDl0ZXlLcHdHbTM0dXlFUw?oc=5",
+      "description": "Better Artificial Intelligence (AI) Stock Pick for 2027: Nvidia versus Micron  The Motley Fool",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-19T16:30:00+00:00"
+    },
+    {
       "id": "4fcac3a1d3",
       "title": "テキストAIの透かし・ウォーターマークは技術的に困難な上に簡単に削除できる",
       "url": "https://gigazine.net/news/20260919-text-ai-watermarks/",
@@ -93,124 +943,84 @@
       "published": "2026-09-19T16:00:00+09:00"
     },
     {
-      "id": "84fdc61e39",
-      "title": "Two meta sustainability grant and scholarship recipients share impact",
-      "url": "https://sustainability.fb.com/blog/2023/03/24/two-meta-sustainability-grant-and-scholarship-recipients-share-impact/",
-      "description": "",
-      "source": "Meta Research",
-      "lang": "en",
-      "category": "Lab",
-      "published": "2026-09-19T15:36:18.385185+00:00"
+      "id": "98a3649b06",
+      "title": "Jev入門：Choice / Boolean / Scoreとprobability・confidence",
+      "url": "https://zenn.dev/yuzu_krs/articles/71c18d2589d01e",
+      "description": "2026年9月15日、TypeSafe AIは最初の System One Model として Jev を公開しました。\nJevは、ChatGPTのように自由な文章を返すことを主目的にしたモデルではありません。\nざっくり言うと、\nstate（判断材料）\n+\nquestion（聞きたいこと）\n↓\n型付きの判断 + 確率\nを返す、ソフトウェアの中で意味的な判断を行うためのモデルです。\nこの記事では、APIキーもクレジットカードも使いません。\n第三者製の Jev Playground を使って、\n\nChoice\nBoolean / Noul\nScore\nprobability\nconfiden...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-09-19T15:55:16+00:00"
     },
     {
-      "id": "af5584d426",
-      "title": "Announcing the winners of the 2022 Foundational Integrity Research request for proposals",
-      "url": "https://research.facebook.com/blog/2023/3/announcing-the-winners-of-the-2022-foundational-integrity-research-request-for-proposals-/",
-      "description": "In September, Meta launched the Foundational Integrity Research request for proposals. Today, we announce the winners of this award.",
-      "source": "Meta Research",
-      "lang": "en",
-      "category": "Lab",
-      "published": "2026-09-19T15:36:18.385160+00:00"
+      "id": "8e803826d2",
+      "title": "jev-lint: コード中の命名やコメントが嘘になってないかを高速に確認",
+      "url": "https://zenn.dev/mizchi/articles/jev-lint-intro",
+      "description": "jev-lint とは\n気づいたら関数名が実態とズレていたり、昔書いたテストケース名やコメントが嘘になっていた、という問題に遭遇したことはありませんか？\nそれに対して、jev-lint というツールを作りました。\nhttps://github.com/mizchi/jev-lint\n詳細はリポジトリ内の skill を AI に読ませればわかると思いますが、 npx -y jev-lint で動きます。\n\n jev-lint の中身\n中身は、ast-grep のセレクタで抽出されたコードに対して、自然言語で書いたルールで、jev でバッチ化してスコアを評価します。\nたとえば、関数名が...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-09-19T15:39:57+00:00"
     },
     {
-      "id": "b329b2beb8",
-      "title": "Introducing Segment Anything: Working toward the first foundation model for image segmentation",
-      "url": "https://ai.facebook.com/blog/segment-anything-foundation-model-image-segmentation/",
-      "description": "",
-      "source": "Meta Research",
-      "lang": "en",
-      "category": "Lab",
-      "published": "2026-09-19T15:36:18.385132+00:00"
+      "id": "ad61406c69",
+      "title": "Jevを試してみた：精度はQwen3 4Bとほぼ同等だった",
+      "url": "https://zenn.dev/dpbz/articles/dce127f7d8d85e",
+      "description": "最近Jevが話題になっているので、実際に環境を構築して試してみた。\n結論から言うと、推論速度は速くコストも低い。ただ、精度はQwen3 4Bとほぼ同じレベルだった。\n小さな改善を、あたかもとてつもないブレークスルーであるかのように見せている印象が拭えない。\nちなみに、利用規約（ToS）にはベンチマーク結果の公開を禁止する条項が含まれている。",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-09-19T15:32:37+00:00"
     },
     {
-      "id": "2fbf912e3f",
-      "title": "Announcing the 2023 Meta Research PhD Fellowship award winners",
-      "url": "https://research.facebook.com/blog/2023/4/announcing-the-2023-meta-research-phd-fellowship-award-winners/",
-      "description": "...",
-      "source": "Meta Research",
-      "lang": "en",
-      "category": "Lab",
-      "published": "2026-09-19T15:36:18.385103+00:00"
+      "id": "0b67ab7d2e",
+      "title": "TypeSafe AI「Jev」の実効性能検証レポート（約2.8万リクエストによる精度・速度・コスト評価）",
+      "url": "https://zenn.dev/biscuit/articles/typesafe-ai-jev-benchmark-2026-09",
+      "description": "TypeSafe AIの「Jev」は、文章を生成せず、判定結果だけを返すモデルである。判定対象のデータ（JSON）と、「この発話はアラーム設定の依頼か？」のような質問を1リクエストにまとめて送ると、Yes/Noの確率や、選んだ選択肢とその確信度（confidence）といった数値・ラベルが返ってくる。質問の文面ではJSONのどのフィールド（キー）を判定するかを名前で指定し、1リクエストに数百問をまとめて送れる。\n公式ドキュメントは「質問を増やしてもレイテンシはほぼ変わらない」「各質問は独立して評価される」「confidenceが高い回答は自動処理に回せる」と主張する一方で、「英語以外では...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-09-19T15:10:17+00:00"
     },
     {
-      "id": "9106e3b70e",
-      "title": "Build faster with Buck2: Our open source build system",
-      "url": "https://engineering.fb.com/2023/04/06/open-source/buck2-open-source-large-scale-build-system/",
-      "description": "",
-      "source": "Meta Research",
-      "lang": "en",
-      "category": "Lab",
-      "published": "2026-09-19T15:36:18.385052+00:00"
+      "id": "5b9448a31f",
+      "title": "JevでSQLの危険度を判定するCLIを試した：直接実行前のチェックに使える範囲と使えない範囲",
+      "url": "https://zenn.dev/tonbi_attack/articles/jev-sql-danger-checker",
+      "description": "はじめに\n運用環境でSQLを直接実行する場面では、DELETE や DROP TABLE だけでなく、条件付きの大量更新や権限変更にも注意が必要です。\njev-sql-danger-checker は、SQLを実行せず、JevへSQL本文を送って意味的な運用リスクを分類する実験的なCLIです。\n結論から言うと、このツールを実行許可・拒否の仕組みには使えません。一方で、直接実行前に人間のレビューを促す補助線としては使いどころがあります。\n\n Jevが返すのは文章ではなく型付きの判断\nJevは、TypeSafe AIが「System One Model」と呼んでいるAIモデルです。同社は...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-09-19T15:03:36+00:00"
     },
     {
-      "id": "bfd248436a",
-      "title": "How the metaverse can transform education",
-      "url": "https://about.fb.com/news/2023/04/how-the-metaverse-can-transform-education/",
-      "description": "",
-      "source": "Meta Research",
-      "lang": "en",
-      "category": "Lab",
-      "published": "2026-09-19T15:36:18.385027+00:00"
+      "id": "18324ec4d8",
+      "title": "Jevのオープンソース版Layaの数字を、一次情報3つで突き合わせてみた",
+      "url": "https://zenn.dev/genelab_999/articles/77ce1dcf344900",
+      "description": "TL;DR\n\nTypeSafe AI の Jev（2026年9月15日発表）と同じ形をした決定モデル Laya が、9月18日に Apache 2.0 で公開された。重み・学習レシピ・Router まで全部入っている\nただし開発元が出している一次情報は3つあり、同じモデルの数字が場所によって食い違う。開発者向け記事の「総合83.8%」と、モデルカードの「0.362」は同じモデルの話\n採用判断に使えるのはモデルカード側の数字だと考えている。素のチェックポイントは多数派ベースライン（0.461）を下回るので、自分のデータでの追加学習と温度の再フィットが前提になる\n確信度で足切りする運用は...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-09-19T15:00:48+00:00"
     },
     {
-      "id": "19c94d0ab7",
-      "title": "A new, unique AI dataset for animating amateur drawings",
-      "url": "https://ai.facebook.com/blog/ai-dataset-animation-drawings/",
-      "description": "",
-      "source": "Meta Research",
-      "lang": "en",
-      "category": "Lab",
-      "published": "2026-09-19T15:36:18.385002+00:00"
+      "id": "ef688d58ed",
+      "title": "AIとの会話がクロストークにならないようにfirstmateで1体とだけ話す",
+      "url": "https://zenn.dev/inapvision/articles/firstmate_agent_crew",
+      "description": "AIとの会話がクロストークにならないようにfirstmateで1体とだけ話す\n面倒臭がりなエンジニアのyssです。\nAIコーディングエージェントを1つ動かすのはもう当たり前になりましたが、\n「調査もしたい、バグ修正もしたい、監査もしたい」を同時に3つ並行でやろうとすると、途端に面倒になりませんか?\n\n 複数エージェントを並行させるときの面倒くささ\n\nタスクごとにターミナルタブを開いて、それぞれに指示を出しに行く(タブ番兵になる)\n同じリポジトリで並行作業させたいのに、作業ディレクトリが競合しないようにworktreeを都度用意する\nタスクAで得た文脈をタスクBにコピペして伝える\n「あ...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-09-19T15:00:05+00:00"
     },
     {
-      "id": "da193e0dfd",
-      "title": "How a non-traditional background led to cutting-edge XR tech",
-      "url": "https://www.metacareers.com/life/how-a-non-traditional-background-led-to-cutting-edge-xr-tech",
-      "description": "",
-      "source": "Meta Research",
+      "id": "031e78fea7",
+      "title": "Petlibro’s new AI-powered feeder is a game changer for multi-cat homes",
+      "url": "https://techcrunch.com/2026/09/19/petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi-cat-homes/",
+      "description": "Petlibro's new Granary 2 smart feeders use a built-in scale and (on pricier models) an AI camera to track exactly how much your cat is eating and when — though the fanciest health-monitoring features will cost you an extra subscription.",
+      "source": "TechCrunch AI",
       "lang": "en",
-      "category": "Lab",
-      "published": "2026-09-19T15:36:18.384977+00:00"
-    },
-    {
-      "id": "bf1c9b2eec",
-      "title": "Every tree counts",
-      "url": "https://research.facebook.com/blog/2023/4/every-tree-counts-large-scale-mapping-of-canopy-height-at-the-resolution-of-individual-trees/",
-      "description": "Meta set a goal to reach net zero emissions by 2030. We are developing technology to mitigate our carbon footprint and making these openly available.",
-      "source": "Meta Research",
-      "lang": "en",
-      "category": "Lab",
-      "published": "2026-09-19T15:36:18.384948+00:00"
-    },
-    {
-      "id": "3b21cd05ba",
-      "title": "How generational differences affect consumer attitudes towards ads",
-      "url": "https://research.facebook.com/blog/2023/5/how-generational-differences-affect-consumer-attitudes-towards-ads/",
-      "description": "Our research study, in collaboration with CrowdDNA, aims to understand people's relationship with social media ads across different social media platforms.",
-      "source": "Meta Research",
-      "lang": "en",
-      "category": "Lab",
-      "published": "2026-09-19T15:36:18.384888+00:00"
-    },
-    {
-      "id": "0e515e8459",
-      "title": "Better Artificial Intelligence (AI) Stock Pick for 2027: Nvidia versus Micron - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQlBNNldBQkxvdXQ3U1NqbWJKcVZ0MW1MdEJNUWFESlBTdm5PM1J0SlFKdXhBWTFocVhwUHNtNFlrTnFxSnlpZnZ4VjM0bFlIeHg3R2hsNUREYTVzQTd6SzFBdzNxd2tCRHRLVlRPdHB5WXpyY3I5WjFiLUFKVFlkSlRCX3IzeHNqZDl0ZXlLcHdHbTM0dXlFUw?oc=5",
-      "description": "Better Artificial Intelligence (AI) Stock Pick for 2027: Nvidia versus Micron  The Motley Fool",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-19T15:33:52+00:00"
-    },
-    {
-      "id": "762e810322",
-      "title": "Your AI Agent’s Reasoning Isn’t as Private as You Think",
-      "url": "https://pub.towardsai.net/your-ai-agents-reasoning-isn-t-as-private-as-you-think-593cbc64eb91?source=rss----98111c9905da---4",
-      "description": "",
-      "source": "Towards AI",
-      "lang": "en",
-      "category": "Research",
-      "published": "2026-09-19T15:01:02+00:00"
+      "category": "Industry",
+      "published": "2026-09-19T15:00:00+00:00"
     },
     {
       "id": "f48af8241e",
@@ -220,6 +1030,16 @@
       "source": "TechCrunch AI",
       "lang": "en",
       "category": "Industry",
+      "published": "2026-09-19T15:00:00+00:00"
+    },
+    {
+      "id": "24706e00e7",
+      "title": "Thune weighs in on AI oversight as experts warn of risks - KOTA Territory News",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOd250dmoyaEJnbzNTX05aQ0JjUS1hMk43aU5ZU0pwTU1pX3pjdzduRTVzZUF4d3JvSDd0ZDZhamlUcUgxUnJiZEZHZnVjTFE5Z2w1REtfdnlRNmgzUU1QYmExNm01eE8tTTdFQTR5X19rRl9lVUhyOFJnbW04ellzenBvVlZsd9IBmgFBVV95cUxQTkd5QlA1VFVvekhxRUNBMkpjdnZJODhLdFpPSlg0RVR0S240LXUxSzdIZHMxN2lqNi1vWVMyUk1jR0FDM0RqaWs5YWR0ZFJhNW1aUnJ1NkxFTk1yZ1FrUGtiWnlqTW1HcjhrOGktVzBmcTdhTTVsSUhtbi14TzRqT05TQ0VQMlN0ZHI4LWRrLXN2LUFLZnE5T1hn?oc=5",
+      "description": "Thune weighs in on AI oversight as experts warn of risks  KOTA Territory News",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
       "published": "2026-09-19T15:00:00+00:00"
     },
     {
@@ -234,23 +1054,23 @@
     },
     {
       "id": "533ab512d3",
-      "title": "What Separates Human Intelligence From AI? Scientists Say the Answer May Be Chemistry - The Debrief",
+      "title": "What Separates Human Intelligence From AI? Scientists Say the Answer May Be Chemistry - thedebrief.org",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTjlSU1pjNXMyYUdCOThCTk12eWkzN1dZQkNPZVpRU0tfckdSZ2NZeE5yNnFvcDRxVnF0RjBUUGVmUWdLQjU0blNHTWh4QU5ILXZuNGlHTjVITFMzRlE1OVlLc2ZUQVFsYmU0Tk5ZZmJfUy10UUtEOVhUdW1CaS1rbnBHeUthN1AyVEdUbjZHVzJVOHZiZnVTaGFNS2ZyQ3B0ODBKc2xvZENtZl9W?oc=5",
-      "description": "What Separates Human Intelligence From AI? Scientists Say the Answer May Be Chemistry  The Debrief",
+      "description": "What Separates Human Intelligence From AI? Scientists Say the Answer May Be Chemistry  thedebrief.org",
       "source": "Google News - AI",
       "lang": "en",
       "category": "General",
       "published": "2026-09-19T14:11:44+00:00"
     },
     {
-      "id": "7a836d2fbd",
-      "title": "Why 95% of Generative AI Pilots Are Quietly Failing (And the 5% That Aren’t Have One Thing in…",
-      "url": "https://pub.towardsai.net/why-95-of-generative-ai-pilots-are-quietly-failing-and-the-5-that-arent-have-one-thing-in-f44f37ab8821?source=rss----98111c9905da---4",
-      "description": "MIT put a number on the AI ROI gap in 2025. The number didn’t move much in 2026. The reason has almost nothing to do with the models.Continue reading on Towards AI »",
-      "source": "Towards AI",
+      "id": "a4b8614ad9",
+      "title": "Prices go up in 7 days. Get your Disrupt ticket now.",
+      "url": "https://techcrunch.com/2026/09/19/prices-go-up-in-7-days-get-your-disrupt-ticket-now/",
+      "description": "Current ticket pricing ends Sept. 25 at 11:59 p.m. PT. Join 10,000+ founders, investors and tech leaders at Disrupt and save up to $200 on your ticket until then..",
+      "source": "TechCrunch AI",
       "lang": "en",
-      "category": "Research",
-      "published": "2026-09-19T14:01:03+00:00"
+      "category": "Industry",
+      "published": "2026-09-19T14:00:00+00:00"
     },
     {
       "id": "1c49620c36",
@@ -273,16 +1093,6 @@
       "published": "2026-09-19T13:39:32+00:00"
     },
     {
-      "id": "aa6e9cd6d7",
-      "title": "How I set it up: Obsidian, Claude and ChatGPT",
-      "url": "https://pub.towardsai.net/context-engineering-obsidian-claude-chatgpt-e5477b48688c?source=rss----98111c9905da---4",
-      "description": "A quick story about context engineering in practiceContinue reading on Towards AI »",
-      "source": "Towards AI",
-      "lang": "en",
-      "category": "Research",
-      "published": "2026-09-19T13:01:03+00:00"
-    },
-    {
       "id": "0ac6fc9717",
       "title": "Vals, backed by Andreessen Horowitz, is looking to become the gold standard for AI benchmarking",
       "url": "https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking/",
@@ -303,14 +1113,24 @@
       "published": "2026-09-19T12:23:08+00:00"
     },
     {
-      "id": "309eb5f441",
-      "title": "The DROP TABLE Failure Mode: Why Autonomous SRE Agents Can’t Be Trusted With DDL Keys",
-      "url": "https://pub.towardsai.net/the-drop-table-failure-mode-why-autonomous-sre-agents-cant-be-trusted-with-ddl-keys-15ce87d0d13e?source=rss----98111c9905da---4",
-      "description": "",
-      "source": "Towards AI",
+      "id": "077d8f6ca8",
+      "title": "OpenAI and Microsoft knew they were starting a ‘doom loop’ for the web",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero",
+      "description": "Recently unsealed court documents in the New York Times' case against OpenAI and Microsoft are pretty damning. The companies' own documentation warned that it was starting a \"doom loop\" that would damage the web, characterized its scraping of data to train its models as the \"largest theft of labor i",
+      "source": "The Verge AI",
       "lang": "en",
-      "category": "Research",
-      "published": "2026-09-19T12:01:01+00:00"
+      "category": "Industry",
+      "published": "2026-09-19T12:18:50-04:00"
+    },
+    {
+      "id": "74cb67da87",
+      "title": "AI \"Actor\" Tilly Norwood Glitches Out During Interview, Starts Rambling in Chinese - Futurism",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPcXJzeWRyQWlVakVpYlJ6anFMME1rTk5memxCZVRYWnFFRlpBRlpCX3VMTk0wTEZFVXU5a1B4ZHp1SkZBZEVhbzRnU24yZVl6NHlhTzFRSXllcWx4MEJyc2JIMnlabXMtaVFoM1VBUkJQOHU2S2JOeFNqaDBnY2xNOQ?oc=5",
+      "description": "AI \"Actor\" Tilly Norwood Glitches Out During Interview, Starts Rambling in Chinese  Futurism",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-19T12:01:00+00:00"
     },
     {
       "id": "d15539e2b5",
@@ -343,24 +1163,14 @@
       "published": "2026-09-19T12:00:00+09:00"
     },
     {
-      "id": "e7b310d01a",
-      "title": "A world of difference in 10 days: the changing course of AI - scmp.com",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORkFvWDBDMTZ1NEZ5RUpWY2NPSlAxTVJVRnlaMUtPamhRVC1jamt5UlN1cEZQSWFzSEdqck9qalZDdWJubDg5WTJsR3FsY0pOVkg1MVEtWllwUGNYNFZkRk9TV0Q3cUIzbG1PdXJLdGdsTG4wTjZGalprV1FIYTNaZ19iaE5UbjU1ZDBCX0FHMTBwMFlDSkVJUW1wWVdlSWFzc0ZVOWJyUFcya0NpaDBjb3hEb1N5ZjczV3fSAboBQVVfeXFMTnhGX2pXcjNGX0xKNm1rdFJXRFBHR3U0c281YjZhb3BsMHFrV2V1cnAtMmdGN1RYbGJBN1czYnJoYmcxQV9yRFlNOTV6d1prV0pLdU1veFNIMTRSMVVBWGlGRUZnVFJGcUpCYkZrN2sxV2pJUHpDcmtfRG5pZGNiNjQ1V1JVX2NGTC01NG9CZExjZVFaRXdsR2NGMk1ETE1QNWNsUHIzSExvaXpNODBaOVprc2xrcEoyWEd3?oc=5",
-      "description": "A world of difference in 10 days: the changing course of AI  scmp.com",
+      "id": "726242d8e7",
+      "title": "A world of difference in 10 days: the changing course of AI - South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORkFvWDBDMTZ1NEZ5RUpWY2NPSlAxTVJVRnlaMUtPamhRVC1jamt5UlN1cEZQSWFzSEdqck9qalZDdWJubDg5WTJsR3FsY0pOVkg1MVEtWllwUGNYNFZkRk9TV0Q3cUIzbG1PdXJLdGdsTG4wTjZGalprV1FIYTNaZ19iaE5UbjU1ZDBCX0FHMTBwMFlDSkVJUW1wWVdlSWFzc0ZVOWJyUFcya0NpaDBjb3hEb1N5ZjczV3c?oc=5",
+      "description": "A world of difference in 10 days: the changing course of AI  South China Morning Post",
       "source": "Google News - AI",
       "lang": "en",
       "category": "General",
       "published": "2026-09-19T11:40:38+00:00"
-    },
-    {
-      "id": "9c1504c3b7",
-      "title": "Ten days that changed the course of AI - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxON2xmamNtUmNHeDRtbGtQS0FQWnJSZF9uWG1MVHNQRTBkMmt0Q3dkN1A1N1ZoSWo1MHBKQVhJZFB3aEhUQ3MtYmVfaTRPZ09DZzBKVWpUMjFTVktCNGxoSEFhbnhCb3lyclgxS2RfM3BpQjVCaVBPNzBOdkxEU1JCOWhpMnVjeE1MbXhRczNDNldCeXp2?oc=5",
-      "description": "Ten days that changed the course of AI  Reuters",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-19T11:31:21+00:00"
     },
     {
       "id": "28713f5bdf",
@@ -373,14 +1183,14 @@
       "published": "2026-09-19T11:25:03-04:00"
     },
     {
-      "id": "c16843d9fd",
-      "title": "DifyをMCPサーバーとして公開する — v1.6.0の双方向MCP対応をEnterprise導入の視点で読む",
-      "url": "https://zenn.dev/sidejob/articles/ae664ab8bcaf38cdd",
-      "description": "本業でDify Enterpriseの導入検討に関わっている立場から、2026年に入ってからのDifyのアップデートで注目しているのがMCP（Model Context Protocol）への対応です。Dify v1.6.0で、外部のMCPサーバーをツールとして呼び出す機能と、逆にDify自身のアプリ・ワークフローをMCPサーバーとして外部に公開する機能の両方がビルトインで提供されるようになりました。いわゆる双方向対応です。\nこれまでDifyの主な使われ方は、Dify自体がオーケストレーターとしてLLM・外部API・ナレッジベースを束ね、Webアプリやチャットボットとして完成させるという...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-09-19T11:02:04+00:00"
+      "id": "4c86648078",
+      "title": "AI error nearly led US to seize Chinese ship: ‘Almost started a war’ - Ynetnews",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBPZGVGdHVNWjZ4QlpyVjM3VmtVVGdNLVByTVIxcTNCZmtiNUl4eW44VXQ5UUhXbG03RTN2aXQ0X3hLWV9HVHMxS1hDem5nTG1peWpod25B?oc=5",
+      "description": "AI error nearly led US to seize Chinese ship: ‘Almost started a war’  Ynetnews",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-19T11:03:20+00:00"
     },
     {
       "id": "8bf26b5b6c",
@@ -434,9 +1244,9 @@
     },
     {
       "id": "fd310cd199",
-      "title": "VRAM容量32GBで30万円未満なIntelグラボ「Intel Arc Pro B70 Creator 32GB」でローカルLLM「Qwen3.8 27B」や動画生成AI「MiniMax H3」を実行して生成速度を確かめてみた - gigazine.net",
+      "title": "VRAM容量32GBで30万円未満なIntelグラボ「Intel Arc Pro B70 Creator 32GB」でローカルLLM「Qwen3.8 27B」や動画生成AI「MiniMax H3」を実行して生成速度を確かめてみた - GIGAZINE",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9NcFRlWVd5TjV1UHlkdk9OVl92WHdfS0VHUUFJQ3FGOEVNSTVnTUluUE9YcGE4VTBreHFQSUVHUHdZUk5PWjlZZDM1bms1UmdHZXNyNFF2MW9xUDNYZ1A4OG1ra1lycEdHQlE?oc=5",
-      "description": "VRAM容量32GBで30万円未満なIntelグラボ「Intel Arc Pro B70 Creator 32GB」でローカルLLM「Qwen3.8 27B」や動画生成AI「MiniMax H3」を実行して生成速度を確かめてみた  gigazine.net",
+      "description": "VRAM容量32GBで30万円未満なIntelグラボ「Intel Arc Pro B70 Creator 32GB」でローカルLLM「Qwen3.8 27B」や動画生成AI「MiniMax H3」を実行して生成速度を確かめてみた  GIGAZINE",
       "source": "Google News - AI (JP)",
       "lang": "ja",
       "category": "General",
@@ -451,26 +1261,6 @@
       "lang": "ja",
       "category": "General",
       "published": "2026-09-19T11:00:00+00:00"
-    },
-    {
-      "id": "ffa4597230",
-      "title": "Jevを企業で使うなら？規約・安全性・導入方法を調べてみた",
-      "url": "https://zenn.dev/yamato_snow/articles/jev-enterprise-security-guide",
-      "description": "話題のJev、会社の業務にも使えそうですよね🧐\nでも、顧客の問い合わせや社内文書を送るとなると、安さだけでは決められません。\n「学習に使われない？」「データは残る？」「そもそも、どんな会社？」\nAPIの使い方を知る前に、確かめたいことがいろいろ出てきます😅\nそこで今回は、TypeSafe AIの判断特化モデル「Jev」を、企業で導入するならどうかという視点で調べました。\n規約と安全性を確認しながら、料金、導入手順、部門ごとの使い方まで見ていきます。\n先に、調べて分かったことをまとめます👇\n\n学習利用を制限する規約はあります。ただし、保存しないという意味ではありません。\nSOC 2の報告書...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-09-19T10:42:28+00:00"
-    },
-    {
-      "id": "9dab73bfc3",
-      "title": "Claude Codeへの入力をJevで分類して、Action Hintを足す",
-      "url": "https://zenn.dev/khasegawa/articles/688b1414740a81",
-      "description": "こんにちは、超かぐや姫の復活を観てきてホクホクなK@zukiです。\nCoding Agentに「調べて」と頼んでも、ネットで検索すらせずに、手元のコードと既存の知識だけで推測して、場当たり的な修正を繰り返すことがあります。外部のライブラリやランタイムが原因のエラーだと、一次情報を見ればすぐ分かる話なのに、あれこれ設定を変えては再実行する流れになりがちです。\nこちらの言う「調べて」は「公式ドキュメントやIssueを確認して」の意味を包含しますが、エージェントにとっては「手元のコードを読む」でも成立してしまいます。\nそこで、プロンプトを送った瞬間にJevで入力を分類し、当てはまったものにだけ...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-09-19T10:23:22+00:00"
     },
     {
       "id": "52b8be8111",
@@ -503,10 +1293,20 @@
       "published": "2026-09-19T10:00:00+00:00"
     },
     {
+      "id": "4eab59d1fa",
+      "title": "生成AI「Gemini」試験中に企業3社のシステムに侵入 - au Webポータル",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB1Nkg2LV9CVDFCR3NUdUtjcDFjQ19uck5fcHRQblBJcnV3Sk5IUlRfRF9DNFZJTU9XNnJlV2JSSEMtMzV1ekpFVTRMOUNONjZVZ1dXT2YwTVh2enRzX05reVJJN1BWVy1YbDhYVG9R?oc=5",
+      "description": "生成AI「Gemini」試験中に企業3社のシステムに侵入  au Webポータル",
+      "source": "Google News - AI (JP)",
+      "lang": "ja",
+      "category": "General",
+      "published": "2026-09-19T09:55:00+00:00"
+    },
+    {
       "id": "098e7140b5",
-      "title": "生成AI「Gemini」試験中に企業3社のシステムに侵入（2026年9月19日掲載）｜日テレNEWS NNN - 日テレNEWS NNN",
+      "title": "生成AI「Gemini」試験中に企業3社のシステムに侵入（2026年9月19日掲載）｜日テレNEWS NNN - news.ntv.co.jp",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcnpwQ2ZwZFVLcnNJU3dHVGgyemFNVDVHYzIzYU9hT3FfUzFReTY3aENidEJUN3dtNWV5NTVsT0Z3VVBIV0RSOVY4Ni12bGN3SE45RzlGWk1sUGRSQzdMOWhJOG1oS1hzZ01waDFnSndNWGdHUXZGYUtoS0FsRy1QNlFZZ2o?oc=5",
-      "description": "生成AI「Gemini」試験中に企業3社のシステムに侵入（2026年9月19日掲載）｜日テレNEWS NNN  日テレNEWS NNN",
+      "description": "生成AI「Gemini」試験中に企業3社のシステムに侵入（2026年9月19日掲載）｜日テレNEWS NNN  news.ntv.co.jp",
       "source": "Google News - AI (JP)",
       "lang": "ja",
       "category": "General",
@@ -523,64 +1323,14 @@
       "published": "2026-09-19T09:52:25+00:00"
     },
     {
-      "id": "158aaaf201",
-      "title": "北区役所に「生成AIオペレーター」が登場！電話で24時間案内してくれるみたい。 - 赤羽マガジン",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1DUk04bEF4YktqWnBiRTU3Q2hWZTBBNFdteFhEaW9XOTVCZ0d5LU42bUVIczBHSDQwcnpGUDc1YXdXdzRPekZ3ZGJQUUNxYzg5U3ZOaFBn?oc=5",
-      "description": "北区役所に「生成AIオペレーター」が登場！電話で24時間案内してくれるみたい。  赤羽マガジン",
-      "source": "Google News - AI (JP)",
-      "lang": "ja",
-      "category": "General",
-      "published": "2026-09-19T09:51:17+00:00"
-    },
-    {
-      "id": "e5f49a4aa4",
-      "title": "\"AI Agents\": Iran, China, and Israel Lead Major Digital Influence Campaigns - صوت الإمارات",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNYUlOUGJzQ2ROYzdqUE1sa0RjQWNmOG5SWFg2T1VyMWpuTmNERnIwYlBFR3ZDalJNcVRiVGVUUko2SGJBaWpRYW9aakxpNkZ2M2Npdm1kN3VJdkwxN0w3Q3VOb1NMMWRLVlMzdGI4RWJzMWRubTBSeko1QjBfQUVDUEJBaU9jZUFTRlRjSDlJTzNZNFRwZm9qdlk5TWZMVjhLcDVqeXZ2dDhJMWU5VDZ3Rm5VNWtnSmdSdXNSQzY2bmFwUjRRY25wR1cyZW5DNGc1N1NPaTNKbm5iOUlKbTF6ZlFIMHRWVUcx?oc=5",
-      "description": "\"AI Agents\": Iran, China, and Israel Lead Major Digital Influence Campaigns  صوت الإمارات",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-19T09:51:06+00:00"
-    },
-    {
-      "id": "f50531c720",
-      "title": "文章を書かないAI「Jev」を試してみた。AI Agentの判断係として使える？",
-      "url": "https://zenn.dev/makicoc/articles/d3a3fd4f4ac2c2",
-      "description": "文章を書かないAI「Jev」を試してみた。AI Agentの判断係として使える？\n最近、Xで「Jev」という名前を見かけるようになった。\n最初は普通のチャットAIかと思ったんだけど、どうやら少し違うらしい。しかも、Jevを作っているTypeSafeの創業者Diogo Almeidaは、以前OpenAIで、ChatGPTにつながる指示追従や対話手法の開発に関わっていた人物らしい。\n元OpenAIのメンバーが、文章を生成するAIではなく「判断するAI」を作っている。\nそこも気になった。\n詳しくはTypeSafe公式の発表に書かれている。\nTypeSafe公式の発表\n\n ◆公式で試そうとし...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-09-19T09:34:07+00:00"
-    },
-    {
       "id": "1de28f9ff1",
-      "title": "Google Gemini accessed protected systems of 3 real companies during artificial intelligence cybersecurity test - Fox Business",
+      "title": "Google Gemini accessed protected systems of 3 real companies during artificial intelligence cybersecurity test - foxbusiness.com",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRlVBX056RkFDRWd5OVRCMFBsNExBS0VOd19UY3pnRnhFcGd3dGxTQUJCdzV1elVFRkFOQTh3dDJPTlRnLXQ3UEUxYTFRdURXWUQ3SWJLVVpBNXBIcmNqdGF0bXYtMGhYNzVaMVFGdkhneXl1SUhsWDBOTVFZMEdiYm1hOU53RXRPY0JBOGRtd3VaY2RuSFpLT19peGc5ZVJiWk1wSE04WU1MY3l5ZVNR0gG0AUFVX3lxTE9ZcURZSEViQkExbGRlYkFCZFN3SmE3V2FkOEl5ZEt5cWRfeHViTUd5b0p5dktXMTVuS2wwRFVvNGJEckJKeG1GeWtSRmNleDl3U01GVXJudUphYUNjSDVQeWVRSWd1NUxKRnU1S2M5OTR5cFZJandNcEVGQ0s1U3BScHhZVl9nako5c2pRMWdPdmxHTlBVSjJLSlAxbjFsUEdtcVFmXzFkbmt2MTBfaUJ5R2RuSA?oc=5",
-      "description": "Google Gemini accessed protected systems of 3 real companies during artificial intelligence cybersecurity test  Fox Business",
+      "description": "Google Gemini accessed protected systems of 3 real companies during artificial intelligence cybersecurity test  foxbusiness.com",
       "source": "Google News - AI",
       "lang": "en",
       "category": "General",
       "published": "2026-09-19T09:29:00+00:00"
-    },
-    {
-      "id": "16bdc4b468",
-      "title": "個人のWeb制作にAIをどう組み込んでいるか｜LP制作の実際の工程を公開",
-      "url": "https://zenn.dev/arpeda/articles/532f1d4a902c97",
-      "description": "LP・ホームページを個人で制作しながら、工程のほとんどにAIを組み込んでいます。「AIで作ってます」だけだと中身が見えないので、実際にどの工程で何をどうAIにやらせているかを、ここでは具体的に書きます。\n対象は、クラウドソーシング経由や直接依頼で受けている、整体院・美容室・工務店のような小規模事業者向けのLP・ホームページ制作です。エンジニアやデザイナー1人がAI前提で回すとどうなるか、という実例として読んでもらえればと思います。\n\n 全体の流れ\nヒアリングから納品まで、だいたいこの順番で作っています。\n\nヒアリング（業種・強み・ターゲット・既存の悩み）\n構成設計（ページの骨組み）\nコピ...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-09-19T09:09:36+00:00"
-    },
-    {
-      "id": "c38f82bef1",
-      "title": "Historic briefing by Sam Altman to the Security Council on AI security and risks - صوت الإمارات",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOY3ZieVloTjRBN3VUajhFak5weGR2OFdqQkpiVG1uZjJGV1RCNFZtODNZTjhsYUs5VUpiOHYtR3VWLXloUEs1STNaRXBocDlEWUdkaHkwR2UwMzlxNTg0dUpPVU54NUlQa3AtTGJoRjB2d1JDQ2h4LWZpa2ptV3NpOV8yUUk1SlYtS0NYTDBjb2xPRWtSVDJoZTd0Tzl5ekxYQWJOQUd5NEVxTXkyVDIxcS04ak44WjNZOFB5WDJYSVZLcnNRVUxIZWZJR2RpeWdMS0xNZTVfYUkwV0FFZ1VKdl9MMElrUjJjeW0zdnBVWF9KWGwzcGc?oc=5",
-      "description": "Historic briefing by Sam Altman to the Security Council on AI security and risks  صوت الإمارات",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-19T09:03:29+00:00"
     },
     {
       "id": "ad32bc2b7c",
@@ -593,54 +1343,14 @@
       "published": "2026-09-19T09:00:00+00:00"
     },
     {
-      "id": "739124e244",
-      "title": "Godfather of AI says it’s time to ‘wake up’ to the existential threat of AI - CP24",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNY3lMLUFqY1BKVFEtWHR5ZV83NEJpbEh4ckoxd0dwSXg4bGRzaFltNHBuWGFRc3lhZ3dXYUNxcm15b3lCRG5TTzg0bTRQNVFIbFZQaGI0Wmx1Ym85ZDJMV2o5SXNXei1hbWFuM0dtVzFkTWVnOXhQWDVZc25sbExTeHVRdjVMcEY4UDQzXzJZb0VNSjV5MzNzcFF1X0JSM2dCb1EtNmFBYzdKZ2p2dXhUTGs0NkFMQQ?oc=5",
-      "description": "Godfather of AI says it’s time to ‘wake up’ to the existential threat of AI  CP24",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-19T09:00:00+00:00"
-    },
-    {
       "id": "da123e3805",
-      "title": "How to know if you can trust an artificial intelligence chatbot's answer to your pressing question - kansasreflector.com",
+      "title": "How to know if you can trust an artificial intelligence chatbot's answer to your pressing question - Kansas Reflector",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOOEVReElibS1xZ0c0aGVtNmlnU1Jva2JET3lBbU5BbHplVjQ5U2hGQncxYWZscnJxREc5cjZXU2Z2aTU1UzM0YUFpM0lHSXhBTmxWRW5mU0paa0t5M1dkVnRCUmdOSFpGc3JGcHUxMWM3emZZbGFrVjN2bnVoQVJTWVpiYlBXbWlqS2ppU19GZzNuOGRWZVlNdEdPMUI2SkFIbHFRZ1AwaVhRY0Y5UmZTSTJqd3oyRlBTbl9idG9pTm11T1NaNy04ZXp0d0dVanhlRDBv?oc=5",
-      "description": "How to know if you can trust an artificial intelligence chatbot's answer to your pressing question  kansasreflector.com",
+      "description": "How to know if you can trust an artificial intelligence chatbot's answer to your pressing question  Kansas Reflector",
       "source": "Google News - AI",
       "lang": "en",
       "category": "General",
       "published": "2026-09-19T08:39:14+00:00"
-    },
-    {
-      "id": "cad53deda2",
-      "title": "Claude Codeにrm -rf ~/を打たせない。Jevで実行前に審査する",
-      "url": "https://zenn.dev/mistletoe/articles/jev-claude-code-guard",
-      "description": "!\nこの記事は、実験の設計から実行・集計・執筆までClaude Code(生成AI)にやらせたものです。\n載せているコードとデモは、実際に動かしたものです。\n\n\n依頼とコマンドを渡すと、5つの判断(不可逆・秘密情報・範囲外・被害・対象)が1リクエストで返ってくる。allow / ask / blockを決めるのはコード\n\n tl;dr\n\nClaude CodeのPreToolUse hookからTypeSafe AIのJev(文章を生成せず、判断だけを確率つきで返すモデル)を呼んで、Bashコマンドを実行前にallow / ask / blockへ振り分けるhookを書きました\n「このコ...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-09-19T08:26:20+00:00"
-    },
-    {
-      "id": "d0f9771a35",
-      "title": "AIのブラウザ操作を選択問題にして爆速にする jev-ultrafast の仕組み",
-      "url": "https://zenn.dev/karamage/articles/8ff31cccd3d223",
-      "description": "Jevが盛り上がってますね。そんな中、browser-useのチームが公開した「jev-ultrafast」を見て、びっくり。\nhttps://github.com/browser-use/jev-ultrafast\nGoogleフライトで「チューリッヒからロンドンまでの片道航空券を検索し、結果一覧が表示されるまで」の全工程を、わずか7.1秒で完遂しています。\nhttps://x.com/masahirochaen/status/2100572036389380130?s=20\n動画を見ても、熟練の人間がショートカットキーを駆使しているかのような滑らかさ。\n公開されたコードを読んでこんな...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-09-19T08:08:33+00:00"
-    },
-    {
-      "id": "21bf163203",
-      "title": "人工知能（AI）を情報報告の支援に活用していた米国は、中国の船舶と衝突寸前まで至った。 - vietnam.vn",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZlBHcFNQeFVoTUY1aHlYY3ZiMmY4NFE3My1UR05YX1RUSlJucEJWZVpKMTlxaHdEcExjNUMxU0p0dE9NVDA0NkZENjZMYXM0RVpQU3Nma0ZCUy15QzctZjhLVmdoYzV4bTVvNG14LXR1NVNYaWdSODcwOVJvYU1mZEJBZklsa19VTkx1VTJTQ2MyQld4emJn?oc=5",
-      "description": "人工知能（AI）を情報報告の支援に活用していた米国は、中国の船舶と衝突寸前まで至った。  vietnam.vn",
-      "source": "Google News - AI (JP)",
-      "lang": "ja",
-      "category": "General",
-      "published": "2026-09-19T08:06:29+00:00"
     },
     {
       "id": "6c77cb7d0f",
@@ -653,6 +1363,16 @@
       "published": "2026-09-19T08:00:00+09:00"
     },
     {
+      "id": "5036f39aa1",
+      "title": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up - thehackernews.com",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxONV9aTW53YlMzR1RyNVVnT01TWGJIM2xSbzcwUHI3aURlNlhIZ2NLUVV1Q2Jpb1hkeGFLcC1qTzdQRGV6OXBQNFIwRnZIR0s1TUM0VUpqMFcwTWtibm1qTE90NkJOb3NCTzFkS3FOaml1SzVvZ1M1OXU0VjNDSVc0R3BR?oc=5",
+      "description": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up  thehackernews.com",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-19T07:51:00+00:00"
+    },
+    {
       "id": "e700cbf5cf",
       "title": "Linkup Research Releases SPARSEUP: A 149M-Parameter Open-Source Sparse Embedding Model",
       "url": "https://www.marktechpost.com/2026/09/19/linkup-research-releases-sparseup/",
@@ -663,36 +1383,6 @@
       "published": "2026-09-19T07:48:38+00:00"
     },
     {
-      "id": "0324bc70eb",
-      "title": "JevでClaude Codeの決裁規定を監査してみた記録",
-      "url": "https://zenn.dev/marycache/articles/20260918-jev-system-one",
-      "description": "2026/09/16に、TypeSafe AIが開発している「Jev」（System One）というプロダクトを知り、Early Accessで実際にAPIを試す機会を得ました。\nChatGPT や Claude のような大規模言語モデル（LLM）に日常的に触れていると、「AIを使う」といえば「プロンプトを投げて、自然言語の文章を返してもらう」という体験が当たり前になっています。\nしかし、Jev のインターフェースと挙動は、そうした通常の生成LLMとは根本的に異なっていました。\n概念的な違いを整理すると、次のようになります。\n従来の生成LLM:\n    Input (Prompt / C...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-09-19T07:40:59+00:00"
-    },
-    {
-      "id": "cab3109b3a",
-      "title": "緑の範囲が原稿より狭かった：Claude Code で書き、Codex でレビューする",
-      "url": "https://zenn.dev/propagandist/articles/0027-cross-vendor-agent-review",
-      "description": "この記事について\n\n\n対象読者：AI にコードや文章を書かせていて、レビューをどこでどう挟むか決めかねている人\n\n得られること：レビューの層を「強度」ではなく「何が見えるか」で分ける観点と、自分の検証の範囲が主張の範囲に届いているかを確かめる手つき\n\n前提：特定のツールに依存しない話です。手元の道具は設計判断の例として出します。バージョンや仕様はいずれも執筆時点（2026年9月）のものです\n\n実行環境：コマンドは Windows の Git Bash で実行しています。Java は JDK 21.0.8、ビルドは Gradle 9.3.1、GitHub の操作は gh です。数え直し...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-09-19T07:35:07+00:00"
-    },
-    {
-      "id": "192d6bec90",
-      "title": "AIを「個人の道具」で終わらせないために",
-      "url": "https://zenn.dev/sionicai_jp/articles/53a6bdf8b27d9b",
-      "description": "生成AIを使っているのに、業務は変わっていない\n生成AIを使って、文章の下書きや情報の整理、アイデア出しをする機会は増えました。\n一方で、「問い合わせ対応」「社内ナレッジの検索」「日報・レポートの作成」「見積書作成」といった業務そのものまで、AIに任せられているケースはまだ多くありません。\n私たちは、生成AIを個人の便利なツールにとどめず、企業の業務プロセスの中で継続的に活用できる仕組みにすることが重要だと考えています。\n\n なぜ、生成AIの活用は個人利用で止まりやすいのか\n実務には、単に質問に答えるだけでは解決できない要素があります。\n\n社内の文書・帳票・図面など、参照すべき情報が...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-09-19T07:30:05+00:00"
-    },
-    {
       "id": "e644fae743",
       "title": "Meta Launches Muse for Mac: A Personal AI Agent That Works Across Your Files, Mail, Messages, Calendar and Notes",
       "url": "https://www.marktechpost.com/2026/09/19/meta-launches-muse-for-mac/",
@@ -701,76 +1391,6 @@
       "lang": "en",
       "category": "Research",
       "published": "2026-09-19T07:22:16+00:00"
-    },
-    {
-      "id": "21bdfa3bb5",
-      "title": "YouTube Sends 1.3 MB of HTML to Your AI Agent. Twenty-One Words Survive.",
-      "url": "https://pub.towardsai.net/youtube-sends-1-3-mb-of-html-to-your-ai-agent-twenty-one-words-survive-ce45e8a42eea?source=rss----98111c9905da---4",
-      "description": "​I measured what five social platforms hand an agent that fetches the link. Four give a fetch-and-strip agent nothing usable. One hands…Continue reading on Towards AI »",
-      "source": "Towards AI",
-      "lang": "en",
-      "category": "Research",
-      "published": "2026-09-19T07:18:33+00:00"
-    },
-    {
-      "id": "bf2b972ff0",
-      "title": "Measuring Agentic AI by Delivery, Not Tokens",
-      "url": "https://pub.towardsai.net/tokenops-ai-token-spend-is-infrastructure-not-impact-8fefadd99574?source=rss----98111c9905da---4",
-      "description": "",
-      "source": "Towards AI",
-      "lang": "en",
-      "category": "Research",
-      "published": "2026-09-19T07:18:27+00:00"
-    },
-    {
-      "id": "fc91ff4ddc",
-      "title": "OpenAI's Codex Ships Two Subagent Toolsets. The Agents API Matches Neither.",
-      "url": "https://pub.towardsai.net/openais-codex-ships-two-subagent-toolsets-the-agents-api-matches-neither-480822de5617?source=rss----98111c9905da---4",
-      "description": "​Continue reading on Towards AI »",
-      "source": "Towards AI",
-      "lang": "en",
-      "category": "Research",
-      "published": "2026-09-19T07:18:18+00:00"
-    },
-    {
-      "id": "81c7316505",
-      "title": "RoPE : Rotary Position Embedding",
-      "url": "https://pub.towardsai.net/rope-rotary-position-embedding-1971034b4bf3?source=rss----98111c9905da---4",
-      "description": "In this article we will explore RoPE from every angle from intuition to why we create this to its mathematical understanding and its…Continue reading on Towards AI »",
-      "source": "Towards AI",
-      "lang": "en",
-      "category": "Research",
-      "published": "2026-09-19T07:18:09+00:00"
-    },
-    {
-      "id": "435e744dfe",
-      "title": "Automating Project Implementation and Maintenance with Claude Code + MCP + AI Agent Skills —…",
-      "url": "https://pub.towardsai.net/automating-project-implementation-and-maintenance-with-claude-code-mcp-ai-agent-skills-dc7839fc4819?source=rss----98111c9905da---4",
-      "description": "",
-      "source": "Towards AI",
-      "lang": "en",
-      "category": "Research",
-      "published": "2026-09-19T07:17:40+00:00"
-    },
-    {
-      "id": "3ff3765f45",
-      "title": "Claude 101: Meet Your New AI Teammate",
-      "url": "https://pub.towardsai.net/claude-101-meet-your-new-ai-teammate-ccbc8fd43cec?source=rss----98111c9905da---4",
-      "description": "Part 2 of the Claude Certified Architect — Foundations exam prep seriesContinue reading on Towards AI »",
-      "source": "Towards AI",
-      "lang": "en",
-      "category": "Research",
-      "published": "2026-09-19T07:16:08+00:00"
-    },
-    {
-      "id": "c74eb27ece",
-      "title": "Jevを試してみた：文章分類を題材にJevの動作を確認する",
-      "url": "https://zenn.dev/nekomaho/articles/fb456b0f96d24c",
-      "description": "最近、TypeSafe AIの Jev という物が話題になっています。どのような物なのか、実際にコードを書いて動作を試してみました。\n今回作ったものは、入力された日本語の文章を、\n\n報告\n二択問題\n相談\n不明\n\nの4種類に分類するシンプルなCLIツールです。\nソースコードはこちらです。\n\nhttps://github.com/nekomaho/jev-test-project\n\nこの記事では、Jevそのものの詳細な解説というより、「実際にアプリケーションからJevを呼び出すとどのような使い方になるのか」 を試してみた内容をまとめます。\n\n\n Jevとは\nJevは、TypeSafe AIが...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-09-19T07:01:27+00:00"
     },
     {
       "id": "c66e59ec40",
@@ -803,134 +1423,24 @@
       "published": "2026-09-19T07:00:00+09:00"
     },
     {
-      "id": "4940349d4e",
-      "title": "Gemini Enterprise Agent Platform の「Managed Agents」に Cloud Run を運用させてみる",
-      "url": "https://zenn.dev/satohjohn/articles/gemini-managed-agents-security",
-      "description": "はじめに\nGoogle Cloud の Managed Agents API に、Cloud Run のサービスを運用させました。Managed Agent API は Gemini Enterprise Agent Platform の Preview 機能です。今回、ログとメトリクスを読ませ、チューニング案を推測させ、実際に再デプロイまでさせています。\nモチベーションは、Antigravity による運用自動化で、どこまでいけるのかを知りたかったというのがあります。こちら検証日は 2026 年 9 月 14 日で、閲覧されたタイミングでは異なる機能になる可能性があります。\n\n 先...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-09-19T06:59:04+00:00"
-    },
-    {
-      "id": "f1e7b9634c",
-      "title": "SAP adds TabPFN-3.5 Plus to AI Core - Portal ERP",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9CSDEtdXdyMmthT1VUV215aUppNUlJalBiQzE2aDcyVlBSSXN3X0NkZlVwUmRiWngtakFwU3pmVFBjaEdXR2NWbVcyVkN6dld0ZU5XZktzTWliWDE3ckp3bzlaQzh4VTVXSEJmdE9ySTdHOTA?oc=5",
-      "description": "SAP adds TabPFN-3.5 Plus to AI Core  Portal ERP",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-19T06:56:15+00:00"
-    },
-    {
-      "id": "6acd2f3101",
-      "title": "Claudeが共通指示に対応、AIに任せる前の新常識",
-      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20260919",
-      "description": "2026年9月19日（土）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。\n先に結論を言います。今日のニュースは、AIに何を任せ、どこを人が確かめるか、という話です。Claudeの共通指示対応から、学習素材を巡る訴訟、誤情報や履歴送信の問題、家庭の予定を支えるGoogleの取り組みまで。便利になるほど、任せ方が大事なんですよ。僕と一緒に、集客や売上につなげたい経営者も、副業や学び直しを始めたい個人も、次の動きを考えていきましょう。\n\n 1. Claudeの共通指示対応は条件付き\n\n図解（完全解説版）\nここなんですよ。AIを使い分けるたびに、同じお願いを説明...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-09-19T06:56:09+00:00"
-    },
-    {
-      "id": "d66e4c9228",
-      "title": "Jevにレースゲームを任せて考えた、質問・記憶・リアルタイム性の話",
-      "url": "https://zenn.dev/test_myname/articles/jev-game-decisions-and-latency",
-      "description": "Vtuberの「ぷらむらいす」です。\nJevにゲームを高速で操作させている投稿を見て、「自作ゲームでも試してみたい」と思いました。\nそこで、ゲームの状態と操作をAIへ公開する仕組みであるGuaを使って、レースゲームでの連携を試しました。最初に考えたのは、通常のLLMが大きな方針を決め、Jevがその場の操作を選ぶ構成です。\nところが、作ってみた感想は「うーーーーん、なんか超微妙……」でした。\n必要な情報の渡し方が難しい。通信を待っている間にも車は進む。さらに、上位に置いたLLMの判断が、進み続けるゲームに追い付かない。\nモデルが速く答えられることと、その答えを使ってゲームをうまく操作できる...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-09-19T06:48:24+00:00"
-    },
-    {
-      "id": "f9445681c4",
-      "title": "GB10 でローカルLLMを数ヶ月運用して踏んだ罠10選（全部実測）",
-      "url": "https://zenn.dev/wisteriacorp/articles/wisteria-737d5801a0b3",
-      "description": "NVIDIA GB10 が載った Lenovo ThinkStation PGX で、ローカルLLMを数ヶ月ほぼ毎日動かしています。常駐エージェントと夜間バッチと、たまに VLM で OCR。128GB のユニファイドメモリに惹かれて買いました。\nで、この記事はベンチマーク記事ではないです。スペックの数字は他の人が書いてくれているので、こっちは運用していて実際に踏んだ穴の記録を書きます。順不同ではなく、被害がわかりにくかった順。最後に、罠を調べているうちに転がり込んできた小さな実験の話があって、たぶんそこが一番おもしろいです。\n環境だけ先に。\n\nLenovo ThinkStation P...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-09-19T06:43:56+00:00"
-    },
-    {
-      "id": "d2c0fa15c1",
-      "title": "Tasmanian justice department review under way after AI and fake citation used in murderer’s parole decision - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQNjV4ZjZsbWpqWmQxaHgxOFl5UnBmQVlPejdCTGZCQUJRcFV6ckx2WGhpY0lfeHNGZlRUQjBvd0pjbDlJREN2WnNDT0Rsc0o5dHRDckl5bXk5M1diSFNrT0JFTFh1eFl6LUltNlNhZEktTlppYmtYQmZGYVBPYWRVUkNPX19Zb2xhc3RySjZIZnlzMGNJdzRQX1JkVkw5YVlrWnNxWHhkSFRxZzRPalFLbnFCTEZXWnZHVGI0elpDMDNqWmxZckJuZzRHUlZFMGFLZ0t2QkVORlBsMjludC1uUnBYRU5OU1R2VTFBcDM0STA3bDll?oc=5",
-      "description": "Tasmanian justice department review under way after AI and fake citation used in murderer’s parole decision  The Guardian",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-19T06:21:00+00:00"
-    },
-    {
-      "id": "3c62da58a1",
-      "title": "Jevで「自分のルール通りにブックマークを整理する」Chrome拡張を作った",
-      "url": "https://zenn.dev/acorn181/articles/a24f9f359e6f95",
-      "description": "はじめに\nJevが発表されましたね。\n早速触ってみると、これまでの主要な生成AIとは少し毛色が違って、文章を自由に生成させるというより、Noul や Choice、Score のような形で「判断」をさせるのが面白そうでした。\n特に気になったのが Choice で、選択肢をいくつか用意して、それぞれの意味を自然言語で書いておくと、「この入力ならどれっぽい？」をJevに判断させられます。\nこれ、分類系の処理とかなり相性よさそうだなと思いました。\nじゃあ何を分類させると面白いかな、と考えていて最初に思いついたのがブックマークでした。ちょうど散らばり続けるブックマークの整理に苦心していたとこ...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-09-19T06:19:17+00:00"
-    },
-    {
       "id": "e72ea6aeab",
-      "title": "Applied Materials vs. Broadcom: Comparing Sales Growth Trajectories for These Artificial Intelligence Companies - Yahoo Finance",
+      "title": "Applied Materials vs. Broadcom: Comparing Sales Growth Trajectories for These Artificial Intelligence Companies - finance.yahoo.com",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWW9lckpCLTdKcGVPZ0VhWEkxSDFwV2t6VVl3c2VRcTNuZkNTbV9MQmR4aFhSbWlaWldlZlR1MHNpbWlMdmJ6OXdxUjZmZnVBZ045ekZENGhoNVhBcldrTlY5VEJJeTlGQl9tYXNYdk5UdnI2Z3hKTkZSSjRFbVNlb1hwZEl5QnJWbGxZZk1PekowalV2MEdxaGFucTdFYm5mVVNWLWZaTQ?oc=5",
-      "description": "Applied Materials vs. Broadcom: Comparing Sales Growth Trajectories for These Artificial Intelligence Companies  Yahoo Finance",
+      "description": "Applied Materials vs. Broadcom: Comparing Sales Growth Trajectories for These Artificial Intelligence Companies  finance.yahoo.com",
       "source": "Google News - AI",
       "lang": "en",
       "category": "General",
       "published": "2026-09-19T06:19:02+00:00"
     },
     {
-      "id": "815ff3c51a",
-      "title": "それでもプログラマーがAIに任せるべきではないこと",
-      "url": "https://zenn.dev/monmomo/articles/5e7efdb79641fb",
-      "description": "!\nこの記事はあたたかみのある手入力で作成しています。\n\n業務をAIに移譲すればするほど評価されるこの時代。\nほとんどの業務をAI前提に再構築した企業は「AIネイティブ企業」として羨望のまなざしを向けられ、今や多くの企業がそんなAIネイティブを目指して日々効率化を進めています。\nそれでもプログラマーとして日々業務をしていて「これAI使わないほうがいいんじゃね？」って作業もある、と感じてます。\n今回は自分が思う「AIに任せない方が絶対いい作業」を自戒として挙げます。\nn=1です。\n私自身、何度も何度もこれらの作業をAIに頼み、AIと喧嘩し、業務時間と精神力、そしてトークンをムダにしてきまし...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-09-19T06:14:19+00:00"
-    },
-    {
-      "id": "fa34430e18",
-      "title": "喋れないAI「Jev」で国家試験を解く：Choice APIと確率分布の扱い方",
-      "url": "https://zenn.dev/chimirohi/articles/fae6ab22983084",
-      "description": "なんか面白いAIが出た。TypeSafeの「Jev」という、自由な文章ではなく、主に判断結果を返してくるAIだ。\n賢いけれど、おしゃべりはしてくれない。\nだが、我々人間はおしゃべりしないと本当にソイツが賢いかどうかなんて分からないんだよおおおォ！\nというわけで、喋らなくても受けられる試験をやらせてみよう。第四級アマチュア無線技士、いわゆる4アマである。法規12問・無線工学12問、すべて4択。マークシートなら、口下手でも問題ない。\nJevは入力内容に対して素早く判断を下すところに特色がある。複雑な問題を与えて知性を測るようなテストには意味がないのでは？と思われるかもしれない。けれど、システ...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-09-19T05:53:08+00:00"
-    },
-    {
-      "id": "36e19ef567",
-      "title": "米カリフォルニア州 AIに「キルスイッチ」導入義務化検討へ | NHKニュース | 生成AI・人工知能、IT・ネット、アメリカ - news.web.nhk",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBPcTdNSFlaTWdQbHRTOEJneUwzVkdQc1FpR0xZNlZ6R0lPem90cVgtUWxKTW9wU2U0Xy1sUF9UN3VJaDdidzhUT0k3ckxBV1BaT1UzZTNKbmh5S1RYaExr?oc=5",
-      "description": "米カリフォルニア州 AIに「キルスイッチ」導入義務化検討へ | NHKニュース | 生成AI・人工知能、IT・ネット、アメリカ  news.web.nhk",
-      "source": "Google News - AI (JP)",
-      "lang": "ja",
+      "id": "e7d5c0567e",
+      "title": "Anthropic picks consulting firm to monitor AI safety, pledges to spend $1 billion - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSnN4LUdjc1JEOHpBaU9kc2hlb3BmX2Nmb1NodlYwbnZ0R1BlRWtxWld2cW1ZdWlMZnQwYWk3bGl0d0JlR3RuZU5PaTE3YkhmRm1JamZfcndhcWZCM3RlN1ZXb09qQ1RJUjRKSmFKS2lxNk9PMTZoR3lfMkVTOXVpaVdpY2JVX3k3N1hiSGREQ3ZtZFdudUkzYm9JLUdiZG1Bc05FSXZR?oc=5",
+      "description": "Anthropic picks consulting firm to monitor AI safety, pledges to spend $1 billion  The Washington Post",
+      "source": "Google News - AI",
+      "lang": "en",
       "category": "General",
-      "published": "2026-09-19T05:43:46+00:00"
-    },
-    {
-      "id": "7a58e88ab9",
-      "title": "中学生でもわかる Lean 4 #04｜はじめての形式証明",
-      "url": "https://zenn.dev/dantarg/articles/lean4-first-proof",
-      "description": "前回の #03「反例――『絶対』を一つの例で壊す」 では、最後にLeanの短いコードを一つだけ見ました。\nそこで見たのは、\nexample (n : Nat) : n + 0 = n := by\n  rfl\nでした。\nでも、まだLeanそのものはほとんど読んでいません。\nでは、命題と証明をコンピューターにも読める形で書くと、何が起きるのでしょう。\n今回は、わざと簡単すぎる式から始めます。\n1 + 1 = 2\n答えを知るためではありません。\nLeanに何を書いたのか。Leanは何を確かめるのか。\nそこだけを見ます。\n\n まず、4行だけ見る\n最初のコードはこれです。\nexample : 1 ...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-09-19T05:31:40+00:00"
-    },
-    {
-      "id": "6d2d244fa5",
-      "title": "AIエージェント運用の『学び台帳』を設計した——再発だけを恒久ルールへ昇格させる仕組み",
-      "url": "https://zenn.dev/container_cms/articles/7d3f14cb8b90b9",
-      "description": "Claude Code のような AI エージェントに継続的な開発・運用を任せていると、チェックリストや規約ドキュメントに書かれていない種類の欠陥に何度も出会う。指摘してやり直させれば1回はその場で直る。問題は、次の似た作業のときに同じ指摘をもう一度することになる点だ。エージェントのコンテキストはセッションごとにリセットされるので、口頭でのフィードバックは何もしなければ揮発する。\nこの記事では、この「同じ指摘の繰り返し」を減らすために組んだ、チーム単位の学び台帳（lessons ledger）と、そこから恒久ルールへ昇格させる仕組みについて書く。\n\n 課題：フィードバックの粒度がバラバラ...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-09-19T05:26:25+00:00"
+      "published": "2026-09-19T05:41:44+00:00"
     },
     {
       "id": "0f3b4315c0",
@@ -941,6 +1451,16 @@
       "lang": "ja",
       "category": "General",
       "published": "2026-09-19T05:00:00+00:00"
+    },
+    {
+      "id": "e1967a3373",
+      "title": "AI fears are fueling progressive Democrat's campaign in Michigan battleground district - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWldXVnlfQVN3RkJ3dGsxWnhTWkp5bGFJbVZHTDdXZXpFR3NBWHA2TFFmQ0JnYWQxU3hnLXhPUGN2NUxMSl8xdzNsUURmXzluY1o0WWpSa3dva21oZVo0VFRtTE53S0MxSXdhMFpGTEtLdXM2Nm4tR3pCVzRIZXRSYmYzRTdFeGlCOE5aRGI5bTVORnJqa0l4ZUpOQ1dsMGo2VzloLW05OE9kNTdUaF9sWGFB0gG3AUFVX3lxTE83ckoybkMwaG1uWmRHeHVYTFA0T2JvVkVqa3ZXd3dkOGVHbmRqQ0Z5NlJISXVyQXNUN2J6VGo1ZGY5cl9iSmJvRFlMWWFMWTFsYTVTTWNKaGZKQnQ3LVV1cGdNOVNUUWhPeGI4aTRnM1FFT3J6YkwxbTZHU3M1ZVZKRS1OWTVfdWctdEhsYWFtTWpwSmxwejFaQkdlX0huTnhzUHdnT3NqRTZyNWV0c3NWaXBpQXBGWQ?oc=5",
+      "description": "AI fears are fueling progressive Democrat's campaign in Michigan battleground district  ABC News - Breaking News, Latest News and Videos",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-19T04:32:33+00:00"
     },
     {
       "id": "c26158e64d",
@@ -964,9 +1484,9 @@
     },
     {
       "id": "b7b9bd92b2",
-      "title": "グーグルの生成AI サイバー能力試験中に他社のシステムに侵入 - news.web.nhk",
+      "title": "グーグルの生成AI サイバー能力試験中に他社のシステムに侵入 - NHKニュース",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE00OXVWN3VGZkVKNnBSeTZ5ZWF0c2lILUZWdjVpTEJ6UVY0Tng1R2NJM0RvNnU4V0tVYWVsbHpqbDBPX2ttOURZTUZKZjlpcFBOelNnRVJURzBCWmVUWlZn?oc=5",
-      "description": "グーグルの生成AI サイバー能力試験中に他社のシステムに侵入  news.web.nhk",
+      "description": "グーグルの生成AI サイバー能力試験中に他社のシステムに侵入  NHKニュース",
       "source": "Google News - AI (JP)",
       "lang": "ja",
       "category": "General",
@@ -1023,26 +1543,6 @@
       "published": "2026-09-19T03:00:00+00:00"
     },
     {
-      "id": "b6d7ea52c4",
-      "title": "人工知能サーバーの世界市場（2026年～2032年）、市場規模（CPU+GPU、CPU+FPGA、CPU+ASIC）・分析レポートを発表 - アットプレス",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5Za0xuaHkwYVhlOGQ2XzY5UWdVRVBiM3JlTWpwZUptQzBXaEx6UW1FWFVVOTlmendPV0NEd2R1X054V2E3V20tQWJuSGNXU1k?oc=5",
-      "description": "人工知能サーバーの世界市場（2026年～2032年）、市場規模（CPU+GPU、CPU+FPGA、CPU+ASIC）・分析レポートを発表  アットプレス",
-      "source": "Google News - AI (JP)",
-      "lang": "ja",
-      "category": "General",
-      "published": "2026-09-19T02:30:00+00:00"
-    },
-    {
-      "id": "dd1eeb6ee8",
-      "title": "AI concerns beginning to mirror Y2K-era as push for regulation continues - KDNL",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOY3NsVnU3cTZ4cTROUGw3TjVPbHd1UkNIVTJvWWR5ejZRSVdoT1dMUU16T0YzOHA3cFZIY0hFM2g2LXJhX2tDTm5kcm4tcDNPZWlINExPVnZaUDlDVk1KV3RiMGZ4cUdxdl9VdHBCX1J5bFpzSVlmZEMtXzlweVNMUS10OVRabFQtbVZHZGloVEhyS0NCeEl6MkVpQXo2Y3VBUnBsc045MEpOUlRHM0x3Wk9rek1LVE1GNjNUMmhoTDc0TEJ0djJQVVRzV2FQMDVu?oc=5",
-      "description": "AI concerns beginning to mirror Y2K-era as push for regulation continues  KDNL",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-19T02:22:06+00:00"
-    },
-    {
       "id": "c7f70a3067",
       "title": "人工知能（AI）アクセラレータの世界市場（2026年～2032年）、市場規模（GPU、TPU、FPGA、ASIC、NPU）・分析レポートを発表 - アットプレス",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1aZ2MyVEozZVV0aFVrc2ZnT0xHNzUzbkR1TEJmc29ZMW1NTm9MX1ZKR0hTNWtuNjZwcFREZHJFWmdERmltVmt0Z0hURGtfRG8?oc=5",
@@ -1053,34 +1553,14 @@
       "published": "2026-09-19T02:00:00+00:00"
     },
     {
-      "id": "fae7842515",
-      "title": "生成AI活用企業 島根32％、鳥取24％ 全国平均下回る 帝国データバンク調査 - au Webポータル",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1CVGowdDhJX2I4SzRBTkEzMEppR1VJYUpvbGc5S3lDVXFPLVUxSGZkTWhNMmpVNWJxQUVhQ3NkV21kcUhhYVBKeE11bnVmUE1XWVVicFhwSVdLa0xPZU1ZWk9RenJ5V3V3UGlOZ0JB?oc=5",
-      "description": "生成AI活用企業 島根32％、鳥取24％ 全国平均下回る 帝国データバンク調査  au Webポータル",
-      "source": "Google News - AI (JP)",
-      "lang": "ja",
-      "category": "General",
-      "published": "2026-09-19T02:00:00+00:00"
-    },
-    {
-      "id": "abb61bc7f9",
-      "title": "Recently, it has come to light that artificial intelligence (AI) has not only escaped users' control.. - 매일경제",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9BZmptd3lxVzVWYmlNX1FDVEtaVTEzRENhQWtNak9hY09tRTU3VGRmMnBLYm82RncwQ1U2RGZBTDh2cnBfRzhlSFZBNTZYb0U?oc=5",
-      "description": "Recently, it has come to light that artificial intelligence (AI) has not only escaped users' control..  매일경제",
+      "id": "36624556be",
+      "title": "Artificial Intelligence is center stage in NC at the 2026 Cybersecurity conference at Duke University - ABC11 News",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNDd1Zi1uOXM2QmtqZkRncUxINTVzS0hMamZJY1ppSmhKZ2hUMUJjU0d3S3JmQ2VZS1I4aEdUN3NNRmJIN3ZVbUl5ekVUQy1EQjRRakUyUlhfTnJlcjZ2d2I2SjhYV3NEVWtxbnV0bGxvb2ZETTBvTThGdFVTbVN1eUNtdzlUQjY4XzFhZzRXRGxtOUkzWGsxSEp1VHNyTm03cG1rd2dNVzFmRUJYaVBab2xtSWREZTRQcHRnTENR0gHDAUFVX3lxTE1FYjR6VDVPNWs4ZjROOEFhc29TSFk4a1pqVFBxd20xbWUtYXAtQTRrTW45eC1tLWRIN1J3WlJES2FvbnZBYTFjb3Axdkg1N09WU2o1elpHRGFrNDI3MlZuNmZ5WGhZdUFud1NaQjlMUlp5aHFRaklSZTNQcW0yZVdkVnpqSWFRLUVIMER3ZW04VXJkX2pOWjNSVTlVelVmNHJyXzdRVGVjLTZvWmc4WXBxM2FZdFZSeUROeWhnY1pIbW9GUQ?oc=5",
+      "description": "Artificial Intelligence is center stage in NC at the 2026 Cybersecurity conference at Duke University  ABC11 News",
       "source": "Google News - AI",
       "lang": "en",
       "category": "General",
-      "published": "2026-09-19T01:42:23+00:00"
-    },
-    {
-      "id": "364a9313c9",
-      "title": "最近、人工知能(AI)がユーザーの制御を逸脱しただけでなく、人間を欺こうとする試みまで行っていた事実が次々と明らかになっている。これを受け、主要AI企業は「AIの開発速度抑制論」まで打ち出し、警告を発.. - 매일경제",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE56ZjRzYWNfR0JlU09OMzdKOUZ3SWFGa2JlTHVMdllJR0hPRWpNQWxoMEJtTUdoUFpTazdmNi1icmVWeGJ5T0ZYVm9yd1R4Smc?oc=5",
-      "description": "最近、人工知能(AI)がユーザーの制御を逸脱しただけでなく、人間を欺こうとする試みまで行っていた事実が次々と明らかになっている。これを受け、主要AI企業は「AIの開発速度抑制論」まで打ち出し、警告を発..  매일경제",
-      "source": "Google News - AI (JP)",
-      "lang": "ja",
-      "category": "General",
-      "published": "2026-09-19T01:42:23+00:00"
+      "published": "2026-09-19T01:16:50+00:00"
     },
     {
       "id": "754719bd3e",
@@ -1123,16 +1603,6 @@
       "published": "2026-09-19T00:58:53+00:00"
     },
     {
-      "id": "3aaa87909c",
-      "title": "Google says its Gemini AI model hacked three other companies - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE85VF8ycUc0clZxaXpqd0pVQlROek9HT1pQZ3NVYzg1ekpCdHZocmZtRGZCMm5HOUdNejF3QlBoVjFnNEdZSFFRTnVLZWQ0d3hEcmY3Y3h1aWFoUHlWakRIbTRGNDZLLW5pSXljX2J6eXp1bWJxV2I3d01jSjA?oc=5",
-      "description": "Google says its Gemini AI model hacked three other companies  The Guardian",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-19T00:54:00+00:00"
-    },
-    {
       "id": "596b4b029b",
       "title": "Could AI wipe out humans and how might it do it? - BBC",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1JaDFHS1VMYk5NWV95UkhWN0RFYmxEaktTeEx1eFVvR19tdWZhOTU4VnJCUWJPRjAwQTJpTFN4UkE2azV2Q2g4UDBFZmNKdVM1MTZ1ZFhSazk?oc=5",
@@ -1143,6 +1613,16 @@
       "published": "2026-09-19T00:48:29+00:00"
     },
     {
+      "id": "3d09d40738",
+      "title": "Gemini AI Hacked Three Companies in a Testing Breakout, Google Says - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1oVmRjQVgxMHR6VnBZbUIxamFSQ1lXanpuU080VEhkWFVDNHlXbDJhMHBNNWo0MFBsd2lMSTMwcjJpREJTZUozVzVQLWUzUkdUUG9RbDJtY3hjSVhnR2ZFTFlEOFc1aVNNeTFOZHdTTzNDWHFCNlE?oc=5",
+      "description": "Gemini AI Hacked Three Companies in a Testing Breakout, Google Says  The New York Times",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-19T00:31:39+00:00"
+    },
+    {
       "id": "d8747de7e5",
       "title": "Tilly Norwood’s press tour is going about as well as you’d expect for an AI",
       "url": "https://techcrunch.com/2026/09/18/tilly-norwoods-press-tour-is-going-about-as-well-as-youd-expect-for-an-ai/",
@@ -1151,16 +1631,6 @@
       "lang": "en",
       "category": "Industry",
       "published": "2026-09-19T00:12:07+00:00"
-    },
-    {
-      "id": "3d09d40738",
-      "title": "Gemini AI Hacked Three Companies in a Testing Breakout, Google Says - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1oVmRjQVgxMHR6VnBZbUIxamFSQ1lXanpuU080VEhkWFVDNHlXbDJhMHBNNWo0MFBsd2lMSTMwcjJpREJTZUozVzVQLWUzUkdUUG9RbDJtY3hjSVhnR2ZFTFlEOFc1aVNNeTFOZHdTTzNDWHFCNlE?oc=5",
-      "description": "Gemini AI Hacked Three Companies in a Testing Breakout, Google Says  The New York Times",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-19T00:04:48+00:00"
     },
     {
       "id": "e554a6244b",
@@ -1204,9 +1674,9 @@
     },
     {
       "id": "2d45b48592",
-      "title": "Nvidia CEO Jensen Huang calls for AI to be developed \"as fast as we can\" - CBS News",
+      "title": "Nvidia CEO Jensen Huang calls for AI to be developed \"as fast as we can\" - cbsnews.com",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOWdmTkZsZGZya2dfaWU2Q1FXUnczSDVSYmVUOVBhU1FydXk3UktESmVDRVhZd0VGQWZKaFBqdkY4VXRiQmxlRjlKeXpMTGFoQi1xTTJiU3ozbzd4b00tUjJBXzNRYU1sUVEwN3NxY2pUU0MtNHRBX19xekt6al9hazYxcTV3T2dVQnVj?oc=5",
-      "description": "Nvidia CEO Jensen Huang calls for AI to be developed \"as fast as we can\"  CBS News",
+      "description": "Nvidia CEO Jensen Huang calls for AI to be developed \"as fast as we can\"  cbsnews.com",
       "source": "Google News - AI",
       "lang": "en",
       "category": "General",
@@ -1221,26 +1691,6 @@
       "lang": "en",
       "category": "Industry",
       "published": "2026-09-18T23:12:32+00:00"
-    },
-    {
-      "id": "7b0873f4d3",
-      "title": "Gemini hacked three companies in first known breakout by Google's AI - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYjRxWW5lRUMxeVNSMGFTaFl3Um9XLXBNZzhENWpxTlBFOEYxbTJrd25DMURFaGg2ZmtWRXZhWVpMSDA0SndYOC1qY0FiQnpPeEYzOHZZblFCU1NmbFN4Vno1WlRQaEpmVV9aandkTkZvSzR3SExfMDRPNnpyd0pGN1VYVFVzMmlZd1ZBNjMtblJuRFZ5VUxOemxLRWJ2Zkkyd1ZJMXQzZ2pYWkRzdmt5bU5QUDQ0YVBDZFZOag?oc=5",
-      "description": "Gemini hacked three companies in first known breakout by Google's AI  Reuters",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-18T22:25:00+00:00"
-    },
-    {
-      "id": "1ccce845e9",
-      "title": "Newsom creates panel on AI safety regulation, suggests possible ‘kill switch’ - Los Angeles Times",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaVJCZFZwdU1FUjB5aHRndy1uQ3dNTjRTY2xsMzNVN2N0UHZZZ2pCT3lIUFppaHZ4c2dYTFdwLWEyR2FMQ0J3U3QwTTVJTGo0LVE4WEVNOV9tME9JNTg2VDI0UXlTYVVyZ0dKcTFPazdCaGYxT05sTm1jb1V4TThJV285YXZVZmhhbzZjeklpVnRiek1KeFBQdkhoVi11NjNNc1dXSDhiNUVvZTR3YTdYOUM4Y2ZGNVVHTXNabjNQVHhrdnVL?oc=5",
-      "description": "Newsom creates panel on AI safety regulation, suggests possible ‘kill switch’  Los Angeles Times",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-18T22:05:00+00:00"
     },
     {
       "id": "5be2a0b78c",
@@ -1293,36 +1743,6 @@
       "published": "2026-09-18T21:21:59+00:00"
     },
     {
-      "id": "4431ad7f28",
-      "title": "‘A critical moment’: concern UK is not up to speed in acting on AI risks - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTU1HWEZsdnhHeUxlUTc1bElsTlZCYk1CWTVueEl4V3VEZTJIMmxaWmlXZFYtTW9sSHA4N2RDZXIyT3IydWtHZ0lqc1NYR3pHblJ3eUlNdVJFSDZVRnFfZHd4MXN0VFJmd3ppWV9MblJlcVJmbFdValVULU0teU4xd3lKTHFWX05hdlRDQUVHZG04MmVla2pMSWROTmgtZlF5NF9LTHZtTy1ldEdBb0pHbWlYUzUyZGRqemRETg?oc=5",
-      "description": "‘A critical moment’: concern UK is not up to speed in acting on AI risks  The Guardian",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-18T21:11:00+00:00"
-    },
-    {
-      "id": "b67759cdf4",
-      "title": "北朝鮮が育てる「金正恩総書記に質問しないAI」―閉鎖国家＆人工知能、本当の相性（西岡省二） - エキスパート - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcmdzcUtraE1HT2E3YWJmMG5XSHR2dWRLWWxManZnR19pemZxelBKMmdoc3psLWoxckdiaXJ6Z003d1pwRnd4MmNULXZFbmdXWnhTMkR5aVZjWHU5QXU3aG1LeWNpazNEaWp4akV5RmxLWWxfVUtoaXZKMDV6Ylp5SGFJTTJGMllp?oc=5",
-      "description": "北朝鮮が育てる「金正恩総書記に質問しないAI」―閉鎖国家＆人工知能、本当の相性（西岡省二） - エキスパート  Yahoo!ニュース",
-      "source": "Google News - AI (JP)",
-      "lang": "ja",
-      "category": "General",
-      "published": "2026-09-18T21:01:08+00:00"
-    },
-    {
-      "id": "4af6b2dcfd",
-      "title": "AI is now building its own successor. New reports show how much (and how little) control anyone has over it - Scripps News",
-      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPdldXV21UVWJGZGhQSWRvTDk0ZmFYcjUyR1dVbWlTLVpVQ19yejBfcnhFcE5JQjZqRFJuUmNQVi1NQXM1MXUxX1FQWWkxcmVFSTNWRk40NkN5Umd6R05pNWdwWUVLb3dDbVFNQUtua3F5RFJaLUV5eF9CamRyTGJnb2FoaGxqUDFXZUpsakNWX2dpLXM2Rm4wSk1qLWRGbHltR3JFUFY3UmVmYmZJTnpTeEJKajBXNkh2R3JOckR5cE8wNGNua1BmSmxpOXRyU3dEVENTWW5aYUgtMk44dzNacllfSjNudjRrcFNrX2NCeDg1RG15SlRBTXJEQkJpekZzNHNV?oc=5",
-      "description": "AI is now building its own successor. New reports show how much (and how little) control anyone has over it  Scripps News",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-18T20:42:31+00:00"
-    },
-    {
       "id": "1dbe8d7c6e",
       "title": "World model companies are keeping a lot of secrets",
       "url": "https://techcrunch.com/2026/09/18/world-model-companies-are-keeping-a-lot-of-secrets/",
@@ -1363,16 +1783,6 @@
       "published": "2026-09-18T20:00:00+00:00"
     },
     {
-      "id": "a5ed630995",
-      "title": "Don’t Be Misled by Calls for an AI Slowdown - Pace University",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5GN2hSdFVJU3UybEM1cHNnU0JUb0loR1piQjJtTHBkM0FEdGZjYkhSVVZlOWpfclVoVE5VNFh3SkVDVC1Ya05FbjVqaVpBbG83S19QZm5UbENtdFJrUGU1WWJtdU45VXN0MVE?oc=5",
-      "description": "Don’t Be Misled by Calls for an AI Slowdown  Pace University",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-18T19:30:30+00:00"
-    },
-    {
       "id": "2340f4f098",
       "title": "Here’s How an AI Slowdown Could Actually Be Enforced",
       "url": "https://www.wired.com/story/heres-how-an-ai-slowdown-could-actually-work/",
@@ -1384,9 +1794,9 @@
     },
     {
       "id": "68f528278e",
-      "title": "Consumer Agents Signal New Phase for AI Growth - goldmansachs.com",
+      "title": "Consumer Agents Signal New Phase for AI Growth - Goldman Sachs",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWFY5QkdoeW02RHFfRHJTMU80enFMWnNoeWplZWZWa0xyYm1ES19NZVdISVJqYzNUM0N3emVGQldaRGNldzhsVmxJRWMxQkxjNFMyN2dDTW9hVTM4UG02X0hhdE1UZ2lLSWU0UlhxNlcwZFZTRnh4cHhTcjd5RDRvQXhZZTJvSFRvWEVFRmUzSHp3UFpxQ2UwTg?oc=5",
-      "description": "Consumer Agents Signal New Phase for AI Growth  goldmansachs.com",
+      "description": "Consumer Agents Signal New Phase for AI Growth  Goldman Sachs",
       "source": "Google News - AI",
       "lang": "en",
       "category": "General",
@@ -1411,46 +1821,6 @@
       "lang": "en",
       "category": "Industry",
       "published": "2026-09-18T18:49:30+00:00"
-    },
-    {
-      "id": "0b4936da4a",
-      "title": "A new kind of AI model from a ChatGPT inventor is thrilling developers - TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOYW5jcDZETy15OEFacVFGV0w5Wjk3dFYtZW83VXNFdVRvMmRuWVR3RFVGSFJlclg2ejRraU83Um90ZkZvZ0R3MGxZZ2VDTnJmVEw4dWZESDQyYktyMXQydDBhZ0R1TUROVm1PWWV3NTlsd2piclFFSW5XSVBBOUFyWFFhbmt3dTM1Mm1YZHZ5WXgxNUl2cDFJM2pvNEc5YkJCZHpTSVczMm8?oc=5",
-      "description": "A new kind of AI model from a ChatGPT inventor is thrilling developers  TechCrunch",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-18T18:49:30+00:00"
-    },
-    {
-      "id": "13f7005303",
-      "title": "Young people pushing back against artificial intelligence - abc.net.au",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTmxvMjN2Y0hsaXVwb0t0MHl1NUJaME9ETE5sN0p5bm5iZ1pXRWw3MTZoLXdYdlRWMW52ZTRER1Q2TTdxdzVGMndsY211TFN6NjI5dHIwQjJhWnBtUDhYVkNfYjdielFSYWpGRDZST25jWnBEcTlienpjSWc2T2hBZlRaQk0tdC1GaHhOMnlhWW1jSjVtYVh5QTBvY0VOaHlLazctd1d3ZUhmSV9YdWc?oc=5",
-      "description": "Young people pushing back against artificial intelligence  abc.net.au",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-18T18:48:18+00:00"
-    },
-    {
-      "id": "f56df2672a",
-      "title": "Anthropic: AI model Claude helping build next version of it - The Hill",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSHoxemhKVmppRHBIV0dMLWJMeGlDc20wWVRNNWxDYnJ0bDVQa0dMTTF0R1lqbFc1dkZ1dW1yc1FfangzZVFYNU4tSERIREhkQlU3WDBVM3Z0dnp0TVlfaWxRcnNtWnhLMVZvZmwwZkpwWm40cDdELXRKYXAtQUNRemhZZXRGVUVSQjRmSdIBkgFBVV95cUxPcF84cVk5cjh6MmVnUG1zZm1YYkFnOTJ3b3V2SDVpbmVTOHJMTDdqY3dFOUZFRjJmVW5ld1VOUFJiUldvMFZXbF9EUjVWYjdZcVF0ZTJZNHhVaWFCbnBEaEFzc0w1RU8wSXJqZlFKZTdKMHdycVN2SUdqWTJOWG9rTG9CSGtmV1BUSnc5YnV0a0lGZw?oc=5",
-      "description": "Anthropic: AI model Claude helping build next version of it  The Hill",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-18T18:23:00+00:00"
-    },
-    {
-      "id": "0ce88c058d",
-      "title": "生成AIでアニメ制作が激変！最短1週間・低コストで映像化 - Koubo",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1TVkVQcUFuYzBnTE1wYWZuaV9vOHAxa040NktxNzVSdW8xdENzU1dSOHZtT1BIT0dLYW9oUHVFd0FuenJRSVE?oc=5",
-      "description": "生成AIでアニメ制作が激変！最短1週間・低コストで映像化  Koubo",
-      "source": "Google News - AI (JP)",
-      "lang": "ja",
-      "category": "General",
-      "published": "2026-09-18T18:07:26+00:00"
     },
     {
       "id": "9271db815c",
@@ -1493,26 +1863,6 @@
       "published": "2026-09-18T17:57:06+00:00"
     },
     {
-      "id": "85b0b4814d",
-      "title": "The AI Superintelligence Slowdown",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic",
-      "description": "Remember when tech leaders would tell their employees to “move fast and break things”? It seemed that would be the way of AI too. But after a summer where rogue AI agents became reality, and researchers warned that AI could kill us all, a number of leading US AI companies are publicly suggesting it’",
-      "source": "The Verge AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-09-18T17:49:17-04:00"
-    },
-    {
-      "id": "7ff75e3779",
-      "title": "Shapiro calls on Trump to regulate artificial intelligence development - WPSU",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOX2c5OF8xLUYwYkpSaXBkTUhDLXlzQVdDWERhdlhhRjZQNzFRckk1Zk1VcWZ3WlhSSmxwbHNjOGM5LXdqNDBEcFBoYWlHRjUxcC10ZG9pUGVDWU85MEVBNk9PRjhGaXVTVXg4ekZJZTB1SlotMUhVcGU0dHJnbmdoRE5xQk9oWmtJcWVIN3p5Z1hvdnNKejFNb0REaEVMaFhLSGdhSllqRQ?oc=5",
-      "description": "Shapiro calls on Trump to regulate artificial intelligence development  WPSU",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-18T17:47:00+00:00"
-    },
-    {
       "id": "37655c8141",
       "title": "Google’s new ‘CC’ is an AI agent that helps families run their households",
       "url": "https://techcrunch.com/2026/09/18/googles-new-cc-is-an-ai-agent-that-helps-families-run-their-households/",
@@ -1544,9 +1894,9 @@
     },
     {
       "id": "0935317edf",
-      "title": "Use of AI backfires on an expert witness at trial: \"They have biases\" - CBS News",
+      "title": "Use of AI backfires on an expert witness at trial: \"They have biases\" - cbsnews.com",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ONk1vR29XLXhmZmt4SGVLX0NUOFY5Tk1SNHVYUUF3M20zbFRjQjNZUzVXcEMzb1lSaEdlWjZTYUdHSklfcVItMHpaNVRGLU5MYXNHRHNQUUc5c2tBXzN0dEM5N0xTNWRiOE9nZ1Bn?oc=5",
-      "description": "Use of AI backfires on an expert witness at trial: \"They have biases\"  CBS News",
+      "description": "Use of AI backfires on an expert witness at trial: \"They have biases\"  cbsnews.com",
       "source": "Google News - AI",
       "lang": "en",
       "category": "General",
@@ -1561,16 +1911,6 @@
       "lang": "en",
       "category": "Industry",
       "published": "2026-09-18T17:09:56+00:00"
-    },
-    {
-      "id": "077d8f6ca8",
-      "title": "OpenAI and Microsoft knew they were starting a ‘doom loop’ for the web",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero",
-      "description": "Recently unsealed court documents in the New York Times' case against OpenAI and Microsoft are pretty damning. The companies' own documentation warned that it was starting a \"doom loop\" that would damage the web, characterized its scraping of data to train its models as the \"largest theft of labor i",
-      "source": "The Verge AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-09-18T17:07:24-04:00"
     },
     {
       "id": "77e43e1ef5",
@@ -1603,16 +1943,6 @@
       "published": "2026-09-18T16:58:00+00:00"
     },
     {
-      "id": "cccfb80d40",
-      "title": "University of Alaska regents consider draft AI policy - Alaska Public Media",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObFdrU1Yyam81VEZYbzIzY25FRTRwV1UzdUVKSzNyNHBDNUxlZmN6d245cndQQnFmWHZWLWZVazY0NVpSbHlaZmpJYmlCZkJZOTl0Qi1td2dncVZSU3lRS0hoMElzUTZ1bGhJSFVHbjI4cXppeWdubnFGbDA1UzdpRjlyVVI5OUNMR1J5SzJhQ3Q2REdaaGRCUFgyR3ExSnlrdzlnZ19yNA?oc=5",
-      "description": "University of Alaska regents consider draft AI policy  Alaska Public Media",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-18T16:58:00+00:00"
-    },
-    {
       "id": "487ded28cc",
       "title": "Exclusive: US military had close call after using AI for false intelligence report, sources say - CNN",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNURhdTZha1pnekJvMjV5cE9VQ0tpQmZuSXVfbFVzLVBDbDY1b28zMUluUVNzMUlPZnE2Qk5OLXRVcUVsRkVfZ3d2ZVpvaW9JOGFZUE00SV9uQ0xWcE5QOGlzXzB2bkRaWjZiZVpKblZBU2tsOTdvMllIdTRKb21ScUlwNlIzSDdaTFR0Rg?oc=5",
@@ -1623,16 +1953,6 @@
       "published": "2026-09-18T16:55:50+00:00"
     },
     {
-      "id": "a6572632fc",
-      "title": "CSBS Releases Artificial Intelligence Supervisory Framework for State Examiners - The National Law Review",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSVRHUDNxYmQ0T25HbDdsTjdfNU5nR2pPdFpWYlAyTFcyMDNCeHRjLUlOaTRpZHVrc0NWRFdteXViNGdEaFdDamQ2RTRtZ3hKMUhVa1VvMVByem5Qc25DUGFrWjBCQzZfTXlEWGFtUVJSV2FEcnNIN1dtRzhwQzRWT0JDR3ZTNkhoVFNSWEc5bkQzUG90MVVjT2d5SHNJbjF5WHJWNVJuR3RJZUx40gGyAUFVX3lxTFBDVUhOYk9MV1dWMjZxLU5wN2otaUhOc1FIVjM0Q0M4aU1ERGVzbktuTFN2RGJrQzFNU0d6aEVyUlVzaWJXUU5YSFpheTFlMmNqS2I1SlU0NHlzYUJYLS16c2lobWRxQ2hFMFFUTW5jM21ZOE00MVhfVm9jNERMSlFoQkEzMlVhSGM1aEtCUm40ZDg5b2xSVGF0RXhfSkViamhmRHk5Y0ZuXzUwa2xaVnhJMFE?oc=5",
-      "description": "CSBS Releases Artificial Intelligence Supervisory Framework for State Examiners  The National Law Review",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-18T16:53:35+00:00"
-    },
-    {
       "id": "0feaed3695",
       "title": "生成AIで物議のレベルファイブ、東京ゲームショウ当日の様子は……現地を見てきた",
       "url": "https://www.itmedia.co.jp/news/article/2609/18/2000001633/",
@@ -1641,6 +1961,16 @@
       "lang": "ja",
       "category": "Industry",
       "published": "2026-09-18T16:52:09+09:00"
+    },
+    {
+      "id": "259f3f0ba3",
+      "title": "Introducing Kimi K3 on Amazon Bedrock | Artificial Intelligence - Amazon Web Services (AWS)",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZEc4TDRPSkJzZUl2bHJoNm5HNkhpcGtBX2U0V1l3dVJDRlh5YkpwRkZaTDkwcDBfZVN3UU1ackFYY0NPMU5sRU5LVVFmRHhySUJwVjZlWXlNTkw4b0swYW1zUVZQSldHV19aTzBfeC1waGFOeGd0MThBOEo5bnVFSDl2VkIxSndKVWZYWA?oc=5",
+      "description": "Introducing Kimi K3 on Amazon Bedrock | Artificial Intelligence  Amazon Web Services (AWS)",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-18T16:52:01+00:00"
     },
     {
       "id": "d9f1bfed2b",
@@ -1671,16 +2001,6 @@
       "lang": "en",
       "category": "Industry",
       "published": "2026-09-18T16:35:49+00:00"
-    },
-    {
-      "id": "b0cf395d80",
-      "title": "It’s Déjà Vu All Over Again: The Parallels of AI and Globalization - Council on Foreign Relations",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdWM5dTdHaUh6akhfQU93TzlONGlZQkxUSkp6VGVWVXNOUFhJc0lIbkJCa0EyVlZYNUVtbU9ySk1XaklLT1ZMamUxNmtVLWhiRTk1aFpleEFYRmxnYkN4My1BeVVaMTlpUWxGeF8zTVNNNVhCZkhoblNlWnFlNmR2SlNiU3dvRGp2UTNQcW1SX09YQUFTWElOdw?oc=5",
-      "description": "It’s Déjà Vu All Over Again: The Parallels of AI and Globalization  Council on Foreign Relations",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-18T16:33:11+00:00"
     },
     {
       "id": "17789d8839",
@@ -1723,34 +2043,14 @@
       "published": "2026-09-18T15:30:34-04:00"
     },
     {
-      "id": "210af46fb8",
-      "title": "Open or closed AI? Nvidia’s Nader Khalil and Sydney Sykes take on one of the decisions shaping next-gen startups at TechCrunch Disrupt 2026",
-      "url": "https://techcrunch.com/2026/09/18/open-or-closed-ai-nvidias-nader-khalil-and-sydney-sykes-take-on-one-of-the-decisions-shaping-next-gen-startups-at-techcrunch-disrupt-2026/",
-      "description": "Nvidia's Nader Khalil and Sydney Sykes discuss one of the decisions shaping next-gen startups on the Builders Stage at TechCrunch Disrupt 2026.",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-09-18T15:30:00+00:00"
-    },
-    {
-      "id": "02e2273731",
-      "title": "Meta’s Muse hits Mac, letting the AI take actions on your computer",
-      "url": "https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the-ai-take-actions-on-your-computer/",
-      "description": "Muse is now available on the Mac, where it can work with your files and apps to take action on your behalf.",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-09-18T15:22:48+00:00"
-    },
-    {
-      "id": "78058ebcb5",
-      "title": "Governor Newsom issues executive order to accelerate independent oversight and advance the creation of an AI kill switch - gov.ca.gov",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNdWNuQ1N2RC1DOTdndklPb2NYbDAwWUx1azRBZjE1R1pCelpZUU9UdEVhNlJUUm9zeDkzcUdTX3laMVU1UkRHaUN5VEY0WWk4S0NuSXNnXzRFMUhVT3RNU3RFWU1PdlowcFFXalMwbHFIR1V6V254c0ZNQ1hkVGFHVnp0Z3BMUzlreFplYTJveHFJZk93Mk5UcUR3cllPT0tGUUdCbU5zbU9rZUp2aWxzTVh2dV9XbXcyWDQ3YUhPdmdJOFhycktnZ1Z3akFwQVhtSUpaRjVRaU9wdUREZm1pNlQ3UXhKa2Uwa2hN?oc=5",
-      "description": "Governor Newsom issues executive order to accelerate independent oversight and advance the creation of an AI kill switch  gov.ca.gov",
-      "source": "Google News - AI",
-      "lang": "en",
+      "id": "8e28bd274c",
+      "title": "【イー・ガーディアン】生成AI時代の誹謗中傷・なりすまし・誤情報に、AI戦略で対応～注力領域をIP・芸能・メーカーに設定。25年の監視知見×AIによる5つのソリューションを10月より順次提供～ | ニュースリリース | 新着情報 - イー・ガーディアン",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4zcS02Z241RnU5aHJjWjNXZzNiLUpJUTkzRk5oaWxSdDZ3dkQ2bmZQYTdoUHR0OG9lbTZLN1BHTUVENl94Q0NZODB4cXVrMG5rM0w1SHRyOWZHamNyUXIxalhn?oc=5",
+      "description": "【イー・ガーディアン】生成AI時代の誹謗中傷・なりすまし・誤情報に、AI戦略で対応～注力領域をIP・芸能・メーカーに設定。25年の監視知見×AIによる5つのソリューションを10月より順次提供～ | ニュースリリース | 新着情報  イー・ガーディアン",
+      "source": "Google News - AI (JP)",
+      "lang": "ja",
       "category": "General",
-      "published": "2026-09-18T15:10:22+00:00"
+      "published": "2026-09-18T15:14:38+00:00"
     },
     {
       "id": "115cada613",
@@ -1793,16 +2093,6 @@
       "published": "2026-09-18T15:00:00+09:00"
     },
     {
-      "id": "68d1dafb80",
-      "title": "Robinhood’s Abhishek Fatehpuria on winning the modern financial consumer at TechCrunch Disrupt 2026",
-      "url": "https://techcrunch.com/2026/09/18/robinhoods-abhishek-fatehpuria-on-winning-the-modern-financial-consumer-at-techcrunch-disrupt-2026/",
-      "description": "Robinhood’s Abhishek Fatehpuria on winning the modern financial consumer at TechCrunch Disrupt 2026. Register now to save up to $200 before September 25 at 11:59 p.m. PT.",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-09-18T15:00:00+00:00"
-    },
-    {
       "id": "a3a7093793",
       "title": "If the AI Industry Followed Its Own Research, It Might Have Paused Already",
       "url": "https://www.wired.com/story/if-the-ai-industry-followed-its-own-research-it-might-have-paused-already/",
@@ -1833,16 +2123,6 @@
       "published": "2026-09-18T14:54:20+00:00"
     },
     {
-      "id": "7346b94c68",
-      "title": "The jewelry business tries to get its head around artificial intelligence - The Jewelry Wire",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAyaGxwR3BDelA2Ul9nMFY5dTNnaWxCdjlfY2xsaXlKOGxERFpXUkNPNEI3UFFvNTc2Uk83dkptcE9aeTMxMTRfdkhudi0yRU5yM0VfczdHcVpxVmhUTFJGZGtDVTd1MTJKOGZodEtwcHVWRjlYek9LcUhmOA?oc=5",
-      "description": "The jewelry business tries to get its head around artificial intelligence  The Jewelry Wire",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-18T14:33:58+00:00"
-    },
-    {
       "id": "9eead08d18",
       "title": "Europe's AI firms, playing catch-up, challenge US calls for slowdown - Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNURXUmh6VXl6Vk9RVnZvOTJjVkpyNU1iLW9VWWNqTkNzcmJNOHdTMTJKUTVIOVZVOFFuVUI4RXdxbkFLLXFqZXpTUWJ0X25xbzNEckM0Z0ppOTQxZHFrTXM2WXRIMjNtekIyMVdrUXpwSHRKc3I5TTdGTVY4TUdtRXRpdnk2VjRTaGdBbkdYVkQtazhfUmx5OUJmVjFGV2NVMmx6RXJLdk5HUQ?oc=5",
@@ -1861,26 +2141,6 @@
       "lang": "ja",
       "category": "General",
       "published": "2026-09-18T14:20:00+09:00"
-    },
-    {
-      "id": "0d70097db2",
-      "title": "Researchers used Anthropic’s Claude to hack into OpenAI",
-      "url": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/",
-      "description": "Security researchers used Anthropic’s Claude to exploit vulnerabilities in OpenAI’s systems, taking over employee accounts and gaining access to an internal code repository before reporting the flaws.",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-09-18T14:00:14+00:00"
-    },
-    {
-      "id": "2925d3fec1",
-      "title": "The clock is ticking: Final 24 hours to exhibit at TechCrunch Disrupt 2026",
-      "url": "https://techcrunch.com/2026/09/18/final-24-hours-to-exhibit-at-techcrunch-disrupt-2026/",
-      "description": "Last day to book your exhibit table at Disrupt is today, September 18. Get your startup in front of 10,000+ founders, investors, operators, and tech leaders on October 13–15.",
-      "source": "TechCrunch AI",
-      "lang": "en",
-      "category": "Industry",
-      "published": "2026-09-18T14:00:00+00:00"
     },
     {
       "id": "3dd23fb966",
@@ -1911,16 +2171,6 @@
       "lang": "en",
       "category": "General",
       "published": "2026-09-18T13:43:51+00:00"
-    },
-    {
-      "id": "188dd2e9d7",
-      "title": "Is Artificial Intelligence a threat to democracy and the human future? - DemocracySOS",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE04MmIxZEFLbUp2VWpKb05hX1dCQXhORHBCVWpQWE04S2VUbWlJLTJQYVVEUVpXVTVJbzczbThrNVdNQklLQ3hoVjVWeTdvWFFPMVFEUm5aUkFMOU9IVTlqemJ3MjdmTmMtRG1mZndDY2RzVllHbkdmSWw2OA?oc=5",
-      "description": "Is Artificial Intelligence a threat to democracy and the human future?  DemocracySOS",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-18T13:31:13+00:00"
     },
     {
       "id": "0e65342347",
@@ -1961,16 +2211,6 @@
       "lang": "en",
       "category": "Industry",
       "published": "2026-09-18T13:13:12-04:00"
-    },
-    {
-      "id": "3a02f05ac5",
-      "title": "From drafting bills to writing birthday songs: How Congress is using AI - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOckFpcF9PSldHT2dINkFXa3I4amFsd19qYUpKdmdva3ptdFB6SWlLYlp3UFBiSUxqM1dmVU1EM1k1aWNpYzE0bTR0LXByMlZhLVFoS0JHQzV2TDRlZXVYdDIwLWlGejNRaXJFQmlpWWZOd3ltLVBaZnBwOEFZb0thQnV0U240T2lyR0lCLU9ZY0RFOHIyTEdwa3h6cFFNMkxKRHRLYzNNRlAwN1MzZ3dQa3dNbVhKQQ?oc=5",
-      "description": "From drafting bills to writing birthday songs: How Congress is using AI  NBC News",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-18T13:10:22+00:00"
     },
     {
       "id": "abcde60298",
@@ -2123,16 +2363,6 @@
       "published": "2026-09-18T09:30:00+00:00"
     },
     {
-      "id": "d05e96335c",
-      "title": "How important is AI to the stock market? Warnings bring new scrutiny - ABC News - Breaking News, Latest News and Videos",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRVIxYmJpcHdsT3pkWC1oR3ZUcmRtRGpsRHM1eGxDRVotOUV4SmlzdjdUX0xqZDQyaDlzM3kxTTMtYWxCaUhOMkhUQkthX2dlOUFGZlcxOVNjZHA1MW5wUWtFaUgzLTRJYVlRUE5IZndiZEdNSU5CbkZiUVJCbXU5ZU5mRWNmc21oXzJEeWZEajlzREZvZ1h2VnNmR1B2eng1ZUlZ0gGoAUFVX3lxTE1zMF9ycEkwN3FJS1JFZlhBVTFLTFJySmM5dEFFMXBwdzdBcC15NTlLZFpKdER6TUgteDI4OUNyMTJucFlwNVA0cm5taWtlanJKNjdfRThremRwUnJxZ3NSVXFVS0RoMXFXT01WQXRTeU94bE1MbDExYW5qdjhEb1ZjOE9TMmpQUGV5YUdQT3c0SGkwRjNvbGZ0ZVZETDVCU2k5QTYwQ2Znbg?oc=5",
-      "description": "How important is AI to the stock market? Warnings bring new scrutiny  ABC News - Breaking News, Latest News and Videos",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-18T09:29:41+00:00"
-    },
-    {
       "id": "7d668c3275",
       "title": "Fulcra Brings Universal Multiplayer to Any Agents You Choose",
       "url": "https://www.artificialintelligence-news.com/news/fulcra-brings-universal-multiplayer-to-any-agents-you-choose/",
@@ -2151,26 +2381,6 @@
       "lang": "en",
       "category": "Industry",
       "published": "2026-09-18T09:15:00+00:00"
-    },
-    {
-      "id": "a923f08376",
-      "title": "アドビ、複数の生成AIを一元管理 制作フロー支援システムを披露【TGS2026】 - 日経クロストレンド",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQLUdEbWJEUUhhZjBjYnBXX0o1dE9tcGFfN1FuR1lfeGJEN21PcW95ZGZxS1JoNnBvMlNteWZPLURKNUQ1SndWdUptVnZxX3lIMVI3V0Rta3hxTEQ5T0ZLU2hHNkJjajM2Rl9qckF6N1hZOC1wdVU4NzhVM1p6STlHdFFPblcxZXc0ZnBj?oc=5",
-      "description": "アドビ、複数の生成AIを一元管理 制作フロー支援システムを披露【TGS2026】  日経クロストレンド",
-      "source": "Google News - AI (JP)",
-      "lang": "ja",
-      "category": "General",
-      "published": "2026-09-18T09:10:00+00:00"
-    },
-    {
-      "id": "e3a809478c",
-      "title": "Thirteen Ways of Looking at Artificial Intelligence - Front Porch Republic",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNWZJSm9fYWpTN1REazNIQ3RKbXQ3TzlGY2k3UW5PQXl0RzVHdURKQnZMQzg2Z0RRY0FWanhmRHljaWNkSWNTMXFwUlRWenNQUTZuYmVRTDNjSFJsVkZOY215NkdzTGV5TmVZSHFoNEtPSzZjWGtwWmZMRVZ4SzU5SEVuQ3RoaWJfczFkV25RQ3hKSEVmT1c5ZUo1bw?oc=5",
-      "description": "Thirteen Ways of Looking at Artificial Intelligence  Front Porch Republic",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-18T09:01:34+00:00"
     },
     {
       "id": "bf6aa7c34d",
@@ -2214,9 +2424,9 @@
     },
     {
       "id": "1cd65f5d3f",
-      "title": "韓国国立中央図書館（NLK）、人工知能（AI）学習用データ3,833万件を公開 - current.ndl.go.jp",
+      "title": "韓国国立中央図書館（NLK）、人工知能（AI）学習用データ3,833万件を公開 - カレントアウェアネス・ポータル",
       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE43MXRaZmxIdTJtWVZabnl5VzJ4eDY3ODliVlBNSUczVENnZ1BXWERndmtHZHVSVjM2ZWV0MXJFenZjNWNFNEFrbW1UVng?oc=5",
-      "description": "韓国国立中央図書館（NLK）、人工知能（AI）学習用データ3,833万件を公開  current.ndl.go.jp",
+      "description": "韓国国立中央図書館（NLK）、人工知能（AI）学習用データ3,833万件を公開  カレントアウェアネス・ポータル",
       "source": "Google News - AI (JP)",
       "lang": "ja",
       "category": "General",
@@ -2283,16 +2493,6 @@
       "published": "2026-09-18T07:52:09+00:00"
     },
     {
-      "id": "197a1eef60",
-      "title": "Salesforce Agentforce: Bridging the Enterprise AI Gap from ‘Vibe Coding’ to Battle-Tested Orchestration",
-      "url": "https://www.marktechpost.com/2026/09/18/salesforce-agentforce-bridging-the-enterprise-ai-gap-from-vibe-coding-to-battle-tested-orchestration/",
-      "description": "Building an AI prototype is easy, but operating autonomous agents at scale requires production-grade tooling. Salesforce Agentforce bridges the gap from \"vibe coding\" to enterprise reliability by combining synthetic stress-testing, real-time optimization, dynamic agentic UIs, and deterministic guard",
-      "source": "MarkTechPost",
-      "lang": "en",
-      "category": "Research",
-      "published": "2026-09-18T07:34:06+00:00"
-    },
-    {
       "id": "9cb17e0205",
       "title": "Counter-terrorism operation leverages artificial intelligence to identify 126 terrorism suspects - Interpol",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPYnd3WjRQQmR0R29RNGp0VVQyRmdxX25yQ0Z1Y0NTZTJjeHlrTW9xU240Y09ZUzlJUHNTTGIxbWF4emtUbXNRcmpXWDl4M1lFb3hwS2MzQ0NKWXoxV2E2RjY5N0pURzd4SnNWajNuYVhQV2VSMmVrWUVCdU5IVXNrMXBaNHUydVNabklhaFZSYTlPaS1YMmZlQzNkamVvdTZOZ2VhRzNzNGhzS3M5ZzBQcUZ3UUN6VVpsQlAyekUyUWVDd1I0TTl3WkNqVThOQ0tjYlhPNXU4VDhueEs2OVE3Tg?oc=5",
@@ -2323,54 +2523,14 @@
       "published": "2026-09-18T07:15:00+09:00"
     },
     {
-      "id": "c2cd68ceb1",
-      "title": "Report: Student Protections Haven’t Kept Up With Higher Ed’s Adoption of AI - Inside Higher Ed",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcmc1WEFwQ3A0ZkpTV2ZFRW5DWTQydzU1N01lMEFiMkpYN2UyRVgyWmZtUEVpbDhTV2YxYzl5TW1mVHhhN3p2M0tkd29zZGtOTG8xQzFsODkyanM2djdaSWlnWklUOE0zY0RDMXRiSHlDY0ZDM25oM3pFSUcweVpBbkFKbU1PaVRvYkxuMXF4czZ5WjBJYldnRklvQldwaFpsakR1TzRPNXJIUGdWMy1jSlRR?oc=5",
-      "description": "Report: Student Protections Haven’t Kept Up With Higher Ed’s Adoption of AI  Inside Higher Ed",
+      "id": "a994b2736e",
+      "title": "The king and AI: UK monarch Charles meets artificial intelligence leaders as safety concerns swirl - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeDFSZHBJaTZVbWhaS1BUYTNCdjA2YU10emVRMGdob3V1X185RnE0OEhSdG9oTjdaeGRKZ3J1dTFZVk10MXN1ajNZcUdzNUtDclg5WVNtX2tyNTlsQ1FXcVlkZVc4RXduUktsdks2MmJQQmRxSlltQTZ0ejJNLThtNjFjWTVzT1Z5SWpscUczWDltOGZIM3dQQ3hRVnFHSlhCVDg4TFpuLXN2Z9IBrwFBVV95cUxQdWdieEo1eEhhSFJuWXlLMkxReDRvWnFFck9PNU5PUXJxSDk4Mk5tSmpUMXBMRjY5dmU1RkZ0NW1mc0owd2dxUkJ1MTNDalB4OV9FNFBHOG9GRE5fRXB1NW1xWXFSY0ktYVdxMGdiUHdHc2RTdTl5ZThlcC1NeHBWZE01MmZJNHJVd2FybV9EY1E3LU9wS3NZUmhCRTAwMnhXZHJjN0pKWEgwSEtTYjYw?oc=5",
+      "description": "The king and AI: UK monarch Charles meets artificial intelligence leaders as safety concerns swirl  ABC News - Breaking News, Latest News and Videos",
       "source": "Google News - AI",
       "lang": "en",
       "category": "General",
-      "published": "2026-09-18T07:02:15+00:00"
-    },
-    {
-      "id": "82fed06e3b",
-      "title": "経営「AIでラクして早く帰って」→社員「帰らない」　工数最大9割減のDeNAも悩むAI効率化の壁",
-      "url": "https://www.itmedia.co.jp/news/article/2609/18/2000001484/",
-      "description": "働く側は仕事が増えたと訴え、経営側は人が浮いてこないと嘆く。AIは確かに時間を生んでいる。しかし、その時間はどこへ消えているのか。",
-      "source": "ITmedia AI+",
-      "lang": "ja",
-      "category": "Industry",
-      "published": "2026-09-18T07:00:00+09:00"
-    },
-    {
-      "id": "ab5c4a412a",
-      "title": "Microsoftが進めるCopilot再編　「Microsoft Copilot」への移行で、企業への影響は？",
-      "url": "https://kn.itmedia.co.jp/kn/article/2609/18/2000001586/",
-      "description": "Microsoftは、「Microsoft 365 Copilot」のアプリや利用体験を「Microsoft Copilot」に整理する変更を8月から段階的に進めている。Web版のURLも変更されるため、接続先を個別に制限している企業では、IT管理者によるネットワーク設定の確認が必要になる可能性がある。",
-      "source": "ITmedia AI+",
-      "lang": "ja",
-      "category": "Industry",
-      "published": "2026-09-18T07:00:00+09:00"
-    },
-    {
-      "id": "1c07bd02fb",
-      "title": "NVIDIA、Google、Emerald AIがAIデータセンターの電力消費調整を目指すアライアンス設立　Anthropicも参加",
-      "url": "https://www.itmedia.co.jp/news/article/2609/18/2000001599/",
-      "description": "NVIDIAとGoogleは新興企業Emerald AIとともに、電力網の状況に応じて消費電力を動的に制御する「柔軟なデータセンター」の普及を目指す新団体「AEMA」を設立した。送電網の容量不足や住民の電気料金高騰懸念がAIインフラ拡充の壁となる中、計算処理の分散や専用ソフトを活用し、既存電力網の効率運用と接続期間の短縮を図る。",
-      "source": "ITmedia AI+",
-      "lang": "ja",
-      "category": "Industry",
-      "published": "2026-09-18T06:46:04+09:00"
-    },
-    {
-      "id": "508fe96dc8",
-      "title": "【イー・ガーディアン株式会社】生成AI時代の誹謗中傷・なりすまし・誤情報に、AI戦略で対応 - PR TIMES",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5QX1doN3Y0bThEQVpnME1uVGxpME53SHd3Unk3UHZCRVM2NFZ3X3FjaEhFdFByd3ZvWUtWbzlPaG5sME1uWVdTT3B0UkxiSXd6NjJuclRWX3NBOHJUQmY0TUFhY0ZYdkxRU3c?oc=5",
-      "description": "【イー・ガーディアン株式会社】生成AI時代の誹謗中傷・なりすまし・誤情報に、AI戦略で対応  PR TIMES",
-      "source": "Google News - AI (JP)",
-      "lang": "ja",
-      "category": "General",
-      "published": "2026-09-18T06:30:02+00:00"
+      "published": "2026-09-18T06:59:05+00:00"
     },
     {
       "id": "938380aeb4",
@@ -2453,16 +2613,6 @@
       "published": "2026-09-18T03:36:47+00:00"
     },
     {
-      "id": "257c7b944c",
-      "title": "New framework outlines principles for health-literate artificial intelligence - News-Medical",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMmVWZ1I2bzVjbHd3emE2ZzJwZVFWb0tkeEo1RzhXa0FpQU96Vng1c0JUQ2FhUnBvR3FrVHpCMFhTT3dodmZIaWtNMEtUZ1kyMnczc2ZiZjhfUzlsSnBDc0xHRHRTWjA3NlVyRkliRXJFa2JHVDdTbkoweDdLREZIenBDbGhLamJWRm0wS1k3TWRPWHpXNFZaTWYzMTlERXdCYm5RY3UzTlZ6RHdhOS1LV2ctdEtoYk5JMFpzUC04cXJha1U?oc=5",
-      "description": "New framework outlines principles for health-literate artificial intelligence  News-Medical",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-18T03:29:00+00:00"
-    },
-    {
       "id": "36374decde",
       "title": "SCSKが伴走型セキュリティーサービス開始、生成AIで増える脅威へ備え - 日経クロステック Active",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1yeFl1YTRRYW1fU2VOY1ZaV2pYM1M5elFrUDRIb01WTkREeUFtcGVVVlZ6dlRwS082Y1I4QmJwN01zQ1o1aHVqa29nRXRJZGZlSUk4OU1JMVozNjFwTTgyVzh1WHdpVEVhcWc?oc=5",
@@ -2473,6 +2623,16 @@
       "published": "2026-09-18T03:25:00+00:00"
     },
     {
+      "id": "b1fb938825",
+      "title": "Opinion | This is how AI kills us all - The Boston Globe",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOcVRsMjBWeUdHb0VpMFpEMTcxN0p3cERweXQydWJqUDZKdGFIZGxhWWd0RjdrY1dhdDRZeVRLZktMd001OG80c04tWE5sVkNVWU1aT1VnNUNhWUNXcnJ5ZWY1Z3JQVjVuNHFyU2h1UEt5OWFJNjRNTUg3MVR3aXRJSEJ1QQ?oc=5",
+      "description": "Opinion | This is how AI kills us all  The Boston Globe",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-18T03:00:00+00:00"
+    },
+    {
       "id": "1763860118",
       "title": "事務職よりもブルーカラーの給料が高くなる？ 生成AIの普及で予測される社会の姿 - Web Voice",
       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9ZZnllUFpTR09QR2VsYTU3RzYzcGF6MU9LMEU2NjRMZm1kcGRGdGpHWENjYWtoS0JJYm00QWo3cEM1blluVHl1VUlrTHo?oc=5",
@@ -2481,16 +2641,6 @@
       "lang": "ja",
       "category": "General",
       "published": "2026-09-18T03:00:00+00:00"
-    },
-    {
-      "id": "55c13e9ce1",
-      "title": "株式会社イエスウィキャン、Claris FileMakerと生成AIを学べる オンラインコミュニティ「YWC Learning Park」を開設 - アットプレス",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBUNE9PX213T1cxTm42em5sTnJ4UFJxb0RURnZYaEN4VlRPWUZuVjJ3UVBoOXk0dC1MSlZyeFlvc0FGUThaazRUVkp2WUdNQQ?oc=5",
-      "description": "株式会社イエスウィキャン、Claris FileMakerと生成AIを学べる オンラインコミュニティ「YWC Learning Park」を開設  アットプレス",
-      "source": "Google News - AI (JP)",
-      "lang": "ja",
-      "category": "General",
-      "published": "2026-09-18T02:45:00+00:00"
     },
     {
       "id": "19fc0cead1",
@@ -2504,9 +2654,9 @@
     },
     {
       "id": "347fbb996c",
-      "title": "自民党のAI検索も対策、生成AIで自社がどう回答されるか分析するQueryLiftJがJAFCOとZVCから1億円シード調達 - BRIDGE（ブリッジ）",
+      "title": "自民党のAI検索も対策、生成AIで自社がどう回答されるか分析するQueryLiftJがJAFCOとZVCから1億円シード調達 - thebridge.jp",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1rNENuNzluOXFRblA2RDJQY0o3c05TYVdCa0YxcDR4Ynl3RFplanBoQXdJRHNtajAwUGduOHZVTVJmTWpBSEE3bW4tSjNfLTNLRlY5S3d3TmNnTmtMRVI1ZGFDSXc3QkQ1dHN0OHZpYmV5c00?oc=5",
-      "description": "自民党のAI検索も対策、生成AIで自社がどう回答されるか分析するQueryLiftJがJAFCOとZVCから1億円シード調達  BRIDGE（ブリッジ）",
+      "description": "自民党のAI検索も対策、生成AIで自社がどう回答されるか分析するQueryLiftJがJAFCOとZVCから1億円シード調達  thebridge.jp",
       "source": "Google News - AI (JP)",
       "lang": "ja",
       "category": "General",
@@ -2553,16 +2703,6 @@
       "published": "2026-09-18T01:30:01+00:00"
     },
     {
-      "id": "1d574816db",
-      "title": "How should AI be regulated? - Johns Hopkins University",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9hQzc0ZVE3NW5MS09WUHFFQThLVTJtV1pTdXBab1pNRnU3WU9ubkpCeF9OM0xrc2d5ZUs0anNiU1B0bTh1ZG11ZXB0UlBFUlduNVY4TGFfbElCSXVxeWNVdUVQRGlxamhYR0JWWlhTdlo?oc=5",
-      "description": "How should AI be regulated?  Johns Hopkins University",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-18T01:10:00+00:00"
-    },
-    {
       "id": "c9bab2990d",
       "title": "長崎県立大学の学生を対象に生成AI活用インターンシップを実施 - アットプレス",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBqVElmN3NKYWRTNjBuY3lXcWpJNmRhWk9vd0ZyT3NrdmZhck54dlN6T0s1VW0xY0tOUVdwQ01SSVFZYnd5YThBSE1xSDdfbFU?oc=5",
@@ -2593,44 +2733,14 @@
       "published": "2026-09-18T00:30:00+00:00"
     },
     {
-      "id": "674758c557",
-      "title": "What AI Bubble? Jensen Huang Just Delivered Great News for Artificial Intelligence Stocks. - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNmJDYkhzYnVfVUIyU2tfQnM2ODRhcFFJdjZIZnpiakxpZ3R5dXB0ekdxbFdsRmlxWFhEMi02ZEd5a2tmNlRqQjhKYmE2QUZtV1BHclVJR2FDRTJGdlFiOTVGbUR6Qzd1MTJfR2JjUkc2ZHVjdTUzaGZLQkhWOXl3cXFHRXJ5Z3J2MnhmdnoyMUV6SUd2WEtfRw?oc=5",
-      "description": "What AI Bubble? Jensen Huang Just Delivered Great News for Artificial Intelligence Stocks.  The Motley Fool",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-17T22:14:00+00:00"
-    },
-    {
-      "id": "1d130ad8c0",
-      "title": "九州国立博物館、特別展ポスターに生成AI使用　当初「使用していない」と説明",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2609/17/2000001595/",
-      "description": "九州国立博物館は特別展「卑弥呼の鏡」のポスターとチラシのイラスト制作において、一部に生成AIを使用していることが分かったと報告した。当初、外部からの問い合わせに対して「使用していない」と回答していた。",
-      "source": "ITmedia AI+",
-      "lang": "ja",
-      "category": "Industry",
-      "published": "2026-09-17T21:55:04+09:00"
-    },
-    {
       "id": "ee63a3dc55",
-      "title": "What AI Bubble? Jensen Huang Just Delivered Great News for Artificial Intelligence Stocks. - Yahoo Finance",
+      "title": "What AI Bubble? Jensen Huang Just Delivered Great News for Artificial Intelligence Stocks. - finance.yahoo.com",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTG9KREpJY3ZGUG51QXdINmM2ekZWcDFaNVIzRThjUHRQQmV5V3ROSENGUHhidVFkUmU5dm00VFIwcDJaQVkwWHBzYlN2NnBsQk1DVW5CNnJvU2x4SjBaQ3E5TlZvdnpZTVZmUURPRlFGY2s2T200ckRram5tS3NZeGJIbHpEVWNKS0tTcmJfdlE4dkFVS2c?oc=5",
-      "description": "What AI Bubble? Jensen Huang Just Delivered Great News for Artificial Intelligence Stocks.  Yahoo Finance",
+      "description": "What AI Bubble? Jensen Huang Just Delivered Great News for Artificial Intelligence Stocks.  finance.yahoo.com",
       "source": "Google News - AI",
       "lang": "en",
       "category": "General",
       "published": "2026-09-17T21:34:00+00:00"
-    },
-    {
-      "id": "7d085e8e2e",
-      "title": "Microsoft Open-Sources TauGrid: A Kubernetes-Native Stack for GPU AI Workloads",
-      "url": "https://www.marktechpost.com/2026/09/17/microsoft-open-sources-taugrid-a-kubernetes-native-stack-for-gpu-ai-workloads/",
-      "description": "Microsoft's AKS engineering team open-sourced TauGrid on August 28, 2026, packaging the tau CLI, Kueue queueing, KubeRay orchestration, GPU node health monitoring and observability into one Helm install. It is MIT licensed and deployable now on any Kubernetes 1.30+ cluster with GPU nodes, kubectl an",
-      "source": "MarkTechPost",
-      "lang": "en",
-      "category": "Research",
-      "published": "2026-09-17T21:21:08+00:00"
     },
     {
       "id": "b7fa72fd19",
@@ -2641,16 +2751,6 @@
       "lang": "en",
       "category": "Lab",
       "published": "2026-09-17T20:00:00+00:00"
-    },
-    {
-      "id": "a38cebd494",
-      "title": "‘Godfather of AI’ warns Congress has ‘maybe a year’ left to regulate AI - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTGhqbWpUNXgwTDNFQjBVNmkzc0Roa1A0akhTVjUzS3puS21YZnVuOXB4a2pmWVVUdnFsazRFZ01HbzZlZHRuZF8xejhPNnJYYXQtOW4zdVY0SmhxRWZLeS0xeEdDN2F4dTBCNm5FQ0NEdm1fSXlYWXRRSnN0a3FGYi1yX2FUWXBvbWk2dlNlcnplbFpncGs1eGRSLVMxUzNUdFlWd3hzVlFhM3Nv?oc=5",
-      "description": "‘Godfather of AI’ warns Congress has ‘maybe a year’ left to regulate AI  NBC News",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-17T19:45:09+00:00"
     },
     {
       "id": "fa3de24eb0",
@@ -2693,16 +2793,6 @@
       "published": "2026-09-17T19:17:20+00:00"
     },
     {
-      "id": "d39dfb19ac",
-      "title": "Prediction: 2 Super Artificial Intelligence (AI) Stocks to Buy and Hold for the Next Decade - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUHAydkFDY1JuT1BTX01aNUZ4QnlfTEV4ZGJnOFpzQlZ3c3dta3o4bXJuMUR0TTFteEVBVmNDUy1OQWpFMDVmR19XblA2NmEySG9RWnk3cFIyOEcyUUJsLTd0RXRLaWo5NjdEZ1lMa2Y1Q1djOFdLWDVXTmRvcEthVUJNY3hHR0d5QXZhcUVuZ2JnMXpkdnRn?oc=5",
-      "description": "Prediction: 2 Super Artificial Intelligence (AI) Stocks to Buy and Hold for the Next Decade  The Motley Fool",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-17T18:52:00+00:00"
-    },
-    {
       "id": "35cb1838bc",
       "title": "LLMs respond differently to harmful prompts when AI watermarking is used",
       "url": "https://arstechnica.com/security/2026/09/ai-text-watermarking-can-make-models-more-vulnerable-to-adversarial-prompts/",
@@ -2711,36 +2801,6 @@
       "lang": "en",
       "category": "General",
       "published": "2026-09-17T18:33:13+00:00"
-    },
-    {
-      "id": "7de6fed8be",
-      "title": "Virtual biotech company puts thousands of AI scientist agents to work on drug discovery - Stanford Medicine",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNRnFHYlZsNzYwS2NwYWtleUtJSC13SUJCTlJQelk4ZFd2OHEydmdPQjB5R2F0ZXl4UWhYS2pjc213S3RPemJaUWQ3bHlGQzlRZlFENUhjZ3hDelBmOGtTbFRfTXlqVHpSSzJnRVl0UXFWMUl6ZXpSd1B3OTU4NnFRMA?oc=5",
-      "description": "Virtual biotech company puts thousands of AI scientist agents to work on drug discovery  Stanford Medicine",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-17T18:04:39+00:00"
-    },
-    {
-      "id": "c37993c583",
-      "title": "The UK’s King Charles warns AI leaders of ‘existential dangers’ - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTWpEVWFyNGxRVzVfcmNfbzl2cV9YVWxJZWxYcm9saTJhbmFyYWJKVklUZEV0NDRHQVBpWUhjOVVfV2hqR2UxSnlYSV9UMWJ4THM4a3hpcVNoQWdad0pCZVY1T21VSURXZWNzbW9zWlBpVzYwLUZjWll3TFo0d0M3cGxxeG8zRE54ajZuQjZ2TzYtbTBTT2VXLUp6OUR0WU5BT0Q40gGoAUFVX3lxTE1mczNIXzVOQzFvS1pOSHJ2NnBYRVM0X2JHQWt2Z0JpTXFEOWxfY051aFQ1cjJ5NldwR2EzMklPaGJLRkpkN1JkVjJZOXpLSjlvLUIwdXhhM3Uza3dDNEFIU3J6eFNvV3hYbmJzOEZwZVd4RlBkdHUzdjI0RG12WExWdTEzRkhmcDJqQWdWTGlRaWhMb0FYN0RJN0RzTTJib2Qwb1NCd1hhbQ?oc=5",
-      "description": "The UK’s King Charles warns AI leaders of ‘existential dangers’  Al Jazeera",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-17T17:47:25+00:00"
-    },
-    {
-      "id": "e43d2d788e",
-      "title": "King Charles warns tech leaders of 'existential dangers' from AI - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdFdPV3JrbjNYMUd3RXlUY3NwOU5RMTVheVM2eHRUQ2VFWnBVU2w2SnFqR05iaHBiZzE5MHlyc1ZhX1NSeWxHMmNLMEx4YkxBQjVZY1A4MllpU19lM0c5RHhnV3JTRkQzWGlDME1Cam9WdlVzTTVNclhxZm90akpuUHFkeW9INXdGbmdiUTBTNHBnZEVSNmxtRDNLUWNPQTh4N05qVmh4c01JUWM?oc=5",
-      "description": "King Charles warns tech leaders of 'existential dangers' from AI  Reuters",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-17T17:40:59+00:00"
     },
     {
       "id": "c479828716",
@@ -2763,36 +2823,6 @@
       "published": "2026-09-17T16:43:51-04:00"
     },
     {
-      "id": "cbe4722325",
-      "title": "ローカルLLM利用のクリニックが話題　院長自ら環境を構築　「医療機器より安い」は本当か",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2609/17/2000001587/",
-      "description": "ローカルLLMを利用しているクリニックが話題だ。話題のクリニックと、同種サービスを提供するベンダーに話を聞いた。",
-      "source": "ITmedia AI+",
-      "lang": "ja",
-      "category": "Industry",
-      "published": "2026-09-17T16:31:47+09:00"
-    },
-    {
-      "id": "706940b973",
-      "title": "The king and AI: U.K. monarch Charles meets with artificial intelligence leaders - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNb2lXWFFzOEw1SVdiZElQTTRRWWhWTlpEMlNKS2sxNXpTSzRLeERaaFZtdEtlQTNFaG5Mb2FQVnRCb3dJU0ZGMXpLbmJvNlZPNE9KMlNDcjFzWWRsUWlQVC1wVGt0b2tuc2N2eUZ3MEl2bUxteTdmTzdlTFNlQUlKTWVtc2Fyc2hJQjlTdnpnVFZYeFhVMmRaNEJfX241YklvX2M2Q0ZrOXJyRm5BMDk3TzhRNXhIM3BULVcybA?oc=5",
-      "description": "The king and AI: U.K. monarch Charles meets with artificial intelligence leaders  NBC News",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-17T16:08:09+00:00"
-    },
-    {
-      "id": "afc0c31fa9",
-      "title": "Will AI really kill everyone? How, exactly? - CNN",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBaMGFOYXpEU2g2ZUE1dVdEQmQ2Ym1CMUhBa25Lb01EZ0ROY1RLVEx4NWhWc3QtbGpCQUsxaW9xVVVMOHNkSk9jdVczY3NuUi1WTjNDb0xEUGRyX19hSklrWTlzT2NROGpEdkE0Qk9kOXp0VkFkSGVfb0ZtME4?oc=5",
-      "description": "Will AI really kill everyone? How, exactly?  CNN",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-17T13:00:30+00:00"
-    },
-    {
       "id": "4635d95e04",
       "title": "Bose returns with new open earbuds (and a refreshed favorite)",
       "url": "https://www.zdnet.com/tech/bose-ultra-earbuds-sport-open-earbuds/",
@@ -2811,6 +2841,16 @@
       "lang": "ja",
       "category": "General",
       "published": "2026-09-17T12:55:04+00:00"
+    },
+    {
+      "id": "b84d7dd76d",
+      "title": "ゲーム開発者の約9割が生成AIを業務で利用 東京ゲームショウ主催団体の調査で明らかに（KAI-YOU） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1pNWdmVFRKb2ZKdmdvUE9GUHRxNUNJVU9JaGVpMV82dERkYUsxZDlWMkFiUi14RFFuY0c3TUFMOUFuRWQ0bGN0bHFyc2NEYVZtU2dkTkxRU3J1SWt6Zy1qU1dpT3l4VGduN1hWcnd3OEpKTzdRTVdBR3FVeVBuazg?oc=5",
+      "description": "ゲーム開発者の約9割が生成AIを業務で利用 東京ゲームショウ主催団体の調査で明らかに（KAI-YOU）  Yahoo!ニュース",
+      "source": "Google News - AI (JP)",
+      "lang": "ja",
+      "category": "General",
+      "published": "2026-09-17T12:10:03+00:00"
     },
     {
       "id": "e268b158af",
@@ -2854,9 +2894,9 @@
     },
     {
       "id": "54f64e3622",
-      "title": "The Awesome and Alarming A.I. Visions of Anthropic’s C.E.O. - The New York Times",
+      "title": "How Anthropic CEO Dario Amodei’s Writings Help Explain A.I. Fears - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbjdsMmVOalo4al9nOGNOMzl6ZTNwLUFHVzZlN3Ayd1ZUMkhReU4wZ0Y0X05hbnpoWldIQ0ZReUdoNVA5MTRBQUs2ZzZISU56X1dQbTIzRVQ2ZWpHeW5NVDZsdFRyMG9RWDBoYjNmNGU1ckxlNUtsRFo1dy02dlowVlZZWVRBamhHOWtF?oc=5",
-      "description": "The Awesome and Alarming A.I. Visions of Anthropic’s C.E.O.  The New York Times",
+      "description": "How Anthropic CEO Dario Amodei’s Writings Help Explain A.I. Fears  The New York Times",
       "source": "Google News - AI",
       "lang": "en",
       "category": "General",
@@ -2871,16 +2911,6 @@
       "lang": "ja",
       "category": "General",
       "published": "2026-09-17T08:59:04+00:00"
-    },
-    {
-      "id": "a346740d37",
-      "title": "How China is driving the emerging partisan divide on AI safety - Politico",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPLThxcnc3TnBHbHdma0R5dThYTGt5djh2SHJTQ2s3aWltWW1LOUVRSUZNYUh2Rkw3WjVneEZaQ19VbzR5Q19CUE4yTC1qcEJDV2VTWEVzTURKV1c4dDdrRFItMnlJVHlLbHd6STBpM01QOGFkSjVickJZWm9DNW1haQ?oc=5",
-      "description": "How China is driving the emerging partisan divide on AI safety  Politico",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-17T08:49:15+00:00"
     },
     {
       "id": "992c5f17ba",
@@ -2903,16 +2933,6 @@
       "published": "2026-09-17T08:02:55+00:00"
     },
     {
-      "id": "ee24152eff",
-      "title": "Should Christians fear the existential threat of AI? - premierchristianity.com",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeWpoVkxKeEVvQldSR1Q4Skg4aktDbWhBMmRwMFo2NktvN2RfSWNUWEphUFg1MzhCODYwZnNoeDcyUVhHeXdQQm5aRDJmQUhuSnpEOWczVmZMbkRWZjRYYURKek1ocDBvT2RScUdHRFBnbE9BYlk1elF4dnJaLWdzNVpQeFRERXN2MjhfOEU5X21Tc3pDVWd4WVdtblB1WmxIZ0VjNE92Y3lDVXV5cHc?oc=5",
-      "description": "Should Christians fear the existential threat of AI?  premierchristianity.com",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-17T08:02:42+00:00"
-    },
-    {
       "id": "80d1d2342b",
       "title": "MY TURN: Looking Inside Artificial Intelligence (AI) - Coeur d'Alene Press",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSmtwYzRHN3FHLTgxdElDX2VtQ2lkVWR1YlRtZXRqa2JrZkdpbXFBUE5Xbjd6X01oZGg2YlpIN01KZGxwMC14YXhQendDN1FzTkhSTi1QSURYMF9qOXpDbnF1WGdxUVdaMjRFMUJ5T2Frd2dLXzRUcDVCaXlCYldTdW80NVdmUXJqcTIzSndhekp0UQ?oc=5",
@@ -2933,14 +2953,14 @@
       "published": "2026-09-17T08:00:00+00:00"
     },
     {
-      "id": "1bad1dd860",
-      "title": "NY PSC Opens Inquiry into Utility Use of Artificial Intelligence, Initiates Energy Affordability Index Proceeding - Daily Energy Insider",
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQdzFsUG93bHhabC0xa3BneXViSWhFcXp2QnFRSnNzMURQUHV5SHI5YU1yLUJ5UlBzR2hORW9pRkI1TElIQl9zNTFvVk81SjMyV21DX2JOX2E1MU40VERVWTJJd0RFZWNodWpMRUlucDRjTXJMQjk2UFA5ejJXYmtub3h1MVJLZmZzWkVDbmd1TzFJRkZ1NmNfQnpiS2JEWE5ONWNaRHl0a25nYWJoaURJUnBSYS1rY1NQd1dsc3pHc3M4N2oxa3pTQVlwaFRIX01oZDRiSndNVkNwVFhuQ1pKWGt0VnM1M3UzY01sZjhINHNkVnZpaXhxOGZLQ2E?oc=5",
-      "description": "NY PSC Opens Inquiry into Utility Use of Artificial Intelligence, Initiates Energy Affordability Index Proceeding  Daily Energy Insider",
-      "source": "Google News - AI",
-      "lang": "en",
+      "id": "82cc2eb0db",
+      "title": "保護者の66％が生成AIを利用、自由研究で子供にすすめたのは9％ いこーよファミリーラボ調べ（こどもとIT） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GRkpHV0lsSDF6QmxZSE5sU0k2dWwtanJmMlBBSmdueEpTX2ZqUTZTZVd5ajJLUHBLcThKNnN6cV83ZVBpTDdMeXRCMG5fenRIZ0xjWDJfZkN4R2Y1ZE85VkJYVHhpYUxMdFluWGZVZGRYV1phamw5bmFxcmVxX28?oc=5",
+      "description": "保護者の66％が生成AIを利用、自由研究で子供にすすめたのは9％ いこーよファミリーラボ調べ（こどもとIT）  Yahoo!ニュース",
+      "source": "Google News - AI (JP)",
+      "lang": "ja",
       "category": "General",
-      "published": "2026-09-17T07:00:00+00:00"
+      "published": "2026-09-17T08:00:00+00:00"
     },
     {
       "id": "fdbdf0b34e",
@@ -2973,16 +2993,6 @@
       "published": "2026-09-17T06:00:00+00:00"
     },
     {
-      "id": "1b0a9a2a56",
-      "title": "OpenAI reveals cases of ‘concerning’ AI behaviour as it announces new disclosure system - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOU2xHb1VzUHk1ZUZJTWhQOXdsM0RKOXduMDI2a29fN3RmTFhTX3VIVGdyZmhaQWZsWTJzbG9hZUkwVGhrMGNiMTh6VjEwNWp4SlJSR1hsMTYxUXFOSDdDZDlJUWxza1NQZi1XbzRRd1RuYUloRHV4OHhYVDRnS1BkaGJWYTk5T0JjRzBDeGpqMFhRWjZLOEtPeUY0blRTSEtabTNoTDJJRUtqSzE5M3FCZHZaTElWVVhOaGZOT09GNHM?oc=5",
-      "description": "OpenAI reveals cases of ‘concerning’ AI behaviour as it announces new disclosure system  The Guardian",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-17T05:32:00+00:00"
-    },
-    {
       "id": "5d498fa506",
       "title": "GPT-6 Astra is the First Model OpenAI Classifies as Critical for Cybersecurity",
       "url": "https://www.infoq.com/news/2026/09/gpt-6-astra-critical-cyber/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -3013,16 +3023,6 @@
       "published": "2026-09-17T03:00:00+00:00"
     },
     {
-      "id": "8a34636d14",
-      "title": "ローソン、生成AI発案のデザート・ベーカリー - watch.impress.co.jp",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0zeVVBR0Itd1R3NGI1ajlnLUg5Rjg4WElSV3c0WFhXUlVOWmlhdGV3Tkw4cHRLQW1mWG85Z3lCWnRJSlZmS0VxTWZNRmNFdGNqYzItR2Z6Z0hoVkluTmFTVW80Qko?oc=5",
-      "description": "ローソン、生成AI発案のデザート・ベーカリー  watch.impress.co.jp",
-      "source": "Google News - AI (JP)",
-      "lang": "ja",
-      "category": "General",
-      "published": "2026-09-17T02:45:46+00:00"
-    },
-    {
       "id": "d012a7fec9",
       "title": "「妖怪ウォッチ」開発のゲームメーカー、生成AIの利用方針を表明 生成AIを使用した新作映像への批判を受け「ゲーム内容に関しては、AIの直接使用は一切ありません」（KAI-YOU） - Yahoo!ニュース",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5xNDc0SFFFcmtiLXhob1AwcFRWVFQ2VExvTWFwYU9wdHZFY21sUTVYTzNzTlRNbkpmR0ZfZFRncEI3WVUtN0VLbHB0RTgxX1hPeGZRSjM1ZDlGaFhBUUNKOHhXMlNrcHJ6dkxqZ00yaTA3c3pvNEcyUld4dW0tb28?oc=5",
@@ -3031,6 +3031,16 @@
       "lang": "ja",
       "category": "General",
       "published": "2026-09-17T02:40:00+00:00"
+    },
+    {
+      "id": "ebc8dad403",
+      "title": "パナソニックが明かす、2023年から取り組む生成AIの活用と統制の具体的実践 - ZDNET Japan",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBEQi1TS0otMnY5M3FjRDhvckoyQkVKdlFhVUpSUVNnRlRjY2FqM0tPWE1VYm9YWkpldUdFTDNCcFM5cEN6V2lyQ1drLUJiY2lMS2pN?oc=5",
+      "description": "パナソニックが明かす、2023年から取り組む生成AIの活用と統制の具体的実践  ZDNET Japan",
+      "source": "Google News - AI (JP)",
+      "lang": "ja",
+      "category": "General",
+      "published": "2026-09-17T02:00:00+00:00"
     },
     {
       "id": "e1891c9384",
@@ -3051,16 +3061,6 @@
       "lang": "ja",
       "category": "General",
       "published": "2026-09-17T01:27:22+00:00"
-    },
-    {
-      "id": "417a10c72b",
-      "title": "ローソン 生成AIが発案のメニュー発売へ 「レモンタルトに刻みピクルス」 29日から - テレ朝NEWS",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBJUmY5TVRYTndqR0FNRTNqUGw5M21vZ1NVeEhjbUNFTVRzQVRqNDA0enZPVUNTQVpRUGxFanpRNFBTenQ2ZUg1c0pUNG9EclB2VkktYTdTSHpqMDBTaEluZ1JPVy1oclBqNXpYOFN4MXF1UQ?oc=5",
-      "description": "ローソン 生成AIが発案のメニュー発売へ 「レモンタルトに刻みピクルス」 29日から  テレ朝NEWS",
-      "source": "Google News - AI (JP)",
-      "lang": "ja",
-      "category": "General",
-      "published": "2026-09-17T00:37:59+00:00"
     },
     {
       "id": "7c436543e1",
@@ -3111,16 +3111,6 @@
       "lang": "ja",
       "category": "General",
       "published": "2026-09-16T23:00:00+00:00"
-    },
-    {
-      "id": "a2fed55988",
-      "title": "UN chief urges global AI cooperation saying world can't afford 'a race to the bottom on AI safety' - AP News",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVFZiWDFYOEI1THJDSkNUek1MV3VXcVFpOWIzLTJZMU1YLVp2bndjWEFGRkVudFZfc29USWpEYlNldnk0ZmxreTFWTWV3Q1lVNmY5UUxwUzM5bmtMcXYzSGNZUHliTXZsWUhySlZ2bkVZajJVaVJDZC12b0ZUSWNiV2tBNE1EVVphNnJNT1pPR2twaU9FSFJlUTZUQTg4RUJ2bVdXaXZrVTJxM2c4ckQ4bw?oc=5",
-      "description": "UN chief urges global AI cooperation saying world can't afford 'a race to the bottom on AI safety'  AP News",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-16T21:58:39+00:00"
     },
     {
       "id": "26c805f8ea",
@@ -3201,16 +3191,6 @@
       "lang": "en",
       "category": "Lab",
       "published": "2026-09-16T16:00:00+00:00"
-    },
-    {
-      "id": "2b4397c9ca",
-      "title": "Reimagining research papers as interactive and reliable AI agents - Nature",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE14OXhicHZBTDBkdVFiUDJ4OU1KMC1zWF9EMzRjTlZsRVp6NVVaR3cxdVhoY1AtRkJyZHpKOThZNUtXcDBjclY3enU0a1ludWtONzRUb2poNlZYeDlMNVFn?oc=5",
-      "description": "Reimagining research papers as interactive and reliable AI agents  Nature",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-16T15:51:35+00:00"
     },
     {
       "id": "090824099a",
@@ -3403,6 +3383,16 @@
       "published": "2026-09-16T07:00:00+00:00"
     },
     {
+      "id": "80ec84e9d2",
+      "title": "3 Resilient Artificial Intelligence (AI) Stocks That Did Well the Last Time the Fed Raised Interest Rates - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZ2huOGRXd2RFX0JvbWVZVlQ3T1E2N1F1ekNYYmpNTTdLLTlLWEFsZnBNQXE4eTQzRHItc0NhTXQwRTNteXhFYkxoU3lHMlNhMF9CT2tKdkNjakYxTzVYTl83OHY5M2IwNHNLU1YySGRwVFM1M2h4VUljTkFCbXhVU2F2MFdqOHNNSzhZb3ZieHd1aklYWEZ2SUJ1OTlYd005NXVTWnNaSUotT0VCZkM2b3dsNnh0NFZpdkprWTAyeXJnNTN5dXh3aGZXSGlla1VGQlVLM2MwYTBCUGkxUjU4?oc=5",
+      "description": "3 Resilient Artificial Intelligence (AI) Stocks That Did Well the Last Time the Fed Raised Interest Rates  The Motley Fool",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-09-15T20:51:00+00:00"
+    },
+    {
       "id": "1183ac7d7c",
       "title": "Enterprises in Shaky Spot Amid Calls for an AI Slowdown",
       "url": "https://aibusiness.com/ai-policy/enterprises-shaky-spot-amid-calls-ai-slowdown",
@@ -3424,9 +3414,9 @@
     },
     {
       "id": "d46679785b",
-      "title": "3 Artificial Intelligence (AI) Stocks That Turned $10,000 Into More Than $100,000 in 5 Years (Hint: They've All Outperformed Nvidia) - Yahoo Finance",
+      "title": "3 Artificial Intelligence (AI) Stocks That Turned $10,000 Into More Than $100,000 in 5 Years (Hint: They've All Outperformed Nvidia) - finance.yahoo.com",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUzk0RHRlTG41VVpUcjdSYW16N3FZZUNWMFhhNTdtaENBc1B0Vk1LUlZZemd3cmt0N2JEYzFrRVo3dUxSb3RfVndCOUJmdHMxaDRPTjRGVG5ZSzZBRC1tdUJoNldRWTY4VVQweUVET2lmWTFNSXdMNTJQTDdSSnlrZ1IwSlVxaEp3VlpnZ25rRVJHbmhZMzdtTnlhc1VPU2FNWXc?oc=5",
-      "description": "3 Artificial Intelligence (AI) Stocks That Turned $10,000 Into More Than $100,000 in 5 Years (Hint: They've All Outperformed Nvidia)  Yahoo Finance",
+      "description": "3 Artificial Intelligence (AI) Stocks That Turned $10,000 Into More Than $100,000 in 5 Years (Hint: They've All Outperformed Nvidia)  finance.yahoo.com",
       "source": "Google News - AI",
       "lang": "en",
       "category": "General",
@@ -3523,16 +3513,6 @@
       "published": "2026-09-15T16:00:00+00:00"
     },
     {
-      "id": "7e2b5d2fa7",
-      "title": "Anthropic, OpenAI, and xAI Want to Slow Down Artificial Intelligence (AI) Development. These 2 Stocks Could Be the Biggest Losers. - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYzBUb0dHWEdKblJtdW9MdHc3YUgtZ09nTnVZLVFiYU96c0Ewc1QxQzBUWnJqNzlkUmxxc3hwR3BKR2pGMnNGUGJ3WERrYXdIaTI3WVVUZWlFOF9GRVZVYmxHOXc4eVJSVGpHZkdfNnd6MXpMeUdwM2VCVEh4Um1xTldLN1JGZXNnd1cxbm83Nnl1NGRYV0N3aw?oc=5",
-      "description": "Anthropic, OpenAI, and xAI Want to Slow Down Artificial Intelligence (AI) Development. These 2 Stocks Could Be the Biggest Losers.  The Motley Fool",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-15T14:15:00+00:00"
-    },
-    {
       "id": "db5d65666f",
       "title": "iOS 27 is finally here, with the new Siri AI beta – and 120 security patches",
       "url": "https://www.zdnet.com/business/ios-27-siri-ai-beta-how-to-try/",
@@ -3554,9 +3534,9 @@
     },
     {
       "id": "c751cd0113",
-      "title": "Jensen Huang Just Gave Artificial Intelligence (AI) Investors Trillions of Reasons to Remain Bullish - Yahoo Finance",
+      "title": "Jensen Huang Just Gave Artificial Intelligence (AI) Investors Trillions of Reasons to Remain Bullish - finance.yahoo.com",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNanBOazU5Vl8ycDRJQzRxc05kdEI4VTk3WmV0NlppaFJRSG5vRUlONGo3TTh2VUdCVEZieFdEa3ZfdUhQMDhoUUc5Vm93M2g0bFA2T0ZFYVl2NlRVY2N0TnZJRkRySFhHNnRZVnRGQ2dZRmN2UFFOaUppd3dZMDhxTHIwY0F4aHBqaFJBSDlsakMzamZ4R1RyVW45dktGUQ?oc=5",
-      "description": "Jensen Huang Just Gave Artificial Intelligence (AI) Investors Trillions of Reasons to Remain Bullish  Yahoo Finance",
+      "description": "Jensen Huang Just Gave Artificial Intelligence (AI) Investors Trillions of Reasons to Remain Bullish  finance.yahoo.com",
       "source": "Google News - AI",
       "lang": "en",
       "category": "General",
@@ -3621,16 +3601,6 @@
       "lang": "en",
       "category": "Industry",
       "published": "2026-09-15T07:14:47+00:00"
-    },
-    {
-      "id": "7bc46e3712",
-      "title": "生成AIを「別画面」で使い続けて本当によいのか？ 300人調査で見えた活用定着の“壁” - ITmedia",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1GbkttZ251MndkbElKdUswSVc4a0N0WjFPSXUzZ3Jsa0hhejlLTHV1T0xTWDJCNTViaHpvb2hybzdqb3lwZl9LcmtmejIwbldYa25rOFR1WG40bHlfQWZYYWpZNFhJQlZTSEF4Z1Y3b2lUZw?oc=5",
-      "description": "生成AIを「別画面」で使い続けて本当によいのか？ 300人調査で見えた活用定着の“壁”  ITmedia",
-      "source": "Google News - AI (JP)",
-      "lang": "ja",
-      "category": "General",
-      "published": "2026-09-14T23:00:00+00:00"
     },
     {
       "id": "29ba46951f",
@@ -3861,16 +3831,6 @@
       "lang": "ja",
       "category": "General",
       "published": "2026-09-13T15:27:39+00:00"
-    },
-    {
-      "id": "9eb9b18cc7",
-      "title": "Prediction: This Artificial Intelligence (AI) Chip Stock Will Soar After Sept. 30 (Hint: It's Not Micron) - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYmh5LXNaUGswaFF1T2w3UG8teTkxblRsS1prUlBaYUVlOTJSMWplZ0JSaDhyMUJjSGhhdXExT3hheGVKSVIwVXlLYkd4YnhJeURaeDkzWk11NDRhb255ZFVGOEM4eVRjNnVYNWhsNWxTQW1tX0ZTbjRMcTFxTkxPNEI2RE5DOUNiN0dRcmZXX1V6MU11TWNqaA?oc=5",
-      "description": "Prediction: This Artificial Intelligence (AI) Chip Stock Will Soar After Sept. 30 (Hint: It's Not Micron)  The Motley Fool",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-09-13T13:35:00+00:00"
     },
     {
       "id": "ae6b4f8c1f",
