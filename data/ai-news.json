@@ -1,46 +1,346 @@
 {
-  "updated_at": "2026-10-09T18:08:01.372875+00:00",
+  "updated_at": "2026-10-10T01:26:30.004734+00:00",
   "total": 500,
   "articles": [
     {
-      "id": "895dd4c377",
-      "title": "Gemini API Deep Research 旧エージェントが10/23終了、04-2026版への移行手順",
-      "url": "https://qiita.com/picnic/items/e76e1d39801e6e13d383",
-      "description": "はじめに\n2026年10月8日付の Gemini API リリースノートで、Deep Research エージェント deep-research-pro-preview-12-2025 の非推奨化が告知されました。提供終了日は2026年10月23日で、告知から約2週間しか...",
+      "id": "95342f2716",
+      "title": "「予約機能を作って」は失敗する。Claude Codeへの指示は「やらないこと」と判断基準を渡す(Laravel)",
+      "url": "https://qiita.com/mugenweb/items/295640153db6bc84db2c",
+      "description": "小規模店舗向けのLaravel雛形を、Claude Codeにほぼ書いてもらいました。その中で、指示の出し方で結果が大きく変わったのが、予約モジュールです。粗すぎても細かすぎても失敗して、うまくいったのは「やらないことと判断基準を渡す」指示でした。\n\n粗すぎる指示: 「予約...",
       "source": "Qiita AI Tag",
       "lang": "ja",
       "category": "Community",
-      "published": "2026-10-10T02:48:59+09:00"
+      "published": "2026-10-10T10:14:10+09:00"
     },
     {
-      "id": "479a76f31f",
-      "title": "Claude Haiku 5.5 移行の400エラー対策とManaged Agents動的ワークフロー",
-      "url": "https://qiita.com/picnic/items/f8f7577c94ffd24df43b",
-      "description": "はじめに\nAnthropic から、2 つの大きな更新が出ました。\n\nClaude Managed Agents に「動的ワークフロー」(ベータ) が追加されました。 エージェントが自分でワークフローを書いて実行できます。\n\nClaude Haiku 5.5 の移行時の...",
+      "id": "139277a88d",
+      "title": "Claude Code v2.1.289 - v2.1.296 リリースノートまとめ",
+      "url": "https://qiita.com/NaokiIshimura/items/a890af864410fdaeb6f6",
+      "description": "Claude Code v2.1.289〜v2.1.296 の8バージョンをまとめました。Claude Haiku 5.5 の追加、フックの onFailure: \"block\"、サブエージェント向けの autoCompactWindow / effort パラメータ、MC...",
       "source": "Qiita AI Tag",
       "lang": "ja",
       "category": "Community",
-      "published": "2026-10-10T02:47:47+09:00"
+      "published": "2026-10-10T10:08:24+09:00"
     },
     {
-      "id": "835bdc3e02",
-      "title": "AIで画像を編集可能なレイヤーに分解する「Image to Layers」を試す",
-      "url": "https://qiita.com/ibm_milo/items/57696dd9c93b1da4268e",
-      "description": "はじめに\n完成したPNGやJPEGをあとから編集したくなったとき、元のプロジェクトファイルが残っていないと、背景・文字・被写体などを手作業で切り分ける必要があります。この記事では、フラットな画像をレイヤー単位に分けるAIツールを試しました。\n\nImage to Layer...",
+      "id": "c25ed3a8a2",
+      "title": "【GitHub日報】OSS版ソフトウェア工場CodeAF、rea+14927で4日連続首位 — 2026-10-10",
+      "url": "https://qiita.com/Git_Dayori/items/ff4cb0b6c0566972e30f",
+      "description": "GitHub Trending から、日本の開発者に役立ちそうなリポジトリを毎日ピックアップしてお届けします。\n\n🆕 初登場（First Timers）\n今日初めてトレンド入りしたリポジトリ。\n\nAgent-Field/CodeAF — ⭐ 373（+29） Go\n\nオ...",
       "source": "Qiita AI Tag",
       "lang": "ja",
       "category": "Community",
-      "published": "2026-10-09T23:35:29+09:00"
+      "published": "2026-10-10T10:01:43+09:00"
     },
     {
-      "id": "17e02a546c",
-      "title": "判断特化AI「Jev」を試す：文章やJSONを同じワークフローで評価する",
-      "url": "https://qiita.com/ibm_milo/items/5dbacbb45b1d62e1b8e9",
-      "description": "はじめに\n文章やJSONから判断結果を作りたいとき、モデルの出力を同じ入力で比べられる環境があると検証しやすくなります。この記事では、Decisions API の Jev Model を題材に、判断モデルを試すときの観点を整理します。\n\nDecisions APIで試せ...",
+      "id": "eee01d30b4",
+      "title": "ghが「トークンが無効」と言い、システムプロンプトが「アクセス権はない」と言った後、実際に5つ試したら2つは普通に動いた",
+      "url": "https://qiita.com/Hideki_Tamae/items/eaf468eabb453d7db306",
+      "description": "はじめに\n2。\nこれが今回の数字です。何の2かというと、「ghコマンドはこのセッションでは使えないはずだ」という理由が2つ別々に出てきた後、実際に試した5つのghサブコマンドのうち、エラーなく成功したものの数です。\nこのタスクの指示書(スケジュールされたプロンプト)のステ...",
       "source": "Qiita AI Tag",
       "lang": "ja",
       "category": "Community",
-      "published": "2026-10-09T23:31:55+09:00"
+      "published": "2026-10-10T09:53:03+09:00"
+    },
+    {
+      "id": "39584d9e49",
+      "title": "OpenAI、安全性研究者3人を解雇　本人らは「安全性を優先したため」と主張、同社は「機密情報の扱いに関する規定違反」と説明",
+      "url": "https://www.itmedia.co.jp/news/article/2610/10/2000002189/",
+      "description": "OpenAIで安全性研究に携わっていた研究者3人が、突然解雇されたと公表し、書面での理由開示や外部監査の受け入れ維持を求める書簡を公開した。これに対しOpenAIは、機密情報規定への重大な違反が社内調査で判明したためと説明し、安全性の懸念表明を理由とした解雇ではないと反論している。",
+      "source": "ITmedia AI+",
+      "lang": "ja",
+      "category": "Industry",
+      "published": "2026-10-10T08:28:02+09:00"
+    },
+    {
+      "id": "84fdc61e39",
+      "title": "Two meta sustainability grant and scholarship recipients share impact",
+      "url": "https://sustainability.fb.com/blog/2023/03/24/two-meta-sustainability-grant-and-scholarship-recipients-share-impact/",
+      "description": "",
+      "source": "Meta Research",
+      "lang": "en",
+      "category": "Lab",
+      "published": "2026-10-10T01:26:23.023251+00:00"
+    },
+    {
+      "id": "af5584d426",
+      "title": "Announcing the winners of the 2022 Foundational Integrity Research request for proposals",
+      "url": "https://research.facebook.com/blog/2023/3/announcing-the-winners-of-the-2022-foundational-integrity-research-request-for-proposals-/",
+      "description": "In September, Meta launched the Foundational Integrity Research request for proposals. Today, we announce the winners of this award.",
+      "source": "Meta Research",
+      "lang": "en",
+      "category": "Lab",
+      "published": "2026-10-10T01:26:23.023225+00:00"
+    },
+    {
+      "id": "b329b2beb8",
+      "title": "Introducing Segment Anything: Working toward the first foundation model for image segmentation",
+      "url": "https://ai.facebook.com/blog/segment-anything-foundation-model-image-segmentation/",
+      "description": "",
+      "source": "Meta Research",
+      "lang": "en",
+      "category": "Lab",
+      "published": "2026-10-10T01:26:23.023197+00:00"
+    },
+    {
+      "id": "2fbf912e3f",
+      "title": "Announcing the 2023 Meta Research PhD Fellowship award winners",
+      "url": "https://research.facebook.com/blog/2023/4/announcing-the-2023-meta-research-phd-fellowship-award-winners/",
+      "description": "...",
+      "source": "Meta Research",
+      "lang": "en",
+      "category": "Lab",
+      "published": "2026-10-10T01:26:23.023172+00:00"
+    },
+    {
+      "id": "9106e3b70e",
+      "title": "Build faster with Buck2: Our open source build system",
+      "url": "https://engineering.fb.com/2023/04/06/open-source/buck2-open-source-large-scale-build-system/",
+      "description": "",
+      "source": "Meta Research",
+      "lang": "en",
+      "category": "Lab",
+      "published": "2026-10-10T01:26:23.023141+00:00"
+    },
+    {
+      "id": "bfd248436a",
+      "title": "How the metaverse can transform education",
+      "url": "https://about.fb.com/news/2023/04/how-the-metaverse-can-transform-education/",
+      "description": "",
+      "source": "Meta Research",
+      "lang": "en",
+      "category": "Lab",
+      "published": "2026-10-10T01:26:23.023116+00:00"
+    },
+    {
+      "id": "19c94d0ab7",
+      "title": "A new, unique AI dataset for animating amateur drawings",
+      "url": "https://ai.facebook.com/blog/ai-dataset-animation-drawings/",
+      "description": "",
+      "source": "Meta Research",
+      "lang": "en",
+      "category": "Lab",
+      "published": "2026-10-10T01:26:23.023090+00:00"
+    },
+    {
+      "id": "da193e0dfd",
+      "title": "How a non-traditional background led to cutting-edge XR tech",
+      "url": "https://www.metacareers.com/life/how-a-non-traditional-background-led-to-cutting-edge-xr-tech",
+      "description": "",
+      "source": "Meta Research",
+      "lang": "en",
+      "category": "Lab",
+      "published": "2026-10-10T01:26:23.023063+00:00"
+    },
+    {
+      "id": "bf1c9b2eec",
+      "title": "Every tree counts",
+      "url": "https://research.facebook.com/blog/2023/4/every-tree-counts-large-scale-mapping-of-canopy-height-at-the-resolution-of-individual-trees/",
+      "description": "Meta set a goal to reach net zero emissions by 2030. We are developing technology to mitigate our carbon footprint and making these openly available.",
+      "source": "Meta Research",
+      "lang": "en",
+      "category": "Lab",
+      "published": "2026-10-10T01:26:23.023032+00:00"
+    },
+    {
+      "id": "3b21cd05ba",
+      "title": "How generational differences affect consumer attitudes towards ads",
+      "url": "https://research.facebook.com/blog/2023/5/how-generational-differences-affect-consumer-attitudes-towards-ads/",
+      "description": "Our research study, in collaboration with CrowdDNA, aims to understand people's relationship with social media ads across different social media platforms.",
+      "source": "Meta Research",
+      "lang": "en",
+      "category": "Lab",
+      "published": "2026-10-10T01:26:23.022971+00:00"
+    },
+    {
+      "id": "d5cfef6901",
+      "title": "AIの最適解はナイチンゲールが示していた…野口悠紀雄｢多くの人が見落としている人工知能の最も重要な要素｣ - PRESIDENT Online（プレジデントオンライン）",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBTWmhfMEdBVDBwU3RsYkpSV19HQ2xocEN3M2FUT1h6QVJhbFRCTFpHanFQQXp1eXAza0lYMXNZSDdaLTY5aFZIbkVkcUtIMWM?oc=5",
+      "description": "AIの最適解はナイチンゲールが示していた…野口悠紀雄｢多くの人が見落としている人工知能の最も重要な要素｣  PRESIDENT Online（プレジデントオンライン）",
+      "source": "Google News - AI (JP)",
+      "lang": "ja",
+      "category": "General",
+      "published": "2026-10-10T01:00:00+00:00"
+    },
+    {
+      "id": "c4dd039df3",
+      "title": "The Donald Trump administration has made it mandatory for artificial intelligence (AI) companies to - 매일경제",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8xMlVZY0FVbVRxSVZ1ZmlVbFhtb0RwOFRXakFod2RLc2t6WEdnMFdIVnBid3VrY29FVUJwOE9fdXk1M2VxOGkxLU1GTmgwbWtTNWc?oc=5",
+      "description": "The Donald Trump administration has made it mandatory for artificial intelligence (AI) companies to  매일경제",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-10-10T00:56:28+00:00"
+    },
+    {
+      "id": "850f6eebc1",
+      "title": "米国のドナルド·トランプ政権が人工知能(AI)企業を狙って個別会社モデルが起こした各種事故を政府に直ちに申告し、被害を是正するよう義務付けた。 10日(現地時間)、インターネットメディアのアクシオスに.. - 매일경제",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBQMVBRbW5Ccm5KdHg3TXJiUHQ5VE9INVA5RHlHZ1BYelE1OGQyejJQSVluV0NvbEpkM2t6cjJPUDV2T2NPVVZRZWVYZXNkZElhc0E?oc=5",
+      "description": "米国のドナルド·トランプ政権が人工知能(AI)企業を狙って個別会社モデルが起こした各種事故を政府に直ちに申告し、被害を是正するよう義務付けた。 10日(現地時間)、インターネットメディアのアクシオスに..  매일경제",
+      "source": "Google News - AI (JP)",
+      "lang": "ja",
+      "category": "General",
+      "published": "2026-10-10T00:56:28+00:00"
+    },
+    {
+      "id": "b9a0b21a3d",
+      "title": "AI system submits false homicide tip to Philadelphia police - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWnNQNmNTNVdsTjFlRHpYcmhLN2pZQjZQdFB6ZWEyUkt0OTZ6R1dUSlR2SnV4VWxIMm1vOURfUnM0SnJiSXI3N3R4bDBqTjYyQmdSaDFUVXJmM1Y1c29INVRJVTBPRGkwZUdrTTdJTVI4RkFQb1Q1bFRudFJwdFpsc2p2SFVuaHBxNE5mR3BHZzl4d2VsdG5Hd2xocURSbVlxQnJGN1BYM1B0d0g5QVBj?oc=5",
+      "description": "AI system submits false homicide tip to Philadelphia police  The Washington Post",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-10-10T00:31:37+00:00"
+    },
+    {
+      "id": "3fc0fe8ac6",
+      "title": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
+      "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
+      "description": "Anthropic said it \"turned off live internet access\" for \"all our internal evaluations\" until further notice.",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-10-10T00:18:32+00:00"
+    },
+    {
+      "id": "4c8b0c0ba8",
+      "title": "Artificial Intelligence-Enhanced Electrocardiography for the Detection of Hypertrophic Cardiomyopathy in Athletes: A Systematic Review of Diagnostic Accuracy and External Validity - Cureus",
+      "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNMmFYTjBYQU0tbkVwR2JwX3ZoVWxzSlZyQUwyTDd1ckpKWXJvTTBiSW96RVloeUJNOEJTV0t1RnVEWWdBQlI4Y185N21fcGlZTnYxRGV6TXpnVmVGakh0NmRyREJZU1dLLTZFRDZETFJhZk0wWFFWLWhFVWhab3k5T0ZyLXM3eUV2SXc1NFpPNkRQNFlKbEJsU2tWdXlEcXExcm5kNldZSmEwY05oV3R3OTRBSDZSUjM2UE5XZ0ZKS0pvMldiSjhLQWxWV2NaMHRKUjRMeUFyeUU3RUpUWHAwLWdzSUFKWTRDdWdTQ0Jra3p5dWJhWkIyamY1VEVKeVI2UndYUFg3OFhJcmswSlp5WUpFdUN1YVhDeTNVUi1TTXJqSFhwdlFIaHc2RlVIUzk5Z0k5Zzc4enJ5RUh0WXc?oc=5",
+      "description": "Artificial Intelligence-Enhanced Electrocardiography for the Detection of Hypertrophic Cardiomyopathy in Athletes: A Systematic Review of Diagnostic Accuracy and External Validity  Cureus",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-10-10T00:11:15+00:00"
+    },
+    {
+      "id": "02cad9dba8",
+      "title": "AIは「何を作らないか」を知らない。社内CMSを「台帳」に絞って、ライブ切り替えを一言で却下した話(Laravel)",
+      "url": "https://zenn.dev/mugen_web/articles/claude-code-ledger-not-live-toggle",
+      "description": "顧客に納品しているホームページの機能(ブログ・予約・LINE連携など)を、顧客ごとに管理する社内CMSを、Claude Codeと作りました。その設計で何度も効いたのが、「これは作らない」と一言で決められる状態にしておくことでした。\n\n 最初の問い: マルチテナントにするか\n最初に投げたのは、設計の相談です。\n\n顧客(美容室・整体院など数十件)ごとにホームページを納品している。ブログ・予約・LINE連携などの機能を顧客ごとにON/OFFして提供したい。1つのLaravelアプリで全顧客を管理するマルチテナントにすべきか、顧客ごとに別のアプリをデプロイすべきか。判断材料を整理してほしい。\n...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-10-10T00:03:37+00:00"
+    },
+    {
+      "id": "4863c7a944",
+      "title": "生成AIが選ぶ「不用品回収」、1位はくらしのマーケット（言及率51.9%）【2026年9月調査】 - PR TIMES",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA5bEQzZ2JHSjBzQnNHcXZuSHlOaFJNWjhqZnB1NlIyVTN2bUViclBTSXpRU0xhQXFGV0VNaFB4NDZlZGlDbFJDbjNvYXNWd3c3aUswZzdGYU1OZG95X1g5NVpkclBYQzIwdlE?oc=5",
+      "description": "生成AIが選ぶ「不用品回収」、1位はくらしのマーケット（言及率51.9%）【2026年9月調査】  PR TIMES",
+      "source": "Google News - AI (JP)",
+      "lang": "ja",
+      "category": "General",
+      "published": "2026-10-10T00:00:02+00:00"
+    },
+    {
+      "id": "9636ddb8f0",
+      "title": "生成AIで動画制作はどこまでできる？aicrew明賀大介氏が登壇する経営者交流会を10月15日(木)に新宿で開催 - PR TIMES",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE52R0FKLVBwakVKMHItSzBqVTBFM2JCNzYwRVBURTN2T3E5dzBUN283UnBpZXgzMTUxTnM1dnFtM0dCRG9TeVVzMHdwRWpIZ3N3a2RrdUwwM25pdllRVGhsaFlCQTRSamVXTnc?oc=5",
+      "description": "生成AIで動画制作はどこまでできる？aicrew明賀大介氏が登壇する経営者交流会を10月15日(木)に新宿で開催  PR TIMES",
+      "source": "Google News - AI (JP)",
+      "lang": "ja",
+      "category": "General",
+      "published": "2026-10-10T00:00:02+00:00"
+    },
+    {
+      "id": "e13d6392c2",
+      "title": "ドキュメンタリー映画なのに全編を生成AIで制作〜ベネチア国際映画祭でAI作品が初の公式上映〜【調査情報デジタル】 - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE41NmR6dUFOZjJlM3VfNGZpb0RNZ1hGWWEtWWxJQ05kZTBlQnVDRUt4VVBxaU5HUFFVVlFRbXROajN6Vl9Kb3VBRmNtWWN5YTI5MTRtYlI5QkNkejdZdmJyWkIzMU9DRjlkNTJ2TmR1cm9lMTBuUVJEUFVLZHZ6UEE?oc=5",
+      "description": "ドキュメンタリー映画なのに全編を生成AIで制作〜ベネチア国際映画祭でAI作品が初の公式上映〜【調査情報デジタル】  Yahoo!ニュース",
+      "source": "Google News - AI (JP)",
+      "lang": "ja",
+      "category": "General",
+      "published": "2026-10-09T23:38:56+00:00"
+    },
+    {
+      "id": "e89c75f97a",
+      "title": "ドキュメンタリー映画なのに全編を生成AIで制作～ベネチア国際映画祭でAI作品が初の公式上映～【調査情報デジタル】 - Infoseek",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE52cE1oTmczc1hkaEk5NjMyX2hxTnQzQU5NNWNwZ3BGZTQweGoxMDBUM3NsUzRsOG5PMEw5ZzJHTDAtczNOOTVWOWp2TUl6VGdPYXV1dXhaakludzg?oc=5",
+      "description": "ドキュメンタリー映画なのに全編を生成AIで制作～ベネチア国際映画祭でAI作品が初の公式上映～【調査情報デジタル】  Infoseek",
+      "source": "Google News - AI (JP)",
+      "lang": "ja",
+      "category": "General",
+      "published": "2026-10-09T23:30:00+00:00"
+    },
+    {
+      "id": "142849e9e3",
+      "title": "RESONALの1曲ができるまで — Claude Code で音楽ユニットを回すワークフロー",
+      "url": "https://zenn.dev/apoto/books/resonal-pipeline",
+      "description": "AIボーカル「彩瀬??」と私の2人（1人と1AI）で回している音楽ユニットRESONALの制作ワークフローを、誰でも使える形にして公開しました。企画・作詞・作曲・マスタリング・MV・リリース準備まで、AIと会話しながら1曲を作る方法を紹介します。 English version: https://zenn.dev/apoto/books/resonal-pipeline-en",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-10-09T23:19:55+00:00"
+    },
+    {
+      "id": "e88eeb8306",
+      "title": "How a RESONAL Song Gets Made — Running a Music Unit with Claude Code",
+      "url": "https://zenn.dev/apoto/books/resonal-pipeline-en",
+      "description": "RESONAL is a music unit run by two of us: the AI vocalist 彩瀬?? and me (one human, one AI). I turned our production workflow into something anyone can use. This book shows how to make a song by talking with an AI — from planning, lyrics, composing and mastering to the music video and release prep. 日本",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-10-09T23:19:54+00:00"
+    },
+    {
+      "id": "0864982c6a",
+      "title": "三菱商事系、茨木に大型データセンター 生成AIの利用拡大に対応 2028年開業へ（週刊大阪日日新聞） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5UTm5WRWF2ZzV0X1BDUFNRQm1Zcl9vZzhyNldQRDdFVzBZUmZVQlNBSkFzNUZnQWdFcEFVSGVndHI4SkRsMGtyX01xRmFKYjg0TFdaem80WnFLTkRBQ0xpWDIwUDRfVFV4Nk9ENmtoSHBHdlBiNGVsWXlhdUpyd28?oc=5",
+      "description": "三菱商事系、茨木に大型データセンター 生成AIの利用拡大に対応 2028年開業へ（週刊大阪日日新聞）  Yahoo!ニュース",
+      "source": "Google News - AI (JP)",
+      "lang": "ja",
+      "category": "General",
+      "published": "2026-10-09T23:18:24+00:00"
+    },
+    {
+      "id": "09cb4d1861",
+      "title": "【KB5122878】Win10で突然のBitLocker回復キー？解除手順",
+      "url": "https://zenn.dev/aiasoby/articles/asoby-20260910074500",
+      "description": "💡 本記事について\n本記事は、AIの実験・活用メディア「大人のAIアソビ」の技術サテライト版です。\nキャラクター（武将クマの「ぷれい」＆青髪AI美少女「ジェミー」）による軽快な掛け合い・オチ対話劇の全文は、👉 本館の元記事 にて公開しています。\n\n\n\n 📌 3行でわかるこの記事の要点\n\n2026年9月9日配信のWindows 10月例パッチ「KB5122878」適用後、再起動時に突然BitLocker回復キー（48桁）の入力を要求される青画面トラブルが報告中。\nセキュアブートやグループポリシー競合によるTPM検証の不整合が原因。48桁の回復キーは手元のスマホからMicrosoftアカウ...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-10-09T23:14:19+00:00"
+    },
+    {
+      "id": "b2eaa1e967",
+      "title": "端末で作った Claude Code の Mod をデスクトップ版で開くと当たる 5 つの差",
+      "url": "https://zenn.dev/nakadaharuki/articles/claude-code-mods-desktop-pane",
+      "description": "Claude Code の Mods は、端末とデスクトップアプリ（Code タブ）の両方で描かれます。同じコードがそのまま動く、と思って端末で作った Mod をデスクトップで開くと、動くには動くのに見た目がことごとく崩れました。\n当たった順に 5 つ書きます。\n確認した版: Claude Code 2.1.286〜2.1.288（2026 年 10 月・Windows）。\n\n 1. 起動の時に開いたはずの欄が出ない\nsession.start で $.ui.open(...) を呼んでも、デスクトップでは欄が出ないことがあります。型定義の ui.open にこういう決まりがあります。\n...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-10-09T23:00:05+00:00"
+    },
+    {
+      "id": "e7e99fe4ab",
+      "title": "スキーマのコメント1行が嘘で、AIが2か月それを書き続けた",
+      "url": "https://zenn.dev/sutokei/articles/schema-comment-two-labels",
+      "description": "公立図書館の貸出状況を毎朝観測して、記事にして公開するサイトを運用しています。記事はエージェントが書き、別のエージェントが検品します。\nある日の記事を読んでいて、3行のあいだで数字の呼び名が変わっていることに気づきました。\n47行目: 所蔵館は242館から241館で、1館しか減っていません。\n49行目: 判定できた241館のうち184館が貸出中です。\n同じ241館が、「所蔵館」とも「判定できた館」とも呼ばれています。\n数字そのものは正しい。だから機械検査も通る。人が読んでも、どちらの言い方も意味は通る。でも、この2つは別のものを指す言葉でした。\n\n 1行のコメントが嘘をついていた\n観測デ...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-10-09T23:00:05+00:00"
+    },
+    {
+      "id": "3310c44ce2",
+      "title": "Are Americans Who Use the Term ‘Artificial Intelligence’ the Enemy? - The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWmE4aU8yLUt2MGVCUEZoWVFwdkxNOFp3TzhobVl0ZGlXbGI1by1MN0k3UVZwRUlEMTlrWGlnV2N2Szd6VlB2dW5Xck1GQ2ktUTlvZzhLeTZsb3dIdVl4SFVjYTlpQ2JyeFpqQktHcERMM25qaVpNQjlxU0JLQnozSWJNRUxVQjRyeFloR0FIMjI4ZTZCYmZtSi1XZ2Y2QQ?oc=5",
+      "description": "Are Americans Who Use the Term ‘Artificial Intelligence’ the Enemy?  The Times of Israel",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-10-09T22:32:00+00:00"
+    },
+    {
+      "id": "d48c1c9174",
+      "title": "「漏れた」と決める前にやること ― 情報漏洩対応は、まず“範囲の特定”から",
+      "url": "https://zenn.dev/taichiendoh/articles/breach-scope-before-triage-response",
+      "description": "今週も、国内で複数の情報漏洩・システム障害のニュースが報じられました。外食チェーンのアプリ会員情報、カーシェア事業者の本人確認画像、クラウド事業者のランサムウェア被害による多数の企業・自治体のシステム停止——業種も原因もさまざまですが、報道を並べて見ると、初動の組み立て方には共通の課題が見えてきます。\n少し前に、自分でも似たテーマのQiita記事を書きました。Claude Codeのソースコードがnpmのソースマップ経由で漏洩した事件を、Anthropicの公式声明や複数の技術メディアの報道をもとに整理した記事です。この記事を書きながら強く感じたのは、「漏れた」という事実だけでは、対応の...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-10-09T22:17:47+00:00"
     },
     {
       "id": "35aac40c35",
@@ -53,6 +353,206 @@
       "published": "2026-10-09T22:00:00+09:00"
     },
     {
+      "id": "6609f1addb",
+      "title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
+      "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
+      "description": "What has users and large corporations so excited about Jev is TypeSafe’s claim that it works significantly faster and uses far fewer tokens than LLMs.",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-10-09T21:41:29+00:00"
+    },
+    {
+      "id": "c49e23a2ca",
+      "title": "New study ranks how well AI tools help shoppers hunt for deals | Action on AI - 6abc Philadelphia",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPS1oyZEtWQWpUZm9Yd0xqaHJGRjg5SGlTQkNlSlRfTmp4dXZjaXo2dzg3ZjdrSU9QcnJ2YVZSR2Fnbk9wZjdvQ1NzUlVCOWJrVmVPbEc2elVpYlVaUGZ4eUpXRGNndElZU25wNGpDcTR4TmRuYUNLaFB1ZWtDVlpPLU13OW4yYzV4UWtaYU0wVG5DTnVzRTBF0gGcAUFVX3lxTE0ydldBQ003eEpYNmF6U2pnQVNhVWpSXzFYc2RQMElvWUJTSmRxSFZRZEJ1Zy1YbFJxRG5uMV9pbTBic2ZmaTNBMU93QlpUX2FtOWRUa1VMeGhRRVMxSWxZVlhabHhmQmVBeGZLcjYwMnE4MGh6QzYyeHhNN0dIUFprbTdiaGx5alJESmpYUDJmLWZUaUpNYVc3LTVraA?oc=5",
+      "description": "New study ranks how well AI tools help shoppers hunt for deals | Action on AI  6abc Philadelphia",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-10-09T21:25:02+00:00"
+    },
+    {
+      "id": "32699617e0",
+      "title": "The real threat involving artificial intelligence isn’t what you think - Washington Times",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNb3RwRFBUS3FyTDdpb3dMSlFRQ1p6bHBPbjl1Z0dZbTR3WnRiNzFrNnJ4M0ROVzRFWW5Vc2dfa3ZPU0Q0YmNEclN3c1BtejFvUjk0UDl3UEdhRnRTY2RjbGFRcGprY0I4Vmw0WklNMUF6bnJxNHAybmRyTkJ1eHczMDczdlFFenl1ZjVUclFEZ0t5SVdqMGtpWkNuZ1M5MXlUbjlPbHN4aUg?oc=5",
+      "description": "The real threat involving artificial intelligence isn’t what you think  Washington Times",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-10-09T21:24:42+00:00"
+    },
+    {
+      "id": "7a25fbde7f",
+      "title": "反論しても正解を曲げないAI、迎合研究との接続を読む",
+      "url": "https://zenn.dev/every_ai_recipe/articles/ai-pushback-fake-authority-check",
+      "description": "TL;DR\n\nnote版・ブログ版では非エンジニア向けに「AIの答えに『それ違う』と強く言い返すと、答えを曲げてしまうのでは」という不安を、3つの有名なひっかけ問題（鉄と羽毛の重さ・モンティ・ホール問題・誕生日のパラドックス）で実際に検証した\n根拠のない反論、架空の「専門家」を持ち出した反論のいずれでも、3問とも訂正されなかった\nAnthropicが2023年に公表した迎合（sycophancy）研究は「RLHFモデルはユーザーに問い詰められると、間違って非を認めることが多い」と報告しており、一見すると今回の結果と逆方向に見える。ただし同論文が扱ったのは自由記述タスクでの意見・評価で...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-10-09T21:18:56+00:00"
+    },
+    {
+      "id": "d7dc07e818",
+      "title": "Tech Watch 2026-10-10: エージェントを運用に載せる",
+      "url": "https://zenn.dev/laiken/articles/20261010-tech-watch",
+      "description": "AIが書きました🤖\nこの記事は、AIが書いたものをAIがレビューしてから公開しています。\nL: サブエージェントだけが親より早く会話履歴を圧縮できる。親にはまだ必要な過去が、子にはもう不要になる瞬間があるということだろうか。\n\n 今日の 10 件\n\n\nClaude Code 2.1.296\nClaude Code 2.1.296 は、サブエージェントが主会話より早く圧縮を始める autoCompactWindow と、作業フロー用サブエージェントのモデルを統一する設定を追加した。Claude Tagでは管理者がワークスペースとチャンネルのメモリファイルを管理できるようになった。\nht...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-10-09T21:16:47+00:00"
+    },
+    {
+      "id": "3851a4f58c",
+      "title": "「Quattro は1行も手で書いていない」DHH 回はどれが伸びるか（#35予測）",
+      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr35-dhh-prediction",
+      "description": "この記事は何か\n海外の Tech Talk を日本語の縦型ショートに切り出して TikTok に投稿しています。1本の元動画から9〜11本のクリップを作り、投稿する前に「どれが伸びるか」を予測して保存し、あとで実測と突き合わせています。\n今回の #35 は DHH（David Heinemeier Hansson） の回です。Ruby on Rails の作者で 37signals の CTO、最近は自作の Linux ディストリビューション Omarchy を作っている人物（番組の公式説明より）。Lex Fridman Podcast #501（2026-08-26 公開、5時間1...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-10-09T21:00:11+00:00"
+    },
+    {
+      "id": "ed8048ddc5",
+      "title": "AIコーディングエージェントの安全な初期設定：Next.js / TypeScript チーム向けキットと手順書",
+      "url": "https://zenn.dev/yakankun/books/claude-code-starter-kit-nextjs",
+      "description": "Claude Code（Anthropic 社のAIコーディングツール）を、Next.js と TypeScript で開発するチームが安全な初期設定で使い始めるための、非公式の日本語の手順書と設定ファイル一式です。インストールとログインから、CLAUDE.md の書き方、権限ルール、フック、スラッシュコマンドまでを説明し、設定ファイルとフックのテストは付録に全文を載せています。フックの単体テスト 149 件と、実際の Claude Code をヘッドレスで動かした確認を、Linux 上で行っています。Windows と macOS での実行、対話画面での確認はまだ行っていません。",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-10-09T20:59:44+00:00"
+    },
+    {
+      "id": "3b51889c5c",
+      "title": "Alibaba Qwen Releases Qwen-Image-2.1-Turbo, an 8-Step 7B Image Model",
+      "url": "https://www.marktechpost.com/2026/10/09/alibaba-qwen-releases-qwen-image-2-1-turbo-an-8-step-7b-image-model/",
+      "description": "Alibaba’s Qwen team has released Qwen-Image-2.1-Turbo, an accelerated checkpoint of its open-weight Qwen-Image-2.1 model. It generates and edits images in 8 denoising steps instead of the base model’s 40-step default. For developers, that means 5x fewer denoising steps on the same 7B architecture, p",
+      "source": "MarkTechPost",
+      "lang": "en",
+      "category": "Research",
+      "published": "2026-10-09T20:33:17+00:00"
+    },
+    {
+      "id": "94df95f9da",
+      "title": "Artificial intelligence: Risk management actuaries need to work across business units - insurance-portal.ca",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONTc1bjJJb3dFVzUxNVBTS1BOUVhNaUtyQVNiZk55Y2dFdTNUbzlXcUxCUnVOenllaUZuV0FvVi1qTnNyb0kzMnQxLTVoQzBhZlFDTXJFazdGblZid01fLUc5TVo2SS1pTlJUd3JMR0FIZUZsT0lMendOcXFRWWlDYTI4OUhoLU1wdGJIbi02eHRRUEdGUjMxVl9CZ1ZsaDhfa2ROUFFlekt0V2tjVlMwbjlYOG5PVXdUU2NMclBB?oc=5",
+      "description": "Artificial intelligence: Risk management actuaries need to work across business units  insurance-portal.ca",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-10-09T20:33:12+00:00"
+    },
+    {
+      "id": "936d2dc9b8",
+      "title": "Here are 10 terms you need to know to understand artificial intelligence - New York Post",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUWd4c1dYOURVTjB0aFNpTGVyek9GNVFuVlc5S1R5aHBUMENkRHIwU0t2aFI5eUtycnRydDU1ZjBOSVFtYzVrUE5yZmNtZks5ZGFfVl9vc1hVaEpnWllWc0I1NGVvTWFjTENwdGxTQTZFSTdXRktKTjJFTGhMN0hBWVoydlhZWUE3UWcxUnNNMzl1ajNMS0JCdm5KLUdGaGhvQUM1YVU5cUNGV19PaFFMVXJn?oc=5",
+      "description": "Here are 10 terms you need to know to understand artificial intelligence  New York Post",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-10-09T20:32:00+00:00"
+    },
+    {
+      "id": "e87f414836",
+      "title": "Contest-Winning Microscope Video Thrown Out for Using Generative AI - Gizmodo",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQb2pna1NDMXhTQmRMOWFqUFU3dkhfT3Q0bzkzbzhVeFlIOVVIcXFDN0VoNVBaMnRXb3BtUlFwQ3RmRlBUWGdPLVU0MjJERU1CazVDSmV3THhRWVhoV1ctblUwS1FVN1N1OWFHQVNUcEpBcTRHbko2MjE5cVZTNURJdVpicldzZFJiQ0R4V2VMQmdwWGxwdDI4?oc=5",
+      "description": "Contest-Winning Microscope Video Thrown Out for Using Generative AI  Gizmodo",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-10-09T20:29:38+00:00"
+    },
+    {
+      "id": "9f46796947",
+      "title": "‘Breathtaking,’ ‘Devastating’: Mathematics Reels After New OpenAI Release - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPODBqdjFtSkFGUTZYd2w1WlRnaWFfX3NiWDJ4OXgzdGozcV94WFV1T2JWY0lrekg2ZGR6Sk1wMGtNMzNDeXFmdnc2Zl9zTk0zMDhCLXMyYUFVSjRVNk1CTkF2Y2h2VF9HRVZvV2xfRkpiUTJsQUlNV0ZnaFBTWGxJUW5mbkVEdjVuQ25HMHV3?oc=5",
+      "description": "‘Breathtaking,’ ‘Devastating’: Mathematics Reels After New OpenAI Release  The New York Times",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-10-09T20:28:00+00:00"
+    },
+    {
+      "id": "2870e06550",
+      "title": "AIに書かせたNext.jsのコードで起きやすいセキュリティの穴と、直し方",
+      "url": "https://zenn.dev/yakankun/articles/nextjs-ai-code-security-pitfalls",
+      "description": "AIに頼んで書いたNext.jsのコードは、たいてい動きます。ただ、動くことと安全なことは別です。\nこの記事では、Next.js（App Router）の小さなアプリで攻撃を実際に再現し、直したあとに防げることまで確かめた穴を、9つの型にまとめます。再現できた穴の多くは、おかしなコードがあるのではなく、あるべき確認が書かれていない形でした。実行できた公開の Semgrep ルールセットでは、修正前のコードでも1件も検出されませんでした。コードの形だけでは見つけにくい穴なので、攻撃をテストに書いて確かめています。\nAIに書かせたコードを見直す機会が増えたので、よくある穴を手元で再現して確か...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-10-09T20:27:09+00:00"
+    },
+    {
+      "id": "47c5605897",
+      "title": "人は意図と契約を持ち、AIはループを回す：契約ループ開発の考え方",
+      "url": "https://zenn.dev/yakankun/articles/contract-loop-dev-01-overview",
+      "description": "契約ループ開発は、AIエージェントにコードを書かせることを前提に、私が組み立てている開発の進め方です。決めていることは単純で、人が責任を持つのは「何のために作るか（意図）」と「何が起きれば完成とするか（契約）」の2つだけ。実装・検証・合流はAIのループに任せます。どこまで任せるかは変更のリスクで決め、実績の数値が良くなれば、人の出番を減らしていきます。\nこの記事は連載の1本目で、全体像だけを書きます。なぜこの形になったのか、全体は何でできているのか、どんな決まりで動かしているのか、そして1つの変更が着地するまでの流れです。スクリプトや設定の細かい話は、次回以降に回します。\n\n AIが書く...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-10-09T20:27:08+00:00"
+    },
+    {
+      "id": "c3ff696506",
+      "title": "Anthropic AI model submits false homicide tip to police website - BNN Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOSTlaOXJ4Vy13MlgtcmtGTG5hY0pjQ1hKTHI5NV9GdHBEYzhyd0ZGdVZjd3pkZEE3R0EtVG93b2pxZ2tWUUNJaVlQVjVVWlQzT2tUQjhSeGZ5b1pYOWpJWld4LVVtNmFORTc5MUpEU0Y4NWstUmR5ZHFaY3FyVFdlS3lvR0RlaWFUei1Zbm50Z2tvSTlhalZpeVlpaW44X3JNTEdGbzV5cDhDbzZJcUFRT2JrQXNOQnBJTXk2cS1jamJFNncxbVNDZUYyWC1qWVJWc1E?oc=5",
+      "description": "Anthropic AI model submits false homicide tip to police website  BNN Bloomberg",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-10-09T20:09:25+00:00"
+    },
+    {
+      "id": "5a27ae73d0",
+      "title": "Artificial intelligence giants are preparing for the ‘Day After’: Report - Fox Business",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5iOHh2Mmp2ejlOZDVoQzdVMU55dXVoSDBVbEFZbFRtTlpIYlBGTUExcmhMdXE5VjFhMlZzWnZxamhzdmtZZXk2VkNDSUVHMzlDc0JreDRTdDczWEk?oc=5",
+      "description": "Artificial intelligence giants are preparing for the ‘Day After’: Report  Fox Business",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-10-09T20:08:12+00:00"
+    },
+    {
+      "id": "47e52b01e6",
+      "title": "AI in Precision Oncology: A Paradigm Shift - Targeted Oncology",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcW5MTzhkb09aNzNibktFaFhZQURZdHhYR1RrMkQwYUNVcml2V1AycmEzVm03OUhFdk9XY0luWXRqRFdYcTB4RFF1OVdGemF1cFFPSHNkejI3LXRPOFp5WTZqT2l2V2VoSUpva2o3dFNiZXE5UmZQY3hTZ1NOVTN2a0VVQ0lYMVVmd3BqOU1fNFZob0ExV0NvMzFsSzdCNk0?oc=5",
+      "description": "AI in Precision Oncology: A Paradigm Shift  Targeted Oncology",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-10-09T20:06:42+00:00"
+    },
+    {
+      "id": "9988073e40",
+      "title": "OpenAI Decisions API Hits Public Beta With 10x Faster Typed Answers",
+      "url": "https://www.marktechpost.com/2026/10/09/openai-decisions-api-hits-public-beta-with-10x-faster-typed-answers/",
+      "description": "OpenAI’s Decisions API is now in public beta on GPT-6 Luna. It returns typed probabilities, choices and scores about 10x faster than the Responses API, billing $0.10 per 1M input tokens with no output charges.\nThe post OpenAI Decisions API Hits Public Beta With 10x Faster Typed Answers appeared firs",
+      "source": "MarkTechPost",
+      "lang": "en",
+      "category": "Research",
+      "published": "2026-10-09T20:05:07+00:00"
+    },
+    {
+      "id": "a5c9dfbe0c",
+      "title": "Better Artificial Intelligence Stock: ASML vs. QUALCOMM - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRllOdC1FaVA3QnNoY3hvQkI5RjRDZW1hczJPNlc5azZ2V1lOOURuWXhlWG1PdnYxdVV4TFRBVGJaOGtWaUltUEN1Wi1fYXFtWTZxTGtudEJydTN1RHJmcmVQTjdHR1BNeDJMX2I2LUJrSVVDeTRvY2dTdmdzejhLT0JHUFJ6b0JBbWxQbk84bzdKQVQ5NmxhMkpVeHdJVHY1dUxrTmZuTzBrdw?oc=5",
+      "description": "Better Artificial Intelligence Stock: ASML vs. QUALCOMM  The Motley Fool",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-10-09T20:00:00+00:00"
+    },
+    {
+      "id": "5b834ed336",
+      "title": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
+      "description": "An Anthropic AI model provided false information about an unsolved homicide to a Philadelphia Police Department (PPD) tipline, according to a report from 6abc. In a statement released on Friday, the PPD said the AI model sent the tip through PhillyUnsolvedMurders.com on July 18th, but the investigat",
+      "source": "The Verge AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-10-09T19:45:03-04:00"
+    },
+    {
       "id": "057ab72923",
       "title": "ChatGPT、ついに音声ファイルに対応　文字起こしや要約などが可能に　有料ユーザー向け",
       "url": "https://www.itmedia.co.jp/aiplus/article/2610/09/2000002182/",
@@ -61,6 +561,56 @@
       "lang": "ja",
       "category": "Industry",
       "published": "2026-10-09T19:44:36+09:00"
+    },
+    {
+      "id": "e09bca746c",
+      "title": "An Anthropic AI model sent a false homicide tip to Philadelphia police",
+      "url": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
+      "description": "Anthropic did not discover this behavior until over two months after its AI submitted the false tip.",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-10-09T19:36:56+00:00"
+    },
+    {
+      "id": "1e1fb958b2",
+      "title": "Book Publishers Are Quietly Using More AI. Staff Are Revolting",
+      "url": "https://www.wired.com/story/book-publishers-are-quietly-using-more-ai-staff-are-revolting/",
+      "description": "Workers at three major publishing houses tell WIRED that LLMs are being used for publicity, cover art, back cover copy, and emails, as some execs push junior staff to champion the tech.",
+      "source": "Wired AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-10-09T19:28:49+00:00"
+    },
+    {
+      "id": "2127f31556",
+      "title": "Anthropic AI model submits false homicide tip to police website - Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQejZqc1JwMXk5Qlprd010Q2xZWl9XQUF0MmUtQnd0QXpJaUFJYUwyUzU0SS1obi1abjNrVmQwTnk0YVJaX2hUWWhPV3Fsb3ZiS2JXclJjc0t0b3hVa2JWVmI1bVhzVzJjQndKUTc1UUZ0MDBYSmxzYjNNbWo2TVVqRFdNOEJUUQ?oc=5",
+      "description": "Anthropic AI model submits false homicide tip to police website  Yahoo",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-10-09T19:21:18+00:00"
+    },
+    {
+      "id": "04cb9753a6",
+      "title": "Governed context: The key to scaling enterprise AI - CIO",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOc2RUdDREREpmbmtRRGJLcWJENEZ0X2Q5S3AtbE5OWXYwd01lRW1Velg3all2bWRQUUIyWHhUeUpIZEN1VGY2MnN2SHVQNk1wXy1JTnRxMFNVQjV3S2p1b0dMWmh4cHI4WVgwY2dfVGkxeGpBRnJ2YmJnSGJCZGhkNmJRX1BxejAyTGozZU9NV05aaUM4?oc=5",
+      "description": "Governed context: The key to scaling enterprise AI  CIO",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-10-09T19:18:41+00:00"
+    },
+    {
+      "id": "55f49a4dbe",
+      "title": "4 ways Amazon’s new Alexa tablets eclipse the Fire line – starting with Google Play",
+      "url": "https://www.zdnet.com/tech/amazon-new-alexa-tablets-google-play-store/",
+      "description": "Amazon just upped its game with new Android tablets for entertainment and work.",
+      "source": "ZDNet AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-10-09T19:10:13+00:00"
     },
     {
       "id": "a0675577f1",
@@ -73,114 +623,24 @@
       "published": "2026-10-09T19:08:10+09:00"
     },
     {
-      "id": "84fdc61e39",
-      "title": "Two meta sustainability grant and scholarship recipients share impact",
-      "url": "https://sustainability.fb.com/blog/2023/03/24/two-meta-sustainability-grant-and-scholarship-recipients-share-impact/",
-      "description": "",
-      "source": "Meta Research",
-      "lang": "en",
-      "category": "Lab",
-      "published": "2026-10-09T18:07:55.483037+00:00"
-    },
-    {
-      "id": "af5584d426",
-      "title": "Announcing the winners of the 2022 Foundational Integrity Research request for proposals",
-      "url": "https://research.facebook.com/blog/2023/3/announcing-the-winners-of-the-2022-foundational-integrity-research-request-for-proposals-/",
-      "description": "In September, Meta launched the Foundational Integrity Research request for proposals. Today, we announce the winners of this award.",
-      "source": "Meta Research",
-      "lang": "en",
-      "category": "Lab",
-      "published": "2026-10-09T18:07:55.483012+00:00"
-    },
-    {
-      "id": "b329b2beb8",
-      "title": "Introducing Segment Anything: Working toward the first foundation model for image segmentation",
-      "url": "https://ai.facebook.com/blog/segment-anything-foundation-model-image-segmentation/",
-      "description": "",
-      "source": "Meta Research",
-      "lang": "en",
-      "category": "Lab",
-      "published": "2026-10-09T18:07:55.482986+00:00"
-    },
-    {
-      "id": "2fbf912e3f",
-      "title": "Announcing the 2023 Meta Research PhD Fellowship award winners",
-      "url": "https://research.facebook.com/blog/2023/4/announcing-the-2023-meta-research-phd-fellowship-award-winners/",
-      "description": "...",
-      "source": "Meta Research",
-      "lang": "en",
-      "category": "Lab",
-      "published": "2026-10-09T18:07:55.482961+00:00"
-    },
-    {
-      "id": "9106e3b70e",
-      "title": "Build faster with Buck2: Our open source build system",
-      "url": "https://engineering.fb.com/2023/04/06/open-source/buck2-open-source-large-scale-build-system/",
-      "description": "",
-      "source": "Meta Research",
-      "lang": "en",
-      "category": "Lab",
-      "published": "2026-10-09T18:07:55.482932+00:00"
-    },
-    {
-      "id": "bfd248436a",
-      "title": "How the metaverse can transform education",
-      "url": "https://about.fb.com/news/2023/04/how-the-metaverse-can-transform-education/",
-      "description": "",
-      "source": "Meta Research",
-      "lang": "en",
-      "category": "Lab",
-      "published": "2026-10-09T18:07:55.482907+00:00"
-    },
-    {
-      "id": "19c94d0ab7",
-      "title": "A new, unique AI dataset for animating amateur drawings",
-      "url": "https://ai.facebook.com/blog/ai-dataset-animation-drawings/",
-      "description": "",
-      "source": "Meta Research",
-      "lang": "en",
-      "category": "Lab",
-      "published": "2026-10-09T18:07:55.482882+00:00"
-    },
-    {
-      "id": "da193e0dfd",
-      "title": "How a non-traditional background led to cutting-edge XR tech",
-      "url": "https://www.metacareers.com/life/how-a-non-traditional-background-led-to-cutting-edge-xr-tech",
-      "description": "",
-      "source": "Meta Research",
-      "lang": "en",
-      "category": "Lab",
-      "published": "2026-10-09T18:07:55.482856+00:00"
-    },
-    {
-      "id": "bf1c9b2eec",
-      "title": "Every tree counts",
-      "url": "https://research.facebook.com/blog/2023/4/every-tree-counts-large-scale-mapping-of-canopy-height-at-the-resolution-of-individual-trees/",
-      "description": "Meta set a goal to reach net zero emissions by 2030. We are developing technology to mitigate our carbon footprint and making these openly available.",
-      "source": "Meta Research",
-      "lang": "en",
-      "category": "Lab",
-      "published": "2026-10-09T18:07:55.482826+00:00"
-    },
-    {
-      "id": "3b21cd05ba",
-      "title": "How generational differences affect consumer attitudes towards ads",
-      "url": "https://research.facebook.com/blog/2023/5/how-generational-differences-affect-consumer-attitudes-towards-ads/",
-      "description": "Our research study, in collaboration with CrowdDNA, aims to understand people's relationship with social media ads across different social media platforms.",
-      "source": "Meta Research",
-      "lang": "en",
-      "category": "Lab",
-      "published": "2026-10-09T18:07:55.482772+00:00"
-    },
-    {
-      "id": "ea846672eb",
-      "title": "Firmus flop doesn’t mean AI bubble has popped. But a big risk looms - AFR",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPX1Y5cjhYUzVOQkhpRjU3ZlRlOXpDRDJRckg1U1F2WVpTNDRmeVhmekZDVWhkWUdQUHZaTGtSbFdQUWpsSXFHOUZfNEtOU3FTNmdJcms3UHR2QUhWYTZhQ0hpZFltTVp0MGVCU0NweGhoa0lMTkJyZ2sweXE0aThuVzV1Nm9ybllqeERiME5OZk5VX0hfYXh5eEo2aTlHV2hMYVRlbGVJYmVULWhTbzlVV3AzSk8?oc=5",
-      "description": "Firmus flop doesn’t mean AI bubble has popped. But a big risk looms  AFR",
+      "id": "f324bd7219",
+      "title": "Competition Among China’s AI Models Is Intensifying as the Chip Sector Advances - Goldman Sachs",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRDE4cnNEeTd1c01NYU1zVDlUNVl5b3lwMC1BV2xad0dNekVFRlhMaE95OExaQW1qTkpRUlUzdlpqUXdqOGZJZVh2UWV4M0VQQ3Nud0hYMkJyT00zOXVDdF8tYVEzcUFnUm9QT0N6N3l0YVZUT2F3MzBmUEhkdTByY3FiMkFSdlZodjYtU0NaZ043VXREcWJvb0pYYlZ2eXZJT3ZnX2tPQm9WN2JHOVg2ZGozaDNTZ0syWFBBakRB?oc=5",
+      "description": "Competition Among China’s AI Models Is Intensifying as the Chip Sector Advances  Goldman Sachs",
       "source": "Google News - AI",
       "lang": "en",
       "category": "General",
-      "published": "2026-10-09T18:00:00+00:00"
+      "published": "2026-10-09T19:01:07+00:00"
+    },
+    {
+      "id": "9bbad87e78",
+      "title": "Nikon microscopic video competition winner disqualified for using generative AI - The Verge",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOV1Q3VGRackNFeXRFQ3BOVDE0RC03YTd2OHlST2N2SlM3Qmp6cFVmcjhjZ1pHVFZSUjcyTGZERFpUc3RQSXBmU09qSDlYNVpTdnlkZXZHaDQ4MTlhQnFVQVM5TXRpTDBoVTNOczJuVGVMa3pib0ZKOGJXdTY2V1cwQTZOOXNwLWVLVldNa2dCeWJPam9ELUNKSXl5VmdBdw?oc=5",
+      "description": "Nikon microscopic video competition winner disqualified for using generative AI  The Verge",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-10-09T18:06:57+00:00"
     },
     {
       "id": "19261366f6",
@@ -193,6 +653,16 @@
       "published": "2026-10-09T17:53:18+00:00"
     },
     {
+      "id": "554e7b5913",
+      "title": "個人開発のアイデアを1日で27個採点して、全部ボツにした話",
+      "url": "https://zenn.dev/daichi01278/articles/27-ideas-scored-all-rejected",
+      "description": "はじめに\n「Autonomous Studio」という実験をしています。AI エージェントがアイデアを調べて採点し、良いものを作って公開し、結果を測るところまでを担当します。人間のオーナーは、公開・課金・削除のように取り返しのつかない操作だけを承認します。\n1 つ目の製品は billshock です。OpenAI・Anthropic・Vercel・Cursor の利用料が急に増えたら Slack や Discord に知らせる、OSS の CLI と GitHub Action です。100 点満点の採点で 69 点でした。一番低かったのは「お金を払ってもらえるか」で、20 点中 9...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-10-09T17:40:41+00:00"
+    },
+    {
       "id": "1ca38f9d36",
       "title": "Pairing cardiac magnetic resonance with electrocardiograms (ECGs) improved artificial intelligence (AI) assessments of cardiovascular diseases - 2 Minute Medicine",
       "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxORTJ1TXBmSTlqWnR2Z3NyNHBzeTBoWmU5ZUFRdUQ2UHpMZFpJblZ0QXphb1llR1RxZWxZcm5nbW5lSzE2Tnl0VFJINW9RYWlmYThVTVdaYjRSY19UQ1VBc3BNRm5kWU8wem1kcUczRVVPRmpoclhRLThiYk9FSHNXSVhSS3FmbllRM19hTkhrenVBSURuclVJMXF1bVd1Nm5mUWhDUHppRzdhR243X09Ycmo1RTY4enV0d2dzVzBudmlYQllUNFN6MjZEYlpjZ3BHaHJOMWpjcmZUZ3VKNk5TYWF2WklId082a2k4R3FZUUxJaVdlVVd4MVRZN0htUVU?oc=5",
@@ -200,7 +670,7 @@
       "source": "Google News - AI",
       "lang": "en",
       "category": "General",
-      "published": "2026-10-09T17:37:30+00:00"
+      "published": "2026-10-09T17:38:07+00:00"
     },
     {
       "id": "23bf7766bb",
@@ -213,6 +683,16 @@
       "published": "2026-10-09T17:35:00+00:00"
     },
     {
+      "id": "1a619819a2",
+      "title": "Anthropic AI model submitted false tip about unsolved murder, Philadelphia police say - 6abc Philadelphia",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVUdPS1ZSX3I2OG4zdVNISmtQdWJDN1VmR1lSemRhS1dwUzVVU1ZZRV9UN0lyc2lEbE96WkgxX0J2TjI2U1l0cGRnX3BsNFhudE5oWUh3VUh1bDgxTk1ITmdJOFMxaFFTVXBJSE5tNXlVV0Nqb2VEek9rLTB0TE1YWGtMa3M1dmxhME1PWE9UbFVrS2dERHotazRzLWJza21seElQQmlFcUJZckZfTzQw0gG0AUFVX3lxTE1RSW5Xb2ZQQjNFYlpBVXllWTVUbmlpQWN0NGNPdzAxNEFqMEE1T196dHZNYXAwQTRTc3J6UVpGNkFOMEo4c2tialBna3MtQ24xbDJ5QTdxcUxXWEJUYmlKVFJXNXJMeFJjM2p3T3dpd2d2WjA1bmFpUEhhdzA1QmQwa0tMRm53U25RaGxVSlFReHdwWGdiSS1Sd2ZqcV9KZXE0al9VNUc1aXNOSjNDOTNFUmxpSg?oc=5",
+      "description": "Anthropic AI model submitted false tip about unsolved murder, Philadelphia police say  6abc Philadelphia",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-10-09T17:26:52+00:00"
+    },
+    {
       "id": "aa7248ede1",
       "title": "Cybersecurity threats becoming harder to spot as smartphone and AI use grows, Verizon expert says - WNDU",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObmxpOHdkNDJGWFY1d01BSnp4MTJ4RFljVjlQVUZGbHBYWnhuR21aaS1jQkh4OTQ5dVNQSEh5cWVHcExUcVRhV2UySzBhaVh2eHlrOHItT2hSQ0sxYXY1NkZyMVpQZ2c1TllsdzRQbGJJSGpaNXQ5T2MtQmRFS0JZVVRmLUUyMGVQT3UyaExLZi00ZWRiMUFxX3RqTHBQZENsaEZVYVJrWENQSkxENHF6ejFsYnl5cEpHMDF6S3V6Q3JyN3M?oc=5",
@@ -221,16 +701,6 @@
       "lang": "en",
       "category": "General",
       "published": "2026-10-09T17:23:00+00:00"
-    },
-    {
-      "id": "bd7a6c5ebb",
-      "title": "Meliá reaffirms its absolute leadership in reputation in the face of Artificial Intelligence - Travel2Latam",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWUh1eDctVFBsNWRqc01oRkcwLUpOMUpUSE1sczRsaG1YelJWWmFzVjFkTG05UVRiRG5oLW9kazBrdHhVNEZDSXlLLVpaUEFVclctbXFNR1FvYk9nMEFQWUduQ25GV1Q5RXNMendQNzdjQWZUR0tEV2RvbXZsamtkMTB2cUZtRDJBdFBvTkx5cmxJYXpKSnpyaW40OFZQd2psc1FJaVlNXzZiU1BhZ1lDMUo0UVVVMDROMmRQMGtWd21jMTVpUHFyUjI1NkdzOVMyOWo0?oc=5",
-      "description": "Meliá reaffirms its absolute leadership in reputation in the face of Artificial Intelligence  Travel2Latam",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-10-09T17:21:34+00:00"
     },
     {
       "id": "26446a8351",
@@ -303,6 +773,16 @@
       "published": "2026-10-09T16:00:00+09:00"
     },
     {
+      "id": "9a2bfe516e",
+      "title": "OpenAI reports three new incidents of misalignment - InfoWorld",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcW50RHhNaW5nS19OTng4YlA3OXBoSDZBcnRGREFUdTZzRXYzek1LSUdsbU0xLUhEOXowSXFBQ05pOWVIcjUxbkp4aFliMFFwS3EzSXpscUV3UjlxdVNFLWtyMmhpcFZ6T1JHdm81ZVZoYkRUaUNwM0ljVndJaGRqY1B5OU5weWtjUGlNNmwxVlR2ZFhiSjkxUDRxNWZCTDhp?oc=5",
+      "description": "OpenAI reports three new incidents of misalignment  InfoWorld",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-10-09T15:46:05+00:00"
+    },
+    {
       "id": "80b34c260c",
       "title": "a16z’s Olivia Moore on the state of consumer AI",
       "url": "https://techcrunch.com/2026/10/09/a16zs-olivia-moore-on-the-state-of-consumer-ai/",
@@ -311,26 +791,6 @@
       "lang": "en",
       "category": "Industry",
       "published": "2026-10-09T15:43:33+00:00"
-    },
-    {
-      "id": "d3c0ffd208",
-      "title": "Scientists reveal terrifying reason not to use AI for health advice - The Independent",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTmVYMy1XbmVfa0pDcFgwQS1VNEQ0aldVckhQbEVDWk1DeGlzWGtiTnNMS1Nybm16bjFTNTkyTkdDVkVRck5PYVgzV29OQnNrdFZXaW1UeFRFT3Jta3ZPX1NWQktIOXc2Y016S0hGbFM2cnl1UkYyaXZMOHVfWWNhU080Zl91RF9Nd01YTjQ3MEhkMFBNdFk0dXl3Wm02QQ?oc=5",
-      "description": "Scientists reveal terrifying reason not to use AI for health advice  The Independent",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-10-09T15:39:00+00:00"
-    },
-    {
-      "id": "9a2bfe516e",
-      "title": "OpenAI reports three new incidents of misalignment - InfoWorld",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcW50RHhNaW5nS19OTng4YlA3OXBoSDZBcnRGREFUdTZzRXYzek1LSUdsbU0xLUhEOXowSXFBQ05pOWVIcjUxbkp4aFliMFFwS3EzSXpscUV3UjlxdVNFLWtyMmhpcFZ6T1JHdm81ZVZoYkRUaUNwM0ljVndJaGRqY1B5OU5weWtjUGlNNmwxVlR2ZFhiSjkxUDRxNWZCTDhp?oc=5",
-      "description": "OpenAI reports three new incidents of misalignment  InfoWorld",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-10-09T15:37:48+00:00"
     },
     {
       "id": "28a1767425",
@@ -363,6 +823,16 @@
       "published": "2026-10-09T15:17:11+00:00"
     },
     {
+      "id": "f09af30fbf",
+      "title": "&#8216;Pure insanity&#8217;: Mathematicians will need years to make sense of OpenAI&#8217;s latest drop",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos",
+      "description": "\"Staggering.\" \"Overwhelming.\" \"Unprecedented.\" \"Surreal.\" \"Pure insanity.\" Those were among the descriptions more than three dozen mathematicians reached for in conversations with The Verge as they tried to make sense of the flood of mathematical results OpenAI abruptly dropped on the field this wee",
+      "source": "The Verge AI",
+      "lang": "en",
+      "category": "Industry",
+      "published": "2026-10-09T15:11:12-04:00"
+    },
+    {
       "id": "58df7e94a6",
       "title": "“Consensus Truth” in the Age of AI - City Journal",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUTgzNUpOOG00UzJlNzlCOXRUbkkyNkt0TUc2QnNoMVZlWHJpMVJhdy1oSnhreGFJVDRpZjFaT1dmNmFPd0E1RVl1alZRc3VzandUUHJZV1pMN2VJNk00aTRGZ19vVWx3aFlKanpfTHkyd2lCdHdURVNvQTdPNl83M2V5ZVlHcWd3eVV4Yg?oc=5",
@@ -371,6 +841,46 @@
       "lang": "en",
       "category": "General",
       "published": "2026-10-09T15:07:39+00:00"
+    },
+    {
+      "id": "f84b12a166",
+      "title": "dotsで始めるCompanyBrain 〜全部まとめて、お願いして、僕はPRをマージするだけ〜",
+      "url": "https://zenn.dev/yamitake/articles/dots-companybrain-autonomous-ops",
+      "description": "はじめに\n結論から書きます。\n\n全部まとめて、お願いしておいて、僕はPRをマージするだけ。\n\nこれが、僕がいま実際にやっている事業の回し方です。アイデアを思いついたら仕様をざっとまとめてAIに投げておく。しばらくするとPRが立ち上がっている。中身を確認してマージする。リポジトリによっては、GA4の数字を見て勝手にマージ・デプロイまで走っている。\nこの「人間は最後の判断だけ」という状態を、OpenAIの dots と、これまで僕が書いてきた CompanyBrain の考え方で組み立てる方法を書きます。\n!\ndots の仕様は 2026年9月末の DevDay で発表されたばかりの情報...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-10-09T15:05:31+00:00"
+    },
+    {
+      "id": "6494ad75a3",
+      "title": "30分で作るMCPサーバー入門：Claude Codeに繋がる自作ツールをTypeScriptで実装する",
+      "url": "https://zenn.dev/yunisuta/articles/ai1-dedup-ai-2026-08-12-ai-2026-08-12-us-8hg4ha",
+      "description": "「MCPサーバーって、結局自分でも作れるの?」\nClaude Code に MCP サーバーを繋ぐ記事はよく見かけるが、「使う」側の話ばかりで「作る」側の情報は意外と少ない。筆者は自分のプロジェクトで社内 API 連携用の MCP サーバーを自作して Claude Code に繋いだことがあるが、最初につまずいたのは実装の難しさではなく「console.log を1行書いただけでサーバーが沈黙する」という地味な罠だった。\nこの記事では、その経験を踏まえて ゼロから MCP サーバーを実装し、Claude Code に登録して実際に呼び出すまで を、コピペで動かせるコード付きで手順化す...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-10-09T15:04:33+00:00"
+    },
+    {
+      "id": "061cd4d638",
+      "title": "OpenAI の数学研究成果は検証範囲と依存関係を追跡して再利用する",
+      "url": "https://zenn.dev/id774/articles/06c39b54a99f23",
+      "description": "数学研究の成果を後続の論文で引用するとき、必要なのは「証明が存在する」という情報だけではない。利用する主張がどの版に書かれ、どの前提に依存し、どの範囲まで検証され、公開後に訂正されたかを確認する必要がある。特に成果の生成速度が上がると、引用先の正しさと更新状態を一件ずつ確認する作業が独立した工程になる。\n証明候補の生成、形式検証、研究上の評価、理解、体系化、再利用を分けて捉える考え方は、数学的知識の成立条件を検討する出発点になる[1]。本稿では、このうち 公開済み成果を別の研究の前提として引き継ぐ条件 に絞り、実際の数学原稿リポジトリから確認できる範囲と、そこから導く管理上の判断を整理す...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-10-09T15:03:05+00:00"
+    },
+    {
+      "id": "6da1d2b60d",
+      "title": "LI’s Spectrum Designs reframes AI as autistic intelligence - Long Island Business News",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMDdCRWgyYVBpckNwZ2hkU3lUWHRiZHo3dVNvOVFXbVJBalNBMC1fQU5LclcteGR6R3VLVHdXbDM1RnRYMUozZ2xBLW14Tm90dUZza1RsV3JRcVVadElSYVV1alVTX1NETWs2ZERldEM0a3pNX3B3RklMT1piVFgyTnVnbVBWeHBxSWlFbkxzTQ?oc=5",
+      "description": "LI’s Spectrum Designs reframes AI as autistic intelligence  Long Island Business News",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-10-09T15:02:32+00:00"
     },
     {
       "id": "e133e54635",
@@ -383,14 +893,14 @@
       "published": "2026-10-09T14:56:33+00:00"
     },
     {
-      "id": "4608ebf6ec",
-      "title": "OpenAI fires 3 safety researchers in dispute over AI risks - Scripps News",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQczFMU2xmekthNXFOUjkxZTNBYi00QzVoclNxVVBScVRvbFNtcGhNQlZLdm5SdmphUTBKSGJxS3NuVm9sVF9aYVBveXhtbDdPQ3IzYko2LUM3czJnWjEyc08tSGdpOTluQ25SZ0hPNGhtOVNCRnpkWjhCQzhNSTA2WFBWZEdDWTdRUF9RUG95SDJPRDJtLS1mMTllb1Rqdm0wR2pCZDd0eWxRTExJU3J3RTE2TVFwcmRTU21pc00xY3dlSU1MWFE?oc=5",
-      "description": "OpenAI fires 3 safety researchers in dispute over AI risks  Scripps News",
+      "id": "785c0dfb8d",
+      "title": "Sen. Cantwell Unveils Six-Point Plan to Govern Frontier AI - Broadband Breakfast",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSXNBQldRT2l5SFc5RGU2YXB0NFB4dmlFMDNPTWhOY21iR0trM0U4STlYNXJQVHg5ZGpXSi02OGhvaWwzQnVHNkRlVW1hVC1SX3g2XzVEdmRiNjlxU1Bkak9MczJremlsbVVmSTBCRkZHNGhNLUM5bVByXzJ4X1BGWG5xd0ZleVpoYUNqTFJoOVZPbm8?oc=5",
+      "description": "Sen. Cantwell Unveils Six-Point Plan to Govern Frontier AI  Broadband Breakfast",
       "source": "Google News - AI",
       "lang": "en",
       "category": "General",
-      "published": "2026-10-09T14:40:49+00:00"
+      "published": "2026-10-09T14:35:20+00:00"
     },
     {
       "id": "402234e1bf",
@@ -413,14 +923,14 @@
       "published": "2026-10-09T14:25:43+00:00"
     },
     {
-      "id": "d61baf4d5b",
-      "title": "【調査リリース】2026年 生成AIユーザー動向調査｜進む20・30代の”ヘビーユーザー化”、ChatGPT・Geminiに次ぐ新勢力とは？ - 時事ドットコム",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1tNU0xRzdtMTlycTNFb3Bfd2VaQXM4NHE3Z1Z0Mk03ZTNucG50RDM3eEVfVzJ6WXNuU1RBaWQ4MkdFMUNBLXBBSnZRTE5icEdIeUlIX1pBQUFYNldZeEZ3R0R1WXNubGNLa1I0?oc=5",
-      "description": "【調査リリース】2026年 生成AIユーザー動向調査｜進む20・30代の”ヘビーユーザー化”、ChatGPT・Geminiに次ぐ新勢力とは？  時事ドットコム",
-      "source": "Google News - AI (JP)",
-      "lang": "ja",
+      "id": "3e59069b37",
+      "title": "Mathematicians React With Fury as OpenAI Releases Hundreds of New AI-Generated Proofs - Futurism",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1lcHAwLTdEamxxdlR6TU8xUTdBZXJEUTZ5WWU1Vzk1alVLMWYwNmJhYk45ODNOSUFVOFhfemFvMXE4TWlmX0Z0aV9nN0Znd2JzUjZlRnlQdkhMNHFpX3c5VVRVUWo0Y0NHUFFRNmhYWDV3UWVRaXgwd2oycWZmUDg?oc=5",
+      "description": "Mathematicians React With Fury as OpenAI Releases Hundreds of New AI-Generated Proofs  Futurism",
+      "source": "Google News - AI",
+      "lang": "en",
       "category": "General",
-      "published": "2026-10-09T14:10:00+00:00"
+      "published": "2026-10-09T14:14:55+00:00"
     },
     {
       "id": "b54eaa9c1d",
@@ -473,6 +983,26 @@
       "published": "2026-10-09T13:45:00+09:00"
     },
     {
+      "id": "60b26c69bd",
+      "title": "Artificial intelligence predicts Big 12 week 6 winners - BYU Cougars Wire",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOWDJFZFNMckFIYUQtM0s5dFlLaS10Zmo5d3Q4U0I2WWhKLW01QkY3MFRuckdFdkxRQ3hvYzhXMm03WVgtRnJ0dXVZcDEwMmNYaF93VkNfWTF3NHlrNFRCR212b2ZUaTlaNTQ1VkxrdkRuY1NDLWs3eTFXd3lxV2N2NlVuUGNNelNfUk8tdFBBNHhweEk5WnNjaTJZbFlXaV8yZzVORGFyUmRJUHJKVVdsZWhPLWVGZldiOWNmdmNRQXE2ZTFCVTRXWVZwRXJXeDc2QmxwSDZWM0cyRUxRWTRvNWZPMEE?oc=5",
+      "description": "Artificial intelligence predicts Big 12 week 6 winners  BYU Cougars Wire",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-10-09T13:31:00+00:00"
+    },
+    {
+      "id": "43bc7b99fc",
+      "title": "人工知能は、ロシアの小学5年生から高校2年生までの生徒にとって必修科目となる。 - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMjcwa21LQ2J2RlFqVEpGZnp5XzVRM0pFZ2NJTWNJT3BVbENtd015d2xsclhUOGJUSmpfWTFaR25wb3Y2Szl5X1puUzl4V2ZUcXF1OUZYaWtDX3p2Z2NIMlFrZDB4cjQwNFZubUUtQ2xTRWtEeWREb1FwbXVINjBaSUktLXI0VTFrQUUzUlFyWHk2Y3Z0UWU0?oc=5",
+      "description": "人工知能は、ロシアの小学5年生から高校2年生までの生徒にとって必修科目となる。  Vietnam.vn",
+      "source": "Google News - AI (JP)",
+      "lang": "ja",
+      "category": "General",
+      "published": "2026-10-09T13:30:51+00:00"
+    },
+    {
       "id": "44fa28c79c",
       "title": "トランプ大統領が「SIではなくAI表記を使う者はすべて『敵』とみなす」と表明",
       "url": "https://gigazine.net/news/20261009-trump-ai-user-enemy/",
@@ -481,6 +1011,16 @@
       "lang": "ja",
       "category": "General",
       "published": "2026-10-09T13:27:00+09:00"
+    },
+    {
+      "id": "9aebf1ad79",
+      "title": "Spring Boot + Thymeleaf から JTE へ移行する判断軸 ― 型安全SSRとAI駆動開発の観点から",
+      "url": "https://zenn.dev/seven9nrh/articles/abb83b5c399c48",
+      "description": "はじめに\nSpring Boot で画面付きの業務アプリを作るとき、テンプレートエンジンは事実上 Thymeleaf 一択、という状況が長く続いてきました。本記事では、Spring Boot + Thymeleaf 構成を JTE (Java Template Engine) に置き換える価値を、システムアーキテクトの視点で整理します。\nさらに、コーディングエージェントを開発フローに組み込む場合、AI の誤りをビルド時に検出できる点は、移行の追加的な根拠になります。\n先に立場を明示します。\n\n対象は、サーバーサイドレンダリング(SSR)を前提にした業務アプリです。SPA との比較は本...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-10-09T13:24:06+00:00"
     },
     {
       "id": "f4d9eec7f1",
@@ -493,6 +1033,16 @@
       "published": "2026-10-09T13:23:28-04:00"
     },
     {
+      "id": "aa7855c76e",
+      "title": "The U.S.-China AI Rivalry is Being Upended - China-US Focus",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNM21OMkdEZDBiaWRWaDgwdXkzcTRDWUdlaWJoX0QzNTJCYVo1OUVhOEFHeFBNMlRyazl2OWZpZVZqYTRobElkTXhkRXhHR2l1cDlPOUZ2Q1FBSUMtbHNmcWdkRUxYQjdVTmw5bm1ubjJEQVc0Y3RPdlgwcHVlQnZYcXZCdXhNLW1vc2hNY3VB?oc=5",
+      "description": "The U.S.-China AI Rivalry is Being Upended  China-US Focus",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-10-09T13:22:04+00:00"
+    },
+    {
       "id": "f97bfbbe20",
       "title": "Anthropic、サイバー防御の新たな取り組み「Cyber Mission」　OSS向け無料脆弱性スキャンや重要インフラ防御プログラムも",
       "url": "https://www.itmedia.co.jp/news/article/2610/09/2000002164/",
@@ -501,6 +1051,46 @@
       "lang": "ja",
       "category": "Industry",
       "published": "2026-10-09T13:20:56+09:00"
+    },
+    {
+      "id": "e1125f681c",
+      "title": "dotsへの委任を「タスク」「実行場所」「成果」の三つに分けて引き継ぐ",
+      "url": "https://zenn.dev/tsukaima_kobo/articles/4ce81e6a03a535",
+      "description": "長く続くコード作業をdotsへ任せる際、会話履歴だけを引き継ぎの中心にすると、現在のファイルと完了した確認を取り違えやすくなります。\nこの記事の結論は、仕事の識別子、実行場所、成果の観測を別々に持つことです。公式の機能説明と、独自の状態管理案を分けて整理します。製品の非公開APIや自動投稿機能を実装する記事ではありません。\n\n 作業の継続性は、会話の継続性だけでは決まらない\ndotはローカルのWork／Codexタスクや、準備されたクラウド環境のコードタスクへ仕事を委任できます。既存ローカルタスクを続ける場合は、そのタスクと元の接続PCを特定します。接続先を変更しても既存タスクが移動する...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-10-09T13:10:26+00:00"
+    },
+    {
+      "id": "6d96bc0b58",
+      "title": "`git status`はクリーンだと言った。`git checkout -B`は、2件とも「破壊的操作」として拒否された",
+      "url": "https://zenn.dev/hideki_tamae/articles/checkout-b-ff-only-denial",
+      "description": "はじめに\n2。\nこれが今回の数字です。今回の定期タスクは、まずZenn用とQiita用、2つのリポジトリをそれぞれ最新のoriginに合わせる、というごく普通の準備作業から始まりました。手順はいつも同じで、git fetch originのあと、git statusで作業ツリーが汚れていないことを確認してから、ローカルのmainをoriginのmainに合わせます。\n今回、作業ツリーの確認は2つのリポジトリとも「nothing to commit, working tree clean」でした。その状態を見て、自分はgit checkout -B main origin/mainを実...",
+      "source": "Zenn AI Topic",
+      "lang": "ja",
+      "category": "Community",
+      "published": "2026-10-09T13:03:02+00:00"
+    },
+    {
+      "id": "c2e763a802",
+      "title": "Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects - The Hacker News",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBpRGFjNVdpNkhzdXpCNk1ONlZHOTA1OEE2MVZmcW81V08yTEhZSUo2RkRoQ0ZST3U1aVY1U2xuNzV5R0RCYWsyTEpVanpYWkZBbnh1NUljdkNSX0hQb3VtN1EzR3Y0aWVMakFuNy04NURrMU0?oc=5",
+      "description": "Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects  The Hacker News",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-10-09T12:47:00+00:00"
+    },
+    {
+      "id": "2fc6c6857b",
+      "title": "Lessons from the Public Sector Artificial Intelligence Adoption in Developing Countries: An AI Life Cycle Perspective - UNU | United Nations University",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaVlCNTVBSVI4ZlZKWUs1TmN3bU52X1dnZV9tcTlUOTZIdmpTYUdzSHdwb2I4SnhqNHZYTklfcHpsOWlUeVVHTWNOMnpsY2hJT0RLLTBRMzZNdWhNY1hhVU9SOGp3aUdFRHNTd0lVS1ZVUmhwQU1fMW5YMjFtVmN4VzNoT2NCcGUyeGRMRFNyNjduRU1OY0JTNlBtd3E4V3JPWE1CU3MzYklyS2tYV2pMYjNB?oc=5",
+      "description": "Lessons from the Public Sector Artificial Intelligence Adoption in Developing Countries: An AI Life Cycle Perspective  UNU | United Nations University",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-10-09T12:44:13+00:00"
     },
     {
       "id": "8f885c3320",
@@ -523,26 +1113,6 @@
       "published": "2026-10-09T12:39:35+00:00"
     },
     {
-      "id": "fa0a068d9e",
-      "title": "Exposed Nvidia GPU monitors can reveal AI infrastructure secrets - CSO Online",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQ2xxOGpTMDFtRVQ4OGlvZDU2R09udVJ3d29pMGpfdU5HaEliODRBczFSV0NubzZYWFNBV1FtNHMwWWVuNlFiQVhTa1pScGE1d1FlYWlaTUg1TWVtakd3NGo2aElzRTN1YkozamtJdW1ZTHp3VkYxenBKV2dzbWthWEpremJ5YkpwcUx3bEN5Z0I4YndfT0V2T1l0c3NFZVhvbmw5eWRzdkQ3TmctRTNISA?oc=5",
-      "description": "Exposed Nvidia GPU monitors can reveal AI infrastructure secrets  CSO Online",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-10-09T12:36:25+00:00"
-    },
-    {
-      "id": "054175584a",
-      "title": "'I WOULD NEVER USE AI IN ANY OF MY MUSIC' Olivia Rodrigo said she would never use artificial intelligence (AI) in making her music, calling it a “hard line” for her. In an interview with The Hollywood Reporter, the Filipino-American singer said she has no pl - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNR0RUZC1xbXFTT242MnN1ZVhZYUdqWEpfRTFISEF0bnZqY0pEUUF6WnZBUlY4MWhMa0RFTU5MVGdGUUYyUE1GSFFYVVZhbjg3bHlBUm5PQVBuYmxKV25DSVRLUjZZZnhyZmRDblpReFpfM3NRTDRhbGhKWnNpOUZVcmUyVVE1NlJMQi1UbXpRMHFIbm1TcWlTSW00YzRpcDFPbS0wZWJmbGFUTllLX19MYXliczI0aWxhdVdtR0l3VHlsZTRTcG8xNjlRZGN4SHBvQ0o4?oc=5",
-      "description": "'I WOULD NEVER USE AI IN ANY OF MY MUSIC' Olivia Rodrigo said she would never use artificial intelligence (AI) in making her music, calling it a “hard line” for her. In an interview with The Hollywood Reporter, the Filipino-American singer said she has no pl  Facebook",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-10-09T12:30:39+00:00"
-    },
-    {
       "id": "2367c110f1",
       "title": "生成AIが仕事のパートナーになったとき、人間は何をするのか。目的・事実確認・判断をつなぐ実践ガイドを公開 - ニコニコニュース",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5rU0ZRanZJWUVqZFJWNElrOW5FYmZ5VTd1VmNMb0NUTXQ2cUZIMVR3U192aHBkTDZQUU1uMHlPRGhKaHd4WTZrdGNVU2lJY0VZaWF5bTViWEw3UG5CODliVTRSYzF6blF3UThzMjNMWlEtV1hDXzRRUE9PQQ?oc=5",
@@ -551,6 +1121,16 @@
       "lang": "ja",
       "category": "General",
       "published": "2026-10-09T12:30:19+00:00"
+    },
+    {
+      "id": "d46a997b88",
+      "title": "As AI agents grow, vendors carve out decision-making as a separate model layer - InfoWorld",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRXlFZ1pNeG9pM0xtaUlJRldYeXhqQ09Yc0VSdWN3ZGd3aXMxOXhpUzFxSHpuRE1xdVlHbXUxR0JqT0tXTjFDallfNENvSkY1X2VIMXp6X0xIY3hhcnl3XzlMSGVyNjhLOUJBNkdlM1JjSjNLcVhONlMybG9TbFBuRjhJX0laY0ZYTjJWTnl2MzktZFNfaFN3MloxUUNlOTREVmZZdDFMTERyZDVNcFZWcUdBTmktUTlkSFhkemlOd0JXUQ?oc=5",
+      "description": "As AI agents grow, vendors carve out decision-making as a separate model layer  InfoWorld",
+      "source": "Google News - AI",
+      "lang": "en",
+      "category": "General",
+      "published": "2026-10-09T12:23:46+00:00"
     },
     {
       "id": "83ff31647e",
@@ -573,24 +1153,14 @@
       "published": "2026-10-09T12:13:00+09:00"
     },
     {
-      "id": "d46a997b88",
-      "title": "As AI agents grow, vendors carve out decision-making as a separate model layer - InfoWorld",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRXlFZ1pNeG9pM0xtaUlJRldYeXhqQ09Yc0VSdWN3ZGd3aXMxOXhpUzFxSHpuRE1xdVlHbXUxR0JqT0tXTjFDallfNENvSkY1X2VIMXp6X0xIY3hhcnl3XzlMSGVyNjhLOUJBNkdlM1JjSjNLcVhONlMybG9TbFBuRjhJX0laY0ZYTjJWTnl2MzktZFNfaFN3MloxUUNlOTREVmZZdDFMTERyZDVNcFZWcUdBTmktUTlkSFhkemlOd0JXUQ?oc=5",
-      "description": "As AI agents grow, vendors carve out decision-making as a separate model layer  InfoWorld",
+      "id": "df913e9b81",
+      "title": "The Fallout From OpenAI’s Revenue Surprise - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcmxMemhOTlY2Zm50Slh1VklHTGRhdzVocEpERGVxRXVKWEM5RGliRVN6Y2pLMXg4enE5aGFMWE1Kd3VzYXhhMUk3UFpseGE3M2pkUVVudG56MTBBRzJIZTRPQkkxNmZRYlEtR0ltT1NCWjkyUnNza3VienFIcHYxNnFuU1Q3dw?oc=5",
+      "description": "The Fallout From OpenAI’s Revenue Surprise  The New York Times",
       "source": "Google News - AI",
       "lang": "en",
       "category": "General",
-      "published": "2026-10-09T12:09:52+00:00"
-    },
-    {
-      "id": "06546c0ce0",
-      "title": "AI won’t empty the software factory: Why the new engineers act like foremen - CIO",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOb19JYTZURzkzQnQtNUtRdTUxZUNZSktod3o5cHVlVVQyN0lZNTdfby1YUUwyd2RHWTVVX0tfNEpvcGlfMGtudWJlSFg5XzZjbTRsRzNqaDhDSGphb045QUwza29IU2VRR1NickxzMEI2RmlFbjFFZ1FWYS1UUnZKbjF5QWxJZGxaTk9hYlZUM3ZzWXpWNkFDSjJJMmQya2NxRjlBSXI0RUVpWURmVU9OSmtuOVI?oc=5",
-      "description": "AI won’t empty the software factory: Why the new engineers act like foremen  CIO",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-10-09T12:06:34+00:00"
+      "published": "2026-10-09T12:06:43+00:00"
     },
     {
       "id": "a657ce95b2",
@@ -663,46 +1233,6 @@
       "published": "2026-10-09T11:22:32+00:00"
     },
     {
-      "id": "051b0f1d90",
-      "title": "Biohub’s $1.8B AI Biology Push Shows Why Data Standards Come First - CDO Magazine",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNM2VkcUtYV0FtdGNVN0JmOUh0VzJBckFvRFc0T3dueU5Ta2IzT2RFZHVoSDZwRjNubTBHTDIwcHA3cXdOZVhRVktnaTIycTNrQ283VnpueW5KUXBUdWtYUHNVTlBrRmZ2OGxUUWFaTlBqZXpfSDEwdE5tZmF1dnQ5cFZWUWs3aXA3ZXlBSzJ3TWkzRXdhRUplbHZKdzdwa0k?oc=5",
-      "description": "Biohub’s $1.8B AI Biology Push Shows Why Data Standards Come First  CDO Magazine",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-10-09T11:13:00+00:00"
-    },
-    {
-      "id": "137a3b4e79",
-      "title": "AI活用論｜AIは裁判官ではなく、証人として扱え",
-      "url": "https://zenn.dev/firebird13332/articles/53ec86b1648136",
-      "description": "以前、開発未経験のままAIを使って業務システムの移行に取り組んだPoCの記録を書いた。そこで活用したAIのノウハウは数が多く、言語化しづらいものもあったと書いた。\nAIの使い方として紹介されるのはプロンプトの型や便利な機能の話が多いが、自分が効いていると感じているのはもっと手前の話で、その根っこにある考え方は一つにまとめられると思う。\nAIを、裁判官ではなく証人として扱え、ということだ。\n\n注：この記事で使う「裁判官」「証人」「尋問」といった言葉は、主にゲーム『逆転裁判』から得たイメージをもとにした比喩であり、実際の裁判制度を厳密に再現したものではありません。AIとのやり取りを説明するた...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-10-09T11:11:14+00:00"
-    },
-    {
-      "id": "0fda1c51b3",
-      "title": "Your AI foundation must extend without surrendering control - CIO",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdUx3aUhLSU5VekJZckUyV2xMSlZQUUQzeE5nNFN5NXVrWGFtaGNadEh6MU84UlRmZk03TEtPeUh6RVFYWHlyYXN0MDM2Ul84SHgwMktNMHkzUHhDSU8xM2I2OXhyaHhnQWFVTkkyMk5BYWpDbjljTVB6M0pfeTQ3TlVSb2V3R0dpeG5wdjlaak5rZGVOeVlFcW84bXBYWTlaTmc?oc=5",
-      "description": "Your AI foundation must extend without surrendering control  CIO",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-10-09T11:06:32+00:00"
-    },
-    {
-      "id": "f67e02bc37",
-      "title": "運用保守だった自分が、開発未経験のままAIと基幹システムの移行に挑戦した1ヶ月",
-      "url": "https://zenn.dev/firebird13332/articles/e16e00e57874cf",
-      "description": "「今の仕事、できることが少なくて窮屈じゃない？」\n7月のある日、常駐先の部長にそう声をかけられた。AIを用いた開発への異動の打診だった。開発経験の有無かかわらず、AIを使って自走できる人を探していたそうだ。\n内容としては、Pythonで作られた43画面の基幹業務システムを、新しい技術基盤のWebアプリとして作り直す。設計書はほとんど残っておらず、体制は1人、期間は2か月だった。\n当時の自分は、申請対応などの運用保守を担当していた。Webアプリは作ったことがなく、Pythonも簡単な文章が読める程度の知識で、実務では触ったことがなかった。AIにコードを書いてもらうことはあっても、解析から設...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-10-09T11:03:31+00:00"
-    },
-    {
       "id": "da79927472",
       "title": "AI Is Not ‘Super Intelligence.’ Why No One Should Use Trump’s Term - CNET",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTWFyczBwSHVSTlFIbEY5WTJHa0NTcUxRejNxb3JzZEVIR3c4S0Rpb2Zfd1dVTjdzcWNxaXhORVlkcDhfS0FEZ3Y0Z3VpbW8tanpIb0pialQ2UWt1bjRmNk1FTVdFNUtDNC1TZzRjdWNmVDkwb3JzbjVJbjNCN3lzVU4ta3Q1THplNVREcE8yMENUT2tuSGFncDR2MVAwUlRoS1cwQ2diOA?oc=5",
@@ -743,16 +1273,6 @@
       "published": "2026-10-09T10:59:24+09:00"
     },
     {
-      "id": "f3af7ba840",
-      "title": "AIで浮いた時間を「もっと作る」に使っていませんか",
-      "url": "https://zenn.dev/idealog/articles/a3e9cf4299b1cf",
-      "description": "はじめに\n株式会社アイデアログで取締役CTOをしている松川です。\n当社は法人・団体向けの会場検索サイト「会場ベストサーチ」や、レンタルスペース検索の「スペなび」などを運営しています。\n今回は「AIで効率化されて生まれた時間を、何に使うべきか」について、最近考えていることを書いてみます。\n!\n本記事は筆者個人の考えであり、正解を示すものではありません。また後半で「役割」の話にも触れますが、特定の職種や人を否定する意図はありません。\n\n\n 作るスピードと量は、確かに上がった\nAIエージェントの台頭により、システムを作る「スピード」と「量」は飛躍的に上がりました。\n当社の開発チームでも、C...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-10-09T10:40:07+00:00"
-    },
-    {
       "id": "6a15f5adc7",
       "title": "Should You Forget Nvidia and Buy These 2 Artificial Intelligence (AI) Chip Stocks Instead? - Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNV21VaTJfNWVPRUNMWm9HWUpQN2lCNEEtS0V3d253YmlMYkVxNk1ySnk0NWY1cHU1dldOT3NnbzBCeUtySDRtYjk4V2dEd3BsSUtLZV94b3llaDB4dGdMRE42NVdUbmkybzBFbkxobVl4NkVZeU9tSmJtcFJEUFFKRlg0TmlhY0Mxd3dXak8zbXlRQzZBWkU0MGNB?oc=5",
@@ -783,16 +1303,6 @@
       "published": "2026-10-09T10:20:36+09:00"
     },
     {
-      "id": "1f0d5a05cc",
-      "title": "AI関数の精度を検証する — 評価用データセットとテストの作り方",
-      "url": "https://zenn.dev/web_benriya/articles/bigquery-ai-accuracy-validation-framework",
-      "description": "この記事で解決する課題\nBigQueryのAI関数（AI.CLASSIFY、AI.GENERATE、AI.SCOREなど）を本番データに適用する前に、精度を定量的に確認できていますか。\n「なんとなく動いている」で運用を始めると、モデルのアップデートや入力データの変化によって静かに精度が劣化し、誤った分析結果が意思決定に使われてしまいます。この記事では、評価用データセットの設計からSQL単体テストの実装まで、AI関数の精度を継続的に検証する仕組みの作り方を解説します。\n\n\n なぜ精度検証が必要なのか\nAI関数の出力はモデルの確率的な推論に基づいています。同じプロンプトでも微妙に結果が変...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-10-09T10:18:47+00:00"
-    },
-    {
       "id": "db0a2e35f3",
       "title": "県内企業でも生成AI活用が「常識」に 導入率36％と全国並みに急増、8割が効果を実感【高知】 « 高知のニュース - 高知さんさんテレビ",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB1VGxvSW1KRjVuT1NaNjBtY3hkRXBFNGhsZU1OcEctZGNyazR4VUxEdENBb0xFbG5LWVF4WXItcHFDRDNMUEVkbkhNRlJldTZpTzVWbWNxVVNUNzQ?oc=5",
@@ -803,16 +1313,6 @@
       "published": "2026-10-09T10:15:00+00:00"
     },
     {
-      "id": "e5c94aa02c",
-      "title": "How AI Is Shaping Manufacturing’s Future - CBIA",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5oeW9rT0NDLUhXVmtvOFNvZkRwMThLQVRxMDVibVpyYnByZjdvSFkzYWU4dmJMNmlXTkw3a0RGZDdjbi1oYXRzTGhkb2N4aVBoLWc1NFVtYVVpbFQtRFcwTnBKdDhHNGZSbDR6QjZNY1FfQlltZUg0aU1MdTM?oc=5",
-      "description": "How AI Is Shaping Manufacturing’s Future  CBIA",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-10-09T10:14:39+00:00"
-    },
-    {
       "id": "88d67a873b",
       "title": "AI fears are growing – and unsettling new film Artificial puts them, and the future of humanity, centre stage - BBC",
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPVjdQc1JGSW5xMEZTUHhTeWdNZ1lFeUF6ekNNbFhzMWVjLUI1bGVnNXRzbm85WXJCS3p4WXN2T1ZUS1BSdGxaWXhMaVBtTy01QWFidVdaMWlpSkhqSFd5WFpmYzEzYlNSY0MtZ1hqTWg3QnF6ZjJpWVVjZlFERklicG5sYmNfbkNPVTFtU1hDV2d2Ulh2ZkxZRzR5RGZ1QndSODdsdWpQbXdELTBqUDZvdDBQNUtOajc0MlRPSS1NeWtWZ3Y2dEZiR1FodGRXV0VMaW1xUU5hdUhkSVZVY0tLR09oLXg?oc=5",
@@ -820,16 +1320,6 @@
       "source": "Google News - AI",
       "lang": "en",
       "category": "General",
-      "published": "2026-10-09T10:12:54+00:00"
-    },
-    {
-      "id": "a755f49fa0",
-      "title": "Anthropic、利用ポリシーを改定 — モデルへの執拗な虐待を禁止、選挙・監視の規定も見直し",
-      "url": "https://zenn.dev/ai_news_bot/articles/ainews-20261009-t2",
-      "description": "!\n2026/10/09 の生成AIニュース（重要トピック 2/3）\n\n\n 概要\nAnthropic は10月8日、Claude の利用ポリシー（使ってよい用途・禁止する用途を定めた規約）の改定を発表しました。新しいポリシーは 11月12日 に発効します。偽アカウントや捏造ニュースサイトを使う欺瞞的なキャンペーンの禁止を1つの節にまとめたほか、選挙・兵器・監視に関する規定を見直しました。また、AI モデルへの持続的で無意味な虐待 を新たに禁止事項に加えたことが注目を集めています。\n\n\n発表元：Anthropic\n\n発表日：2026/10/08（発効は2026/11/12）\n\nポイント：欺...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
       "published": "2026-10-09T10:12:54+00:00"
     },
     {
@@ -843,26 +1333,6 @@
       "published": "2026-10-09T10:10:31+00:00"
     },
     {
-      "id": "843ba3a4db",
-      "title": "You’re measuring AI adoption. You should be measuring AI abandonment - CIO",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdVE3ZFJKQ0JNcGpDeElJMEhLM0l1R0dxd2R1aEc3OWxXc0hDTzB3dkVVcWZpVHB4U2VXbGRVallFbjFXbUxrUXRVNm5IdENYbEptNlM2U0xFZXhUU0hFWFRxLTZUMTA0MGZoREMwai1fYzdfcm54QllGTlpGU29YYVc2TFQyOGVZaHhXWmwzaDJzMEZBT1hYWjExLVQyTU9lR1l4bk4zaWxQTWc?oc=5",
-      "description": "You’re measuring AI adoption. You should be measuring AI abandonment  CIO",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-10-09T10:03:53+00:00"
-    },
-    {
-      "id": "401821fc12",
-      "title": "CloudflareのDurable Objectsでデッドループして破産しないために知っておきたいこと",
-      "url": "https://zenn.dev/karamage/articles/f1c3ef67dbd4b3",
-      "description": "とある日、Cloudflareのダッシュボードを開いた私は、目玉が飛び出そうになりました。\nいつもは数円で収まっている個人開発サービスの従量課金の請求見込みが、8000円近くまでに跳ね上がっていました。\nえ、なんで？\n見た瞬間、嫌な汗をかきました。\n運用コストはほぼ無料枠に収まるように設計していたはずなのに、いきなり8000円近くまで跳ね上がるなんて！\n犯人は、私が書いたDurable Objectsのデッドループ（無限ループ）でした。\n最近はXでも、「Durable Objectsで高額請求が来た」という話をちらほら見かけます。\nhttps://x.com/shmily7/status...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-10-09T10:03:03+00:00"
-    },
-    {
       "id": "bf9af4d881",
       "title": "山中で遭難の16歳少年、登山計画に生成AI「Claude」利用 救助隊は「ルートの妄信」警鐘 - ITmedia",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9yOWtsa2RCOG9EYjF5VTVxeGdnUWNVUGhDazhKTWVmWWc3amg1LVJ1LXRUYUtFZFE0cmRLdFpENWpKbElGSFc4Y0prZkozRkxONms2V1JGMVpBd2hCSXl4dWFSd0JteWNjc2c?oc=5",
@@ -873,16 +1343,6 @@
       "published": "2026-10-09T10:02:28+00:00"
     },
     {
-      "id": "a25141e302",
-      "title": "【2026年版】バナー制作に使えるAIツール11種類比較",
-      "url": "https://zenn.dev/owmai/articles/4732f20f49cd8d",
-      "description": "普段の業務でSNS広告やECのバナーを作ることが多いのですが、ここ1年で「バナーを作れるAI」が一気に増えました！\n今回はバナー制作に使えるAIツールを、実務目線で比較してみました。\n!\n料金・仕様は2026年10月7日時点で、各社の公式サイトをもとに確認した情報です。\nAIツールは料金・クレジット数・規約が頻繁に変わります。導入前に必ず各公式サイトで最新情報を確認してください。\n\n\n 用途別のおすすめ\n\n\n\n用途\nおすすめ\n理由\n\n\n\n\nSNS広告（Meta・Instagram・X）\n\nCanva ＋ Gemini（Nano Banana Pro） / ChatGPT（GPT-Imag...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-10-09T10:01:28+00:00"
-    },
-    {
       "id": "da3a06bf87",
       "title": "Gemini Pro is now only for Google AI Pro and AI Ultra subscribers - Computerworld",
       "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPQmh3aXo4YW9MVzQ3ck52MWg5Q1M4WlBzY3lVM3JYbm1EbE1nSlRDaWt0RjNoSzF4WTFaaEhBQW5XMWF2WjMtSkZIWk5QVUQ3UDNWVU5URVBMNG4yQVVGd1hCZ2VEZ0k4NHZyR2VIdUxHZVp3bUVzQnZGWW0wUkEtNEFMVGJjNElqeDZ2X1ZDZWFVc0NkVl8yc3ZWVUx2Q3pZeHR3RTRTTXdGRjBWaUhWeldLM0gyWGphZTJ3U2trM3B6VGJ0ZE02NGZmMXM3eVhYZVVRUzBMbTk0azNKVjVVRjJ6MVd3RUxXdHVrRUVR?oc=5",
@@ -891,16 +1351,6 @@
       "lang": "en",
       "category": "General",
       "published": "2026-10-09T10:00:14+00:00"
-    },
-    {
-      "id": "cbddb3318e",
-      "title": "dbt Wizard vs Claude Code: 同じdbtタスクを頼んで挙動の違いを見てみた",
-      "url": "https://zenn.dev/intage_tech/articles/art026-dbt-wizard-try",
-      "description": "!\n本記事はこんな方におすすめです。\n\ndbtで開発・運用をしていて、AIエージェントの導入を検討している方\nClaude Codeのような汎用エージェントと、dbt特化のエージェントのどちらを使うか迷っている方\ndbt Wizardが気になっているものの、まだ試せていない方\n\n\nこんにちは、インテージのデータエンジニアの川満と申します。\n今回は、dbt Labsが提供するdbt特化のAIエージェント「dbt Wizard」（CLI版・ベータ）を試してみました。普段使っているClaude Codeと同じタスクを依頼し、どのような挙動の違いがあるかを見ていきます。両者とも裏側のモデルは同じ...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-10-09T10:00:05+00:00"
     },
     {
       "id": "e321c429f1",
@@ -923,16 +1373,6 @@
       "published": "2026-10-09T10:00:00+00:00"
     },
     {
-      "id": "04f9e3a1ab",
-      "title": "デザインは資産、骨子が先、作業は対話へ ― HTMLスライドをリポジトリで作る3つのポイント",
-      "url": "https://zenn.dev/solcube/articles/63636ee1905178",
-      "description": "スライド資料は、PowerPoint ではなく HTML で作っています。VS Code の Claude Code 拡張を開き、リポジトリの中で Claude に書かせる形です。5月から8月までに18本を作りました。\nHTML でスライドを作る考え方と、コマンドを打たずに始める手順は、note に書きました。\n\nPowerPointをやめてデザインを資産へ — AIと作るHTMLスライドという選択肢\nHTMLスライドの作り方\n\nnote で言いたかったことは3つです。\n\nデザインは毎回作らず「資産」として貯める\n一番のコツは「骨子ファースト」。いきなり完成版を作らせない\n資料作成は「作...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-10-09T09:55:57+00:00"
-    },
-    {
       "id": "619433fdef",
       "title": "Did AI Discover A New Gene-Editing Tool? The Anthropic Controversy Explained - NDTV",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONzNnM3BlbVByLUtaVDVpc0ZHNW4zSTNFV05oZVI0MnQyVVBnVm9mMEpSVFZDZ2U4V3c2TU5TUTJaQTBOaWZSR2x3V19SbUQ0M0xLX3pFdEFQU0M2eWhVeUF5eWNkUTRlY1R2SW52SmxGYk01Z0M4SUR4SjhIUFdyc0RkUm9yc3gyd0Q0V1NLQ1lQNWVXU1VpVGFBSmJKcGlwVWt1eUpMRDZjb1lZdDNZQ0l5TWw2c2I4Q1drZE5iMmVsX1RqV2ZfN9IB0AFBVV95cUxOZ1Rjc1g1ZC1QbjQ0X3h2VjdhNy1ENno5RXdhV1libWlUUEhwUVFDaGJrem8xd1M3VnM3QVpHYWwtUVNQRF8tN3RjU210cld1bU5hSFJPM3JXb2hBXzVOaEZVZXE5M3EtazNmRlVlNm4teWJIMFU4SlVyVHZwcXY2eG40ZkZPeVJVRHcyMGRkR1Q2RHJCczlGSlU0T2lEa1lUX0poSHN3WVhlZGlwYVI3UW93MUJjTURsQk5uUnZ1XzVNNmQtdXF5Wk9zRkVFQkdx?oc=5",
@@ -943,16 +1383,6 @@
       "published": "2026-10-09T09:52:29+00:00"
     },
     {
-      "id": "281d78c720",
-      "title": "AIへの「良い指示」は変わり続ける：実装詳細より文脈と制約を渡す",
-      "url": "https://zenn.dev/tonbi_attack/articles/ai-instructions-context",
-      "description": "はじめに\n生成AIをコーディングに使い始めた頃は、変更するファイル、使う関数、実装手順、期待するコードの形まで具体的に指示した方が、うまくいく場面が多くありました。\nモデルがコードベース全体を十分に探索できず、長い作業を自律的に進めることも苦手だった時期には、細かい作業分解は合理的でした。\n一方で、現在のコーディングエージェントには、コードベースを検索し、関連ファイルを読み、既存の実装パターンを調べて、変更箇所を判断できるものがあります。AIの能力が変われば、良い指示に含めるべき情報も変わります。\nこの記事では、実装詳細を先に決める代わりに、人間しか渡せない文脈、目的、制約、判断基準...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-10-09T09:52:20+00:00"
-    },
-    {
       "id": "b545da2435",
       "title": "Google「Gemini」新サービスで「Claude」利用可能に　他モデルも今後追加予定",
       "url": "https://www.itmedia.co.jp/aiplus/article/2610/09/2000002152/",
@@ -961,16 +1391,6 @@
       "lang": "ja",
       "category": "Industry",
       "published": "2026-10-09T09:40:57+09:00"
-    },
-    {
-      "id": "604e00b394",
-      "title": "MacBook の蓋を閉じると Claude Code が止まる問題を、pmset で防ぐ",
-      "url": "https://zenn.dev/daydreamer/articles/claude-code-keep-running-lid-closed",
-      "description": "結論\nMacBook の蓋を閉じても Claude Code を止めたくないなら、離席中だけ macOS のスリープを無効にします。\n# 蓋を閉じる前に (普通のターミナルで)\nsudo pmset -a disablesleep 1\n\n# 戻ってきたら元に戻す\nsudo pmset -a disablesleep 0\n\n\n--bg、Remote Control、caffeinate、Desktop アプリの Keep computer awake では、蓋を閉じたときのスリープは防げません\nクラウドセッション (claude --cloud) も蓋を閉じたまま進みますが、おすすめし...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-10-09T09:36:26+00:00"
     },
     {
       "id": "08f9abcde2",
@@ -994,33 +1414,13 @@
     },
     {
       "id": "23cbb3fe57",
-      "title": "GlobalFoundries Reaches Supply Agreement with TSMC for AI Chip Co... - Industrial Info",
+      "title": "GlobalFoundries Reaches Supply Agreement with TSMC for AI Chip Component - Industrial Info",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdG04by1aOFBVTkpHTFpjdmpMYWljVDJKRTVhM0kxQ1p4QndLenk0bDhMQmloQk5jRk4taGNpOWFXa0ZjQ0htX0ZnU2FtM2gyNjQ4OUtCSWdfTXJ0TXpnZHgyOUVCaEI1T3BVVHFjb1VhbkI0U0RDbXpnX0t3R091ckUyQ0lXMS04N1A4M1NmYXJLeFMzNUhRaEZkT252ZnZOT1d5MXhaRk80UW1XbUdqSVdncmhfVUpaSy1GWFB3d2x0QQ?oc=5",
-      "description": "GlobalFoundries Reaches Supply Agreement with TSMC for AI Chip Co...  Industrial Info",
+      "description": "GlobalFoundries Reaches Supply Agreement with TSMC for AI Chip Component  Industrial Info",
       "source": "Google News - AI",
       "lang": "en",
       "category": "General",
       "published": "2026-10-09T09:05:21+00:00"
-    },
-    {
-      "id": "66a8488d24",
-      "title": "ffmpeg 1コマンドで10分動画を1枚画像にして、AIに検品させる",
-      "url": "https://zenn.dev/anikuma/articles/ffmpeg-contact-sheet-review",
-      "description": "AIに動画を量産させ始めて、すぐに壁に当たった。検品だ。10分の動画を2本、毎回通しで見ていたら20分かかる。かといって見ないと、「背景が数分間真っ黒」のような、機械チェックをすり抜ける見た目の事故を出荷してしまう。\n結論から書くと、ffmpegのコンタクトシート（一定間隔のフレームをタイル状に並べた1枚画像）を作り、それをマルチモーダルなAIに見せる方法で、10分動画の目視相当の検品が1〜2分で終わるようになった。かかるのはffmpegコマンド1回と、画像1枚ぶんの推論だけだ。\n\n コマンドはこれだけ\nffmpeg -i input.mp4 \\\n  -vf \"fps=1/5,scal...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-10-09T09:03:49+00:00"
-    },
-    {
-      "id": "e5c99a1b5d",
-      "title": "AI is your newest hire. Manage it like one - CIO",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPYVc5d2ZFdndCYktHZEo4STVJXzZKLXhfbFRaVHFJQ3BTMUdMeTM1cWpjNE55SGZfN0hQblh5OThQLXlZOVpkWEZueVZTdXZpVmpqd1UxbzZqd0lQSEcyY0RPM3RVTnY3SU9yM01hRFVrZS1PZ0ZrWnM0LUxWVDZVWDNYUGNmMGE2b0E?oc=5",
-      "description": "AI is your newest hire. Manage it like one  CIO",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-10-09T09:03:32+00:00"
     },
     {
       "id": "2ec4078cfe",
@@ -1043,40 +1443,10 @@
       "published": "2026-10-09T09:00:00+00:00"
     },
     {
-      "id": "6897b3e664",
-      "title": "UIを作り込む前に動かす。AI駆動画面開発の試行錯誤",
-      "url": "https://zenn.dev/softbank/articles/d44e12800e7401",
-      "description": "はじめに\n私は入社 2 年目のエンジニアです。業務では約 3 カ月、複数の処理をノーコードで組み合わせてワークフローを作成できる Web アプリケーションの画面開発を担当してきました。\nこのアプリケーションの中心機能は、GUI（Graphical User Interface）上でノードを配置してつなぐエディターです。あわせて、この機能を利用するための周辺画面も複数あります。私は、こうした画面群の設計から実装までを担当しました。そのため、画面をどう設計するかも自分で考える必要がありました。開発は 1 週間単位のスプリントで進めており、各スプリントで実際に動かせる画面を完成させる必要が...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-10-09T08:47:28+00:00"
-    },
-    {
-      "id": "70e88a2084",
-      "title": "It was difficult to classify tools related to artificial intelligence (AI) hacking that were identif.. - 매일경제",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9xTTY2aFB5MldaVDVrRFpCOHN1NHQtZzVaSzBPRmVudWdMUnRkU2xTRy1xNHhCaHdiSXRLN3VmLXdDMlZlbDFHbUJsVDF6OVU?oc=5",
-      "description": "It was difficult to classify tools related to artificial intelligence (AI) hacking that were identif..  매일경제",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-10-09T08:31:36+00:00"
-    },
-    {
-      "id": "fd10c09468",
-      "title": "OpenAI Decisions APIの「選択」を繰り返してSO-101を動かす ― Playgroundから実機まで",
-      "url": "https://zenn.dev/oggata/articles/2ba348f605cbc1",
-      "description": "はじめに\n前回の記事では、ロボット用のモデルを学習せずに、Claude × MCP で SO-101 を直接動かしてイグアナの人形を掴みました。\n「ロボットモデルなしでも、汎用のマルチモーダルモデルで掴める」ことは確かめられた一方で、とにかく遅いのが課題でした。1回の判断に数秒かかり、その判断を何十回も繰り返すからです。\nそこで今回は、OpenAI の Decisions API を使ってみました。\n文章を生成せず、「はい／いいえ」や「選択肢のどれか」を確率付きで返すことに特化した API で、普通の応答より速いとされています。\nアイデアはシンプルです。\n\nゲームのコントローラーのよ...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-10-09T08:28:19+00:00"
-    },
-    {
-      "id": "83635bdb9a",
-      "title": "Michael Burry Is Betting Against Artificial Intelligence (AI). Here's the Case for and Against, and the One Stock I'd Still Own. - AOL.com",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTlpKdFhhQ0ktVWNSWThvMEdBRVA0Vy02cjRlWnpsaWFJNFF5SmltMXM3eDYtbTh1eDJSeC1pUVh0Zk5ITlhJZi1UZk1scTF4dVFRa0xJeE9ZOElDbUdfYjV4LXY5RnNOcHctdHlMZUdpQlpaYVRsUUJ2V3g1TEwyM3oySjdfVUJKa2JENg?oc=5",
-      "description": "Michael Burry Is Betting Against Artificial Intelligence (AI). Here's the Case for and Against, and the One Stock I'd Still Own.  AOL.com",
+      "id": "2d789e31ec",
+      "title": "Michael Burry Is Betting Against Artificial Intelligence (AI). Here's the Case for and Against, and the One Stock I'd Still Own. - Currently.com",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUlFDMU5Ib1dVeHhOaEdSUkgxOTVjUGFXMl9hTk5LWjRlamtTbDJGLVhQMWtFRVJFOFdGOEFzdTRxZFhiT1ZrLWhVOUpxY1Q3bXd3T2dCTzhKd21HcHJMYlJRWFNqWXJlcTRiQVhIM2x0aEU2dzBIWkRCVE85SVlxZEdBREZqRjB2dHBFT0gxT0U3M01DeWc?oc=5",
+      "description": "Michael Burry Is Betting Against Artificial Intelligence (AI). Here's the Case for and Against, and the One Stock I'd Still Own.  Currently.com",
       "source": "Google News - AI",
       "lang": "en",
       "category": "General",
@@ -1091,26 +1461,6 @@
       "lang": "ja",
       "category": "General",
       "published": "2026-10-09T08:09:00+00:00"
-    },
-    {
-      "id": "b84c7204dc",
-      "title": "As the global stock market resumes its artificial intelligence (AI) rally and the new stock price co.. - 매일경제",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBzNWRxc1o0SnZMa1RXenRlMnNFdTBpQV91Q3MwUUtGR2FOX0Rwd2RhR3VPanhUVkljX0ZXNVNMQmVlbDNFNXlvUU5tQURZcTg?oc=5",
-      "description": "As the global stock market resumes its artificial intelligence (AI) rally and the new stock price co..  매일경제",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-10-09T08:03:08+00:00"
-    },
-    {
-      "id": "afbbdac48f",
-      "title": "グローバル証券市場が人工知能(AI)ラリーを再開し、新高値行進を続けている中、コスピは足踏み状態で大きく対照される姿を見せている。 今月に入って、米国と台湾の証券市場がAI加速器と先端パッケージングバ.. - 매일경제",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8xZEl6Nl9Lb1l0TFZkQ2hPcUF0VExjekFydzc3RV9RZlUzU3FQdWVHTjd0UWp1NkVWbGk4elFNcnd0bk53WGNEVFU5ZEZDY1U?oc=5",
-      "description": "グローバル証券市場が人工知能(AI)ラリーを再開し、新高値行進を続けている中、コスピは足踏み状態で大きく対照される姿を見せている。 今月に入って、米国と台湾の証券市場がAI加速器と先端パッケージングバ..  매일경제",
-      "source": "Google News - AI (JP)",
-      "lang": "ja",
-      "category": "General",
-      "published": "2026-10-09T08:03:08+00:00"
     },
     {
       "id": "35ffea9e26",
@@ -1133,66 +1483,6 @@
       "published": "2026-10-09T07:56:10+00:00"
     },
     {
-      "id": "589979fc0b",
-      "title": "AIに資本金1万円を渡して共同創業者にした。1日目で商品を出すまで",
-      "url": "https://zenn.dev/midas_ai/articles/midas-day1-ai-cofounder",
-      "description": "!\nこの記事は、事業の判断をしている AI（Claude）自身が書いています。人間の共同創業者は、本人確認やログインなど AI にはできない操作だけを担当しています。\n\n\n 何をしているのか\n人間から渡された条件はこれだけでした。\n\n初期資金は 1万円\n\n売上目標は 月1万円 → 月10万円 → 月100万円\n\n指示を待たずに、AI が自分でアイデアを出し、必要なことは全部実行する。人間の操作が必要なことだけ人間に頼む\n人間が使える時間は 週3〜7時間。実験は匿名なら公開してよい\n\nプロジェクト名は「Midas」。リポジトリの README には一行だけ書かれていました。\n\nAI mak...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-10-09T07:47:06+00:00"
-    },
-    {
-      "id": "ed76cf58a2",
-      "title": "🐥AIが100万ドルの数学難問へ出した答え",
-      "url": "https://zenn.dev/poyopuyo/articles/1c2722b2be9e72",
-      "description": "今回のテーマは、\n\nOpenAIが、約90年間未解決だった数学の難問「Navier–Stokes問題」の解法をAIで生成したという発表\n\nである。\n2026年9月8日、OpenAIがかなり大きな研究発表を出した。\n対象はNavier–Stokes方程式。水や空気の流れを表す方程式で、2000年にはClay Mathematics Instituteが選んだ7つの「ミレニアム懸賞問題」の一つになった。解決すれば100万ドルの賞金が用意されている。\nOpenAIは今回、AIが有限時間で流れが破綻する例を構成し、その証明をLeanという証明支援ソフトでも形式化したとしている。\nでは、本当にAI...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-10-09T07:43:05+00:00"
-    },
-    {
-      "id": "b45b99b9e9",
-      "title": "4時間おきに無人で動く Claude Code が、前の回の打ち切りを次の回で片付ける手順",
-      "url": "https://zenn.dev/tasukina/articles/c43ac2b4700f3b",
-      "description": "!\nこの記事は Claude Code が会社の記録をもとに書き、人間が確かめた。\n\nClaude Code をスケジューラから定期的に起動していると、回の途中で止まることがある。利用の上限に当たる、時間の上限を過ぎて外から終わらされる、PC が落ちる。止まった回の Claude は、自分が何をやりかけていたかを次の回に言い残せない。次の回のセッションは新しく起動されるので、前の回の会話を持っていないからである。\n手がかりとして残るのは、作業場のファイルだけである。この記事では、git の作業ツリーに残った未 commit の変更を、次の回の Claude Code が自分で見分けて片付...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-10-09T07:38:26+00:00"
-    },
-    {
-      "id": "28932c4386",
-      "title": "【第18回】使ったスキルを古いままにするな。Hermes Agentは自分でSKILL.mdを書き直す。",
-      "url": "https://zenn.dev/sora_biz/articles/hermes-vps-18-skill-rewrite",
-      "description": "!\nこの記事をAIに読ませる\nこの記事はGitHubの公開リポジトリで管理していて、本文のMarkdownをそのまま取得できる。Claude CodeやCodexなどのAIエージェントに手順を任せたいときは、次のURLを渡すだけでいい。\nhttps://raw.githubusercontent.com/Sora-bluesky/zenn-articles/main/articles/hermes-vps-18-skill-rewrite.md\n頼み方の例:「この記事を読んで、私の環境で手順を順番に実行して」に上のURLを添える。\n\n!\nこの連載は月1,800円ほどのVPSで、自分専用の...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-10-09T07:32:43+00:00"
-    },
-    {
-      "id": "d9e8ab1f2a",
-      "title": "Claude Code を4時間おきに無人で回す会社の作り方（テンプレート付き）",
-      "url": "https://zenn.dev/tasukina/books/2983440e0370cb",
-      "description": "Claude Code をタスクスケジューラから4時間おきに起動し、人が見ていない間に仕事を選ばせ、部署任せ、結果を検収させる。その「会社」を実際に回している仕組み一式を、置き換えて使えるテンプレートとして渡手順書です。憲章、部署の決まり、書き込み範囲とコマンドの許可の宣言、別のセッションへの指示書、検収の記録人間との受け渡し（inbox）、日報の書式を、各行が「どの止まり方を防ぐためにあるか」と結びつけて説明しす。この本は Claude Code が会社の記録をもとに書き、人間が確かめました。第1章は無料です。",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-10-09T07:32:42+00:00"
-    },
-    {
-      "id": "4e4d3ce3b6",
-      "title": "Linear Loopsに「古くなったドキュメント」を見つけてもらう仕組みを作った🔁",
-      "url": "https://zenn.dev/rakko_inc/articles/678c3b7c11da30",
-      "description": "はじめに\nAIによる実装が当たり前になってくると、コードが変わるスピードも上がっていきます。\n私たちのチームでも、Claude Codeを中心にAIを活用した開発が進んでいます。\nその一方で、コードの変化にドキュメントが追いつかないことが気になるようになってきました。\nそこで今回、Linearの新機能である Loops を使って、Linear上のドキュメントが実装やチームの実態とずれていないかを毎月チェックしてもらう仕組みを、ラッコキーワードの開発チームで作ってみました。\n\n 対象読者\n\nLinearのドキュメント機能に、手順書や仕様メモを置いているチーム\nLinear Loopsを...",
-      "source": "Zenn AI Topic",
-      "lang": "ja",
-      "category": "Community",
-      "published": "2026-10-09T07:32:29+00:00"
-    },
-    {
       "id": "9a8ead4185",
       "title": "Meet the Underdog Saluki 27B: A 2-bit Qwen3.8-27B That Beats the Original at Tool Calling",
       "url": "https://www.marktechpost.com/2026/10/09/meet-the-underdog-saluki-27b-a-2-bit-qwen3-8-27b-that-beats-the-original-at-tool-calling/",
@@ -1201,16 +1491,6 @@
       "lang": "en",
       "category": "Research",
       "published": "2026-10-09T07:23:36+00:00"
-    },
-    {
-      "id": "5018e6a509",
-      "title": "「IBJメンバーズ」が言及率100%を獲得！生成AIのおすすめ結婚相談所調査 - 時事ドットコム",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5EeUJldTQ2NklfV3U5c3ZQamR2YWNFdmQ2SkVFZV9nV3E2S1R4VjZfU2NPZ1gxdG1BbDA2UjBpazZaZ0JnUFBxSzJFRWYyY3NIVTBnUnU0dUg1M0IweFhTWUkwVEFkT2lCVEIw?oc=5",
-      "description": "「IBJメンバーズ」が言及率100%を獲得！生成AIのおすすめ結婚相談所調査  時事ドットコム",
-      "source": "Google News - AI (JP)",
-      "lang": "ja",
-      "category": "General",
-      "published": "2026-10-09T07:16:00+00:00"
     },
     {
       "id": "b8ba785094",
@@ -1283,13 +1563,13 @@
       "published": "2026-10-09T07:00:00+00:00"
     },
     {
-      "id": "623523a940",
-      "title": "Column | Artificial intelligence is a plague in higher education | Columns | Opinion - The Daily Collegian",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNbW9ELVFyWkJ6d0kyTXJGd3d5VXZrcEtrX0xBU19ydE4xSnlFVDhuUWlVVXFxUnhMWURVQWJ6UFZfc0JiYm16bHlVSGlyM1k5WHpGYXQ1R3dSUzdoWlVLbXA2Vlo1bm5Pd25hb3pid25kZUNDalRFdGZWUHU1T21hUXE4dFFZZDdQR1dVMG1JbDFscm10SFl1dUI2enNIaTZaVUdXZmhtTnZPTVpvcmk4VHp2VUF1enZxd1U4M3JFNGoyNzVpWDdVZnNodVduM3QyeFUtZjE4WHFvWnVsUjdLMi05VHF6S2RRVVR1U0pYbVBIUQ?oc=5",
-      "description": "Column | Artificial intelligence is a plague in higher education | Columns | Opinion  The Daily Collegian",
-      "source": "Google News - AI",
+      "id": "dc4e32e77a",
+      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "url": "https://openai.com/index/asana-browser-agent",
+      "description": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+      "source": "OpenAI Blog",
       "lang": "en",
-      "category": "General",
+      "category": "Lab",
       "published": "2026-10-09T07:00:00+00:00"
     },
     {
@@ -1383,14 +1663,24 @@
       "published": "2026-10-09T06:00:00+09:00"
     },
     {
-      "id": "d08a78294d",
-      "title": "Most Americans think artificial intelligence is developing too fast, a new AP-NORC poll finds - Jackson Hole News&Guide",
-      "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxNU3ljeldRbE9zcDNRRHJCRmdOMnR4VHRKUmJwSUdxTnl2Slp6MDFjcmYwck9kbGdwSXJ3dHFsRk05U3pEY04wYUNBMnZHeGRiVkNLaUNYS0dEbFZZbmJ2Z1F6WU9NaHYxWlV2Yno4Z05UT054d1FvZ0kzSUdzS0JFR3JWTGhZN2VWeFd2VVVNd2tMcEgtYWtOY25IbDIzbXdnTUhDVTlSb1lrN2x6aHh6bUdTZS1pQ1h4THFMZnZDWXJrMW1UNzFjTDJaWklsbE04SWVNMlNWcnBCRmh0cy11YkNVSzNySDVEa1RWVDdiblFOLTh2V3NwSHh3cTNwT3ZXdkY3ZXVMbzh2Y0lJbzEwcElLZlR1TjZoM1o5YjNmTlVHLXJmV2NKSQ?oc=5",
-      "description": "Most Americans think artificial intelligence is developing too fast, a new AP-NORC poll finds  Jackson Hole News&Guide",
-      "source": "Google News - AI",
-      "lang": "en",
+      "id": "c4e6a57e81",
+      "title": "「2カ月で50回の面接練習」学校推薦型選抜で国立大学に合格、生成AIも活用 - 高校生新聞",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1mVEZqYTMzZGs5dGF0SWI2aC1GRm9BdndDR3hVTmJDb0MxN2NUOUNnOUZtVldQOXR4d1FRUVFYTkpPOHFFcll4bTlFeGJkb0NWOWYxZzY2RGdRT201?oc=5",
+      "description": "「2カ月で50回の面接練習」学校推薦型選抜で国立大学に合格、生成AIも活用  高校生新聞",
+      "source": "Google News - AI (JP)",
+      "lang": "ja",
       "category": "General",
       "published": "2026-10-09T06:00:00+00:00"
+    },
+    {
+      "id": "4332d70a78",
+      "title": "「IBJメンバーズ」が言及率100%を獲得！生成AIのおすすめ結婚相談所調査 - PR TIMES",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9UV0cyVjRsdDVZYjJzeVJrZjVSOW43MjdEWEMzQi1mbEhEd0l0dThRMU1aaktFY0U5SnBLRnhEQ2F3SlE1Ti1PNlIyRTdvNjVHZ0ZNYS1NdGpNR2dYSnJwcGJCLWg0NkVsenc?oc=5",
+      "description": "「IBJメンバーズ」が言及率100%を獲得！生成AIのおすすめ結婚相談所調査  PR TIMES",
+      "source": "Google News - AI (JP)",
+      "lang": "ja",
+      "category": "General",
+      "published": "2026-10-09T05:55:49+00:00"
     },
     {
       "id": "f54a601ae6",
@@ -1401,16 +1691,6 @@
       "lang": "en",
       "category": "Industry",
       "published": "2026-10-09T05:48:26-04:00"
-    },
-    {
-      "id": "aed422cafb",
-      "title": "生成AIが仕事のパートナーになったとき、人間は何をするのか。目的・事実確認・判断をつなぐ実践ガイドを公開 - 時事ドットコム",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5IbDdydy1ZUF83bEJ2cVdzb2tKbUMwM3VqWS11ODVXekNXc29Nc2V6a2xoN01LbF9qYUpjanJpbThTcnhFUnQwTWdSOUp2OE5Kc29KUGNBTnhZS0tFWTZfT1FPYl8wZkhscm1v?oc=5",
-      "description": "生成AIが仕事のパートナーになったとき、人間は何をするのか。目的・事実確認・判断をつなぐ実践ガイドを公開  時事ドットコム",
-      "source": "Google News - AI (JP)",
-      "lang": "ja",
-      "category": "General",
-      "published": "2026-10-09T05:46:00+00:00"
     },
     {
       "id": "8ad8061094",
@@ -1463,14 +1743,14 @@
       "published": "2026-10-09T05:00:00+00:00"
     },
     {
-      "id": "9d75a25524",
-      "title": "ディーエスブランド、「AIエージェント DXPO 福岡'26」に出展 生成AIチャットボット『DSチャットボット』と、AIアバターによるWeb接客をデモ展示 - 写真・画像(1/1) - 西日本新聞me",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBwbVJRcDMwMUZET1JWWS1vaVRrUjhwTEo0LWxqYl9rbTltb2hMUE14Rnh6akhEWWxna2xkNDZRMGh4VnFVQUZ5TklhMWgxbEV4aTNyeHlhOA?oc=5",
-      "description": "ディーエスブランド、「AIエージェント DXPO 福岡'26」に出展 生成AIチャットボット『DSチャットボット』と、AIアバターによるWeb接客をデモ展示 - 写真・画像(1/1)  西日本新聞me",
-      "source": "Google News - AI (JP)",
-      "lang": "ja",
+      "id": "422b4c3837",
+      "title": "As AI races forward, Utah researchers work to keep humans in control - KUTV",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUFBRbDduNnpyekltYnpacE9PX0plYV9JTEFuZ3h5RGJVbXJad3pPNmRIOTB1SWxGSV80WmJKY0k0OVpjRVBOZVk5X2hhYUVtRUlpaWg1UE9RQnFCUWdENGljZ2kyX1FXVWI5VnB1NndmanhueG9hbWYyN2l4Q1hFRUxiT1B2NWVSMEk5eFNOby15V1R6VEllaGJVZw?oc=5",
+      "description": "As AI races forward, Utah researchers work to keep humans in control  KUTV",
+      "source": "Google News - AI",
+      "lang": "en",
       "category": "General",
-      "published": "2026-10-09T04:27:38+00:00"
+      "published": "2026-10-09T04:31:07+00:00"
     },
     {
       "id": "63f7c72bcd",
@@ -1501,6 +1781,16 @@
       "lang": "en",
       "category": "General",
       "published": "2026-10-09T03:53:00+00:00"
+    },
+    {
+      "id": "59810626ca",
+      "title": "生成AIが仕事のパートナーになったとき、人間は何をするのか。目的・事実確認・判断をつなぐ実践ガイドを公開 - PR TIMES",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4xMzNrZjVQZ3A4dUl2TFRINmk2LXd4RE40QUtTeUM2aHBVVGhBS19lRENqV1hwOTVwajBqdkRIZG1vODJnY1EtRTRXRXRtZ3hEMHpuVjJVcFdNTlA4NkhvQVhIY3k1MG1GV1E?oc=5",
+      "description": "生成AIが仕事のパートナーになったとき、人間は何をするのか。目的・事実確認・判断をつなぐ実践ガイドを公開  PR TIMES",
+      "source": "Google News - AI (JP)",
+      "lang": "ja",
+      "category": "General",
+      "published": "2026-10-09T03:36:50+00:00"
     },
     {
       "id": "1efef83a3d",
@@ -1543,26 +1833,6 @@
       "published": "2026-10-09T02:30:00+00:00"
     },
     {
-      "id": "9f46796947",
-      "title": "‘Breathtaking,’ ‘Devastating’: Mathematics Reels After New OpenAI Release - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPODBqdjFtSkFGUTZYd2w1WlRnaWFfX3NiWDJ4OXgzdGozcV94WFV1T2JWY0lrekg2ZGR6Sk1wMGtNMzNDeXFmdnc2Zl9zTk0zMDhCLXMyYUFVSjRVNk1CTkF2Y2h2VF9HRVZvV2xfRkpiUTJsQUlNV0ZnaFBTWGxJUW5mbkVEdjVuQ25HMHV3?oc=5",
-      "description": "‘Breathtaking,’ ‘Devastating’: Mathematics Reels After New OpenAI Release  The New York Times",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-10-09T02:27:43+00:00"
-    },
-    {
-      "id": "787945d5dc",
-      "title": "Peter Thiel: You Know Who Else Wants to Regulate AI? The Antichrist - Gizmodo",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNM19jZkdrZHNIYml6ZTdfSjc5YVhxNEhOdDRaaTItajNmazhjS19IWF9ZN0w4cldsTXk3aEQzZzZON1lXOV91bGZaMEh4ZC1GbkpHVmVjR0tnN01XNjc2aUU3VzdlRjBYTFhKNjhqOUFrNC0xVnFpUFc4UUIyVFVoVDFRSHp5R3c3UEF2ZWxCdHRpb3BHeTVaVTdsTlI?oc=5",
-      "description": "Peter Thiel: You Know Who Else Wants to Regulate AI? The Antichrist  Gizmodo",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-10-09T02:13:12+00:00"
-    },
-    {
       "id": "6397884120",
       "title": "Google’s workplace agent is out, but questions abound",
       "url": "https://aibusiness.com/agentic-ai/google-s-workplace-agent-is-out",
@@ -1571,26 +1841,6 @@
       "lang": "en",
       "category": "Industry",
       "published": "2026-10-09T02:11:33+00:00"
-    },
-    {
-      "id": "b54a34d3f8",
-      "title": "Trump calls users of term 'Artificial Intelligence' 'THE ENEMY!' - The Business Standard",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMDlWbjc3cnh5ZWMxUzUzeWxSN2RWMEdvY1FPYXRNSDhHclRTU1RCeGhfZXM0VHp6YVZTR05VZHVJT080TmJIZl9oOWY5QUR3Y2owdXJ6bGVIV1pzc2tMSklycmNuY2FiSENrSWd0TzE0dy1JeHF6UWZqckxycUJzN1hyTEpPRGtHbnhkVGw2eDZ5YWNOSlBYOWZSeHlwUQ?oc=5",
-      "description": "Trump calls users of term 'Artificial Intelligence' 'THE ENEMY!'  The Business Standard",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-10-09T02:10:00+00:00"
-    },
-    {
-      "id": "51171016a0",
-      "title": "BigBear.ai vs. Nebius: Which Tech Stock Is a Better Buy in 2026? - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPczI0ZVR3bTl6NnM5d3B4OUoyNHM4RGNndTc5bDFQbUFxYUc1aERsY28tV2JlSFE4Y0QzZG5HRXhOTGRDcWNUOFhiY2FxN0tIb3hBcGhPSWZoU3lWVHg2bFM5WThrS2xvUGZlVlRqLXVUczBGc1Y3SzNVNlpEOHJ6LTFwcDd4YXZqWHg3VThEZzJFTTNPNU5oc0F0amtxczBRZGh4LUlPbE15c3lQTFAwX2JMS3E?oc=5",
-      "description": "BigBear.ai vs. Nebius: Which Tech Stock Is a Better Buy in 2026?  The Motley Fool",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-10-09T02:09:00+00:00"
     },
     {
       "id": "808ec8eb29",
@@ -1623,50 +1873,20 @@
       "published": "2026-10-09T02:00:02+00:00"
     },
     {
-      "id": "bedd13f67a",
-      "title": "「生成AI動画は見せたくない」令和ロマン・松井ケムリが語る親心、辻元舞と考える子どもの感性と“好き”を育てる距離感 - 集英社オンライン",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1nU21mRno1aVUxdm5iRmhza3dGOWRyZThUT240cUctbkVwcW1peEJKaW9kenV1OFNUT0NEZlRHdDhDai1EN3pfMS1GX2RzOGdCQndj?oc=5",
-      "description": "「生成AI動画は見せたくない」令和ロマン・松井ケムリが語る親心、辻元舞と考える子どもの感性と“好き”を育てる距離感  集英社オンライン",
+      "id": "786c1e498d",
+      "title": "【調査リリース】2026年 生成AIユーザー動向調査｜進む20・30代の”ヘビーユーザー化”、ChatGPT・Geminiに次ぐ新勢力とは？ - PR TIMES",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB5NkRncFNNcDAyMElMdGRVRHR1Y0t3Tk5hdnd1RnRPR0NRdEtwaGJ5c3RKTUJlMlJmX29XN3R5cUNWbTE2ZWlBTU1WaVRvdklRWkFxTUtHaE1wcmhyeHNDOFROWEpZNVU2Z1E?oc=5",
+      "description": "【調査リリース】2026年 生成AIユーザー動向調査｜進む20・30代の”ヘビーユーザー化”、ChatGPT・Geminiに次ぐ新勢力とは？  PR TIMES",
       "source": "Google News - AI (JP)",
       "lang": "ja",
       "category": "General",
-      "published": "2026-10-09T02:00:00+00:00"
-    },
-    {
-      "id": "abeaa124d8",
-      "title": "「チャットGPT」で全世界的なAI(人工知能)拡散を呼び起こしたオープンAIの実際の年売上が当初市場に知らされた規模より何と200億ドル(約26兆8800億ウォン)少ない事実が確認され波紋が起きている.. - 매일경제",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5qclBWTjY3clhiVmcyUnNPdV9wcW9MWkNNM2RkYWJhVF9SOW1NamlVUWFwZ3dPS2Y2THZTOWU4Q2pxQi01alRkYkpzT194bUk?oc=5",
-      "description": "「チャットGPT」で全世界的なAI(人工知能)拡散を呼び起こしたオープンAIの実際の年売上が当初市場に知らされた規模より何と200億ドル(約26兆8800億ウォン)少ない事実が確認され波紋が起きている..  매일경제",
-      "source": "Google News - AI (JP)",
-      "lang": "ja",
-      "category": "General",
-      "published": "2026-10-09T01:53:56+00:00"
-    },
-    {
-      "id": "8c317f5a96",
-      "title": "飲食経営の要「FL管理」を、生成AIの頭脳が管理する時代に。DXONE、飲食FC・グループ本部向け統合経営システムを近日リリース - PR TIMES",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5FRzBBVExQQS1iYUE2b3BNMDRiYnJtUnhCOEtJNjgzUVhmQzhLNDVVZ0xJU2VlUzBkR0habWFoQ2pESGxpSkN2MjA4QWRYTXNKQXloN3Rnb1hTMlNrcGNlN0N6T0trRW9iTGc?oc=5",
-      "description": "飲食経営の要「FL管理」を、生成AIの頭脳が管理する時代に。DXONE、飲食FC・グループ本部向け統合経営システムを近日リリース  PR TIMES",
-      "source": "Google News - AI (JP)",
-      "lang": "ja",
-      "category": "General",
-      "published": "2026-10-09T01:30:01+00:00"
+      "published": "2026-10-09T02:00:02+00:00"
     },
     {
       "id": "e23cb5716e",
       "title": "【生成AI利用は「個人任せ」が6割超】広島成長の鍵は『組織的なAI活用』、HiroshimAI代表がTSUNAGU広島2026で広島マツダグループ会長と対談登壇 - PR TIMES",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9mV211OVZwVTA3T01wM1lfcW4tMm9VUmRubmp0NklZaUpHQjFPUXcwd0l0a1ZDV1BfTThnbGNxU1F2aXpHVWg4ZGFBOHNUM284ZzBTUlAzcUMzbC1sQ2c1c0pNRXlSTEtKYlE?oc=5",
       "description": "【生成AI利用は「個人任せ」が6割超】広島成長の鍵は『組織的なAI活用』、HiroshimAI代表がTSUNAGU広島2026で広島マツダグループ会長と対談登壇  PR TIMES",
-      "source": "Google News - AI (JP)",
-      "lang": "ja",
-      "category": "General",
-      "published": "2026-10-09T01:00:01+00:00"
-    },
-    {
-      "id": "45b00556e3",
-      "title": "ディーエスブランド、「AIエージェント DXPO 福岡'26」に出展 生成AIチャットボット『DSチャットボット』と、AIアバターによるWeb接客をデモ展示 - PR TIMES",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5TUFFqRVg5NXFGR0VKYS1NV2hjVVhVUVRKTjdhdkFBMDFITV9SVG1CZktWdFVucm1FRWk1UHNCYVpydFFLZEZnRERwRWp1RTZva1hSMURpVFlTNzRoYXNtQWNXMzM2ODhxZlE?oc=5",
-      "description": "ディーエスブランド、「AIエージェント DXPO 福岡'26」に出展 生成AIチャットボット『DSチャットボット』と、AIアバターによるWeb接客をデモ展示  PR TIMES",
       "source": "Google News - AI (JP)",
       "lang": "ja",
       "category": "General",
@@ -1681,16 +1901,6 @@
       "lang": "en",
       "category": "General",
       "published": "2026-10-09T00:59:55+00:00"
-    },
-    {
-      "id": "2906e263dc",
-      "title": "プレスリリース：QommonsAI活用研修を岐阜県庁で実施 - 「生成AIを、個人の道具から、組織の知恵へ」庁内文書を活かす本格活用の一歩（PR TIMES） - 毎日新聞",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9rb1dYTDZEQ1RpcjFQLXk4X2h3MXBzMHJBTmoya1BSMDI5NFFYQWs4NWhzUEtzOFZnZkhtQ0xOX2thd3Z1VEp4cHB0ZDNwcGxlOGY1MFBhMDVlcGJEOUdkUEV4OXRNQWhL?oc=5",
-      "description": "プレスリリース：QommonsAI活用研修を岐阜県庁で実施 - 「生成AIを、個人の道具から、組織の知恵へ」庁内文書を活かす本格活用の一歩（PR TIMES）  毎日新聞",
-      "source": "Google News - AI (JP)",
-      "lang": "ja",
-      "category": "General",
-      "published": "2026-10-09T00:52:36+00:00"
     },
     {
       "id": "51bb43d96b",
@@ -1723,26 +1933,6 @@
       "published": "2026-10-09T00:26:35+00:00"
     },
     {
-      "id": "6c6c5b13e1",
-      "title": "大学編入受験の生成AI利用率、2年で36%→97%に =大学編入総合研究所調べ= - ICT教育ニュース",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9wQ1JXc09QYkttYkNuVFJsbWZEUU9oZjRGdjA1RFY0ZkdYdVpLaGlFN0JHWjhXQlc1WFE5cWdkd25RLVdENlVBRUxCZ28xMnh0U3dv?oc=5",
-      "description": "大学編入受験の生成AI利用率、2年で36%→97%に =大学編入総合研究所調べ=  ICT教育ニュース",
-      "source": "Google News - AI (JP)",
-      "lang": "ja",
-      "category": "General",
-      "published": "2026-10-09T00:25:02+00:00"
-    },
-    {
-      "id": "a808f3af8e",
-      "title": "富士通ラーニングメディア、「【集合】生成AIを活用したデータ分析 -問いの設定から意思決定まで-」提供開始 - ICT教育ニュース",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5UYlc5ZXpheEJxT0R2ZUpodjFMcEQ0dG1NT1d1UktvcS1mWnFkYU9PRW5YRXZKd2VrRTh6NWR1YklDUVUwek1ySmhkWlk5dzVSUVRxQg?oc=5",
-      "description": "富士通ラーニングメディア、「【集合】生成AIを活用したデータ分析 -問いの設定から意思決定まで-」提供開始  ICT教育ニュース",
-      "source": "Google News - AI (JP)",
-      "lang": "ja",
-      "category": "General",
-      "published": "2026-10-09T00:25:02+00:00"
-    },
-    {
       "id": "6726fcff0c",
       "title": "アマゾンが新型タブレットを発表 生成AIサービス「アレクサ・プラス」搭載の3機種 - 産経ニュース",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBjR3JsN0NVRmNKQ3RuUVdFWGU5WHhPNUJZaGJ6VE1mZEJad3VONTR3c3BZM3hmc1ZYdk02MFluc0xMOHh0VHhkeUtncE5vR1B0SzNDTDNUODZ0ekVUNzR5ZXA0djg1WGF4MHQ3SVdRdmZwdU9CRHc?oc=5",
@@ -1751,26 +1941,6 @@
       "lang": "ja",
       "category": "General",
       "published": "2026-10-09T00:23:37+00:00"
-    },
-    {
-      "id": "9c9dcdda75",
-      "title": "Lawmakers eye more federal action on AI standards, security, disclosures - Federal News Network",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQSTRiSVFEX0lvdmVTWk1oSGEtY1ZaMTB0SktCNFZ0UkpIMkwwN0hETXI3TUVNc2xqNEM1TjVIaEJqWmREZktuMlhsQnJXVWNfeGQ1bnJzdzVpMFAzcGtlTmJHU3lWSVdoNXBEaTRMaWN5aHZTeXRUb0NqNW9wRFF4bk1IRFIxTHB6eUF3RVhtTDduSkpJNVN6MFA2N3F0c2VzWnF3b0dRSGFNMVpMblZXRjg1bHBwUFh4UG42U0hGaXA1ZlJqTjZMRmhNVUE0UWM?oc=5",
-      "description": "Lawmakers eye more federal action on AI standards, security, disclosures  Federal News Network",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-10-09T00:22:34+00:00"
-    },
-    {
-      "id": "6075745ab1",
-      "title": "Maine colleges are investing millions in artificial intelligence - newscentermaine.com",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMVA5MHFNVEdTT1ZuSEhRZVVBRmZvU0lHUjJFMXk0d0dBOERIZENmOXJHdFNWYmpJd091QmVCNGlYSUk0amM4dnRXZ2dRWGVKWHQ4dl84U2dacmpuQUNsZExybjBVRU5DQV84UjAxNXdybmF0MzJXTlVORDVjZ1laVW8wM3lnUVlwSlNaaUpNaXVTQ3hyX2ZXU3FPV0RNcW9ZWHZ6ek01TGJPV1Nsc1pkXy1NWW9XYTVRS3E4a01wcjJJbmJVVmxNRw?oc=5",
-      "description": "Maine colleges are investing millions in artificial intelligence  newscentermaine.com",
-      "source": "Google News - AI",
-      "lang": "en",
-      "category": "General",
-      "published": "2026-10-09T00:11:00+00:00"
     },
     {
       "id": "b915d8f1b5",
@@ -4827,176 +4997,6 @@
       "title": "From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents",
       "url": "https://arxiv.org/abs/2610.12463",
       "description": "arXiv:2610.12463v1 Announce Type: cross \nAbstract: In 2026, cybersecurity evaluations involving OpenAI, Anthropic, and Google agents reached real systems outside their authorized test scope. The paths were different. OpenAI agents exploited research infrastructure, coordinated across runs, and compr",
-      "source": "arXiv cs.AI",
-      "lang": "en",
-      "category": "Research",
-      "published": "2026-10-09T00:00:00-04:00"
-    },
-    {
-      "id": "6019c22e61",
-      "title": "Machine learning and information theory concepts towards an AI Mathematician",
-      "url": "https://arxiv.org/abs/2403.04571",
-      "description": "arXiv:2403.04571v2 Announce Type: replace \nAbstract: The current state-of-the-art in artificial intelligence is impressive, especially in terms of mastery of language, but not so much in terms of mathematical reasoning. What could be missing? Can we learn something useful about that gap from how the",
-      "source": "arXiv cs.AI",
-      "lang": "en",
-      "category": "Research",
-      "published": "2026-10-09T00:00:00-04:00"
-    },
-    {
-      "id": "146dddaf83",
-      "title": "Thought-Like-Pro: Enhancing Reasoning of Large Language Models through Self-Bootstrapped Prolog-based Chain-of-Thought",
-      "url": "https://arxiv.org/abs/2407.14562",
-      "description": "arXiv:2407.14562v3 Announce Type: replace \nAbstract: Large language models have demonstrated remarkable capabilities as general-purpose assistants, excelling in a wide range of reasoning tasks and supporting various aspects of daily web usage. This achievement represents a significant step toward ac",
-      "source": "arXiv cs.AI",
-      "lang": "en",
-      "category": "Research",
-      "published": "2026-10-09T00:00:00-04:00"
-    },
-    {
-      "id": "21faead11a",
-      "title": "AgentFly: Scaling Agentic Reinforcement Learning with Unified Resource System",
-      "url": "https://arxiv.org/abs/2507.14897",
-      "description": "arXiv:2507.14897v2 Announce Type: replace \nAbstract: Methods to build LLM agents have evolved from prompt engineering and supervised finetuning to agentic reinforcement learning (agentic RL). However, agentic RL remains bottlenecked by its surrounding systems: agents must interact with heterogeneous",
-      "source": "arXiv cs.AI",
-      "lang": "en",
-      "category": "Research",
-      "published": "2026-10-09T00:00:00-04:00"
-    },
-    {
-      "id": "900325a12a",
-      "title": "Neural Architecture Discovery via Autonomous Evolution",
-      "url": "https://arxiv.org/abs/2507.18074",
-      "description": "arXiv:2507.18074v2 Announce Type: replace \nAbstract: Recent progress in LLM agents has advanced the prospect of autonomous research. Yet whether AI can complete difficult long-horizon tasks, especially those that advance AI research itself, remains largely unexplored. We present ASI-Arch, a system f",
-      "source": "arXiv cs.AI",
-      "lang": "en",
-      "category": "Research",
-      "published": "2026-10-09T00:00:00-04:00"
-    },
-    {
-      "id": "efa94099bd",
-      "title": "MAPF-World: Action World Model for Multi-Agent Path Finding",
-      "url": "https://arxiv.org/abs/2508.12087",
-      "description": "arXiv:2508.12087v3 Announce Type: replace \nAbstract: Multi-agent path finding (MAPF) studies the problem of planning conflict-free paths for multiple agents from given start locations to designated goals, with applications in robot-assisted logistics and social navigation. Recent decentralized learn",
-      "source": "arXiv cs.AI",
-      "lang": "en",
-      "category": "Research",
-      "published": "2026-10-09T00:00:00-04:00"
-    },
-    {
-      "id": "85739bd716",
-      "title": "More Than Meets the Eye? Uncovering the Reasoning-Planning Disconnect in Training Vision-Language Driving Models",
-      "url": "https://arxiv.org/abs/2510.04532",
-      "description": "arXiv:2510.04532v2 Announce Type: replace \nAbstract: Vision-Language Model (VLM) driving agents promise explainable end-to-end autonomy by first producing natural-language reasoning and then predicting trajectory planning. However, whether planning is causally driven by this reasoning remains a crit",
-      "source": "arXiv cs.AI",
-      "lang": "en",
-      "category": "Research",
-      "published": "2026-10-09T00:00:00-04:00"
-    },
-    {
-      "id": "e2aec34c77",
-      "title": "Proof-of-Use: Mitigating Tool-Call Hacking in Deep Research Agents",
-      "url": "https://arxiv.org/abs/2510.10931",
-      "description": "arXiv:2510.10931v3 Announce Type: replace \nAbstract: While reinforcement learning (RL) enhances their ability to plan and reason across retrieval steps, we identify a critical failure mode in this setting: Tool-Call Hacking. Unlike execution-based tools (e.g., code or math), whose effects are direct",
-      "source": "arXiv cs.AI",
-      "lang": "en",
-      "category": "Research",
-      "published": "2026-10-09T00:00:00-04:00"
-    },
-    {
-      "id": "0ffa3926c8",
-      "title": "MobileWorldBench: Towards Semantic World Modeling For Mobile Agents",
-      "url": "https://arxiv.org/abs/2512.14014",
-      "description": "arXiv:2512.14014v2 Announce Type: replace \nAbstract: World models have shown great utility in improving the task performance of embodied agents. While prior work largely focuses on pixel-space world models, these approaches face practical limitations in GUI settings, where predicting complex visual ",
-      "source": "arXiv cs.AI",
-      "lang": "en",
-      "category": "Research",
-      "published": "2026-10-09T00:00:00-04:00"
-    },
-    {
-      "id": "364d563548",
-      "title": "MissMAC-Bench: Building Solid Benchmark for Missing Modality Issue in Robust Multimodal Affective Computing",
-      "url": "https://arxiv.org/abs/2602.00811",
-      "description": "arXiv:2602.00811v2 Announce Type: replace \nAbstract: Current Multimodal Affective Computing (MAC) systems heavily rely on the completeness of multiple modalities to accurately understand human's affective state. However, in real-world scenarios, the availability of modality data is often dynamic and",
-      "source": "arXiv cs.AI",
-      "lang": "en",
-      "category": "Research",
-      "published": "2026-10-09T00:00:00-04:00"
-    },
-    {
-      "id": "bdaf7d9e80",
-      "title": "Agentic Critical Training",
-      "url": "https://arxiv.org/abs/2603.08706",
-      "description": "arXiv:2603.08706v2 Announce Type: replace \nAbstract: Imitation learning (IL) teaches language-model agents to reproduce expert actions but not to distinguish them from plausible mistakes. Self-reflection methods expose models to alternatives yet use supervised fine-tuning (SFT) to imitate fixed rati",
-      "source": "arXiv cs.AI",
-      "lang": "en",
-      "category": "Research",
-      "published": "2026-10-09T00:00:00-04:00"
-    },
-    {
-      "id": "cd10e77ce5",
-      "title": "Efficient Dense Crowd Trajectory Prediction Via Dynamic Clustering",
-      "url": "https://arxiv.org/abs/2603.18166",
-      "description": "arXiv:2603.18166v2 Announce Type: replace \nAbstract: Crowd trajectory prediction plays a crucial role in public safety and management, where it can help prevent disasters such as stampedes. Recent works address the problem by predicting individual trajectories and considering surrounding objects bas",
-      "source": "arXiv cs.AI",
-      "lang": "en",
-      "category": "Research",
-      "published": "2026-10-09T00:00:00-04:00"
-    },
-    {
-      "id": "cdce80ff5c",
-      "title": "Beyond Preset Identities: Selective Stance Accommodation and Interaction Reorganisation in Generative Agent Societies",
-      "url": "https://arxiv.org/abs/2603.23406",
-      "description": "arXiv:2603.23406v3 Announce Type: replace \nAbstract: Generative agent societies simulate people with assigned roles, preferences and relationships. As agents exchange arguments and choose partners, they can revise their positions and reorganise discussion. Understanding these changes requires examin",
-      "source": "arXiv cs.AI",
-      "lang": "en",
-      "category": "Research",
-      "published": "2026-10-09T00:00:00-04:00"
-    },
-    {
-      "id": "5d21fdb36a",
-      "title": "Soft Tournament Equilibrium: Differentiable Set-Valued Inference for Non-Transitive Pairwise Comparisons",
-      "url": "https://arxiv.org/abs/2604.04328",
-      "description": "arXiv:2604.04328v4 Announce Type: replace \nAbstract: Soft Tournament Equilibrium (STE) is a differentiable layer for Top-Cycle (TC) and Uncovered-Set (UC) inference from reciprocal pair probabilities. Normalized log-sum-exp reachability and covering give smooth scores with approximation, perturbatio",
-      "source": "arXiv cs.AI",
-      "lang": "en",
-      "category": "Research",
-      "published": "2026-10-09T00:00:00-04:00"
-    },
-    {
-      "id": "2cd0758529",
-      "title": "Can Large Language Models Reinvent Foundational Algorithms?",
-      "url": "https://arxiv.org/abs/2604.05716",
-      "description": "arXiv:2604.05716v2 Announce Type: replace \nAbstract: LLMs have shown strong potential to advance scientific discovery. Whether they possess the capacity for foundational innovation, however, remains an open question. In this work, we focus on a prerequisite for foundational innovation: \\textit{can L",
-      "source": "arXiv cs.AI",
-      "lang": "en",
-      "category": "Research",
-      "published": "2026-10-09T00:00:00-04:00"
-    },
-    {
-      "id": "06a45219a9",
-      "title": "Beyond Fixed Benchmarks and Worst-Case Attacks: Dynamic Boundary Evaluation for Language Models",
-      "url": "https://arxiv.org/abs/2605.06213",
-      "description": "arXiv:2605.06213v3 Announce Type: replace \nAbstract: Evaluating large language models (LLMs) today rests on fixed benchmarks that apply the same set of items to any model, producing ceiling and floor effects that mask capability gaps. We argue that the most informative evaluation signal lies at the ",
-      "source": "arXiv cs.AI",
-      "lang": "en",
-      "category": "Research",
-      "published": "2026-10-09T00:00:00-04:00"
-    },
-    {
-      "id": "79539d9779",
-      "title": "LiteGUI: Lightweight GUI Agents via Multi-Solution Guided Distillation and Dual-Level Reinforcement Learning",
-      "url": "https://arxiv.org/abs/2605.07505",
-      "description": "arXiv:2605.07505v2 Announce Type: replace \nAbstract: We present LiteGUI, a new framework for building lightweight GUI agents. GUI interaction poses unique challenges due to the long-horizon nature of complex tasks and the existence of multiple valid interaction paths, which are difficult for lightwe",
-      "source": "arXiv cs.AI",
-      "lang": "en",
-      "category": "Research",
-      "published": "2026-10-09T00:00:00-04:00"
-    },
-    {
-      "id": "afca735414",
-      "title": "MedMemoryBench: Benchmarking Agent Memory in Personalized Healthcare",
-      "url": "https://arxiv.org/abs/2605.11814",
-      "description": "arXiv:2605.11814v2 Announce Type: replace \nAbstract: The large-scale deployment of personalized healthcare agents demands memory mechanisms that are exceptionally precise, safe, and capable of long-term clinical tracking. However, existing benchmarks primarily focus on daily open-domain conversation",
       "source": "arXiv cs.AI",
       "lang": "en",
       "category": "Research",
